@@ -1,0 +1,1830 @@
+[
+  {
+    "form_id": "8",
+    "title": "",
+    "description": "",
+    "submit_text": "Get Your Offer",
+    "action": "/sell-house-with-tenants-rhode-island/#gf_8",
+    "fields": [
+      {
+        "label": "Phone",
+        "type": "phone",
+        "required": false,
+        "label_hidden": true,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_2",
+            "type": "tel",
+            "placeholder": "Phone"
+          }
+        ],
+        "choices": [],
+        "step": ""
+      }
+    ],
+    "pages": [
+      "https://offernewengland.com/sell-house-with-tenants-rhode-island/",
+      "https://offernewengland.com/sell-house-divorce-rhode-island/",
+      "https://offernewengland.com/sell-my-house-fast-east-greenwich-ri/",
+      "https://offernewengland.com/sell-hoarder-house-rhode-island/",
+      "https://offernewengland.com/sell-my-house-fast-cranston-ri/",
+      "https://offernewengland.com/facing-foreclosure-in-rhode-island-your-timeline-and-options/",
+      "https://offernewengland.com/cash-offer-vs-listing-with-an-agent-in-providence-real-numbers/",
+      "https://offernewengland.com/how-much-does-a-home-inspection-cost-in-ri-and-when-you-can-skip-it/",
+      "https://offernewengland.com/companies-that-buy-houses-in-rhode-island-honest-comparison/",
+      "https://offernewengland.com/best-month-to-sell-a-house-in-new-england/",
+      "https://offernewengland.com/selling-an-inherited-house-in-rhode-island-probate-timeline-options/",
+      "https://offernewengland.com/selling-a-fire-damaged-house-in-rhode-island/",
+      "https://offernewengland.com/capital-gains-tax-when-selling-a-home-in-ri-ma-what-sellers-actually-owe/",
+      "https://offernewengland.com/how-to-sell-a-house-as-is-in-rhode-island-what-you-can-skip-fixing/",
+      "https://offernewengland.com/can-a-nursing-home-take-your-house-in-rhode-island/",
+      "https://offernewengland.com/sell-my-house-fast-in-attleboro-ma/",
+      "https://offernewengland.com/sell-my-house-fast-in-fall-river-ma/",
+      "https://offernewengland.com/sell-my-house-fast-in-new-bedford-ma/",
+      "https://offernewengland.com/we-buy-houses-in-massachusetts/",
+      "https://offernewengland.com/we-buy-houses-in-rhode-island/",
+      "https://offernewengland.com/sell-my-house-fast-in-providence-ri/",
+      "https://offernewengland.com/we-buy-houses-in-taunton-ma-cash-home-buyers/",
+      "https://offernewengland.com/faq/",
+      "https://offernewengland.com/home-2-2-2/",
+      "https://offernewengland.com/",
+      "https://offernewengland.com/terms-conditions/",
+      "https://offernewengland.com/sell-my-house-fast-west-warwick-ri/",
+      "https://offernewengland.com/sell-my-house-fast-westerly-ri/",
+      "https://offernewengland.com/sell-my-house-fast-south-kingstown-ri/",
+      "https://offernewengland.com/sell-my-house-fast-newport-ri/",
+      "https://offernewengland.com/sell-my-house-fast-bristol-ri/",
+      "https://offernewengland.com/sell-my-house-fast-woonsocket-ri/",
+      "https://offernewengland.com/sell-your-house-fast-pawtucket-ri/",
+      "https://offernewengland.com/sell-my-house-fast-north-kingstown-ri/",
+      "https://offernewengland.com/sell-my-house-fast-coventry-ri/",
+      "https://offernewengland.com/stop-foreclosure/",
+      "https://offernewengland.com/contact-us/",
+      "https://offernewengland.com/sell-my-house-fast-warwick-ri/",
+      "https://offernewengland.com/resource-page/",
+      "https://offernewengland.com/privacy/",
+      "https://offernewengland.com/thank-you/",
+      "https://offernewengland.com/get-a-cash-offer-today/",
+      "https://offernewengland.com/how-we-buy-houses/",
+      "https://offernewengland.com/about-us/",
+      "https://offernewengland.com/reviews/",
+      "https://offernewengland.com/blog/how-to-sell-a-house-with-foundation-problems-in-warwick-ri/",
+      "https://offernewengland.com/blog/how-to-sell-a-rental-property-in-cranston-ri/",
+      "https://offernewengland.com/blog/sell-inherited-house-in-providence-ri-probate-home-buyers/",
+      "https://offernewengland.com/blog/sell-house-with-code-violations-in-warwick-ri-cash-home-buyers/",
+      "https://offernewengland.com/blog/sell-fire-damaged-house-in-providence-ri-cash-offers-for-as-is-homes/",
+      "https://offernewengland.com/blog/lost-your-job-sell-your-house-fast-in-rhode-island-offer-new-england/",
+      "https://offernewengland.com/blog/facing-foreclosure-in-cranston-sell-before-its-too-late/",
+      "https://offernewengland.com/blog/behind-on-property-taxes-in-rhode-island-heres-how-to-sell-fast/",
+      "https://offernewengland.com/blog/5-signs-its-time-to-sell-your-house-as-is-in-warwick-ri/",
+      "https://offernewengland.com/blog/avoid-probate-headaches-sell-inherited-property-in-ri-fast/",
+      "https://offernewengland.com/blog/should-i-sell-my-house-in-2025-rhode-island-market-insights/",
+      "https://offernewengland.com/blog/we-buy-distressed-properties-in-providence-fast-cash-offers/",
+      "https://offernewengland.com/blog/how-to-sell-a-house-in-rhode-island-without-a-realtor/",
+      "https://offernewengland.com/blog/realtor-vs-cash-buyer-which-is-better-in-rhode-island/",
+      "https://offernewengland.com/blog/top-7-myths-about-selling-to-investors-in-rhode-island/",
+      "https://offernewengland.com/blog/what-fees-should-i-expect-when-selling-a-house-in-rhode-island/",
+      "https://offernewengland.com/blog/can-i-really-trust-cash-home-buyers-in-rhode-island/",
+      "https://offernewengland.com/blog/real-customer-story-how-we-helped-a-seller-in-pawtucket-sell-fast/",
+      "https://offernewengland.com/blog/relocating-and-need-to-sell-fast-in-kingstown-ri-read-this-first/",
+      "https://offernewengland.com/blog/repairs-too-expensive-sell-your-house-as-is-in-west-warwick-ri/",
+      "https://offernewengland.com/blog/selling-your-rhode-island-house-during-divorce-what-to-expect/",
+      "https://offernewengland.com/blog/behind-on-mortgage-payments-in-coventry-you-still-have-options/",
+      "https://offernewengland.com/blog/selling-a-house-with-tenants-in-rhode-island-legal-tips-fast-options/",
+      "https://offernewengland.com/blog/fast-cash-home-sale-in-bristol-ri-how-it-works-step-by-step/",
+      "https://offernewengland.com/blog/can-i-sell-a-house-that-needs-repairs-in-south-kingstown-ri/",
+      "https://offernewengland.com/blog/sell-my-house-fast-in-westerly-ri-what-are-my-options/",
+      "https://offernewengland.com/blog/how-to-sell-inherited-property-warwick-quick-sale-of-inherited-house-warwick/",
+      "https://offernewengland.com/blog/sell-your-house-for-cash-fast-house-sale-cash-home-buyers/",
+      "https://offernewengland.com/blog/we-buy-houses-in-cranston-what-you-need-to-know-before-selling/",
+      "https://offernewengland.com/blog/sell-your-house-fast-coventry-without-realtor/",
+      "https://offernewengland.com/blog/author/loouaay/"
+    ]
+  },
+  {
+    "form_id": "1",
+    "title": "Get An Offer Today, Sell In A Matter Of Days",
+    "description": "",
+    "submit_text": "Get My Fair Cash Offer",
+    "action": "/sell-house-with-tenants-rhode-island/#gf_1",
+    "fields": [
+      {
+        "label": "Full Name",
+        "type": "text",
+        "required": true,
+        "label_hidden": true,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_6",
+            "type": "text",
+            "placeholder": "Full Name"
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "Property Address",
+        "type": "address",
+        "required": true,
+        "label_hidden": true,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_4.1",
+            "type": "text",
+            "placeholder": "Enter Your Address"
+          },
+          {
+            "name": "input_4.2",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_4.3",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_4.4",
+            "type": "select",
+            "placeholder": ""
+          },
+          {
+            "name": "input_4.5",
+            "type": "text",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "Alabama",
+          "Alaska",
+          "American Samoa",
+          "Arizona",
+          "Arkansas",
+          "California",
+          "Colorado",
+          "Connecticut",
+          "Delaware",
+          "District of Columbia",
+          "Florida",
+          "Georgia",
+          "Guam",
+          "Hawaii",
+          "Idaho",
+          "Illinois",
+          "Indiana",
+          "Iowa",
+          "Kansas",
+          "Kentucky",
+          "Louisiana",
+          "Maine",
+          "Maryland",
+          "Massachusetts",
+          "Michigan",
+          "Minnesota",
+          "Mississippi",
+          "Missouri",
+          "Montana",
+          "Nebraska",
+          "Nevada",
+          "New Hampshire",
+          "New Jersey",
+          "New Mexico",
+          "New York",
+          "North Carolina",
+          "North Dakota",
+          "Northern Mariana Islands",
+          "Ohio",
+          "Oklahoma",
+          "Oregon",
+          "Pennsylvania",
+          "Puerto Rico",
+          "Rhode Island",
+          "South Carolina",
+          "South Dakota",
+          "Tennessee",
+          "Texas",
+          "Utah",
+          "U.S. Virgin Islands",
+          "Vermont",
+          "Virginia",
+          "Washington",
+          "West Virginia",
+          "Wisconsin",
+          "Wyoming",
+          "Armed Forces Americas",
+          "Armed Forces Europe",
+          "Armed Forces Pacific"
+        ],
+        "step": ""
+      },
+      {
+        "label": "Phone",
+        "type": "phone",
+        "required": true,
+        "label_hidden": true,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_5",
+            "type": "tel",
+            "placeholder": "Phone Number"
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "label_hidden": true,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_3",
+            "type": "email",
+            "placeholder": "E-mail"
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "SMS Consent",
+        "type": "checkbox",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_7.1",
+            "type": "checkbox",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "I agree to receive transactional or conversational communications from Offer New England LLC via text messages, phone calls, and emails related to my real estate inquiry, such as property details, responses, and appointment confirmations. Consent is not a condition of purchase. Message frequency varies. Reply STOP to opt out. Reply HELP for help. Msg & data rates may apply. Your information is secure and will not be sold or shared with third parties or affiliates for promotional purposes."
+        ],
+        "step": ""
+      },
+      {
+        "label": "SMS Consent",
+        "type": "checkbox",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_99.1",
+            "type": "checkbox",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "I agree to Terms & Conditions and Privacy Policy ."
+        ],
+        "step": ""
+      }
+    ],
+    "pages": [
+      "https://offernewengland.com/sell-house-with-tenants-rhode-island/",
+      "https://offernewengland.com/sell-house-divorce-rhode-island/",
+      "https://offernewengland.com/sell-my-house-fast-east-greenwich-ri/",
+      "https://offernewengland.com/sell-hoarder-house-rhode-island/",
+      "https://offernewengland.com/sell-my-house-fast-cranston-ri/",
+      "https://offernewengland.com/we-buy-houses-in-massachusetts/",
+      "https://offernewengland.com/we-buy-houses-in-rhode-island/",
+      "https://offernewengland.com/home-2-2-2/",
+      "https://offernewengland.com/home-2-2-2/",
+      "https://offernewengland.com/sell-my-house-fast-west-warwick-ri/",
+      "https://offernewengland.com/sell-my-house-fast-west-warwick-ri/",
+      "https://offernewengland.com/sell-my-house-fast-west-warwick-ri/",
+      "https://offernewengland.com/sell-my-house-fast-westerly-ri/",
+      "https://offernewengland.com/sell-my-house-fast-westerly-ri/",
+      "https://offernewengland.com/sell-my-house-fast-westerly-ri/",
+      "https://offernewengland.com/sell-my-house-fast-south-kingstown-ri/",
+      "https://offernewengland.com/sell-my-house-fast-south-kingstown-ri/",
+      "https://offernewengland.com/sell-my-house-fast-south-kingstown-ri/",
+      "https://offernewengland.com/sell-my-house-fast-newport-ri/",
+      "https://offernewengland.com/sell-my-house-fast-newport-ri/",
+      "https://offernewengland.com/sell-my-house-fast-bristol-ri/",
+      "https://offernewengland.com/sell-my-house-fast-bristol-ri/",
+      "https://offernewengland.com/sell-my-house-fast-bristol-ri/",
+      "https://offernewengland.com/sell-my-house-fast-woonsocket-ri/",
+      "https://offernewengland.com/sell-my-house-fast-woonsocket-ri/",
+      "https://offernewengland.com/sell-my-house-fast-woonsocket-ri/",
+      "https://offernewengland.com/sell-your-house-fast-pawtucket-ri/",
+      "https://offernewengland.com/sell-your-house-fast-pawtucket-ri/",
+      "https://offernewengland.com/sell-your-house-fast-pawtucket-ri/",
+      "https://offernewengland.com/sell-my-house-fast-north-kingstown-ri/",
+      "https://offernewengland.com/sell-my-house-fast-north-kingstown-ri/",
+      "https://offernewengland.com/sell-my-house-fast-north-kingstown-ri/",
+      "https://offernewengland.com/sell-my-house-fast-coventry-ri/",
+      "https://offernewengland.com/sell-my-house-fast-coventry-ri/",
+      "https://offernewengland.com/sell-my-house-fast-coventry-ri/",
+      "https://offernewengland.com/sell-my-house-fast-warwick-ri/",
+      "https://offernewengland.com/sell-my-house-fast-warwick-ri/",
+      "https://offernewengland.com/sell-my-house-fast-warwick-ri/",
+      "https://offernewengland.com/blog/how-to-sell-a-house-with-foundation-problems-in-warwick-ri/",
+      "https://offernewengland.com/blog/how-to-sell-a-rental-property-in-cranston-ri/",
+      "https://offernewengland.com/blog/sell-inherited-house-in-providence-ri-probate-home-buyers/",
+      "https://offernewengland.com/blog/sell-house-with-code-violations-in-warwick-ri-cash-home-buyers/",
+      "https://offernewengland.com/blog/sell-fire-damaged-house-in-providence-ri-cash-offers-for-as-is-homes/",
+      "https://offernewengland.com/blog/lost-your-job-sell-your-house-fast-in-rhode-island-offer-new-england/",
+      "https://offernewengland.com/blog/facing-foreclosure-in-cranston-sell-before-its-too-late/",
+      "https://offernewengland.com/blog/behind-on-property-taxes-in-rhode-island-heres-how-to-sell-fast/",
+      "https://offernewengland.com/blog/5-signs-its-time-to-sell-your-house-as-is-in-warwick-ri/",
+      "https://offernewengland.com/blog/avoid-probate-headaches-sell-inherited-property-in-ri-fast/",
+      "https://offernewengland.com/blog/should-i-sell-my-house-in-2025-rhode-island-market-insights/",
+      "https://offernewengland.com/blog/we-buy-distressed-properties-in-providence-fast-cash-offers/",
+      "https://offernewengland.com/blog/how-to-sell-a-house-in-rhode-island-without-a-realtor/",
+      "https://offernewengland.com/blog/realtor-vs-cash-buyer-which-is-better-in-rhode-island/",
+      "https://offernewengland.com/blog/top-7-myths-about-selling-to-investors-in-rhode-island/",
+      "https://offernewengland.com/blog/what-fees-should-i-expect-when-selling-a-house-in-rhode-island/",
+      "https://offernewengland.com/blog/can-i-really-trust-cash-home-buyers-in-rhode-island/",
+      "https://offernewengland.com/blog/real-customer-story-how-we-helped-a-seller-in-pawtucket-sell-fast/",
+      "https://offernewengland.com/blog/relocating-and-need-to-sell-fast-in-kingstown-ri-read-this-first/",
+      "https://offernewengland.com/blog/repairs-too-expensive-sell-your-house-as-is-in-west-warwick-ri/",
+      "https://offernewengland.com/blog/selling-your-rhode-island-house-during-divorce-what-to-expect/",
+      "https://offernewengland.com/blog/behind-on-mortgage-payments-in-coventry-you-still-have-options/",
+      "https://offernewengland.com/blog/selling-a-house-with-tenants-in-rhode-island-legal-tips-fast-options/",
+      "https://offernewengland.com/blog/fast-cash-home-sale-in-bristol-ri-how-it-works-step-by-step/",
+      "https://offernewengland.com/blog/can-i-sell-a-house-that-needs-repairs-in-south-kingstown-ri/",
+      "https://offernewengland.com/blog/sell-my-house-fast-in-westerly-ri-what-are-my-options/",
+      "https://offernewengland.com/blog/how-to-sell-inherited-property-warwick-quick-sale-of-inherited-house-warwick/",
+      "https://offernewengland.com/blog/sell-your-house-for-cash-fast-house-sale-cash-home-buyers/",
+      "https://offernewengland.com/blog/we-buy-houses-in-cranston-what-you-need-to-know-before-selling/",
+      "https://offernewengland.com/blog/sell-your-house-fast-coventry-without-realtor/"
+    ]
+  },
+  {
+    "form_id": "4",
+    "title": "Contact Us",
+    "description": "We would love to hear from you! Please fill out this form and we will get in touch with you shortly.",
+    "submit_text": "Submit Your Question",
+    "action": "/facing-foreclosure-in-rhode-island-your-timeline-and-options/#gf_4",
+    "fields": [
+      {
+        "label": "Name",
+        "type": "name",
+        "required": true,
+        "label_hidden": true,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_1.3",
+            "type": "text",
+            "placeholder": "First"
+          },
+          {
+            "name": "input_1.6",
+            "type": "text",
+            "placeholder": "Last"
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "Phone",
+        "type": "phone",
+        "required": true,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_2",
+            "type": "tel",
+            "placeholder": ""
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "Address",
+        "type": "address",
+        "required": true,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_7.1",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_7.2",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_7.3",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_7.4",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_7.5",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_7.6",
+            "type": "select",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "Afghanistan",
+          "Albania",
+          "Algeria",
+          "American Samoa",
+          "Andorra",
+          "Angola",
+          "Anguilla",
+          "Antarctica",
+          "Antigua and Barbuda",
+          "Argentina",
+          "Armenia",
+          "Aruba",
+          "Australia",
+          "Austria",
+          "Azerbaijan",
+          "Bahamas",
+          "Bahrain",
+          "Bangladesh",
+          "Barbados",
+          "Belarus",
+          "Belgium",
+          "Belize",
+          "Benin",
+          "Bermuda",
+          "Bhutan",
+          "Bolivia",
+          "Bonaire, Sint Eustatius and Saba",
+          "Bosnia and Herzegovina",
+          "Botswana",
+          "Bouvet Island",
+          "Brazil",
+          "British Indian Ocean Territory",
+          "Brunei Darussalam",
+          "Bulgaria",
+          "Burkina Faso",
+          "Burundi",
+          "Cabo Verde",
+          "Cambodia",
+          "Cameroon",
+          "Canada",
+          "Cayman Islands",
+          "Central African Republic",
+          "Chad",
+          "Chile",
+          "China",
+          "Christmas Island",
+          "Cocos Islands",
+          "Colombia",
+          "Comoros",
+          "Congo",
+          "Congo, Democratic Republic of the",
+          "Cook Islands",
+          "Costa Rica",
+          "Croatia",
+          "Cuba",
+          "Curaçao",
+          "Cyprus",
+          "Czechia",
+          "Côte d'Ivoire",
+          "Denmark",
+          "Djibouti",
+          "Dominica",
+          "Dominican Republic",
+          "Ecuador",
+          "Egypt",
+          "El Salvador",
+          "Equatorial Guinea",
+          "Eritrea",
+          "Estonia",
+          "Eswatini",
+          "Ethiopia",
+          "Falkland Islands",
+          "Faroe Islands",
+          "Fiji",
+          "Finland",
+          "France",
+          "French Guiana",
+          "French Polynesia",
+          "French Southern Territories",
+          "Gabon",
+          "Gambia",
+          "Georgia",
+          "Germany",
+          "Ghana",
+          "Gibraltar",
+          "Greece",
+          "Greenland",
+          "Grenada",
+          "Guadeloupe",
+          "Guam",
+          "Guatemala",
+          "Guernsey",
+          "Guinea",
+          "Guinea-Bissau",
+          "Guyana",
+          "Haiti",
+          "Heard Island and McDonald Islands",
+          "Holy See",
+          "Honduras",
+          "Hong Kong",
+          "Hungary",
+          "Iceland",
+          "India",
+          "Indonesia",
+          "Iran",
+          "Iraq",
+          "Ireland",
+          "Isle of Man",
+          "Israel",
+          "Italy",
+          "Jamaica",
+          "Japan",
+          "Jersey",
+          "Jordan",
+          "Kazakhstan",
+          "Kenya",
+          "Kiribati",
+          "Korea, Democratic People's Republic of",
+          "Korea, Republic of",
+          "Kuwait",
+          "Kyrgyzstan",
+          "Lao People's Democratic Republic",
+          "Latvia",
+          "Lebanon",
+          "Lesotho",
+          "Liberia",
+          "Libya",
+          "Liechtenstein",
+          "Lithuania",
+          "Luxembourg",
+          "Macao",
+          "Madagascar",
+          "Malawi",
+          "Malaysia",
+          "Maldives",
+          "Mali",
+          "Malta",
+          "Marshall Islands",
+          "Martinique",
+          "Mauritania",
+          "Mauritius",
+          "Mayotte",
+          "Mexico",
+          "Micronesia",
+          "Moldova",
+          "Monaco",
+          "Mongolia",
+          "Montenegro",
+          "Montserrat",
+          "Morocco",
+          "Mozambique",
+          "Myanmar",
+          "Namibia",
+          "Nauru",
+          "Nepal",
+          "Netherlands",
+          "New Caledonia",
+          "New Zealand",
+          "Nicaragua",
+          "Niger",
+          "Nigeria",
+          "Niue",
+          "Norfolk Island",
+          "North Macedonia",
+          "Northern Mariana Islands",
+          "Norway",
+          "Oman",
+          "Pakistan",
+          "Palau",
+          "Palestine, State of",
+          "Panama",
+          "Papua New Guinea",
+          "Paraguay",
+          "Peru",
+          "Philippines",
+          "Pitcairn",
+          "Poland",
+          "Portugal",
+          "Puerto Rico",
+          "Qatar",
+          "Romania",
+          "Russian Federation",
+          "Rwanda",
+          "Réunion",
+          "Saint Barthélemy",
+          "Saint Helena, Ascension and Tristan da Cunha",
+          "Saint Kitts and Nevis",
+          "Saint Lucia",
+          "Saint Martin",
+          "Saint Pierre and Miquelon",
+          "Saint Vincent and the Grenadines",
+          "Samoa",
+          "San Marino",
+          "Sao Tome and Principe",
+          "Saudi Arabia",
+          "Senegal",
+          "Serbia",
+          "Seychelles",
+          "Sierra Leone",
+          "Singapore",
+          "Sint Maarten",
+          "Slovakia",
+          "Slovenia",
+          "Solomon Islands",
+          "Somalia",
+          "South Africa",
+          "South Georgia and the South Sandwich Islands",
+          "South Sudan",
+          "Spain",
+          "Sri Lanka",
+          "Sudan",
+          "Suriname",
+          "Svalbard and Jan Mayen",
+          "Sweden",
+          "Switzerland",
+          "Syria Arab Republic",
+          "Taiwan",
+          "Tajikistan",
+          "Tanzania, the United Republic of",
+          "Thailand",
+          "Timor-Leste",
+          "Togo",
+          "Tokelau",
+          "Tonga",
+          "Trinidad and Tobago",
+          "Tunisia",
+          "Turkmenistan",
+          "Turks and Caicos Islands",
+          "Tuvalu",
+          "Türkiye",
+          "US Minor Outlying Islands",
+          "Uganda",
+          "Ukraine",
+          "United Arab Emirates",
+          "United Kingdom",
+          "United States",
+          "Uruguay",
+          "Uzbekistan",
+          "Vanuatu",
+          "Venezuela",
+          "Viet Nam",
+          "Virgin Islands, British",
+          "Virgin Islands, U.S.",
+          "Wallis and Futuna",
+          "Western Sahara",
+          "Yemen",
+          "Zambia",
+          "Zimbabwe",
+          "Åland Islands"
+        ],
+        "step": ""
+      },
+      {
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_3",
+            "type": "email",
+            "placeholder": ""
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "Type Your Questions or Comments Below and Hit Submit:",
+        "type": "textarea",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_4",
+            "type": "textarea",
+            "placeholder": ""
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "",
+        "type": "captcha",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "Address",
+        "type": "address",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_6.1",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_6.2",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_6.3",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_6.4",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_6.5",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_6.6",
+            "type": "select",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "Afghanistan",
+          "Albania",
+          "Algeria",
+          "American Samoa",
+          "Andorra",
+          "Angola",
+          "Anguilla",
+          "Antarctica",
+          "Antigua and Barbuda",
+          "Argentina",
+          "Armenia",
+          "Aruba",
+          "Australia",
+          "Austria",
+          "Azerbaijan",
+          "Bahamas",
+          "Bahrain",
+          "Bangladesh",
+          "Barbados",
+          "Belarus",
+          "Belgium",
+          "Belize",
+          "Benin",
+          "Bermuda",
+          "Bhutan",
+          "Bolivia",
+          "Bonaire, Sint Eustatius and Saba",
+          "Bosnia and Herzegovina",
+          "Botswana",
+          "Bouvet Island",
+          "Brazil",
+          "British Indian Ocean Territory",
+          "Brunei Darussalam",
+          "Bulgaria",
+          "Burkina Faso",
+          "Burundi",
+          "Cabo Verde",
+          "Cambodia",
+          "Cameroon",
+          "Canada",
+          "Cayman Islands",
+          "Central African Republic",
+          "Chad",
+          "Chile",
+          "China",
+          "Christmas Island",
+          "Cocos Islands",
+          "Colombia",
+          "Comoros",
+          "Congo",
+          "Congo, Democratic Republic of the",
+          "Cook Islands",
+          "Costa Rica",
+          "Croatia",
+          "Cuba",
+          "Curaçao",
+          "Cyprus",
+          "Czechia",
+          "Côte d'Ivoire",
+          "Denmark",
+          "Djibouti",
+          "Dominica",
+          "Dominican Republic",
+          "Ecuador",
+          "Egypt",
+          "El Salvador",
+          "Equatorial Guinea",
+          "Eritrea",
+          "Estonia",
+          "Eswatini",
+          "Ethiopia",
+          "Falkland Islands",
+          "Faroe Islands",
+          "Fiji",
+          "Finland",
+          "France",
+          "French Guiana",
+          "French Polynesia",
+          "French Southern Territories",
+          "Gabon",
+          "Gambia",
+          "Georgia",
+          "Germany",
+          "Ghana",
+          "Gibraltar",
+          "Greece",
+          "Greenland",
+          "Grenada",
+          "Guadeloupe",
+          "Guam",
+          "Guatemala",
+          "Guernsey",
+          "Guinea",
+          "Guinea-Bissau",
+          "Guyana",
+          "Haiti",
+          "Heard Island and McDonald Islands",
+          "Holy See",
+          "Honduras",
+          "Hong Kong",
+          "Hungary",
+          "Iceland",
+          "India",
+          "Indonesia",
+          "Iran",
+          "Iraq",
+          "Ireland",
+          "Isle of Man",
+          "Israel",
+          "Italy",
+          "Jamaica",
+          "Japan",
+          "Jersey",
+          "Jordan",
+          "Kazakhstan",
+          "Kenya",
+          "Kiribati",
+          "Korea, Democratic People's Republic of",
+          "Korea, Republic of",
+          "Kuwait",
+          "Kyrgyzstan",
+          "Lao People's Democratic Republic",
+          "Latvia",
+          "Lebanon",
+          "Lesotho",
+          "Liberia",
+          "Libya",
+          "Liechtenstein",
+          "Lithuania",
+          "Luxembourg",
+          "Macao",
+          "Madagascar",
+          "Malawi",
+          "Malaysia",
+          "Maldives",
+          "Mali",
+          "Malta",
+          "Marshall Islands",
+          "Martinique",
+          "Mauritania",
+          "Mauritius",
+          "Mayotte",
+          "Mexico",
+          "Micronesia",
+          "Moldova",
+          "Monaco",
+          "Mongolia",
+          "Montenegro",
+          "Montserrat",
+          "Morocco",
+          "Mozambique",
+          "Myanmar",
+          "Namibia",
+          "Nauru",
+          "Nepal",
+          "Netherlands",
+          "New Caledonia",
+          "New Zealand",
+          "Nicaragua",
+          "Niger",
+          "Nigeria",
+          "Niue",
+          "Norfolk Island",
+          "North Macedonia",
+          "Northern Mariana Islands",
+          "Norway",
+          "Oman",
+          "Pakistan",
+          "Palau",
+          "Palestine, State of",
+          "Panama",
+          "Papua New Guinea",
+          "Paraguay",
+          "Peru",
+          "Philippines",
+          "Pitcairn",
+          "Poland",
+          "Portugal",
+          "Puerto Rico",
+          "Qatar",
+          "Romania",
+          "Russian Federation",
+          "Rwanda",
+          "Réunion",
+          "Saint Barthélemy",
+          "Saint Helena, Ascension and Tristan da Cunha",
+          "Saint Kitts and Nevis",
+          "Saint Lucia",
+          "Saint Martin",
+          "Saint Pierre and Miquelon",
+          "Saint Vincent and the Grenadines",
+          "Samoa",
+          "San Marino",
+          "Sao Tome and Principe",
+          "Saudi Arabia",
+          "Senegal",
+          "Serbia",
+          "Seychelles",
+          "Sierra Leone",
+          "Singapore",
+          "Sint Maarten",
+          "Slovakia",
+          "Slovenia",
+          "Solomon Islands",
+          "Somalia",
+          "South Africa",
+          "South Georgia and the South Sandwich Islands",
+          "South Sudan",
+          "Spain",
+          "Sri Lanka",
+          "Sudan",
+          "Suriname",
+          "Svalbard and Jan Mayen",
+          "Sweden",
+          "Switzerland",
+          "Syria Arab Republic",
+          "Taiwan",
+          "Tajikistan",
+          "Tanzania, the United Republic of",
+          "Thailand",
+          "Timor-Leste",
+          "Togo",
+          "Tokelau",
+          "Tonga",
+          "Trinidad and Tobago",
+          "Tunisia",
+          "Turkmenistan",
+          "Turks and Caicos Islands",
+          "Tuvalu",
+          "Türkiye",
+          "US Minor Outlying Islands",
+          "Uganda",
+          "Ukraine",
+          "United Arab Emirates",
+          "United Kingdom",
+          "United States",
+          "Uruguay",
+          "Uzbekistan",
+          "Vanuatu",
+          "Venezuela",
+          "Viet Nam",
+          "Virgin Islands, British",
+          "Virgin Islands, U.S.",
+          "Wallis and Futuna",
+          "Western Sahara",
+          "Yemen",
+          "Zambia",
+          "Zimbabwe",
+          "Åland Islands"
+        ],
+        "step": ""
+      },
+      {
+        "label": "SMS Consent",
+        "type": "checkbox",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_8.1",
+            "type": "checkbox",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "I agree to receive transactional or conversational communications from Offer New England LLC via text messages, phone calls, and emails related to my real estate inquiry, such as property details, responses, and appointment confirmations. Consent is not a condition of purchase.  Message frequency varies. Reply STOP to opt out. Reply HELP for help. Msg & data rates may apply. Your information is secure and will not be sold or shared with third parties or affiliates for promotional purposes."
+        ],
+        "step": ""
+      },
+      {
+        "label": "SMS Consent",
+        "type": "checkbox",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_99.1",
+            "type": "checkbox",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "I agree to the Terms & Conditions and Privacy Policy ."
+        ],
+        "step": ""
+      }
+    ],
+    "pages": [
+      "https://offernewengland.com/facing-foreclosure-in-rhode-island-your-timeline-and-options/",
+      "https://offernewengland.com/cash-offer-vs-listing-with-an-agent-in-providence-real-numbers/",
+      "https://offernewengland.com/how-much-does-a-home-inspection-cost-in-ri-and-when-you-can-skip-it/",
+      "https://offernewengland.com/companies-that-buy-houses-in-rhode-island-honest-comparison/",
+      "https://offernewengland.com/best-month-to-sell-a-house-in-new-england/",
+      "https://offernewengland.com/selling-an-inherited-house-in-rhode-island-probate-timeline-options/",
+      "https://offernewengland.com/selling-a-fire-damaged-house-in-rhode-island/",
+      "https://offernewengland.com/capital-gains-tax-when-selling-a-home-in-ri-ma-what-sellers-actually-owe/",
+      "https://offernewengland.com/how-to-sell-a-house-as-is-in-rhode-island-what-you-can-skip-fixing/",
+      "https://offernewengland.com/can-a-nursing-home-take-your-house-in-rhode-island/",
+      "https://offernewengland.com/sell-my-house-fast-in-attleboro-ma/",
+      "https://offernewengland.com/sell-my-house-fast-in-fall-river-ma/",
+      "https://offernewengland.com/sell-my-house-fast-in-new-bedford-ma/",
+      "https://offernewengland.com/sell-my-house-fast-in-providence-ri/",
+      "https://offernewengland.com/we-buy-houses-in-taunton-ma-cash-home-buyers/"
+    ]
+  },
+  {
+    "form_id": "6",
+    "title": "Step 2 More Detailed Submission Form",
+    "description": "",
+    "submit_text": "Submit The Info Now",
+    "action": "/sell-my-house-fast-in-providence-ri/#gf_6",
+    "fields": [
+      {
+        "label": "Address",
+        "type": "address",
+        "required": true,
+        "label_hidden": false,
+        "description": "Enter in the info about the property you need help finding a solution for.",
+        "inputs": [
+          {
+            "name": "input_7.1",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_7.3",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_7.4",
+            "type": "select",
+            "placeholder": ""
+          },
+          {
+            "name": "input_7.5",
+            "type": "text",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "Alabama",
+          "Alaska",
+          "American Samoa",
+          "Arizona",
+          "Arkansas",
+          "California",
+          "Colorado",
+          "Connecticut",
+          "Delaware",
+          "District of Columbia",
+          "Florida",
+          "Georgia",
+          "Guam",
+          "Hawaii",
+          "Idaho",
+          "Illinois",
+          "Indiana",
+          "Iowa",
+          "Kansas",
+          "Kentucky",
+          "Louisiana",
+          "Maine",
+          "Maryland",
+          "Massachusetts",
+          "Michigan",
+          "Minnesota",
+          "Mississippi",
+          "Missouri",
+          "Montana",
+          "Nebraska",
+          "Nevada",
+          "New Hampshire",
+          "New Jersey",
+          "New Mexico",
+          "New York",
+          "North Carolina",
+          "North Dakota",
+          "Northern Mariana Islands",
+          "Ohio",
+          "Oklahoma",
+          "Oregon",
+          "Pennsylvania",
+          "Puerto Rico",
+          "Rhode Island",
+          "South Carolina",
+          "South Dakota",
+          "Tennessee",
+          "Texas",
+          "Utah",
+          "U.S. Virgin Islands",
+          "Vermont",
+          "Virginia",
+          "Washington",
+          "West Virginia",
+          "Wisconsin",
+          "Wyoming",
+          "Armed Forces Americas",
+          "Armed Forces Europe",
+          "Armed Forces Pacific"
+        ],
+        "step": ""
+      },
+      {
+        "label": "Your Name",
+        "type": "name",
+        "required": true,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_1.3",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_1.6",
+            "type": "text",
+            "placeholder": ""
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_2",
+            "type": "email",
+            "placeholder": ""
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "Phone",
+        "type": "phone",
+        "required": true,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_3",
+            "type": "tel",
+            "placeholder": ""
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "",
+        "type": "section",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "",
+        "type": "html",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "Garage",
+        "type": "select",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_11",
+            "type": "select",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "1 Car Attached",
+          "1 Car Detached",
+          "2 Car Attached",
+          "2 Car Detached",
+          "Carport",
+          "Other"
+        ],
+        "step": ""
+      },
+      {
+        "label": "Basement",
+        "type": "select",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_12",
+            "type": "select",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "None",
+          "Finished",
+          "Partially Finished",
+          "Unfinished",
+          "Crawl Space",
+          "Other"
+        ],
+        "step": ""
+      },
+      {
+        "label": "How long have you owned the property?",
+        "type": "text",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_15",
+            "type": "text",
+            "placeholder": ""
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "What is the current condition of the property?",
+        "type": "select",
+        "required": true,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_16",
+            "type": "select",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "Excellent",
+          "Good",
+          "Fair",
+          "Poor",
+          "Terrible"
+        ],
+        "step": ""
+      },
+      {
+        "label": "What kind of repairs and maintenance does the house need?",
+        "type": "textarea",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_17",
+            "type": "textarea",
+            "placeholder": ""
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "Is there anyone living in the house?",
+        "type": "select",
+        "required": true,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_18",
+            "type": "select",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "Yes – Owner Occupied",
+          "Yes – Tenant Occupied",
+          "No – Vacant"
+        ],
+        "step": ""
+      },
+      {
+        "label": "Is the house currently listed with a realtor?",
+        "type": "select",
+        "required": true,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_19",
+            "type": "select",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "step": ""
+      },
+      {
+        "label": "",
+        "type": "section",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "How soon would you like us to CLOSE?",
+        "type": "select",
+        "required": false,
+        "label_hidden": false,
+        "description": "We can close on the date YOU CHOOSE. If you need extra time to move after closing often times we can accommodate.",
+        "inputs": [
+          {
+            "name": "input_20",
+            "type": "select",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "30 days or less",
+          "1-3 months",
+          "3-6 months or more"
+        ],
+        "step": ""
+      },
+      {
+        "label": "What's your ultimate goal with your house?",
+        "type": "textarea",
+        "required": true,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_22",
+            "type": "textarea",
+            "placeholder": ""
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "What is your asking price?",
+        "type": "text",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_31",
+            "type": "text",
+            "placeholder": ""
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "If We Buy Your House As-Is, Pay Your Closing Costs and Fees, What Would Be A Fair Price For Both Of Us?",
+        "type": "text",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_32",
+            "type": "text",
+            "placeholder": ""
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "When is the best time to call?",
+        "type": "select",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_4",
+            "type": "select",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "Anytime",
+          "Morning",
+          "Afternoon",
+          "Evening"
+        ],
+        "step": ""
+      },
+      {
+        "label": "SMS Consent",
+        "type": "checkbox",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_99.1",
+            "type": "checkbox",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "By submitting this form, you agree to receive SMS updates about property offers and related services and/or calls and/or emails from Offer New England LLC . Message frequency varies. Reply STOP to unsubscribe. Msg & data rates may apply for SMS. Your information is secure and will not be sold to third parties. Text HELP for HELP. text STOP to cancel."
+        ],
+        "step": ""
+      },
+      {
+        "label": "Privacy Consent",
+        "type": "checkbox",
+        "required": true,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_999.1",
+            "type": "checkbox",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "I agree to the Terms & Conditions and Privacy Policy ."
+        ],
+        "step": ""
+      }
+    ],
+    "pages": [
+      "https://offernewengland.com/sell-my-house-fast-in-providence-ri/"
+    ]
+  },
+  {
+    "form_id": "1",
+    "title": "",
+    "description": "",
+    "submit_text": "Get My Fair Cash Offer",
+    "action": "/faq/#gf_1",
+    "fields": [
+      {
+        "label": "Full Name",
+        "type": "text",
+        "required": true,
+        "label_hidden": true,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_6",
+            "type": "text",
+            "placeholder": "Full Name"
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "Property Address",
+        "type": "address",
+        "required": true,
+        "label_hidden": true,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_4.1",
+            "type": "text",
+            "placeholder": "Enter Your Address"
+          },
+          {
+            "name": "input_4.2",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_4.3",
+            "type": "text",
+            "placeholder": ""
+          },
+          {
+            "name": "input_4.4",
+            "type": "select",
+            "placeholder": ""
+          },
+          {
+            "name": "input_4.5",
+            "type": "text",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "Alabama",
+          "Alaska",
+          "American Samoa",
+          "Arizona",
+          "Arkansas",
+          "California",
+          "Colorado",
+          "Connecticut",
+          "Delaware",
+          "District of Columbia",
+          "Florida",
+          "Georgia",
+          "Guam",
+          "Hawaii",
+          "Idaho",
+          "Illinois",
+          "Indiana",
+          "Iowa",
+          "Kansas",
+          "Kentucky",
+          "Louisiana",
+          "Maine",
+          "Maryland",
+          "Massachusetts",
+          "Michigan",
+          "Minnesota",
+          "Mississippi",
+          "Missouri",
+          "Montana",
+          "Nebraska",
+          "Nevada",
+          "New Hampshire",
+          "New Jersey",
+          "New Mexico",
+          "New York",
+          "North Carolina",
+          "North Dakota",
+          "Northern Mariana Islands",
+          "Ohio",
+          "Oklahoma",
+          "Oregon",
+          "Pennsylvania",
+          "Puerto Rico",
+          "Rhode Island",
+          "South Carolina",
+          "South Dakota",
+          "Tennessee",
+          "Texas",
+          "Utah",
+          "U.S. Virgin Islands",
+          "Vermont",
+          "Virginia",
+          "Washington",
+          "West Virginia",
+          "Wisconsin",
+          "Wyoming",
+          "Armed Forces Americas",
+          "Armed Forces Europe",
+          "Armed Forces Pacific"
+        ],
+        "step": ""
+      },
+      {
+        "label": "Phone",
+        "type": "phone",
+        "required": true,
+        "label_hidden": true,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_5",
+            "type": "tel",
+            "placeholder": "Phone Number"
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "label_hidden": true,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_3",
+            "type": "email",
+            "placeholder": "E-mail"
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "SMS Consent",
+        "type": "checkbox",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_7.1",
+            "type": "checkbox",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "I agree to receive transactional or conversational communications from Offer New England LLC via text messages, phone calls, and emails related to my real estate inquiry, such as property details, responses, and appointment confirmations. Consent is not a condition of purchase. Message frequency varies. Reply STOP to opt out. Reply HELP for help. Msg & data rates may apply. Your information is secure and will not be sold or shared with third parties or affiliates for promotional purposes."
+        ],
+        "step": ""
+      },
+      {
+        "label": "SMS Consent",
+        "type": "checkbox",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_99.1",
+            "type": "checkbox",
+            "placeholder": ""
+          }
+        ],
+        "choices": [
+          "I agree to Terms & Conditions and Privacy Policy ."
+        ],
+        "step": ""
+      }
+    ],
+    "pages": [
+      "https://offernewengland.com/faq/",
+      "https://offernewengland.com/faq/",
+      "https://offernewengland.com/home-2-2-2/",
+      "https://offernewengland.com/",
+      "https://offernewengland.com/terms-conditions/",
+      "https://offernewengland.com/contact-us/",
+      "https://offernewengland.com/resource-page/",
+      "https://offernewengland.com/get-a-cash-offer-today/",
+      "https://offernewengland.com/how-we-buy-houses/",
+      "https://offernewengland.com/how-we-buy-houses/",
+      "https://offernewengland.com/about-us/",
+      "https://offernewengland.com/reviews/",
+      "https://offernewengland.com/blog/author/loouaay/"
+    ]
+  },
+  {
+    "form_id": "3",
+    "title": "Download Your FREE Stop Foreclosure Guide Below",
+    "description": "",
+    "submit_text": "Download This FREE Guide Now",
+    "action": "/stop-foreclosure/#gf_3",
+    "fields": [
+      {
+        "label": "Name",
+        "type": "text",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_3",
+            "type": "text",
+            "placeholder": ""
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_2",
+            "type": "email",
+            "placeholder": ""
+          }
+        ],
+        "choices": [],
+        "step": ""
+      }
+    ],
+    "pages": [
+      "https://offernewengland.com/stop-foreclosure/"
+    ]
+  },
+  {
+    "form_id": "7",
+    "title": "Download Your FREE “Pros, Cons, and Pitfalls” Guide Below",
+    "description": "",
+    "submit_text": "Download Now !",
+    "action": "/go/learn-the-pros-and-cons-of-selling-your-house-to-a-professional-house-buyer/#gf_7",
+    "fields": [
+      {
+        "label": "First Name",
+        "type": "name",
+        "required": false,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_1",
+            "type": "text",
+            "placeholder": ""
+          }
+        ],
+        "choices": [],
+        "step": ""
+      },
+      {
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "label_hidden": false,
+        "description": "",
+        "inputs": [
+          {
+            "name": "input_2",
+            "type": "email",
+            "placeholder": ""
+          }
+        ],
+        "choices": [],
+        "step": ""
+      }
+    ],
+    "pages": [
+      "https://offernewengland.com/go/learn-the-pros-and-cons-of-selling-your-house-to-a-professional-house-buyer/",
+      "https://offernewengland.com/go/learn-the-pros-and-cons-of-selling-your-house-to-a-professional-house-buyer/"
+    ]
+  }
+]

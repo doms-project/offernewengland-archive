@@ -1,0 +1,420 @@
+{
+  "url": "https://offernewengland.com/faq/",
+  "title": "Frequently Asked Questions | Offer New England",
+  "meta_description": "Get answers to common questions about selling your home for cash, with no agent fees or repairs needed. Learn how our home buying process works.",
+  "meta_keywords": "",
+  "robots": "",
+  "googlebot": "",
+  "canonical": "https://offernewengland.com/faq/",
+  "lang": "en-US",
+  "viewport": "width=device-width, initial-scale=1",
+  "author": "",
+  "open_graph": {
+    "og:image": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Frame-4.png",
+    "og:image:width": "960",
+    "og:image:height": "319",
+    "og:locale": "en_US",
+    "og:type": "website",
+    "og:title": "Frequently Asked Questions | Offer New England",
+    "og:description": "Get answers to common questions about selling your home for cash, with no agent fees or repairs needed. Learn how our home buying process works.",
+    "og:url": "https://offernewengland.com/faq/",
+    "og:site_name": "Offer New England"
+  },
+  "twitter": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Frequently Asked Questions | Offer New England",
+    "twitter:description": "Get answers to common questions about selling your home for cash, with no agent fees or repairs needed. Learn how our home buying process works.",
+    "twitter:image": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Frame-4.png"
+  },
+  "hreflang": [],
+  "feeds": [],
+  "icons": [
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTgwLCJoZWlnaHQiOjE4MH0sInRvRm9ybWF0IjoicG5nIn19",
+      "sizes": "180x180"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYsImhlaWdodCI6MTZ9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "16x16"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIsImhlaWdodCI6MzJ9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "32x32"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NDgsImhlaWdodCI6NDh9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "48x48"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6OTYsImhlaWdodCI6OTZ9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "96x96"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTkyLCJoZWlnaHQiOjE5Mn0sInRvRm9ybWF0IjoicG5nIn19",
+      "sizes": "192x192"
+    }
+  ],
+  "verification": {
+    "google-site-verification": "PvxfVi5OzEJRsZDvF9aFTfLwncBpTqils89D8C4PwRk"
+  },
+  "tracking": {
+    "Google Tag Manager": [
+      "GTM-WWPZRDH"
+    ]
+  },
+  "schema_types": [
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite"
+  ],
+  "json_ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@id\":\"https://offernewengland.com/\",\"name\":\"Offer New England | Cash Home Buyers in RI & MA\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"https://offernewengland.com/faq/\",\"name\":\"Frequently Asked Questions\"}}]}",
+    "{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"url\": \"https://offernewengland.com/\", \"name\": \"Offer New England \"}"
+  ],
+  "headings": [
+    [
+      "h1",
+      "Frequently Asked Questions About Our Cash Home Buying Process"
+    ],
+    [
+      "h3",
+      "Situations & Seller Guides"
+    ],
+    [
+      "h3",
+      "Listing vs. Selling To Us"
+    ],
+    [
+      "h3",
+      "Get Your Fair Cash Offer: Start Below!"
+    ]
+  ],
+  "h1": [
+    "Frequently Asked Questions About Our Cash Home Buying Process"
+  ],
+  "images": [
+    {
+      "src": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9XZWItMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiZml0IjoiY292ZXIifSwidG9Gb3JtYXQiOiJ3ZWJwIiwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+      "alt": "Offer New England ",
+      "title": "",
+      "width": "1500",
+      "height": "673",
+      "loading": ""
+    },
+    {
+      "src": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNi8wMy9GcmFtZS00LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTE1Mn0sInRvRm9ybWF0Ijoid2VicCIsIndlYnAiOnsicXVhbGl0eSI6NzB9fX0=",
+      "alt": "",
+      "title": "",
+      "width": "960",
+      "height": "319",
+      "loading": ""
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/selling-to-a-real-estate-investor.jpeg",
+      "alt": "sell your RI property quickly with our home buyer program ",
+      "title": "",
+      "width": "",
+      "height": "",
+      "loading": "eager"
+    }
+  ],
+  "images_missing_alt": 1,
+  "internal_links": [
+    {
+      "href": "https://offernewengland.com/",
+      "text": "Offer New England Need To Sell Your House Fast? We Buy Houses!",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "tel:+14012674066",
+      "text": "",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "tel:+14012674066",
+      "text": "(401) 267-4066",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Sell Your House The Easy Way",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/about-us/",
+      "text": "About us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/reviews/",
+      "text": "Reviews",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/faq/",
+      "text": "Faqs",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/how-we-buy-houses/",
+      "text": "How It Works",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "tel:+14012674066",
+      "text": "(401) 267-4066",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Get Your Cash Offer",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/contact-us/",
+      "text": "Contact Us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/contact-us",
+      "text": "contact us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/go/learn-the-pros-and-cons-of-selling-your-house-to-a-professional-house-buyer/",
+      "text": "DOWNLOAD our free guide that walks you through the Pros and Cons",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/go/learn-the-pros-and-cons-of-selling-your-house-to-a-professional-house-buyer/",
+      "text": "Head on over here to download your free guide →",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-hoarder-house-rhode-island/",
+      "text": "Sell a Hoarder House in Rhode Island",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-house-divorce-rhode-island/",
+      "text": "Selling a House During a Divorce in RI",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-house-with-tenants-rhode-island/",
+      "text": "Selling a House With Tenants in RI",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/can-a-nursing-home-take-your-house-in-rhode-island/",
+      "text": "Can a Nursing Home Take Your House in RI?",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/best-month-to-sell-a-house-in-new-england/",
+      "text": "Best Month to Sell a House in New England",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/how-much-does-a-home-inspection-cost-in-ri-and-when-you-can-skip-it/",
+      "text": "Home Inspection Cost in Rhode Island",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/cash-offer-vs-listing-with-an-agent-in-providence-real-numbers/",
+      "text": "Cash Offer vs. Listing With an Agent in Providence",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/blog/how-to-sell-a-house-with-foundation-problems-in-warwick-ri/",
+      "text": "Selling a House With Foundation Problems in Warwick",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/blog/sell-house-with-code-violations-in-warwick-ri-cash-home-buyers/",
+      "text": "Selling a House With Code Violations in Warwick",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/blog/lost-your-job-sell-your-house-fast-in-rhode-island-offer-new-england/",
+      "text": "Lost Your Job? Selling Your House Fast in RI",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/blog/behind-on-property-taxes-in-rhode-island-heres-how-to-sell-fast/",
+      "text": "Behind on Property Taxes in Rhode Island",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/blog/top-7-myths-about-selling-to-investors-in-rhode-island/",
+      "text": "7 Myths About Selling to Investors in RI",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/blog/what-fees-should-i-expect-when-selling-a-house-in-rhode-island/",
+      "text": "Fees to Expect When Selling a House in RI",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/blog/can-i-really-trust-cash-home-buyers-in-rhode-island/",
+      "text": "Can You Trust Cash Home Buyers in RI?",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/terms-conditions/",
+      "text": "Terms & Conditions",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/privacy",
+      "text": "Privacy Policy",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/go/learn-the-pros-and-cons-of-selling-your-house-to-a-professional-house-buyer/",
+      "text": "Download our FREE Guide here",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/contact-us/",
+      "text": "contact us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/how-we-buy-houses/",
+      "text": "Listing vs. Selling To Us Which route is quicker? Puts more cash in your pocket? Has less hassle? See The Difference Here",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/terms-conditions/",
+      "text": "Terms & Conditions",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/privacy",
+      "text": "Privacy Policy",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Get A Cash Offer Today",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/contact-us/",
+      "text": "Contact Us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/how-we-buy-houses/",
+      "text": "How It Works",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/about-us/",
+      "text": "About us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/resource-page/",
+      "text": "Resources",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/privacy/",
+      "text": "Privacy Policy",
+      "rel": "",
+      "target": ""
+    }
+  ],
+  "external_links": [
+    {
+      "href": "https://maps.app.goo.gl/Yf2VLZLaGYgDVTDD6",
+      "text": "Google Business",
+      "rel": "noopener",
+      "target": "_blank"
+    },
+    {
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Foffernewengland.com%2Ffaq%2F",
+      "text": "Share",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://twitter.com/intent/tweet?text=Frequently+Asked+Questions+%7C+Offer+New+England&url=https%3A%2F%2Foffernewengland.com%2Ffaq%2F",
+      "text": "Share",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://maps.app.goo.gl/Yf2VLZLaGYgDVTDD6",
+      "text": "Google Business",
+      "rel": "noopener",
+      "target": "_blank"
+    },
+    {
+      "href": "https://carrot.com/?utm_source=member&utm_medium=footer&utm_content=offercomseller&utm_campaign=carrot-03&utm_term=seller",
+      "text": "Carrot",
+      "rel": "nofollow noreferrer",
+      "target": "_blank"
+    }
+  ],
+  "word_count_page": 1636,
+  "http": {
+    "status": 200,
+    "final_url": "https://offernewengland.com/faq/",
+    "redirects": [],
+    "x_robots_tag": "",
+    "last_modified": "",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 516021,
+    "response_ms": 1144,
+    "link_header": "<https://offernewengland.com/wp-json/>; rel=\"https://api.w.org/\", <https://offernewengland.com/wp-json/wp/v2/pages/3859>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://offernewengland.com/?p=3859>; rel=shortlink"
+  }
+}

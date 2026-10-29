@@ -1,0 +1,349 @@
+
+<style>
+body{overflow-x:hidden}
+#one-eg{--eg-blue:#0693C8;--eg-cyan:#03D4F4;--eg-navy:#0c2230;--eg-ink:#14202b;--eg-mute:#5c6b76;--eg-pale:#EAF6FB;--eg-line:#d6e6ee;--eg-white:#fff;font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--eg-ink);line-height:1.6}
+#one-eg *{box-sizing:border-box}
+#one-eg h2,#one-eg h3,#one-eg h4{margin:0 0 .5em;line-height:1.2;color:var(--eg-navy);font-weight:800}
+#one-eg h2{font-size:clamp(1.7rem,3.6vw,2.4rem)}
+#one-eg h3{font-size:clamp(1.25rem,2.4vw,1.55rem)}
+#one-eg h4{font-size:1.05rem}
+#one-eg p{margin:0 0 1em}
+#one-eg a{color:var(--eg-blue)}
+#one-eg .eg-wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+#one-eg .eg-band{padding:64px 0}
+#one-eg .eg-bleed{width:100vw;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+#one-eg .eg-tint{background:var(--eg-pale)}
+#one-eg .eg-eyebrow{display:inline-block;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--eg-blue);margin-bottom:10px}
+#one-eg .eg-lede{font-size:1.1rem;color:var(--eg-mute);max-width:720px}
+#one-eg .eg-btn{display:inline-block;padding:16px 28px;border-radius:8px;font-weight:800;text-decoration:none;letter-spacing:.02em;transition:transform .2s,box-shadow .2s}
+#one-eg .eg-btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(6,147,200,.28)}
+#one-eg .eg-btn-p{background:var(--eg-blue);color:#fff}
+#one-eg .eg-btn-s{background:#fff;color:var(--eg-navy);border:2px solid #fff}
+#one-eg .eg-btn-o{background:transparent;color:var(--eg-blue);border:2px solid var(--eg-blue)}
+#one-eg .eg-ctas{display:flex;gap:14px;flex-wrap:wrap}
+#one-eg svg{stroke:var(--eg-blue);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+#one-eg .eg-hero{position:relative;min-height:600px;display:flex;align-items:center;color:#fff;overflow:hidden;background:var(--eg-navy)}
+#one-eg .eg-slides{position:absolute;inset:0}
+#one-eg .eg-slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1.6s ease}
+#one-eg .eg-slide.eg-on{opacity:1;animation:egKen 9s ease-in-out forwards}
+#one-eg .eg-slides .eg-slide:first-child{opacity:1}
+#one-eg .eg-slides.eg-live .eg-slide:first-child{opacity:0}
+#one-eg .eg-slides.eg-live .eg-slide.eg-on{opacity:1}
+@keyframes egKen{from{transform:scale(1)}to{transform:scale(1.08)}}
+#one-eg .eg-scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,34,48,.62) 0%,rgba(12,34,48,.70) 100%)}
+#one-eg .eg-hero-in{position:relative;z-index:2;padding:96px 20px;max-width:1120px;margin:0 auto;width:100%}
+#one-eg .eg-hero h2{color:#fff;font-size:clamp(2rem,5vw,3.4rem);max-width:760px;margin-bottom:14px;text-shadow:0 2px 12px rgba(0,0,0,.35)}
+#one-eg .eg-hero p{font-size:1.15rem;max-width:640px;margin-bottom:26px;color:#e6f4fa}
+#one-eg .eg-hero .eg-eyebrow{color:var(--eg-cyan)}
+#one-eg .eg-dots{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:3}
+#one-eg .eg-dot{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,.45);border:0;padding:0;cursor:pointer}
+#one-eg .eg-dot.eg-on{background:var(--eg-cyan)}
+
+#one-eg .eg-trust{background:var(--eg-navy);color:#fff;padding:22px 0}
+#one-eg .eg-trust ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+#one-eg .eg-trust li{display:flex;align-items:center;gap:10px;font-weight:700;font-size:.95rem}
+#one-eg .eg-trust svg{stroke:var(--eg-cyan);width:24px;height:24px;flex:0 0 24px}
+
+#one-eg .eg-aeo{border-left:6px solid var(--eg-blue);background:#fff;padding:26px 30px;border-radius:0 12px 12px 0;box-shadow:0 8px 28px rgba(12,34,48,.08);max-width:860px}
+#one-eg .eg-aeo p{font-size:1.12rem;margin:0}
+#one-eg .eg-aeo strong{color:var(--eg-navy)}
+
+#one-eg .eg-two{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+#one-eg .eg-two img{width:100%;height:auto;border-radius:14px;box-shadow:0 14px 36px rgba(12,34,48,.16);display:block}
+#one-eg .eg-check{list-style:none;padding:0;margin:18px 0 0}
+#one-eg .eg-check li{display:flex;gap:12px;align-items:flex-start;margin-bottom:12px}
+#one-eg .eg-check svg{width:22px;height:22px;flex:0 0 22px;margin-top:3px}
+
+#one-eg .eg-grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+#one-eg .eg-card{background:#fff;border:1px solid var(--eg-line);border-radius:14px;padding:26px}
+#one-eg .eg-card svg{width:36px;height:36px;margin-bottom:12px}
+#one-eg .eg-card h4{margin-bottom:8px}
+#one-eg .eg-card p{margin:0;color:var(--eg-mute);font-size:.98rem}
+
+#one-eg .eg-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;margin-top:8px}
+#one-eg .eg-step{position:relative;padding:26px 24px 24px;background:#fff;border-radius:14px;border:1px solid var(--eg-line)}
+#one-eg .eg-num{display:inline-flex;width:44px;height:44px;border-radius:50%;background:var(--eg-blue);color:#fff;font-weight:800;align-items:center;justify-content:center;margin-bottom:12px;font-size:1.1rem}
+#one-eg .eg-proc{margin-top:36px;border-radius:14px;overflow:hidden;box-shadow:0 14px 36px rgba(12,34,48,.16)}
+#one-eg .eg-proc img{width:100%;height:auto;display:block}
+
+#one-eg .eg-vs{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+#one-eg .eg-col{border-radius:14px;padding:28px;border:1px solid var(--eg-line);background:#fff}
+#one-eg .eg-col.eg-us{border:2px solid var(--eg-blue);box-shadow:0 12px 30px rgba(6,147,200,.14)}
+#one-eg .eg-col h3{margin-bottom:14px}
+#one-eg .eg-col ul{list-style:none;margin:0;padding:0}
+#one-eg .eg-col li{display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-top:1px solid var(--eg-line)}
+#one-eg .eg-col li:first-child{border-top:0}
+#one-eg .eg-col svg{width:20px;height:20px;flex:0 0 20px;margin-top:3px}
+#one-eg .eg-col.eg-them svg{stroke:#9aa7b0}
+
+#one-eg .eg-story{background:var(--eg-navy);color:#dfeef5}
+#one-eg .eg-story h2,#one-eg .eg-story h3{color:#fff}
+#one-eg .eg-story .eg-eyebrow{color:var(--eg-cyan)}
+#one-eg .eg-story p{max-width:780px}
+#one-eg .eg-story a{color:var(--eg-cyan)}
+#one-eg .eg-res{margin-top:22px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+#one-eg .eg-res div{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:20px}
+#one-eg .eg-res h4{color:#fff;margin-bottom:6px}
+#one-eg .eg-res p{margin:0;font-size:.95rem}
+
+#one-eg .eg-faq details{border:1px solid var(--eg-line);border-radius:12px;background:#fff;margin-bottom:12px;padding:0 22px}
+#one-eg .eg-faq summary{cursor:pointer;font-weight:800;color:var(--eg-navy);padding:18px 0;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center}
+#one-eg .eg-faq summary::-webkit-details-marker{display:none}
+#one-eg .eg-faq summary::after{content:"+";font-size:1.5rem;color:var(--eg-blue);flex:0 0 auto;line-height:1}
+#one-eg .eg-faq details[open] summary::after{content:"\2212"}
+#one-eg .eg-faq details p{padding:0 0 18px;margin:0;color:#2e3d48}
+
+#one-eg .eg-links{border-top:1px solid var(--eg-line)}
+#one-eg .eg-links ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:10px 28px}
+#one-eg .eg-links li{padding:8px 0}
+#one-eg .eg-links a{font-weight:700;text-decoration:none}
+#one-eg .eg-links a:hover{text-decoration:underline}
+
+#one-eg .eg-cta{background:linear-gradient(135deg,var(--eg-blue) 0%,var(--eg-cyan) 100%);color:#fff;text-align:center;padding:72px 0}
+#one-eg .eg-cta h2{color:#fff}
+#one-eg .eg-cta p{max-width:620px;margin:0 auto 26px;font-size:1.1rem}
+#one-eg .eg-cta .eg-ctas{justify-content:center}
+#one-eg .eg-cta .eg-btn-p{background:var(--eg-navy)}
+
+#one-eg #get-offer{scroll-margin-top:90px;padding:56px 0 8px;text-align:center}
+#one-eg #get-offer p{max-width:620px;margin:0 auto 10px}
+#one-eg .eg-disc{font-size:.85rem;color:var(--eg-mute);border-top:1px solid var(--eg-line);padding:22px 0 8px;max-width:900px}
+
+#one-eg.eg-js .eg-rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+#one-eg.eg-js .eg-rv.eg-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){#one-eg .eg-slide.eg-on{animation:none}#one-eg.eg-js .eg-rv{opacity:1;transform:none;transition:none}}
+@media (max-width:860px){#one-eg .eg-two,#one-eg .eg-vs{grid-template-columns:1fr}#one-eg .eg-band{padding:48px 0}#one-eg .eg-hero{min-height:520px}#one-eg .eg-hero-in{padding:72px 20px}}
+</style>
+
+<div id="one-eg">
+
+<section class="eg-hero eg-bleed" aria-label="Sell my house fast in East Greenwich, RI">
+  <div class="eg-slides">
+    <div class="eg-slide eg-on" role="img" aria-label="Historic Main Street in East Greenwich, Rhode Island, home of Offer New England's office" style="background-image:url('https://cdn.carrot.com/uploads/sites/81893/2026/08/Hero-1-1.webp')"></div>
+    <div class="eg-slide" role="img" aria-label="Sailboats moored in Greenwich Cove, East Greenwich, RI" style="background-image:url('https://cdn.carrot.com/uploads/sites/81893/2026/08/Hero-2-1.webp')"></div>
+  </div>
+  <div class="eg-scrim"></div>
+  <div class="eg-hero-in">
+    <span class="eg-eyebrow">Cash home buyers based in East Greenwich</span>
+    <h2>Sell Your East Greenwich House to the Cash Buyer Down the Street</h2>
+    <p>Offer New England&#8217;s office is at 5586 Post Road, right here in East Greenwich. We buy houses in every part of town as-is for cash, with no repairs, no commissions, and a closing date you choose.</p>
+    <div class="eg-ctas">
+      <a class="eg-btn eg-btn-p" href="#get-offer">GET MY CASH OFFER</a>
+      <a class="eg-btn eg-btn-s" href="tel:+14012674066">Call (401) 267-4066</a>
+    </div>
+  </div>
+  <div class="eg-dots" aria-hidden="true"><button class="eg-dot eg-on" type="button" data-eg-slide="0"></button><button class="eg-dot" type="button" data-eg-slide="1"></button></div>
+</section>
+
+<section class="eg-trust eg-bleed">
+  <div class="eg-wrap">
+    <ul>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" /></svg>Sell As-Is</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l7-7M9 6l9 9-3 3-9-9zM14 3l7 7" /></svg>No Repairs</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M17 6.5c-1-1.5-3-2-5-2s-4 1-4 3 2 3 4.5 3.5S17 12 17 14.5s-2.5 3-5 3-4.5-.8-5.5-2.5" /></svg>No Commissions</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg>No-Obligation Offer</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10h18M8 3v4M16 3v4" /></svg>Flexible Closing</li>
+    </ul>
+  </div>
+</section>
+
+<section class="eg-band">
+  <div class="eg-wrap">
+    <div class="eg-aeo eg-rv">
+      <p><strong>Who buys houses for cash in East Greenwich, RI?</strong> Offer New England is a local cash home buyer headquartered at 5586 Post Rd, Suite 207, East Greenwich, RI 02818. We buy houses throughout East Greenwich as-is, in any condition, with no repairs, no agent commissions, and no financing contingency. Sellers receive a written cash offer within 24 hours of a walkthrough and can close in as little as 14 days, or later if they need more time.</p>
+    </div>
+  </div>
+</section>
+
+<section class="eg-band eg-tint eg-bleed">
+  <div class="eg-wrap">
+    <div class="eg-two">
+      <div class="eg-rv">
+        <span class="eg-eyebrow">Why a local buyer matters here</span>
+        <h2>We know East Greenwich because we work in it every day</h2>
+        <p>East Greenwich is one of Rhode Island&#8217;s oldest towns, incorporated in 1677, and the housing reflects it. Along Main Street and the Hill &amp; Harbour district you&#8217;ll find Federal and Greek Revival homes that are two centuries old. Off Middle Road and Frenchtown Road the stock shifts to mid-century capes and ranches, and west of Route 2 to larger colonials built from the 1980s onward. Each of those carries different repair realities, and an out-of-state buyer reading a listing can&#8217;t tell the difference.</p>
+        <p>We can, because our office is on Post Road. When you call, the person who walks your house is a few minutes away, not a call center. That&#8217;s the whole point of a local buyer: a walkthrough this week, a written offer within 24 hours, and a closing at a Rhode Island title company on the date you pick.</p>
+        <ul class="eg-check">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span><strong>Any condition.</strong> Historic-district homes with deferred maintenance, capes with old wiring, colonials that need a roof.</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span><strong>Any situation.</strong> Inherited, downsizing, relocating, divorce, tired landlord, behind on payments.</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span><strong>Any timeline.</strong> Two weeks or three months, your choice.</span></li>
+        </ul>
+      </div>
+      <div class="eg-rv">
+        <img decoding="async" src="https://cdn.carrot.com/uploads/sites/81893/2026/08/Inline-housing-stock.webp" alt="Center-hall colonial home with clapboard siding in East Greenwich, Rhode Island" width="1200" height="800" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="eg-band">
+  <div class="eg-wrap">
+    <span class="eg-eyebrow">Where we buy</span>
+    <h2>Neighborhoods and villages we serve in East Greenwich</h2>
+    <p class="eg-lede">All of ZIP 02818, from the waterfront to the Frenchtown Road line with North Kingstown and the Division Street line with Warwick.</p>
+    <div class="eg-grid3">
+      <div class="eg-card eg-rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6" /></svg><h4>Hill &amp; Harbour</h4><p>Main Street, Division Street, Peirce Street, and the cove. Colonial, Federal, and Greek Revival homes in the East Greenwich Historic District, many with the maintenance backlog that comes with age.</p></div>
+      <div class="eg-card eg-rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 20l4-8 4 8M14 20l3-14 3 14M2 20h20" /></svg><h4>Greenwich Cove waterfront</h4><p>Marinas, yacht clubs, Scalloptown Park, and the homes above them on the hill. High-value lots where the house is often worth less than the land it sits on.</p></div>
+      <div class="eg-card eg-rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8M5 10v10h14V10" /></svg><h4>Frenchtown</h4><p>Capes, ranches, and split-levels along Frenchtown Road and Middle Road, plus the Fry&#8217;s Hamlet Historic District on South County Trail. The classic 1950s–70s East Greenwich house.</p></div>
+      <div class="eg-card eg-rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V9l8-6 8 6v12M9 21v-8h6v8M2 21h20" /></svg><h4>West of Route 2</h4><p>Larger colonials and subdivisions built from the 1980s on, out toward the West Greenwich line. Newer, but roofs, septic systems, and HVAC are now reaching replacement age.</p></div>
+      <div class="eg-card eg-rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22c4-4 7-7.5 7-12a7 7 0 0 0-14 0c0 4.5 3 8 7 12z" /></svg><h4>Post Road corridor</h4><p>The Route 1 stretch where our office sits. Mixed residential and commercial, older single-families and small multi-families tucked behind the storefronts.</p></div>
+      <div class="eg-card eg-rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20" /></svg><h4>Neighboring towns</h4><p>We also buy in Warwick, West Warwick, North Kingstown, Coventry, and Cranston, all within a short drive of our East Greenwich office.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="eg-band eg-tint eg-bleed">
+  <div class="eg-wrap">
+    <div class="eg-two">
+      <div class="eg-rv">
+        <img decoding="async" src="https://cdn.carrot.com/uploads/sites/81893/2026/08/Inline-landmark.webp" alt="The 1804 Kent County Courthouse on Main Street, East Greenwich, RI" width="1200" height="800" loading="lazy">
+      </div>
+      <div class="eg-rv">
+        <span class="eg-eyebrow">Selling in a historic town</span>
+        <h2>Old houses, real repair costs, and why an as-is sale often wins</h2>
+        <p>The Kent County Courthouse on Main Street was finished in 1805 and still serves as Town Hall. Plenty of the houses around it are nearly as old. That history is why people love East Greenwich, and it&#8217;s also why a traditional sale can stall: buyers&#8217; inspectors flag knob-and-tube wiring, lead paint, slate roofs, stone foundations, and cesspools, and lenders want them fixed before closing.</p>
+        <p>A listing in East Greenwich can command a strong price, but only after those items are addressed. If the house needs work you don&#8217;t want to fund, or you simply don&#8217;t have the time, an as-is cash sale removes the inspection, the repair negotiation, the appraisal, and the commission from the equation. We look at what the house is worth to us today and put that number in writing.</p>
+        <p><a class="eg-btn eg-btn-o" href="#get-offer">GET MY CASH OFFER</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="eg-band">
+  <div class="eg-wrap">
+    <span class="eg-eyebrow">Situations we see in East Greenwich</span>
+    <h2>Reasons homeowners here sell to us</h2>
+    <div class="eg-grid3">
+      <div class="eg-card eg-rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7" /></svg><h4>Downsizing from a family home</h4><p>A four-bedroom colonial that raised a family is now too much house. Sell without staging it, showing it, or fixing forty years of small things first. See our guide to <a href="https://offernewengland.com/how-to-sell-a-house-as-is-in-rhode-island-what-you-can-skip-fixing/">selling as-is in Rhode Island</a>.</p></div>
+      <div class="eg-card eg-rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8M5 10v10h14V10" /><path d="M9 20v-6h6v6" /></svg><h4>An inherited house in the Historic District</h4><p>Heirs living out of state, an estate to settle, a house full of belongings. We buy before, during, or after probate. Read our <a href="https://offernewengland.com/selling-an-inherited-house-in-rhode-island-probate-timeline-options/">Rhode Island inherited-house guide</a>.</p></div>
+      <div class="eg-card eg-rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9h18M8 4v5M16 4v5" /></svg><h4>Relocating on a deadline</h4><p>A job move or military orders don&#8217;t wait for a 60-day listing. We close on the date that fits your move, and you can sign remotely if you&#8217;ve already left.</p></div>
+      <div class="eg-card eg-rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9 16H3z" /><path d="M12 10v4M12 17h.01" /></svg><h4>A house that failed an inspection</h4><p>The buyer walked after the inspection report. Rather than fund the repair list and relist, many sellers bring the report to us and we make an offer with those items already priced in.</p></div>
+      <div class="eg-card eg-rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M17 6.5c-1-1.5-3-2-5-2s-4 1-4 3 2 3 4.5 3.5S17 12 17 14.5s-2.5 3-5 3-4.5-.8-5.5-2.5" /></svg><h4>Behind on the mortgage or taxes</h4><p>A fast, certain closing can stop a problem from becoming a foreclosure. Our <a href="https://offernewengland.com/facing-foreclosure-in-rhode-island-your-timeline-and-options/">Rhode Island foreclosure guide</a> explains the timeline.</p></div>
+      <div class="eg-card eg-rv"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21V9l8-6 8 6v12M9 21v-8h6v8M2 21h20" /></svg><h4>Tired of being a landlord</h4><p>A rental on the Post Road corridor or a two-family near downtown with tenants you&#8217;d rather not manage. We buy occupied properties and handle the transition after closing.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="eg-band eg-tint eg-bleed">
+  <div class="eg-wrap">
+    <span class="eg-eyebrow">How it works</span>
+    <h2>Three steps to a closed sale in East Greenwich</h2>
+    <div class="eg-steps">
+      <div class="eg-step eg-rv"><span class="eg-num">1</span><h4>Tell us about the house</h4><p>Fill out the short form below or call <a href="tel:+14012674066">(401) 267-4066</a>. Address, condition, and when you&#8217;d like to close is all we need to start.</p></div>
+      <div class="eg-step eg-rv"><span class="eg-num">2</span><h4>One walkthrough, one written offer</h4><p>We&#8217;re minutes away, so the visit happens fast. You get a written cash offer within 24 hours with no obligation and no pressure to decide on the spot.</p></div>
+      <div class="eg-step eg-rv"><span class="eg-num">3</span><h4>Close on your date</h4><p>Accept, pick a closing date, and we close at a local title company. No appraisal, no lender, no financing fall-through.</p></div>
+    </div>
+    <div class="eg-proc eg-rv">
+      <img decoding="async" src="https://cdn.carrot.com/uploads/sites/81893/2026/08/PROCESS.webp" alt="Offer New England team walking a homeowner through the cash offer process for a Rhode Island house" width="1536" height="1024" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="eg-band">
+  <div class="eg-wrap">
+    <span class="eg-eyebrow">Compare your options</span>
+    <h2>Listing in East Greenwich vs. selling to Offer New England</h2>
+    <div class="eg-vs">
+      <div class="eg-col eg-them eg-rv">
+        <h3>Listing with an agent</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Repairs, cleaning, and staging before photos</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Showings and open houses for weeks</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Buyer&#8217;s inspection and a second round of repair negotiation</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Appraisal and financing contingencies that can collapse the deal</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Roughly 5–6% in commissions plus closing costs</span></li>
+        </ul>
+      </div>
+      <div class="eg-col eg-us eg-rv">
+        <h3>Selling to Offer New England</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>Sell exactly as the house sits, no repairs or cleaning</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>One private walkthrough, no showings</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>Written cash offer within 24 hours</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>No appraisal, no lender, no financing contingency</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>No commissions, close in as little as 14 days</span></li>
+        </ul>
+        <p style="margin:18px 0 0"><a class="eg-btn eg-btn-p" href="#get-offer">GET MY CASH OFFER</a></p>
+      </div>
+    </div>
+    <p style="margin-top:18px;color:#5c6b76;font-size:.95rem">Not sure which route fits? Our <a href="https://offernewengland.com/companies-that-buy-houses-in-rhode-island-honest-comparison/">comparison of companies that buy houses in Rhode Island</a> lays out the trade-offs, including when a listing is the better call.</p>
+  </div>
+</section>
+
+<section class="eg-band eg-story eg-bleed">
+  <div class="eg-wrap">
+    <span class="eg-eyebrow">Our home town</span>
+    <h2>Offer New England is headquartered in East Greenwich</h2>
+    <p>Our office is at 5586 Post Road, Suite 207, East Greenwich, RI 02818, on the Route 1 corridor a few minutes from Main Street. We serve all of Rhode Island and southeastern Massachusetts from here, but East Greenwich is the town we drive through every morning. When you sell to us, you&#8217;re working with a buyer whose name is on the door down the road, not a national franchise routing your call through another state.</p>
+    <div class="eg-res">
+      <div class="eg-rv"><h4>Local facts</h4><p>Incorporated 1677, the eighth-oldest town in Rhode Island. Population 14,312 at the 2020 census. ZIP 02818. Kent County seat, and one of the state&#8217;s five rotating capitals until 1854.</p></div>
+      <div class="eg-rv"><h4>Borders</h4><p>Division Street forms the line with Warwick to the north; Frenchtown Road separates the town from North Kingstown to the south. West Greenwich lies to the west, and Greenwich Bay to the east.</p></div>
+      <div class="eg-rv"><h4>Tax and title notes</h4><p>East Greenwich reassesses property on Rhode Island&#8217;s statutory revaluation cycle, and older homes may carry historic-district considerations. We price for what we find and handle title at closing; you don&#8217;t need to research any of it first.</p></div>
+      <div class="eg-rv"><h4>Get directions</h4><p><a href="https://maps.app.goo.gl/Yf2VLZLaGYgDVTDD6" target="_blank" rel="noopener">Find us on Google Maps</a>, read our <a href="https://offernewengland.com/reviews/">reviews</a>, or call <a href="tel:+14012674066">(401) 267-4066</a> to speak with a member of the team.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="eg-band eg-faq">
+  <div class="eg-wrap">
+    <span class="eg-eyebrow">Questions from East Greenwich sellers</span>
+    <h2>Selling a house in East Greenwich, RI: FAQ</h2>
+    <details><summary>Do you really buy houses in East Greenwich, or just advertise here?</summary><p>We buy here, and our office is here. Offer New England is headquartered at 5586 Post Road, Suite 207, in East Greenwich. Because the team is local, we can usually walk a property within days of your call and deliver a written offer within 24 hours of the visit. You are welcome to come by the office, and you can read our Google reviews from Rhode Island sellers before deciding.</p></details>
+    <details><summary>Will you buy an older home in the East Greenwich Historic District?</summary><p>Yes. Homes along Main Street, Division Street, and the surrounding Hill &amp; Harbour blocks are often 150 to 250 years old, and we expect the issues that come with that: old wiring, lead paint, slate or wood roofs, stone foundations, and moisture in the basement. None of these stop us from buying. They are priced into the offer, so you do not have to repair or test for anything first.</p></details>
+    <details><summary>How do you calculate a cash offer on an East Greenwich house?</summary><p>We start with what the house would sell for once repaired and updated, using recent East Greenwich sales, then subtract the realistic cost of the work it needs, our holding and closing costs, and a margin that lets us stay in business. The result is written down and explained line by line. There is no obligation to accept it, and no fee for the walkthrough or the offer.</p></details>
+    <details><summary>Can I sell an East Greenwich house I inherited before probate is finished?</summary><p>Usually. In Rhode Island, the executor or administrator needs authority from the probate court before the property can transfer, but we can sign a purchase agreement while that is pending and close once the court paperwork is in place. If the estate has not opened probate yet, we can walk through the timeline with you and your attorney at no cost.</p></details>
+    <details><summary>How fast can you close on a house in East Greenwich?</summary><p>As fast as 14 days once you accept the offer, because we pay cash and do not need a lender, an appraisal, or a financing contingency. If you need longer to move, wait for probate, or coordinate with family, we set the closing date around your schedule. The timeline is yours.</p></details>
+    <details><summary>Do I need to clean out or repair the house before you buy it?</summary><p>No. You can leave the house exactly as it is, including furniture and belongings you do not want to take. We do not ask you to paint, clean, or fix anything, and there is no buyer&#8217;s inspection to pass. Take what matters to you and we handle the rest after closing.</p></details>
+    <details><summary>Do you also buy in Warwick, North Kingstown, and the towns around East Greenwich?</summary><p>Yes. From our East Greenwich office we buy throughout Kent County and Washington County, including Warwick, West Warwick, Coventry, North Kingstown, and Cranston, as well as the rest of Rhode Island and southeastern Massachusetts. If your property is anywhere in that area, call us and we will tell you right away whether we can make an offer.</p></details>
+  </div>
+</section>
+
+<section class="eg-band eg-links eg-tint eg-bleed">
+  <div class="eg-wrap">
+    <h3>More from Offer New England</h3>
+    <ul>
+      <li><a href="https://offernewengland.com/we-buy-houses-in-rhode-island/">We Buy Houses in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/sell-my-house-fast-cranston-ri/">Sell My House Fast in Cranston, RI</a></li>
+      <li><a href="https://offernewengland.com/sell-my-house-fast-coventry-ri/">Sell My House Fast in Coventry, RI</a></li>
+      <li><a href="https://offernewengland.com/sell-my-house-fast-in-providence-ri/">Sell My House Fast in Providence, RI</a></li>
+      <li><a href="https://offernewengland.com/sell-my-house-fast-newport-ri/">Sell My House Fast in Newport, RI</a></li>
+      <li><a href="https://offernewengland.com/how-to-sell-a-house-as-is-in-rhode-island-what-you-can-skip-fixing/">How to Sell a House As-Is in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/selling-an-inherited-house-in-rhode-island-probate-timeline-options/">Selling an Inherited House in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/capital-gains-tax-when-selling-a-home-in-ri-ma-what-sellers-actually-owe/">Capital Gains Tax When Selling in RI &amp; MA</a></li>
+      <li><a href="https://offernewengland.com/how-we-buy-houses/">How We Buy Houses</a></li>
+      <li><a href="https://offernewengland.com/about-us/">About Offer New England</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="eg-cta eg-bleed">
+  <div class="eg-wrap">
+    <h2>Ready to sell your East Greenwich house?</h2>
+    <p>Get a no-obligation cash offer from the buyer headquartered right here in town. No repairs, no commissions, no waiting.</p>
+    <div class="eg-ctas">
+      <a class="eg-btn eg-btn-p" href="#get-offer">GET MY CASH OFFER</a>
+      <a class="eg-btn eg-btn-s" href="tel:+14012674066">Call (401) 267-4066</a>
+    </div>
+  </div>
+</section>
+
+<section id="get-offer">
+  <div class="eg-wrap">
+    <span class="eg-eyebrow">Get your offer</span>
+    <h2>Tell us about your East Greenwich property</h2>
+    <p>Fill out the form below and a member of our local team will call you within 24 hours with a fair cash offer. Prefer to talk now? Call <a href="tel:+14012674066">(401) 267-4066</a>.</p>
+  </div>
+</section>
+
+<div class="eg-wrap">
+  <p class="eg-disc">Offer New England is a local cash home buyer, not a law firm or tax advisor. Probate, tax, and title details vary by property; consult a Rhode Island attorney for your situation. Local facts on this page are drawn from the National Register of Historic Places and U.S. Census records.</p>
+</div>
+
+</div>
+
+
+<!-- CARROT FORM REMOVED: add your WordPress form here -->
+
+
+<p class="wp-block-paragraph"></p>

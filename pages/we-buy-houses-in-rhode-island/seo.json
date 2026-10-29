@@ -1,0 +1,502 @@
+{
+  "url": "https://offernewengland.com/we-buy-houses-in-rhode-island/",
+  "title": "We Buy Houses in Rhode Island | Cash Home Buyers",
+  "meta_description": "Offer New England buys houses for cash across Rhode Island — any condition, no fees, no repairs. Written offer in 24 hours, close in as few as 14 days.",
+  "meta_keywords": "",
+  "robots": "",
+  "googlebot": "",
+  "canonical": "https://offernewengland.com/we-buy-houses-in-rhode-island/",
+  "lang": "en-US",
+  "viewport": "width=device-width, initial-scale=1",
+  "author": "",
+  "open_graph": {
+    "og:image": "https://image-cdn.carrot.com/uploads/sites/81893/2025/04/cropped-Web-2.png",
+    "og:image:width": "512",
+    "og:image:height": "512",
+    "og:image:alt": "Offer New England",
+    "og:locale": "en_US",
+    "og:type": "website",
+    "og:title": "We Buy Houses in Rhode Island | Cash Home Buyers",
+    "og:description": "Offer New England buys houses for cash across Rhode Island — any condition, no fees, no repairs. Written offer in 24 hours, close in as few as 14 days.",
+    "og:url": "https://offernewengland.com/we-buy-houses-in-rhode-island/",
+    "og:site_name": "Offer New England"
+  },
+  "twitter": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "We Buy Houses in Rhode Island | Cash Home Buyers",
+    "twitter:description": "Offer New England buys houses for cash across Rhode Island — any condition, no fees, no repairs. Written offer in 24 hours, close in as few as 14 days.",
+    "twitter:image": "https://image-cdn.carrot.com/uploads/sites/81893/2025/04/cropped-Web-2.png",
+    "twitter:image:alt": "Offer New England"
+  },
+  "hreflang": [],
+  "feeds": [],
+  "icons": [
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTgwLCJoZWlnaHQiOjE4MH0sInRvRm9ybWF0IjoicG5nIn19",
+      "sizes": "180x180"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYsImhlaWdodCI6MTZ9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "16x16"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIsImhlaWdodCI6MzJ9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "32x32"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NDgsImhlaWdodCI6NDh9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "48x48"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6OTYsImhlaWdodCI6OTZ9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "96x96"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTkyLCJoZWlnaHQiOjE5Mn0sInRvRm9ybWF0IjoicG5nIn19",
+      "sizes": "192x192"
+    }
+  ],
+  "verification": {
+    "google-site-verification": "PvxfVi5OzEJRsZDvF9aFTfLwncBpTqils89D8C4PwRk"
+  },
+  "tracking": {
+    "Google Tag Manager": [
+      "GTM-WWPZRDH"
+    ]
+  },
+  "schema_types": [
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite"
+  ],
+  "json_ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@id\":\"https://offernewengland.com/\",\"name\":\"Offer New England | Cash Home Buyers in RI & MA\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"https://offernewengland.com/we-buy-houses-in-rhode-island/\",\"name\":\"We Buy Houses in Rhode Island | Cash Home Buyers\"}}]}",
+    "{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"url\": \"https://offernewengland.com/\", \"name\": \"Offer New England \"}"
+  ],
+  "headings": [
+    [
+      "h2",
+      "We Buy Houses in Rhode Island — Sell Your House Fast for Cash"
+    ],
+    [
+      "h2",
+      "Cities We Buy Houses In Across Rhode Island"
+    ],
+    [
+      "h2",
+      "How It Works"
+    ],
+    [
+      "h3",
+      "Reach out"
+    ],
+    [
+      "h3",
+      "We visit"
+    ],
+    [
+      "h3",
+      "Get your offer"
+    ],
+    [
+      "h3",
+      "Close on your date"
+    ],
+    [
+      "h2",
+      "Why Sell Your Rhode Island House to Offer New England"
+    ],
+    [
+      "h3",
+      "Offer New England"
+    ],
+    [
+      "h3",
+      "Traditional Sale"
+    ],
+    [
+      "h2",
+      "Why Rhode Island Homeowners Choose Offer New England"
+    ],
+    [
+      "h2",
+      "Situations & Seller Guides"
+    ],
+    [
+      "h2",
+      "Frequently Asked Questions — Selling Your House Fast in Rhode Island"
+    ],
+    [
+      "h2",
+      "Ready to Sell Your Rhode Island Home?"
+    ],
+    [
+      "h1",
+      "We Buy Houses in Rhode Island — Cash Home Buyers"
+    ],
+    [
+      "h2",
+      "Rhode Island Cities We Buy Houses In"
+    ],
+    [
+      "h3",
+      "Get An Offer Today, Sell In A Matter Of Days"
+    ]
+  ],
+  "h1": [
+    "We Buy Houses in Rhode Island — Cash Home Buyers"
+  ],
+  "images": [
+    {
+      "src": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNi8wMy9TQVNBLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTE1Mn0sInRvRm9ybWF0Ijoid2VicCIsIndlYnAiOnsicXVhbGl0eSI6NzB9fX0=",
+      "alt": "",
+      "title": "",
+      "width": "960",
+      "height": "360",
+      "loading": "eager"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9XZWItMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiZml0IjoiY292ZXIifSwidG9Gb3JtYXQiOiJ3ZWJwIiwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+      "alt": "Offer New England ",
+      "title": "",
+      "width": "1500",
+      "height": "673",
+      "loading": ""
+    }
+  ],
+  "images_missing_alt": 1,
+  "internal_links": [
+    {
+      "href": "https://offernewengland.com/",
+      "text": "Offer New England Need To Sell Your House Fast? We Buy Houses!",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "tel:+14012674066",
+      "text": "",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "tel:+14012674066",
+      "text": "(401) 267-4066",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Sell Your House The Easy Way",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/about-us/",
+      "text": "About us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/reviews/",
+      "text": "Reviews",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/faq/",
+      "text": "Faqs",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/how-we-buy-houses/",
+      "text": "How It Works",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "tel:+14012674066",
+      "text": "(401) 267-4066",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Get Your Cash Offer",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/contact-us/",
+      "text": "Contact Us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "tel:+14012674066",
+      "text": "Call (401) 267-4066",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-my-house-fast-east-greenwich-ri/",
+      "text": "East Greenwich Sell my house fast in East Greenwich, RI",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-hoarder-house-rhode-island/",
+      "text": "Sell a Hoarder House in Rhode Island Situation",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-house-divorce-rhode-island/",
+      "text": "Selling a House During a Divorce in RI Situation",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-house-with-tenants-rhode-island/",
+      "text": "Selling a House With Tenants in RI Situation",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/can-a-nursing-home-take-your-house-in-rhode-island/",
+      "text": "Can a Nursing Home Take Your House in RI? Seller guide",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/best-month-to-sell-a-house-in-new-england/",
+      "text": "Best Month to Sell a House in New England Seller guide",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/how-much-does-a-home-inspection-cost-in-ri-and-when-you-can-skip-it/",
+      "text": "Home Inspection Cost in Rhode Island Seller guide",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/cash-offer-vs-listing-with-an-agent-in-providence-real-numbers/",
+      "text": "Cash Offer vs. Listing With an Agent in Providence Seller guide",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/blog/how-to-sell-a-house-with-foundation-problems-in-warwick-ri/",
+      "text": "Selling a House With Foundation Problems in Warwick Seller guide",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/blog/sell-house-with-code-violations-in-warwick-ri-cash-home-buyers/",
+      "text": "Selling a House With Code Violations in Warwick Seller guide",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/blog/lost-your-job-sell-your-house-fast-in-rhode-island-offer-new-england/",
+      "text": "Lost Your Job? Selling Your House Fast in RI Seller guide",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/blog/behind-on-property-taxes-in-rhode-island-heres-how-to-sell-fast/",
+      "text": "Behind on Property Taxes in Rhode Island Seller guide",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/blog/top-7-myths-about-selling-to-investors-in-rhode-island/",
+      "text": "7 Myths About Selling to Investors in RI Seller guide",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/blog/what-fees-should-i-expect-when-selling-a-house-in-rhode-island/",
+      "text": "Fees to Expect When Selling a House in RI Seller guide",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/blog/can-i-really-trust-cash-home-buyers-in-rhode-island/",
+      "text": "Can You Trust Cash Home Buyers in RI? Seller guide",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-my-house-fast-in-providence-ri/",
+      "text": "Providence Sell my house fast in Providence →",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-my-house-fast-cranston-ri/",
+      "text": "Cranston Sell my house fast in Cranston →",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-my-house-fast-warwick-ri/",
+      "text": "Warwick Sell my house fast in Warwick →",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-your-house-fast-pawtucket-ri/",
+      "text": "Pawtucket Sell your house fast in Pawtucket →",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-my-house-fast-woonsocket-ri/",
+      "text": "Woonsocket Sell my house fast in Woonsocket →",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-my-house-fast-newport-ri/",
+      "text": "Newport Sell my house fast in Newport →",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-my-house-fast-bristol-ri/",
+      "text": "Bristol Sell my house fast in Bristol →",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-my-house-fast-coventry-ri/",
+      "text": "Coventry Sell my house fast in Coventry →",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-my-house-fast-west-warwick-ri/",
+      "text": "West Warwick Sell my house fast in West Warwick →",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-my-house-fast-westerly-ri/",
+      "text": "Westerly Sell my house fast in Westerly →",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-my-house-fast-south-kingstown-ri/",
+      "text": "South Kingstown Sell my house fast in South Kingstown →",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/sell-my-house-fast-north-kingstown-ri/",
+      "text": "North Kingstown Sell my house fast in North Kingstown →",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/terms-conditions/",
+      "text": "Terms & Conditions",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/privacy",
+      "text": "Privacy Policy",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Get A Cash Offer Today",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/contact-us/",
+      "text": "Contact Us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/how-we-buy-houses/",
+      "text": "How It Works",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/about-us/",
+      "text": "About us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/resource-page/",
+      "text": "Resources",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/privacy/",
+      "text": "Privacy Policy",
+      "rel": "",
+      "target": ""
+    }
+  ],
+  "external_links": [
+    {
+      "href": "https://maps.app.goo.gl/Yf2VLZLaGYgDVTDD6",
+      "text": "Google Business",
+      "rel": "noopener",
+      "target": "_blank"
+    },
+    {
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Foffernewengland.com%2Fwe-buy-houses-in-rhode-island%2F",
+      "text": "Share",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://twitter.com/intent/tweet?text=We+Buy+Houses+in+Rhode+Island+%7C+Cash+Home+Buyers&url=https%3A%2F%2Foffernewengland.com%2Fwe-buy-houses-in-rhode-island%2F",
+      "text": "Share",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://maps.app.goo.gl/Yf2VLZLaGYgDVTDD6",
+      "text": "Google Business",
+      "rel": "noopener",
+      "target": "_blank"
+    },
+    {
+      "href": "https://carrot.com/?utm_source=member&utm_medium=footer&utm_content=offercomseller&utm_campaign=carrot-03&utm_term=seller",
+      "text": "Carrot",
+      "rel": "nofollow noreferrer",
+      "target": "_blank"
+    }
+  ],
+  "word_count_page": 1556,
+  "http": {
+    "status": 200,
+    "final_url": "https://offernewengland.com/we-buy-houses-in-rhode-island/",
+    "redirects": [],
+    "x_robots_tag": "",
+    "last_modified": "",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 494150,
+    "response_ms": 1354,
+    "link_header": "<https://offernewengland.com/wp-json/>; rel=\"https://api.w.org/\", <https://offernewengland.com/wp-json/wp/v2/pages/4226>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://offernewengland.com/?p=4226>; rel=shortlink"
+  }
+}

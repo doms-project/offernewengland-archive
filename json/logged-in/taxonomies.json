@@ -1,0 +1,1029 @@
+{
+  "category": {
+    "name": "Categories",
+    "slug": "category",
+    "capabilities": {
+      "manage_terms": "manage_categories",
+      "edit_terms": "edit_categories",
+      "delete_terms": "delete_categories",
+      "assign_terms": "assign_categories"
+    },
+    "description": "",
+    "labels": {
+      "name": "Categories",
+      "singular_name": "Category",
+      "search_items": "Search Categories",
+      "popular_items": null,
+      "all_items": "All Categories",
+      "parent_item": "Parent Category",
+      "parent_item_colon": "Parent Category:",
+      "name_field_description": "The name is how it appears on your site.",
+      "slug_field_description": "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
+      "parent_field_description": "Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band.",
+      "desc_field_description": "The description is not prominent by default; however, some themes may show it.",
+      "edit_item": "Edit Category",
+      "view_item": "View Category",
+      "update_item": "Update Category",
+      "add_new_item": "Add Category",
+      "new_item_name": "New Category Name",
+      "separate_items_with_commas": null,
+      "add_or_remove_items": null,
+      "choose_from_most_used": null,
+      "not_found": "No categories found.",
+      "no_terms": "No categories",
+      "filter_by_item": "Filter by category",
+      "items_list_navigation": "Categories list navigation",
+      "items_list": "Categories list",
+      "most_used": "Most Used",
+      "back_to_items": "&larr; Go to Categories",
+      "item_link": "Category Link",
+      "item_link_description": "A link to a category.",
+      "menu_name": "Categories",
+      "name_admin_bar": "category",
+      "template_name": "Category Archives"
+    },
+    "types": [
+      "post"
+    ],
+    "show_cloud": true,
+    "hierarchical": true,
+    "rest_base": "categories",
+    "rest_namespace": "wp/v2",
+    "visibility": {
+      "public": true,
+      "publicly_queryable": true,
+      "show_admin_column": true,
+      "show_in_nav_menus": true,
+      "show_in_quick_edit": true,
+      "show_ui": true
+    },
+    "_links": {
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/taxonomies"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "post_tag": {
+    "name": "Tags",
+    "slug": "post_tag",
+    "capabilities": {
+      "manage_terms": "manage_post_tags",
+      "edit_terms": "edit_post_tags",
+      "delete_terms": "delete_post_tags",
+      "assign_terms": "assign_post_tags"
+    },
+    "description": "",
+    "labels": {
+      "name": "Tags",
+      "singular_name": "Tag",
+      "search_items": "Search Tags",
+      "popular_items": "Popular Tags",
+      "all_items": "All Tags",
+      "parent_item": null,
+      "parent_item_colon": null,
+      "name_field_description": "The name is how it appears on your site.",
+      "slug_field_description": "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
+      "parent_field_description": null,
+      "desc_field_description": "The description is not prominent by default; however, some themes may show it.",
+      "edit_item": "Edit Tag",
+      "view_item": "View Tag",
+      "update_item": "Update Tag",
+      "add_new_item": "Add Tag",
+      "new_item_name": "New Tag Name",
+      "separate_items_with_commas": "Separate tags with commas",
+      "add_or_remove_items": "Add or remove tags",
+      "choose_from_most_used": "Choose from the most used tags",
+      "not_found": "No tags found.",
+      "no_terms": "No tags",
+      "filter_by_item": null,
+      "items_list_navigation": "Tags list navigation",
+      "items_list": "Tags list",
+      "most_used": "Most Used",
+      "back_to_items": "&larr; Go to Tags",
+      "item_link": "Tag Link",
+      "item_link_description": "A link to a tag.",
+      "menu_name": "Tags",
+      "name_admin_bar": "post_tag",
+      "template_name": "Tag Archives"
+    },
+    "types": [
+      "post"
+    ],
+    "show_cloud": true,
+    "hierarchical": false,
+    "rest_base": "tags",
+    "rest_namespace": "wp/v2",
+    "visibility": {
+      "public": true,
+      "publicly_queryable": true,
+      "show_admin_column": true,
+      "show_in_nav_menus": true,
+      "show_in_quick_edit": true,
+      "show_ui": true
+    },
+    "_links": {
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/taxonomies"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/tags"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "nav_menu": {
+    "name": "Navigation Menus",
+    "slug": "nav_menu",
+    "capabilities": {
+      "manage_terms": "edit_theme_options",
+      "edit_terms": "edit_theme_options",
+      "delete_terms": "edit_theme_options",
+      "assign_terms": "edit_theme_options"
+    },
+    "description": "",
+    "labels": {
+      "name": "Navigation Menus",
+      "singular_name": "Navigation Menu",
+      "search_items": "Search Tags",
+      "popular_items": "Popular Tags",
+      "all_items": "Navigation Menus",
+      "parent_item": null,
+      "parent_item_colon": null,
+      "name_field_description": "The name is how it appears on your site.",
+      "slug_field_description": "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
+      "parent_field_description": null,
+      "desc_field_description": "The description is not prominent by default; however, some themes may show it.",
+      "edit_item": "Edit Tag",
+      "view_item": "View Tag",
+      "update_item": "Update Tag",
+      "add_new_item": "Add Tag",
+      "new_item_name": "New Tag Name",
+      "separate_items_with_commas": "Separate tags with commas",
+      "add_or_remove_items": "Add or remove tags",
+      "choose_from_most_used": "Choose from the most used tags",
+      "not_found": "No tags found.",
+      "no_terms": "No tags",
+      "filter_by_item": null,
+      "items_list_navigation": "Tags list navigation",
+      "items_list": "Tags list",
+      "most_used": "Most Used",
+      "back_to_items": "&larr; Go to Tags",
+      "item_link": "Tag Link",
+      "item_link_description": "A link to a tag.",
+      "menu_name": "Navigation Menus",
+      "name_admin_bar": "Navigation Menu",
+      "archives": "Navigation Menus",
+      "template_name": "Navigation Menu Archives"
+    },
+    "types": [
+      "nav_menu_item"
+    ],
+    "show_cloud": false,
+    "hierarchical": false,
+    "rest_base": "menus",
+    "rest_namespace": "wp/v2",
+    "visibility": {
+      "public": false,
+      "publicly_queryable": false,
+      "show_admin_column": false,
+      "show_in_nav_menus": false,
+      "show_in_quick_edit": false,
+      "show_ui": false
+    },
+    "_links": {
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/taxonomies"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/menus"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "wp_pattern_category": {
+    "name": "Pattern Categories",
+    "slug": "wp_pattern_category",
+    "capabilities": {
+      "manage_terms": "manage_categories",
+      "edit_terms": "manage_categories",
+      "delete_terms": "manage_categories",
+      "assign_terms": "edit_posts"
+    },
+    "description": "",
+    "labels": {
+      "name": "Pattern Categories",
+      "singular_name": "Pattern Category",
+      "search_items": "Search Pattern Categories",
+      "popular_items": "Popular Pattern Categories",
+      "all_items": "Pattern Categories",
+      "parent_item": null,
+      "parent_item_colon": null,
+      "name_field_description": "The name is how it appears on your site.",
+      "slug_field_description": "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
+      "parent_field_description": null,
+      "desc_field_description": "The description is not prominent by default; however, some themes may show it.",
+      "edit_item": "Edit Pattern Category",
+      "view_item": "View Pattern Category",
+      "update_item": "Update Pattern Category",
+      "add_new_item": "Add Category",
+      "new_item_name": "New Pattern Category Name",
+      "separate_items_with_commas": "Separate pattern categories with commas",
+      "add_or_remove_items": "Add or remove pattern categories",
+      "choose_from_most_used": "Choose from the most used pattern categories",
+      "not_found": "No pattern categories found.",
+      "no_terms": "No pattern categories",
+      "filter_by_item": null,
+      "items_list_navigation": "Pattern Categories list navigation",
+      "items_list": "Pattern Categories list",
+      "most_used": "Most Used",
+      "back_to_items": "&larr; Go to Pattern Categories",
+      "item_link": "Pattern Category Link",
+      "item_link_description": "A link to a pattern category.",
+      "menu_name": "Pattern Categories",
+      "name_admin_bar": "Pattern Category",
+      "archives": "Pattern Categories",
+      "template_name": "Pattern Category Archives"
+    },
+    "types": [
+      "wp_block"
+    ],
+    "show_cloud": false,
+    "hierarchical": false,
+    "rest_base": "wp_pattern_category",
+    "rest_namespace": "wp/v2",
+    "visibility": {
+      "public": false,
+      "publicly_queryable": false,
+      "show_admin_column": true,
+      "show_in_nav_menus": false,
+      "show_in_quick_edit": true,
+      "show_ui": true
+    },
+    "_links": {
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/taxonomies"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/wp_pattern_category"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "contentpack": {
+    "name": "Investor Content Packs",
+    "slug": "contentpack",
+    "capabilities": {
+      "manage_terms": "manage_categories",
+      "edit_terms": "manage_categories",
+      "delete_terms": "manage_categories",
+      "assign_terms": "edit_posts"
+    },
+    "description": "",
+    "labels": {
+      "name": "Investor Content Packs",
+      "singular_name": "Content Pack",
+      "search_items": "Search Content Packs",
+      "popular_items": null,
+      "all_items": "All Packs",
+      "parent_item": "Parent Pack",
+      "parent_item_colon": "Parent Pack:",
+      "name_field_description": "The name is how it appears on your site.",
+      "slug_field_description": "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
+      "parent_field_description": "Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band.",
+      "desc_field_description": "The description is not prominent by default; however, some themes may show it.",
+      "edit_item": "Edit Pack",
+      "view_item": "View Category",
+      "update_item": "Update Pack",
+      "add_new_item": "Add New Content Pack",
+      "new_item_name": "New Content Pack Name",
+      "separate_items_with_commas": "Separate Content Packs with commas",
+      "add_or_remove_items": "Add or remove Content Pack",
+      "choose_from_most_used": "Choose from the most used Content Packs",
+      "not_found": "Not Found",
+      "no_terms": "No categories",
+      "filter_by_item": "Filter by category",
+      "items_list_navigation": "Categories list navigation",
+      "items_list": "Categories list",
+      "most_used": "Most Used",
+      "back_to_items": "&larr; Go to Categories",
+      "item_link": "Category Link",
+      "item_link_description": "A link to a category.",
+      "menu_name": "Investor Packs",
+      "name_admin_bar": "Content Pack",
+      "archives": "All Packs",
+      "template_name": "Content Pack Archives"
+    },
+    "types": [
+      "post"
+    ],
+    "show_cloud": true,
+    "hierarchical": true,
+    "rest_base": "contentpack",
+    "rest_namespace": "wp/v2",
+    "visibility": {
+      "public": true,
+      "publicly_queryable": true,
+      "show_admin_column": false,
+      "show_in_nav_menus": false,
+      "show_in_quick_edit": false,
+      "show_ui": false
+    },
+    "_links": {
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/taxonomies"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/contentpack"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "contentpack-agent": {
+    "name": "Agent Packs",
+    "slug": "contentpack-agent",
+    "capabilities": {
+      "manage_terms": "manage_categories",
+      "edit_terms": "manage_categories",
+      "delete_terms": "manage_categories",
+      "assign_terms": "edit_posts"
+    },
+    "description": "",
+    "labels": {
+      "name": "Agent Packs",
+      "singular_name": "Agent Pack",
+      "search_items": "Search Agent Content Packs",
+      "popular_items": null,
+      "all_items": "All Agent Packs",
+      "parent_item": "Parent Agent Pack",
+      "parent_item_colon": "Parent Agent Pack:",
+      "name_field_description": "The name is how it appears on your site.",
+      "slug_field_description": "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
+      "parent_field_description": "Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band.",
+      "desc_field_description": "The description is not prominent by default; however, some themes may show it.",
+      "edit_item": "Edit Agent Pack",
+      "view_item": "View Category",
+      "update_item": "Update Agent Pack",
+      "add_new_item": "Add New Agent Content Pack",
+      "new_item_name": "New Agent Pack Name",
+      "separate_items_with_commas": "Separate Agent Content Packs with commas",
+      "add_or_remove_items": "Add or remove Agent Content Pack",
+      "choose_from_most_used": "Choose from the most used Agent Content Packs",
+      "not_found": "Not Found",
+      "no_terms": "No categories",
+      "filter_by_item": "Filter by category",
+      "items_list_navigation": "Categories list navigation",
+      "items_list": "Categories list",
+      "most_used": "Most Used",
+      "back_to_items": "&larr; Go to Categories",
+      "item_link": "Category Link",
+      "item_link_description": "A link to a category.",
+      "menu_name": "Agent Packs",
+      "name_admin_bar": "Agent Pack",
+      "archives": "All Agent Packs",
+      "template_name": "Agent Pack Archives"
+    },
+    "types": [
+      "post"
+    ],
+    "show_cloud": true,
+    "hierarchical": true,
+    "rest_base": "contentpack-agent",
+    "rest_namespace": "wp/v2",
+    "visibility": {
+      "public": true,
+      "publicly_queryable": true,
+      "show_admin_column": false,
+      "show_in_nav_menus": false,
+      "show_in_quick_edit": false,
+      "show_ui": false
+    },
+    "_links": {
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/taxonomies"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/contentpack-agent"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "contentpack-niche": {
+    "name": "Niche Content Packs",
+    "slug": "contentpack-niche",
+    "capabilities": {
+      "manage_terms": "manage_categories",
+      "edit_terms": "manage_categories",
+      "delete_terms": "manage_categories",
+      "assign_terms": "edit_posts"
+    },
+    "description": "",
+    "labels": {
+      "name": "Niche Content Packs",
+      "singular_name": "Niche Content Pack",
+      "search_items": "Search Niche Content Packs",
+      "popular_items": null,
+      "all_items": "All Niche Packs",
+      "parent_item": "Parent Pack",
+      "parent_item_colon": "Parent Pack:",
+      "name_field_description": "The name is how it appears on your site.",
+      "slug_field_description": "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
+      "parent_field_description": "Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band.",
+      "desc_field_description": "The description is not prominent by default; however, some themes may show it.",
+      "edit_item": "Edit Pack",
+      "view_item": "View Category",
+      "update_item": "Update Pack",
+      "add_new_item": "Add New Niche Content Pack",
+      "new_item_name": "New Niche Content Pack Name",
+      "separate_items_with_commas": "Separate Niche Content Packs with commas",
+      "add_or_remove_items": "Add or remove Niche Content Pack",
+      "choose_from_most_used": "Choose from the most used Niche Content Packs",
+      "not_found": "Not Found",
+      "no_terms": "No categories",
+      "filter_by_item": "Filter by category",
+      "items_list_navigation": "Categories list navigation",
+      "items_list": "Categories list",
+      "most_used": "Most Used",
+      "back_to_items": "&larr; Go to Categories",
+      "item_link": "Category Link",
+      "item_link_description": "A link to a category.",
+      "menu_name": "Niche Packs",
+      "name_admin_bar": "Niche Content Pack",
+      "archives": "All Niche Packs",
+      "template_name": "Niche Content Pack Archives"
+    },
+    "types": [
+      "post",
+      "page"
+    ],
+    "show_cloud": true,
+    "hierarchical": true,
+    "rest_base": "contentpack-niche",
+    "rest_namespace": "wp/v2",
+    "visibility": {
+      "public": true,
+      "publicly_queryable": true,
+      "show_admin_column": false,
+      "show_in_nav_menus": false,
+      "show_in_quick_edit": false,
+      "show_ui": false
+    },
+    "_links": {
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/taxonomies"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/contentpack-niche"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "block-pattern-category": {
+    "name": "Categories",
+    "slug": "block-pattern-category",
+    "capabilities": {
+      "manage_terms": "manage_categories",
+      "edit_terms": "manage_categories",
+      "delete_terms": "manage_categories",
+      "assign_terms": "edit_posts"
+    },
+    "description": "Block pattern categories: splits up block patterns in the Block Inserter.",
+    "labels": {
+      "name": "Categories",
+      "singular_name": "Category",
+      "search_items": "Search Categories",
+      "popular_items": null,
+      "all_items": "All Categories",
+      "parent_item": "Parent Category",
+      "parent_item_colon": "Parent Category:",
+      "name_field_description": "The name is how it appears on your site.",
+      "slug_field_description": "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
+      "parent_field_description": "Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band.",
+      "desc_field_description": "The description is not prominent by default; however, some themes may show it.",
+      "edit_item": "Edit Category",
+      "view_item": "View Category",
+      "update_item": "Update Category",
+      "add_new_item": "Add Category",
+      "new_item_name": "New Category Name",
+      "separate_items_with_commas": null,
+      "add_or_remove_items": null,
+      "choose_from_most_used": null,
+      "not_found": "No categories found.",
+      "no_terms": "No categories",
+      "filter_by_item": "Filter by category",
+      "items_list_navigation": "Categories list navigation",
+      "items_list": "Categories list",
+      "most_used": "Most Used",
+      "back_to_items": "&larr; Go to Categories",
+      "item_link": "Category Link",
+      "item_link_description": "A link to a category.",
+      "menu_name": "Categories",
+      "name_admin_bar": "block-pattern-category",
+      "template_name": "Category Archives"
+    },
+    "types": [
+      "wp_block"
+    ],
+    "show_cloud": false,
+    "hierarchical": true,
+    "rest_base": "block-pattern-category",
+    "rest_namespace": "wp/v2",
+    "visibility": {
+      "public": true,
+      "publicly_queryable": true,
+      "show_admin_column": false,
+      "show_in_nav_menus": true,
+      "show_in_quick_edit": false,
+      "show_ui": false
+    },
+    "_links": {
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/taxonomies"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-category"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "block-pattern-post-type": {
+    "name": "Post Types",
+    "slug": "block-pattern-post-type",
+    "capabilities": {
+      "manage_terms": "manage_categories",
+      "edit_terms": "manage_categories",
+      "delete_terms": "manage_categories",
+      "assign_terms": "edit_posts"
+    },
+    "description": "Block pattern post types; restrict a block pattern to a specific post type.",
+    "labels": {
+      "name": "Post Types",
+      "singular_name": "Post Type",
+      "search_items": "Search Categories",
+      "popular_items": null,
+      "all_items": "Post Types",
+      "parent_item": "Parent Category",
+      "parent_item_colon": "Parent Category:",
+      "name_field_description": "The name is how it appears on your site.",
+      "slug_field_description": "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
+      "parent_field_description": "Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band.",
+      "desc_field_description": "The description is not prominent by default; however, some themes may show it.",
+      "edit_item": "Edit Category",
+      "view_item": "View Category",
+      "update_item": "Update Category",
+      "add_new_item": "Add New Post Type",
+      "new_item_name": "New Category Name",
+      "separate_items_with_commas": null,
+      "add_or_remove_items": null,
+      "choose_from_most_used": null,
+      "not_found": "No categories found.",
+      "no_terms": "No categories",
+      "filter_by_item": "Filter by category",
+      "items_list_navigation": "Categories list navigation",
+      "items_list": "Categories list",
+      "most_used": "Most Used",
+      "back_to_items": "&larr; Go to Categories",
+      "item_link": "Category Link",
+      "item_link_description": "A link to a category.",
+      "menu_name": "Post Types",
+      "name_admin_bar": "Post Type",
+      "archives": "Post Types",
+      "template_name": "Post Type Archives"
+    },
+    "types": [
+      "wp_block"
+    ],
+    "show_cloud": false,
+    "hierarchical": true,
+    "rest_base": "block-pattern-post-type",
+    "rest_namespace": "wp/v2",
+    "visibility": {
+      "public": true,
+      "publicly_queryable": true,
+      "show_admin_column": false,
+      "show_in_nav_menus": true,
+      "show_in_quick_edit": false,
+      "show_ui": false
+    },
+    "_links": {
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/taxonomies"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-post-type"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "block-pattern-user-level": {
+    "name": "User Level",
+    "slug": "block-pattern-user-level",
+    "capabilities": {
+      "manage_terms": "manage_categories",
+      "edit_terms": "manage_categories",
+      "delete_terms": "manage_categories",
+      "assign_terms": "edit_posts"
+    },
+    "description": "Block pattern user level; restrict a block pattern to a specific user level.",
+    "labels": {
+      "name": "User Level",
+      "singular_name": "User Level",
+      "search_items": "Search Categories",
+      "popular_items": null,
+      "all_items": "User Level",
+      "parent_item": "Parent Category",
+      "parent_item_colon": "Parent Category:",
+      "name_field_description": "The name is how it appears on your site.",
+      "slug_field_description": "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
+      "parent_field_description": "Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band.",
+      "desc_field_description": "The description is not prominent by default; however, some themes may show it.",
+      "edit_item": "Edit Category",
+      "view_item": "View Category",
+      "update_item": "Update Category",
+      "add_new_item": "Add New Level",
+      "new_item_name": "New Category Name",
+      "separate_items_with_commas": null,
+      "add_or_remove_items": null,
+      "choose_from_most_used": null,
+      "not_found": "No categories found.",
+      "no_terms": "No categories",
+      "filter_by_item": "Filter by category",
+      "items_list_navigation": "Categories list navigation",
+      "items_list": "Categories list",
+      "most_used": "Most Used",
+      "back_to_items": "&larr; Go to Categories",
+      "item_link": "Category Link",
+      "item_link_description": "A link to a category.",
+      "menu_name": "User Level",
+      "name_admin_bar": "User Level",
+      "archives": "User Level",
+      "template_name": "User Level Archives"
+    },
+    "types": [
+      "wp_block"
+    ],
+    "show_cloud": false,
+    "hierarchical": true,
+    "rest_base": "block-pattern-user-level",
+    "rest_namespace": "wp/v2",
+    "visibility": {
+      "public": true,
+      "publicly_queryable": true,
+      "show_admin_column": false,
+      "show_in_nav_menus": true,
+      "show_in_quick_edit": false,
+      "show_ui": false
+    },
+    "_links": {
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/taxonomies"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-user-level"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "block-pattern-site-type": {
+    "name": "Site Types",
+    "slug": "block-pattern-site-type",
+    "capabilities": {
+      "manage_terms": "do_not_allow",
+      "edit_terms": "do_not_allow",
+      "delete_terms": "do_not_allow",
+      "assign_terms": "edit_posts"
+    },
+    "description": "Restrict a Block Pattern to a specific site type.",
+    "labels": {
+      "name": "Site Types",
+      "singular_name": "Site Type",
+      "search_items": "Search Categories",
+      "popular_items": null,
+      "all_items": "Site Types",
+      "parent_item": "Parent Category",
+      "parent_item_colon": "Parent Category:",
+      "name_field_description": "The name is how it appears on your site.",
+      "slug_field_description": "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
+      "parent_field_description": "Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band.",
+      "desc_field_description": "The description is not prominent by default; however, some themes may show it.",
+      "edit_item": "Edit Category",
+      "view_item": "View Category",
+      "update_item": "Update Category",
+      "add_new_item": "Add New Site Type",
+      "new_item_name": "New Category Name",
+      "separate_items_with_commas": null,
+      "add_or_remove_items": null,
+      "choose_from_most_used": null,
+      "not_found": "No categories found.",
+      "no_terms": "No categories",
+      "filter_by_item": "Filter by category",
+      "items_list_navigation": "Categories list navigation",
+      "items_list": "Categories list",
+      "most_used": "Most Used",
+      "back_to_items": "&larr; Go to Categories",
+      "item_link": "Category Link",
+      "item_link_description": "A link to a category.",
+      "menu_name": "Site Types",
+      "name_admin_bar": "Site Type",
+      "archives": "Site Types",
+      "template_name": "Site Type Archives"
+    },
+    "types": [
+      "wp_block"
+    ],
+    "show_cloud": false,
+    "hierarchical": true,
+    "rest_base": "block-pattern-site-type",
+    "rest_namespace": "wp/v2",
+    "visibility": {
+      "public": true,
+      "publicly_queryable": true,
+      "show_admin_column": false,
+      "show_in_nav_menus": true,
+      "show_in_quick_edit": false,
+      "show_ui": false
+    },
+    "_links": {
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/taxonomies"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-site-type"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "lead_site_type": {
+    "name": "Site Template",
+    "slug": "lead_site_type",
+    "capabilities": {
+      "manage_terms": "manage_categories",
+      "edit_terms": "manage_categories",
+      "delete_terms": "manage_categories",
+      "assign_terms": "edit_posts"
+    },
+    "description": "",
+    "labels": {
+      "name": "Site Template",
+      "singular_name": "Site Template",
+      "search_items": "Search Site Type",
+      "popular_items": null,
+      "all_items": "Site Template",
+      "parent_item": "Parent Category",
+      "parent_item_colon": "Parent Category:",
+      "name_field_description": "The name is how it appears on your site.",
+      "slug_field_description": "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
+      "parent_field_description": "Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band.",
+      "desc_field_description": "The description is not prominent by default; however, some themes may show it.",
+      "edit_item": "Edit Site Template",
+      "view_item": "View Category",
+      "update_item": "Update Site Template",
+      "add_new_item": "Add New Site Template",
+      "new_item_name": "New Site Template Name",
+      "separate_items_with_commas": null,
+      "add_or_remove_items": "Add or remove Site Type",
+      "choose_from_most_used": null,
+      "not_found": "Not Found",
+      "no_terms": "No categories",
+      "filter_by_item": "Filter by category",
+      "items_list_navigation": "Categories list navigation",
+      "items_list": "Categories list",
+      "most_used": "Most Used",
+      "back_to_items": "&larr; Go to Categories",
+      "item_link": "Category Link",
+      "item_link_description": "A link to a category.",
+      "menu_name": "Site Template",
+      "name_admin_bar": "Site Template",
+      "archives": "Site Template",
+      "template_name": "Site Template Archives"
+    },
+    "types": [
+      "page",
+      "lead"
+    ],
+    "show_cloud": false,
+    "hierarchical": true,
+    "rest_base": "lead_site_type",
+    "rest_namespace": "wp/v2",
+    "visibility": {
+      "public": true,
+      "publicly_queryable": true,
+      "show_admin_column": false,
+      "show_in_nav_menus": false,
+      "show_in_quick_edit": false,
+      "show_ui": false
+    },
+    "_links": {
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/taxonomies"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/lead_site_type"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "lead_page_type": {
+    "name": "Landing Page Type",
+    "slug": "lead_page_type",
+    "capabilities": {
+      "manage_terms": "manage_categories",
+      "edit_terms": "manage_categories",
+      "delete_terms": "manage_categories",
+      "assign_terms": "edit_posts"
+    },
+    "description": "",
+    "labels": {
+      "name": "Landing Page Type",
+      "singular_name": "Landing Page Type",
+      "search_items": "Search Landing Page Type",
+      "popular_items": null,
+      "all_items": "Landing Page Type",
+      "parent_item": "Parent Category",
+      "parent_item_colon": "Parent Category:",
+      "name_field_description": "The name is how it appears on your site.",
+      "slug_field_description": "The &#8220;slug&#8221; is the URL-friendly version of the name. It is usually all lowercase and contains only letters, numbers, and hyphens.",
+      "parent_field_description": "Assign a parent term to create a hierarchy. The term Jazz, for example, would be the parent of Bebop and Big Band.",
+      "desc_field_description": "The description is not prominent by default; however, some themes may show it.",
+      "edit_item": "Edit Landing Page Type",
+      "view_item": "View Category",
+      "update_item": "Update Landing Page Type",
+      "add_new_item": "Add Landing Page Type",
+      "new_item_name": "New Landing Page Type",
+      "separate_items_with_commas": null,
+      "add_or_remove_items": "Add or remove Landing Page Type",
+      "choose_from_most_used": null,
+      "not_found": "Not Found",
+      "no_terms": "No categories",
+      "filter_by_item": "Filter by category",
+      "items_list_navigation": "Categories list navigation",
+      "items_list": "Categories list",
+      "most_used": "Most Used",
+      "back_to_items": "&larr; Go to Categories",
+      "item_link": "Category Link",
+      "item_link_description": "A link to a category.",
+      "menu_name": "Landing Page Type",
+      "name_admin_bar": "Landing Page Type",
+      "archives": "Landing Page Type",
+      "template_name": "Landing Page Type Archives"
+    },
+    "types": [
+      "page",
+      "lead"
+    ],
+    "show_cloud": false,
+    "hierarchical": true,
+    "rest_base": "lead_page_type",
+    "rest_namespace": "wp/v2",
+    "visibility": {
+      "public": true,
+      "publicly_queryable": true,
+      "show_admin_column": false,
+      "show_in_nav_menus": false,
+      "show_in_quick_edit": false,
+      "show_ui": false
+    },
+    "_links": {
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/taxonomies"
+        }
+      ],
+      "wp:items": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/lead_page_type"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,340 @@
+
+<style>
+body{overflow-x:hidden}
+#one-hh{--hh-blue:#0693C8;--hh-cyan:#03D4F4;--hh-navy:#0c2230;--hh-ink:#14202b;--hh-mute:#5c6b76;--hh-pale:#EAF6FB;--hh-line:#d6e6ee;--hh-white:#fff;font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--hh-ink);line-height:1.6}
+#one-hh *{box-sizing:border-box}
+#one-hh h2,#one-hh h3,#one-hh h4{margin:0 0 .5em;line-height:1.2;color:var(--hh-navy);font-weight:800}
+#one-hh h2{font-size:clamp(1.7rem,3.6vw,2.4rem)}
+#one-hh h3{font-size:clamp(1.25rem,2.4vw,1.55rem)}
+#one-hh h4{font-size:1.05rem}
+#one-hh p{margin:0 0 1em}
+#one-hh a{color:var(--hh-blue)}
+#one-hh .hh-wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+#one-hh .hh-band{padding:64px 0}
+#one-hh .hh-bleed{width:100vw;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+#one-hh .hh-tint{background:var(--hh-pale)}
+#one-hh .hh-eyebrow{display:inline-block;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--hh-blue);margin-bottom:10px}
+#one-hh .hh-lede{font-size:1.1rem;color:var(--hh-mute);max-width:720px}
+#one-hh .hh-btn{display:inline-block;padding:16px 28px;border-radius:8px;font-weight:800;text-decoration:none;letter-spacing:.02em;transition:transform .2s,box-shadow .2s}
+#one-hh .hh-btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(6,147,200,.28)}
+#one-hh .hh-btn-p{background:var(--hh-blue);color:#fff}
+#one-hh .hh-btn-s{background:#fff;color:var(--hh-navy);border:2px solid #fff}
+#one-hh .hh-btn-o{background:transparent;color:var(--hh-blue);border:2px solid var(--hh-blue)}
+#one-hh .hh-ctas{display:flex;gap:14px;flex-wrap:wrap}
+#one-hh svg{stroke:var(--hh-blue);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+#one-hh .hh-hero{position:relative;min-height:600px;display:flex;align-items:center;color:#fff;overflow:hidden;background:var(--hh-navy)}
+#one-hh .hh-slides{position:absolute;inset:0}
+#one-hh .hh-slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1.6s ease}
+#one-hh .hh-slide.hh-on{opacity:1;animation:hhKen 9s ease-in-out forwards}
+#one-hh .hh-slides .hh-slide:first-child{opacity:1}
+#one-hh .hh-slides.hh-live .hh-slide:first-child{opacity:0}
+#one-hh .hh-slides.hh-live .hh-slide.hh-on{opacity:1}
+@keyframes hhKen{from{transform:scale(1)}to{transform:scale(1.08)}}
+#one-hh .hh-scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,34,48,.62) 0%,rgba(12,34,48,.70) 100%)}
+#one-hh .hh-hero-in{position:relative;z-index:2;padding:96px 20px;max-width:1120px;margin:0 auto;width:100%}
+#one-hh .hh-hero h2{color:#fff;font-size:clamp(2rem,5vw,3.4rem);max-width:760px;margin-bottom:14px;text-shadow:0 2px 12px rgba(0,0,0,.35)}
+#one-hh .hh-hero p{font-size:1.15rem;max-width:640px;margin-bottom:26px;color:#e6f4fa}
+#one-hh .hh-hero .hh-eyebrow{color:var(--hh-cyan)}
+#one-hh .hh-dots{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:3}
+#one-hh .hh-dot{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,.45);border:0;padding:0;cursor:pointer}
+#one-hh .hh-dot.hh-on{background:var(--hh-cyan)}
+
+#one-hh .hh-trust{background:var(--hh-navy);color:#fff;padding:22px 0}
+#one-hh .hh-trust ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+#one-hh .hh-trust li{display:flex;align-items:center;gap:10px;font-weight:700;font-size:.95rem}
+#one-hh .hh-trust svg{stroke:var(--hh-cyan);width:24px;height:24px;flex:0 0 24px}
+
+#one-hh .hh-aeo{border-left:6px solid var(--hh-blue);background:#fff;padding:26px 30px;border-radius:0 12px 12px 0;box-shadow:0 8px 28px rgba(12,34,48,.08);max-width:860px}
+#one-hh .hh-aeo p{font-size:1.12rem;margin:0}
+#one-hh .hh-aeo strong{color:var(--hh-navy)}
+
+#one-hh .hh-two{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+#one-hh .hh-two img{width:100%;height:auto;border-radius:14px;box-shadow:0 14px 36px rgba(12,34,48,.16);display:block}
+#one-hh .hh-check{list-style:none;padding:0;margin:18px 0 0}
+#one-hh .hh-check li{display:flex;gap:12px;align-items:flex-start;margin-bottom:12px}
+#one-hh .hh-check svg{width:22px;height:22px;flex:0 0 22px;margin-top:3px}
+
+#one-hh .hh-grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+#one-hh .hh-card{background:#fff;border:1px solid var(--hh-line);border-radius:14px;padding:26px}
+#one-hh .hh-card svg{width:36px;height:36px;margin-bottom:12px}
+#one-hh .hh-card h4{margin-bottom:8px}
+#one-hh .hh-card p{margin:0;color:var(--hh-mute);font-size:.98rem}
+
+#one-hh .hh-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;margin-top:8px}
+#one-hh .hh-step{position:relative;padding:26px 24px 24px;background:#fff;border-radius:14px;border:1px solid var(--hh-line)}
+#one-hh .hh-num{display:inline-flex;width:44px;height:44px;border-radius:50%;background:var(--hh-blue);color:#fff;font-weight:800;align-items:center;justify-content:center;margin-bottom:12px;font-size:1.1rem}
+#one-hh .hh-proc{margin-top:36px;border-radius:14px;overflow:hidden;box-shadow:0 14px 36px rgba(12,34,48,.16)}
+#one-hh .hh-proc img{width:100%;height:auto;display:block}
+
+#one-hh .hh-vs{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+#one-hh .hh-col{border-radius:14px;padding:28px;border:1px solid var(--hh-line);background:#fff}
+#one-hh .hh-col.hh-us{border:2px solid var(--hh-blue);box-shadow:0 12px 30px rgba(6,147,200,.14)}
+#one-hh .hh-col h3{margin-bottom:14px}
+#one-hh .hh-col ul{list-style:none;margin:0;padding:0}
+#one-hh .hh-col li{display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-top:1px solid var(--hh-line)}
+#one-hh .hh-col li:first-child{border-top:0}
+#one-hh .hh-col svg{width:20px;height:20px;flex:0 0 20px;margin-top:3px}
+#one-hh .hh-col.hh-them svg{stroke:#9aa7b0}
+
+#one-hh .hh-story{background:var(--hh-navy);color:#dfeef5}
+#one-hh .hh-story h2,#one-hh .hh-story h3{color:#fff}
+#one-hh .hh-story .hh-eyebrow{color:var(--hh-cyan)}
+#one-hh .hh-story p{max-width:780px}
+#one-hh .hh-story a{color:var(--hh-cyan)}
+#one-hh .hh-res{margin-top:22px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+#one-hh .hh-res div{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:20px}
+#one-hh .hh-res h4{color:#fff;margin-bottom:6px}
+#one-hh .hh-res p{margin:0;font-size:.95rem}
+
+#one-hh .hh-faq details{border:1px solid var(--hh-line);border-radius:12px;background:#fff;margin-bottom:12px;padding:0 22px}
+#one-hh .hh-faq summary{cursor:pointer;font-weight:800;color:var(--hh-navy);padding:18px 0;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center}
+#one-hh .hh-faq summary::-webkit-details-marker{display:none}
+#one-hh .hh-faq summary::after{content:"+";font-size:1.5rem;color:var(--hh-blue);flex:0 0 auto;line-height:1}
+#one-hh .hh-faq details[open] summary::after{content:"\2212"}
+#one-hh .hh-faq details p{padding:0 0 18px;margin:0;color:#2e3d48}
+
+#one-hh .hh-links{border-top:1px solid var(--hh-line)}
+#one-hh .hh-links ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:10px 28px}
+#one-hh .hh-links li{padding:8px 0}
+#one-hh .hh-links a{font-weight:700;text-decoration:none}
+#one-hh .hh-links a:hover{text-decoration:underline}
+
+#one-hh .hh-cta{background:linear-gradient(135deg,var(--hh-blue) 0%,var(--hh-cyan) 100%);color:#fff;text-align:center;padding:72px 0}
+#one-hh .hh-cta h2{color:#fff}
+#one-hh .hh-cta p{max-width:620px;margin:0 auto 26px;font-size:1.1rem}
+#one-hh .hh-cta .hh-ctas{justify-content:center}
+#one-hh .hh-cta .hh-btn-p{background:var(--hh-navy)}
+
+#one-hh #get-offer{scroll-margin-top:90px;padding:56px 0 8px;text-align:center}
+#one-hh #get-offer p{max-width:620px;margin:0 auto 10px}
+#one-hh .hh-disc{font-size:.85rem;color:var(--hh-mute);border-top:1px solid var(--hh-line);padding:22px 0 8px;max-width:900px}
+
+#one-hh.hh-js .hh-rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+#one-hh.hh-js .hh-rv.hh-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){#one-hh .hh-slide.hh-on{animation:none}#one-hh.hh-js .hh-rv{opacity:1;transform:none;transition:none}}
+@media (max-width:860px){#one-hh .hh-two,#one-hh .hh-vs{grid-template-columns:1fr}#one-hh .hh-band{padding:48px 0}#one-hh .hh-hero{min-height:520px}#one-hh .hh-hero-in{padding:72px 20px}}
+</style>
+
+<div id="one-hh">
+
+<section class="hh-hero hh-bleed" aria-label="Sell a hoarder house in Rhode Island">
+  <div class="hh-slides">
+    <div class="hh-slide hh-on" role="img" aria-label="Aging clapboard house in Rhode Island with an overgrown yard, the kind of hoarder property Offer New England buys as-is" style="background-image:url('https://cdn.carrot.com/uploads/sites/81893/2026/08/Hero-1.webp')"></div>
+    <div class="hh-slide" role="img" aria-label="Front porch of an older Rhode Island home with boxes and belongings piled outside" style="background-image:url('https://cdn.carrot.com/uploads/sites/81893/2026/08/Hero-2.webp')"></div>
+  </div>
+  <div class="hh-scrim"></div>
+  <div class="hh-hero-in">
+    <span class="hh-eyebrow">Rhode Island cash home buyers</span>
+    <h2>Sell a Hoarder House in Rhode Island Without Cleaning It Out</h2>
+    <p>We buy hoarder and heavily cluttered homes across Rhode Island exactly as they sit. No clean-out, no repairs, no judgment. A fair written cash offer in 24 hours and a closing date you choose.</p>
+    <div class="hh-ctas">
+      <a class="hh-btn hh-btn-p" href="#get-offer">GET MY CASH OFFER</a>
+      <a class="hh-btn hh-btn-s" href="tel:+14012674066">Call (401) 267-4066</a>
+    </div>
+  </div>
+  <div class="hh-dots" aria-hidden="true"><button class="hh-dot hh-on" type="button" data-hh-slide="0"></button><button class="hh-dot" type="button" data-hh-slide="1"></button></div>
+</section>
+
+<section class="hh-trust hh-bleed">
+  <div class="hh-wrap">
+    <ul>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" /></svg>Sell As-Is</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l7-7M9 6l9 9-3 3-9-9zM14 3l7 7" /></svg>No Clean-Out</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M17 6.5c-1-1.5-3-2-5-2s-4 1-4 3 2 3 4.5 3.5S17 12 17 14.5s-2.5 3-5 3-4.5-.8-5.5-2.5" /></svg>No Commissions</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg>No-Obligation Offer</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10h18M8 3v4M16 3v4" /></svg>Flexible Closing</li>
+    </ul>
+  </div>
+</section>
+
+<section class="hh-band">
+  <div class="hh-wrap">
+    <div class="hh-aeo hh-rv">
+      <p><strong>Can you sell a hoarder house in Rhode Island as-is?</strong> Yes. Offer New England buys hoarder and severely cluttered homes anywhere in Rhode Island for cash. You do not need to clean out the property, make repairs, pass an inspection, or pay commissions. Take what you want to keep, leave the rest, and we handle removal after closing. Most sellers receive a written offer within 24 hours and can close in as little as 14 days.</p>
+    </div>
+  </div>
+</section>
+
+<section class="hh-band hh-tint hh-bleed">
+  <div class="hh-wrap">
+    <div class="hh-two">
+      <div class="hh-rv">
+        <span class="hh-eyebrow">The problem with a traditional sale</span>
+        <h2>A hoarder house is almost impossible to list the normal way</h2>
+        <p>Real estate agents will ask you to empty the house, deep-clean it, repair what the clutter has hidden, stage it, and then open it to showings and a buyer&#8217;s inspection. For a home that has been accumulating for years or decades, that is months of work and thousands of dollars before a single buyer walks through. Many families in Rhode Island simply cannot do it, especially when the house belonged to a parent who has passed away or moved into care.</p>
+        <p>We skip every one of those steps. We walk the property once, make a written offer based on what it is worth to us as-is, and you decide.</p>
+        <ul class="hh-check">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span><strong>Leave the contents.</strong> Furniture, papers, boxes, whatever is there. We clear it after closing.</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span><strong>No inspection to pass.</strong> Water damage, pests, odor, and structural surprises are priced in, not deal-breakers.</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span><strong>No showings, no strangers.</strong> One walkthrough with our team, at a time you choose.</span></li>
+        </ul>
+      </div>
+      <div class="hh-rv">
+        <img decoding="async" src="https://cdn.carrot.com/uploads/sites/81893/2026/08/Inline-situation-band.webp" alt="Cluttered living room inside a Rhode Island hoarder house showing why sellers choose an as-is cash sale" width="1200" height="800" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hh-band">
+  <div class="hh-wrap">
+    <span class="hh-eyebrow">Who we help</span>
+    <h2>Common hoarder-house situations in Rhode Island</h2>
+    <p class="hh-lede">Every one of these is a house we have bought or can buy. If yours is not on the list, call us anyway.</p>
+    <div class="hh-grid3">
+      <div class="hh-card hh-rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8M5 10v10h14V10" /><path d="M9 20v-6h6v6" /></svg>
+        <h4>An inherited house full of a parent&#8217;s belongings</h4>
+        <p>The most common call we get. Siblings living out of state, an estate to settle, and a house nobody has the time or heart to empty. We buy before, during, or after probate. See our <a href="https://offernewengland.com/selling-an-inherited-house-in-rhode-island-probate-timeline-options/">Rhode Island inherited-house guide</a>.</p>
+      </div>
+      <div class="hh-card hh-rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7" /></svg>
+        <h4>A parent or relative moving into assisted living</h4>
+        <p>The house has to be sold to fund care, but the clean-out would take months. We close on your timeline and you keep control of what leaves the house first.</p>
+      </div>
+      <div class="hh-card hh-rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9h18M8 4v5M16 4v5" /></svg>
+        <h4>A rental unit left in hoarding condition</h4>
+        <p>A tenant moved out and left a triple-decker unit or single-family in rough shape. Rather than fund the turnover, many Rhode Island landlords sell the whole building to us as-is.</p>
+      </div>
+      <div class="hh-card hh-rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9 16H3z" /><path d="M12 10v4M12 17h.01" /></svg>
+        <h4>A minimum-housing or code violation notice</h4>
+        <p>Cities like Providence, Pawtucket, and Woonsocket enforce housing codes actively. If you have received a notice and cannot bring the property into compliance, an as-is sale can resolve it without fines piling up.</p>
+      </div>
+      <div class="hh-card hh-rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22c4-4 7-7.5 7-12a7 7 0 0 0-14 0c0 4.5 3 8 7 12z" /></svg>
+        <h4>Living in it and ready for a fresh start</h4>
+        <p>Some sellers still live in the home and want to move without anyone going through their things. We respect that completely. One private walkthrough, a written offer, and you choose the moving date.</p>
+      </div>
+      <div class="hh-card hh-rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20" /></svg>
+        <h4>Out-of-state owner who cannot manage it remotely</h4>
+        <p>We can walk the house, send you a video, make the offer, and close with you signing remotely. You do not need to fly in to empty a house in Rhode Island.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hh-band hh-tint hh-bleed">
+  <div class="hh-wrap">
+    <span class="hh-eyebrow">Your two real options</span>
+    <h2>Clean out and list, or sell as-is for cash</h2>
+    <div class="hh-vs">
+      <div class="hh-col hh-them hh-rv">
+        <h3>Clean out and list with an agent</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Pay for a professional clean-out crew and dumpsters, often several thousand dollars before repairs</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Repair everything the clutter was hiding: floors, plumbing, pests, moisture, odor</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Weeks or months of work before the house can be photographed</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Showings, a buyer&#8217;s inspection, and a lender who may balk at the condition</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Roughly 5–6% in commissions plus closing costs at the end</span></li>
+        </ul>
+      </div>
+      <div class="hh-col hh-us hh-rv">
+        <h3>Sell as-is to Offer New England</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>Leave everything you do not want. We handle removal after closing</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>No repairs, no cleaning, no inspection contingency</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>Written cash offer within 24 hours of our walkthrough</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>One private visit, no showings, no financing fall-through</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>No commissions. Close in as little as 14 days, or later if you need time</span></li>
+        </ul>
+        <p style="margin:18px 0 0"><a class="hh-btn hh-btn-p" href="#get-offer">GET MY CASH OFFER</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hh-band">
+  <div class="hh-wrap">
+    <span class="hh-eyebrow">How it works</span>
+    <h2>Three steps from cluttered house to closed sale</h2>
+    <div class="hh-steps">
+      <div class="hh-step hh-rv"><span class="hh-num">1</span><h4>Tell us about the house</h4><p>Fill out the short form below or call <a href="tel:+14012674066">(401) 267-4066</a>. Tell us honestly what condition it is in. Nothing you say will surprise us.</p></div>
+      <div class="hh-step hh-rv"><span class="hh-num">2</span><h4>One private walkthrough</h4><p>We visit once, at a time that works for you, and look past the clutter at the structure, the systems, and the location. You get a written cash offer within 24 hours.</p></div>
+      <div class="hh-step hh-rv"><span class="hh-num">3</span><h4>Pick your closing date</h4><p>Accept the offer, choose a date, and take what you want to keep. We close at a local title company and clear the rest of the house after you are paid.</p></div>
+    </div>
+    <div class="hh-proc hh-rv">
+      <img decoding="async" src="https://cdn.carrot.com/uploads/sites/81893/2026/08/PROCESS.webp" alt="Offer New England team walking a homeowner through the cash offer process for a Rhode Island house" width="1536" height="1024" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="hh-band hh-story hh-bleed">
+  <div class="hh-wrap">
+    <span class="hh-eyebrow">Rhode Island specifics</span>
+    <h2>What to know before selling a hoarder house in Rhode Island</h2>
+    <p>Hoarding disorder is a recognized mental-health condition, not a character flaw, and the state treats it that way. The <a href="https://rihoardingtf.ri.gov/" target="_blank" rel="noopener">Rhode Island Hoarding Disorder Task Force</a>, convened through the Rhode Island Elder Mental Health and Addiction Coalition, publishes a statewide directory of clean-out services, professional organizers, case managers, and clinical support. If the person who lives in the house is still with you, that directory is a good first call, and selling does not have to be the first step.</p>
+    <p>When selling is the right step, a few Rhode Island details matter:</p>
+    <div class="hh-res">
+      <div class="hh-rv"><h4>Municipal housing codes</h4><p>Rhode Island cities enforce minimum housing standards locally. A cluttered property can draw a notice for egress, sanitation, or fire-load concerns. An as-is sale to a cash buyer is often the fastest way to resolve an open notice without funding the remediation yourself.</p></div>
+      <div class="hh-rv"><h4>Seller disclosure still applies</h4><p>Rhode Island requires a written property condition disclosure on most residential sales, even as-is. We do not ask you to hide anything; our offer already assumes the worst, so honest disclosure costs you nothing.</p></div>
+      <div class="hh-rv"><h4>Probate and estate sales</h4><p>If the house belongs to an estate, the executor or administrator needs authority from the probate court before closing. We can sign an agreement early and close once that authority is in place, which keeps the timeline moving.</p></div>
+      <div class="hh-rv"><h4>Older housing stock</h4><p>Much of Rhode Island&#8217;s housing was built before 1978. Long-term clutter in these homes often hides lead paint, knob-and-tube wiring, or moisture damage. We price for it, so you do not have to test for it.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="hh-band hh-faq">
+  <div class="hh-wrap">
+    <span class="hh-eyebrow">Questions we hear most</span>
+    <h2>Hoarder house FAQ for Rhode Island sellers</h2>
+    <details><summary>Do I have to clean out the house before selling it to you?</summary><p>No. You can leave everything behind, including furniture, papers, appliances, and personal items you do not want. Take whatever matters to you, and we handle removal after closing. Sellers often ask if they should at least tidy up for the walkthrough; you do not need to. We have seen every level of clutter and it does not change how we treat you.</p></details>
+    <details><summary>How do you decide what to offer on a hoarder house?</summary><p>We look at what the house would be worth after it is cleared and repaired, then subtract the realistic cost of the clean-out, the repairs the clutter is likely hiding, and our holding costs. The number is written down, explained line by line, and there is no obligation to accept it. We would rather lose a deal than surprise you at closing.</p></details>
+    <details><summary>Can I sell a hoarder house I inherited if probate is not finished?</summary><p>Usually, yes. In Rhode Island the executor or administrator needs authority from the probate court to transfer the property, but we can sign a purchase agreement while that is pending and close once the court paperwork is in place. If you are unsure where the estate stands, we can talk through it with you and your attorney at no cost.</p></details>
+    <details><summary>What if the city has sent a minimum housing or code violation notice?</summary><p>Tell us, and send us a copy. An open notice does not stop us from buying. We will factor the required work into our offer and coordinate with the city after closing so the fines stop accruing against you. Many sellers come to us precisely because a notice arrived and they could not afford to comply.</p></details>
+    <details><summary>Will you buy a house with pest, mold, odor, or animal damage?</summary><p>Yes. Rodents, insects, mold, pet damage, and strong odors are common in hoarding situations and are all things we budget for. They affect the offer amount, not whether we make one. You do not need to remediate, test, or disclose anything you are unaware of; you only need to be honest about what you do know.</p></details>
+    <details><summary>Can we keep family photos or belongings we have not found yet?</summary><p>Of course. Before closing, you and your family can take as much time as you need to go through the house. If you find things after closing, call us; we do not clear a property the same day we buy it, and we will make a reasonable effort to set aside personal items like photographs, documents, and heirlooms.</p></details>
+    <details><summary>How fast can you close on a hoarder house in Rhode Island?</summary><p>As fast as 14 days once you accept, because we pay cash and do not need a lender&#8217;s approval or an appraisal. If you need longer to sort belongings, coordinate with siblings, or wait for probate authority, we set the closing date around you. The timeline is yours, not ours.</p></details>
+    <details><summary>Do I still have to fill out Rhode Island&#8217;s seller disclosure form?</summary><p>In most residential sales, yes. Rhode Island requires sellers to complete a written property condition disclosure even when the home is sold as-is. It only asks about what you actually know. Because our offer already assumes significant issues, disclosing them does not lower it, and it protects you from claims later.</p></details>
+  </div>
+</section>
+
+<section class="hh-band hh-links hh-tint hh-bleed">
+  <div class="hh-wrap">
+    <h3>More ways we help Rhode Island homeowners</h3>
+    <ul>
+      <li><a href="https://offernewengland.com/we-buy-houses-in-rhode-island/">We Buy Houses in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/selling-an-inherited-house-in-rhode-island-probate-timeline-options/">Selling an Inherited House in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/how-to-sell-a-house-as-is-in-rhode-island-what-you-can-skip-fixing/">How to Sell a House As-Is in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/selling-a-fire-damaged-house-in-rhode-island/">Selling a Fire-Damaged House in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/companies-that-buy-houses-in-rhode-island-honest-comparison/">Companies That Buy Houses in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/blog/how-to-sell-a-house-in-rhode-island-without-a-realtor/">Sell a House Without a Realtor in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/sell-my-house-fast-in-providence-ri/">Sell My House Fast in Providence, RI</a></li>
+      <li><a href="https://offernewengland.com/sell-my-house-fast-cranston-ri/">Sell My House Fast in Cranston, RI</a></li>
+      <li><a href="https://offernewengland.com/sell-your-house-fast-pawtucket-ri/">Sell Your House Fast in Pawtucket, RI</a></li>
+      <li><a href="https://offernewengland.com/how-we-buy-houses/">How We Buy Houses</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="hh-cta hh-bleed">
+  <div class="hh-wrap">
+    <h2>Ready to be done with the house?</h2>
+    <p>Get a no-obligation cash offer for your hoarder house anywhere in Rhode Island. No clean-out, no repairs, no commissions, and no judgment.</p>
+    <div class="hh-ctas">
+      <a class="hh-btn hh-btn-p" href="#get-offer">GET MY CASH OFFER</a>
+      <a class="hh-btn hh-btn-s" href="tel:+14012674066">Call (401) 267-4066</a>
+    </div>
+  </div>
+</section>
+
+<section id="get-offer">
+  <div class="hh-wrap">
+    <span class="hh-eyebrow">Get your offer</span>
+    <h2>Tell us about your Rhode Island property</h2>
+    <p>Fill out the form below and a member of our team will call you within 24 hours with a fair cash offer. Prefer to talk now? Call <a href="tel:+14012674066">(401) 267-4066</a>.</p>
+  </div>
+</section>
+
+<div class="hh-wrap">
+  <p class="hh-disc">This page is general information for Rhode Island homeowners and is not legal, tax, or mental-health advice. Probate, municipal code, and disclosure requirements vary by city and by estate; consult a Rhode Island attorney for your situation. Offer New England is a local cash home buyer, not a law firm.</p>
+</div>
+
+</div>
+
+
+<!-- CARROT FORM REMOVED: add your WordPress form here -->
+

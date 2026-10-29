@@ -1,0 +1,7 @@
+﻿page,canonical,problem,canonical_target_status,what_to_do
+https://offernewengland.com/sell-my-house-fast-in-providence-ri/,https://offernewengland.com/sell-my-house-fast-providence-ri/,points to a DIFFERENT URL,404,Set the canonical to the page's own URL (unless this page is meant to be a duplicate)
+https://offernewengland.com/we-buy-houses-in-taunton-ma-cash-home-buyers/,https://offernewengland.com/we-buy-houses-taunton-ma/,points to a DIFFERENT URL,404,Set the canonical to the page's own URL (unless this page is meant to be a duplicate)
+https://offernewengland.com/home-2-2-2/,https://offernewengland.com/,points to the HOMEPAGE,200,Set the canonical to the page's own URL (unless this page is meant to be a duplicate)
+https://offernewengland.com/sell-my-house-fast-bristol-ri/,https://offernewengland.com/sell-my-house-fast-Bristol-ri/,different capitalisation,200,Set the canonical to the page's own URL (unless this page is meant to be a duplicate)
+https://offernewengland.com/sell-my-house-fast-woonsocket-ri/,https://offernewengland.com/sell-my-house-fast-Woonsocket-ri/,different capitalisation,200,Set the canonical to the page's own URL (unless this page is meant to be a duplicate)
+https://offernewengland.com/sell-my-house-fast-north-kingstown-ri/,https://offernewengland.com/,points to the HOMEPAGE,200,Set the canonical to the page's own URL (unless this page is meant to be a duplicate)

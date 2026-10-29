@@ -1,0 +1,170 @@
+[
+  {
+    "id": 23,
+    "description": "",
+    "name": "Footer Navigation",
+    "slug": "footer-navigation",
+    "meta": [],
+    "acf": [],
+    "locations": [
+      "footer-menu"
+    ],
+    "auto_add": false,
+    "_links": {
+      "self": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/menus/23",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/menus"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/taxonomies/nav_menu"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/menu-items?menus=23"
+        }
+      ],
+      "wp:menu-location": [
+        {
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/menu-locations/footer-menu"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "description": "",
+    "name": "Header Navigation",
+    "slug": "header-navigation",
+    "meta": [],
+    "acf": [],
+    "locations": [
+      "top-menu"
+    ],
+    "auto_add": false,
+    "_links": {
+      "self": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/menus/22",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/menus"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/taxonomies/nav_menu"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/menu-items?menus=22"
+        }
+      ],
+      "wp:menu-location": [
+        {
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/menu-locations/top-menu"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 21,
+    "description": "",
+    "name": "Main Navigation",
+    "slug": "main-navigation",
+    "meta": [],
+    "acf": [],
+    "locations": [
+      "primary-menu"
+    ],
+    "auto_add": false,
+    "_links": {
+      "self": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/menus/21",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/menus"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/taxonomies/nav_menu"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/menu-items?menus=21"
+        }
+      ],
+      "wp:menu-location": [
+        {
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/menu-locations/primary-menu"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

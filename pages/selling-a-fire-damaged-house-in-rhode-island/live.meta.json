@@ -1,0 +1,24 @@
+{
+  "status": 200,
+  "url": "https://offernewengland.com/selling-a-fire-damaged-house-in-rhode-island/",
+  "headers": {
+    "Access-Control-Allow-Headers": "Origin, Content-Type, Accept, Authorization",
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS, PUT, DELETE",
+    "Access-Control-Allow-Origin": "",
+    "Cache": "MISS",
+    "Content-Encoding": "gzip",
+    "Content-Length": "90667",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Date": "Thu, 29 Oct 2026 12:37:30 GMT",
+    "Link": "<https://offernewengland.com/wp-json/>; rel=\"https://api.w.org/\", <https://offernewengland.com/wp-json/wp/v2/pages/4308>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://offernewengland.com/?p=4308>; rel=shortlink",
+    "Server": "Carrot",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+    "Vary": "Accept-Encoding, Accept-Encoding",
+    "X-Content-Type-Options": "nosniff",
+    "X-Ua-Compatible": "IE=Edge",
+    "X-Xss-Protection": "1; mode=block"
+  },
+  "history": [],
+  "encoding": "UTF-8",
+  "elapsed_ms": 646
+}

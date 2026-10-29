@@ -1,0 +1,596 @@
+{
+  "url": "https://offernewengland.com/blog/author/loouaay/",
+  "title": "Author: loouaay | Offer New England",
+  "meta_description": "",
+  "meta_keywords": "",
+  "robots": "",
+  "googlebot": "",
+  "canonical": "https://offernewengland.com/blog/author/loouaay/",
+  "lang": "en-US",
+  "viewport": "width=device-width, initial-scale=1",
+  "author": "",
+  "open_graph": {
+    "og:image": "https://image-cdn.carrot.com/uploads/sites/81893/2025/04/cropped-Web-2.png",
+    "og:image:width": "512",
+    "og:image:height": "512",
+    "og:image:alt": "Offer New England",
+    "og:locale": "en_US",
+    "og:type": "profile",
+    "og:title": "Author: loouaay | Offer New England",
+    "og:url": "https://offernewengland.com/blog/author/loouaay/",
+    "og:site_name": "Offer New England"
+  },
+  "twitter": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Author: loouaay | Offer New England",
+    "twitter:image": "https://image-cdn.carrot.com/uploads/sites/81893/2025/04/cropped-Web-2.png",
+    "twitter:image:alt": "Offer New England"
+  },
+  "hreflang": [],
+  "feeds": [],
+  "icons": [
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTgwLCJoZWlnaHQiOjE4MH0sInRvRm9ybWF0IjoicG5nIn19",
+      "sizes": "180x180"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYsImhlaWdodCI6MTZ9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "16x16"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIsImhlaWdodCI6MzJ9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "32x32"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NDgsImhlaWdodCI6NDh9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "48x48"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6OTYsImhlaWdodCI6OTZ9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "96x96"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTkyLCJoZWlnaHQiOjE5Mn0sInRvRm9ybWF0IjoicG5nIn19",
+      "sizes": "192x192"
+    }
+  ],
+  "verification": {
+    "google-site-verification": "PvxfVi5OzEJRsZDvF9aFTfLwncBpTqils89D8C4PwRk"
+  },
+  "tracking": {
+    "Google Tag Manager": [
+      "GTM-WWPZRDH"
+    ]
+  },
+  "schema_types": [
+    "WebSite"
+  ],
+  "json_ld": [
+    "{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"url\": \"https://offernewengland.com/\", \"name\": \"Offer New England \"}"
+  ],
+  "headings": [
+    [
+      "h1",
+      "Author: loouaay"
+    ],
+    [
+      "h2",
+      "How to Sell a House with Foundation Problems in Warwick, RI"
+    ],
+    [
+      "h2",
+      "How to Sell a Rental Property in Cranston, RI"
+    ],
+    [
+      "h2",
+      "Sell Inherited House in Providence RI | Probate Home Buyers"
+    ],
+    [
+      "h2",
+      "Sell House with Code Violations in Warwick RI | Cash Home Buyers"
+    ],
+    [
+      "h2",
+      "Sell Fire-Damaged House in Providence RI | Cash Offers for As-Is Homes"
+    ],
+    [
+      "h2",
+      "Lost Your Job? Sell Your House Fast in Rhode Island | Offer New England"
+    ],
+    [
+      "h2",
+      "Facing Foreclosure in Cranston? Sell Before It’s Too Late"
+    ],
+    [
+      "h2",
+      "Behind on Property Taxes in Rhode Island? Here’s How to Sell Fast"
+    ],
+    [
+      "h2",
+      "5 Signs It’s Time to Sell Your House As-Is in Warwick, RI"
+    ],
+    [
+      "h2",
+      "Avoid Probate Headaches: Sell Inherited Property in RI Fast"
+    ],
+    [
+      "h2",
+      "Should I Sell My House in 2025? Rhode Island Market Insights"
+    ],
+    [
+      "h2",
+      "We Buy Distressed Properties in Providence – Fast Cash Offers"
+    ],
+    [
+      "h2",
+      "How to Sell a House in Rhode Island Without a Realtor"
+    ],
+    [
+      "h2",
+      "Realtor vs Cash Buyer – Which Is Better in Rhode Island?"
+    ],
+    [
+      "h2",
+      "Top 7 Myths About Selling to Investors in Rhode Island"
+    ],
+    [
+      "h2",
+      "Posts navigation"
+    ],
+    [
+      "h3",
+      "Listing vs. Selling To Us"
+    ],
+    [
+      "h3",
+      "Get Your Fair Cash Offer: Start Below!"
+    ]
+  ],
+  "h1": [
+    "Author: loouaay"
+  ],
+  "images": [
+    {
+      "src": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNi8wMy9TQVNBLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTE1Mn0sInRvRm9ybWF0Ijoid2VicCIsIndlYnAiOnsicXVhbGl0eSI6NzB9fX0=",
+      "alt": "",
+      "title": "",
+      "width": "960",
+      "height": "360",
+      "loading": "eager"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9XZWItMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiZml0IjoiY292ZXIifSwidG9Gb3JtYXQiOiJ3ZWJwIiwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+      "alt": "Offer New England ",
+      "title": "",
+      "width": "1500",
+      "height": "673",
+      "loading": ""
+    }
+  ],
+  "images_missing_alt": 1,
+  "internal_links": [
+    {
+      "href": "https://offernewengland.com/",
+      "text": "Offer New England Need To Sell Your House Fast? We Buy Houses!",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "tel:+14012674066",
+      "text": "",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "tel:+14012674066",
+      "text": "(401) 267-4066",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Sell Your House The Easy Way",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/about-us/",
+      "text": "About us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/reviews/",
+      "text": "Reviews",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/faq/",
+      "text": "Faqs",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/how-we-buy-houses/",
+      "text": "How It Works",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "tel:+14012674066",
+      "text": "(401) 267-4066",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Get Your Cash Offer",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/contact-us/",
+      "text": "Contact Us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/how-to-sell-a-house-with-foundation-problems-in-warwick-ri/",
+      "text": "How to Sell a House with Foundation Problems in Warwick, RI",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/author/loouaay/",
+      "text": "loouaay",
+      "rel": "author",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/how-to-sell-a-house-with-foundation-problems-in-warwick-ri/",
+      "text": "Continued",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/how-to-sell-a-rental-property-in-cranston-ri/",
+      "text": "How to Sell a Rental Property in Cranston, RI",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/author/loouaay/",
+      "text": "loouaay",
+      "rel": "author",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/how-to-sell-a-rental-property-in-cranston-ri/",
+      "text": "Continued",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/sell-inherited-house-in-providence-ri-probate-home-buyers/",
+      "text": "Sell Inherited House in Providence RI | Probate Home Buyers",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/author/loouaay/",
+      "text": "loouaay",
+      "rel": "author",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/sell-inherited-house-in-providence-ri-probate-home-buyers/",
+      "text": "Continued",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/sell-house-with-code-violations-in-warwick-ri-cash-home-buyers/",
+      "text": "Sell House with Code Violations in Warwick RI | Cash Home Buyers",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/author/loouaay/",
+      "text": "loouaay",
+      "rel": "author",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/sell-house-with-code-violations-in-warwick-ri-cash-home-buyers/",
+      "text": "Continued",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/sell-fire-damaged-house-in-providence-ri-cash-offers-for-as-is-homes/",
+      "text": "Sell Fire-Damaged House in Providence RI | Cash Offers for As-Is Homes",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/author/loouaay/",
+      "text": "loouaay",
+      "rel": "author",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/sell-fire-damaged-house-in-providence-ri-cash-offers-for-as-is-homes/",
+      "text": "Continued",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/lost-your-job-sell-your-house-fast-in-rhode-island-offer-new-england/",
+      "text": "Lost Your Job? Sell Your House Fast in Rhode Island | Offer New England",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/author/loouaay/",
+      "text": "loouaay",
+      "rel": "author",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/lost-your-job-sell-your-house-fast-in-rhode-island-offer-new-england/",
+      "text": "Continued",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/facing-foreclosure-in-cranston-sell-before-its-too-late/",
+      "text": "Facing Foreclosure in Cranston? Sell Before It’s Too Late",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/author/loouaay/",
+      "text": "loouaay",
+      "rel": "author",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/facing-foreclosure-in-cranston-sell-before-its-too-late/",
+      "text": "Continued",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/behind-on-property-taxes-in-rhode-island-heres-how-to-sell-fast/",
+      "text": "Behind on Property Taxes in Rhode Island? Here’s How to Sell Fast",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/author/loouaay/",
+      "text": "loouaay",
+      "rel": "author",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/behind-on-property-taxes-in-rhode-island-heres-how-to-sell-fast/",
+      "text": "Continued",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/5-signs-its-time-to-sell-your-house-as-is-in-warwick-ri/",
+      "text": "5 Signs It’s Time to Sell Your House As-Is in Warwick, RI",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/author/loouaay/",
+      "text": "loouaay",
+      "rel": "author",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/5-signs-its-time-to-sell-your-house-as-is-in-warwick-ri/",
+      "text": "Continued",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/avoid-probate-headaches-sell-inherited-property-in-ri-fast/",
+      "text": "Avoid Probate Headaches: Sell Inherited Property in RI Fast",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/author/loouaay/",
+      "text": "loouaay",
+      "rel": "author",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/avoid-probate-headaches-sell-inherited-property-in-ri-fast/",
+      "text": "Continued",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/should-i-sell-my-house-in-2025-rhode-island-market-insights/",
+      "text": "Should I Sell My House in 2025? Rhode Island Market Insights",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/author/loouaay/",
+      "text": "loouaay",
+      "rel": "author",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/should-i-sell-my-house-in-2025-rhode-island-market-insights/",
+      "text": "Continued",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/we-buy-distressed-properties-in-providence-fast-cash-offers/",
+      "text": "We Buy Distressed Properties in Providence – Fast Cash Offers",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/author/loouaay/",
+      "text": "loouaay",
+      "rel": "author",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/we-buy-distressed-properties-in-providence-fast-cash-offers/",
+      "text": "Continued",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/how-to-sell-a-house-in-rhode-island-without-a-realtor/",
+      "text": "How to Sell a House in Rhode Island Without a Realtor",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/author/loouaay/",
+      "text": "loouaay",
+      "rel": "author",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/how-to-sell-a-house-in-rhode-island-without-a-realtor/",
+      "text": "Continued",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/realtor-vs-cash-buyer-which-is-better-in-rhode-island/",
+      "text": "Realtor vs Cash Buyer – Which Is Better in Rhode Island?",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/author/loouaay/",
+      "text": "loouaay",
+      "rel": "author",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/realtor-vs-cash-buyer-which-is-better-in-rhode-island/",
+      "text": "Continued",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/top-7-myths-about-selling-to-investors-in-rhode-island/",
+      "text": "Top 7 Myths About Selling to Investors in Rhode Island",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/author/loouaay/",
+      "text": "loouaay",
+      "rel": "author",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/top-7-myths-about-selling-to-investors-in-rhode-island/",
+      "text": "Continued",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/blog/author/loouaay/page/2/",
+      "text": "Older posts",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/how-we-buy-houses/",
+      "text": "Listing vs. Selling To Us Which route is quicker? Puts more cash in your pocket? Has less hassle? See The Difference Here",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/terms-conditions/",
+      "text": "Terms & Conditions",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/privacy",
+      "text": "Privacy Policy",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Get A Cash Offer Today",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/contact-us/",
+      "text": "Contact Us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/how-we-buy-houses/",
+      "text": "How It Works",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/about-us/",
+      "text": "About us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/resource-page/",
+      "text": "Resources",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/privacy/",
+      "text": "Privacy Policy",
+      "rel": "",
+      "target": ""
+    }
+  ],
+  "external_links": [
+    {
+      "href": "https://maps.app.goo.gl/Yf2VLZLaGYgDVTDD6",
+      "text": "Google Business",
+      "rel": "noopener",
+      "target": "_blank"
+    },
+    {
+      "href": "https://maps.app.goo.gl/Yf2VLZLaGYgDVTDD6",
+      "text": "Google Business",
+      "rel": "noopener",
+      "target": "_blank"
+    },
+    {
+      "href": "https://carrot.com/?utm_source=member&utm_medium=footer&utm_content=offercomseller&utm_campaign=carrot-03&utm_term=seller",
+      "text": "Carrot",
+      "rel": "nofollow noreferrer",
+      "target": "_blank"
+    }
+  ],
+  "word_count_page": 1472
+}

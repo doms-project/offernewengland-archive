@@ -1,0 +1,307 @@
+<!-- wp:html -->
+<style>
+#one-cg{--cg-blue:#0693C8;--cg-cyan:#03D4F4;--cg-navy:#0c2230;--cg-tint:#f4fbfe;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  color:var(--cg-navy);line-height:1.65;
+  margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);box-sizing:border-box}
+#one-cg *{box-sizing:border-box}
+#one-cg .cg-band{padding:66px 0}
+#one-cg .cg-inner{max-width:1000px;margin:0 auto;padding:0 24px}
+#one-cg .cg-white{background:#fff}
+#one-cg .cg-tint{background:var(--cg-tint)}
+#one-cg .cg-eyebrow{text-transform:uppercase;letter-spacing:3px;font-size:.82rem;font-weight:700;color:var(--cg-blue);text-align:center;margin:0 0 10px}
+#one-cg h2{font-size:2rem;line-height:1.22;font-weight:800;color:var(--cg-navy);text-align:center;margin:0 0 18px;letter-spacing:.2px}
+#one-cg .cg-sub{text-align:center;max-width:720px;margin:0 auto 6px;font-size:1.06rem;color:#3a4c58}
+#one-cg h3{color:var(--cg-navy);font-size:1.12rem;font-weight:700;margin:0 0 6px}
+#one-cg p{margin:0 0 16px}
+
+/* ---------- HERO SLIDESHOW ---------- */
+#one-cg .cg-hero{position:relative;overflow:hidden;min-height:560px;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff}
+#one-cg .cg-slides{position:absolute;inset:0;z-index:0}
+#one-cg .cg-slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transform:scale(1.06);transition:opacity 1.4s ease}
+#one-cg .cg-slide.is-active{opacity:1;animation:cgKen 9s ease-out forwards}
+@keyframes cgKen{from{transform:scale(1.06)}to{transform:scale(1.16)}}
+#one-cg .cg-scrim{position:absolute;inset:0;z-index:1;background:linear-gradient(rgba(8,18,26,.58),rgba(8,18,26,.70))}
+#one-cg .cg-hero-content{position:relative;z-index:2;padding:96px 24px;max-width:860px;margin:0 auto}
+#one-cg .cg-hero .cg-eyebrow{color:var(--cg-cyan)}
+#one-cg .cg-hero h1{font-size:2.5rem;line-height:1.15;font-weight:800;color:#fff;margin:0 auto 18px;max-width:800px;letter-spacing:.2px}
+#one-cg .cg-hero p{font-size:1.16rem;max-width:660px;margin:0 auto 28px;color:#eaf7fd}
+#one-cg .cg-btns{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+#one-cg .cg-btn{display:inline-flex;align-items:center;gap:9px;text-decoration:none;font-weight:800;padding:15px 32px;border-radius:44px;font-size:1.05rem;letter-spacing:.2px;cursor:pointer;border:0;transition:transform .18s ease,box-shadow .18s ease,background .18s ease}
+#one-cg .cg-btn svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+#one-cg .cg-btn-primary{background:var(--cg-cyan);color:var(--cg-navy);box-shadow:0 8px 22px rgba(3,212,244,.34)}
+#one-cg .cg-btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(3,212,244,.44)}
+#one-cg .cg-btn-outline{background:rgba(255,255,255,.10);color:#fff;border:1px solid rgba(255,255,255,.6)}
+#one-cg .cg-btn-outline:hover{background:rgba(255,255,255,.2)}
+#one-cg .cg-dots{position:absolute;z-index:2;bottom:22px;left:0;right:0;display:flex;gap:9px;justify-content:center}
+#one-cg .cg-dots button{width:10px;height:10px;border-radius:50%;border:0;background:rgba(255,255,255,.45);cursor:pointer;padding:0;transition:background .2s,transform .2s}
+#one-cg .cg-dots button.is-active{background:var(--cg-cyan);transform:scale(1.25)}
+
+/* ---------- TRUST STRIP ---------- */
+#one-cg .cg-trust{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#dce6ec;border:1px solid #dce6ec;border-radius:16px;overflow:hidden;max-width:900px;margin:0 auto}
+#one-cg .cg-trust div{background:#fff;padding:22px 12px;text-align:center}
+#one-cg .cg-trust strong{display:block;font-size:1.5rem;color:var(--cg-navy);font-weight:800;line-height:1.1}
+#one-cg .cg-trust span{font-size:.72rem;color:#566472;text-transform:uppercase;letter-spacing:.06em}
+
+/* ---------- ANSWER-FIRST BOX ---------- */
+#one-cg .cg-answer{background:var(--cg-tint);border-left:5px solid var(--cg-cyan);border-radius:0 14px 14px 0;padding:24px 28px;max-width:860px;margin:0 auto 26px}
+#one-cg .cg-answer .q{font-weight:800;color:var(--cg-navy);font-size:1.16rem;margin:0 0 8px}
+#one-cg .cg-answer p:last-child{margin:0}
+#one-cg .cg-lead{max-width:820px;margin:0 auto;font-size:1.06rem;color:#33454f}
+
+/* ---------- ICON FEATURE CARDS ---------- */
+#one-cg .cg-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin:34px 0 0}
+#one-cg .cg-card{background:#fff;border:1px solid #d5eefa;border-radius:16px;padding:26px;box-shadow:0 6px 22px rgba(6,147,200,.06)}
+#one-cg .cg-ic{width:48px;height:48px;border-radius:12px;background:var(--cg-tint);display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+#one-cg .cg-ic svg{width:24px;height:24px;stroke:var(--cg-blue);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+#one-cg .cg-card p{margin:0;color:#566472;font-size:.97rem}
+
+/* ---------- CHECK LIST ---------- */
+#one-cg ul.cg-check{list-style:none;padding:0;margin:30px auto 0;max-width:840px}
+#one-cg ul.cg-check li{padding:13px 0 13px 36px;position:relative;border-bottom:1px solid #e4eef3;font-size:1.03rem}
+#one-cg ul.cg-check li svg{position:absolute;left:0;top:14px;width:22px;height:22px;stroke:var(--cg-blue);fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+#one-cg ul.cg-check li b{color:var(--cg-navy)}
+
+/* ---------- WORKED EXAMPLE ---------- */
+#one-cg .cg-example{max-width:720px;margin:34px auto 0;background:#fff;border:1px solid #d5eefa;border-radius:16px;overflow:hidden;box-shadow:0 6px 22px rgba(6,147,200,.06)}
+#one-cg .cg-example .cg-ex-head{background:var(--cg-navy);color:#fff;padding:16px 24px;font-weight:800;font-size:1.05rem}
+#one-cg .cg-example .cg-row{display:flex;justify-content:space-between;gap:16px;padding:14px 24px;border-bottom:1px solid #eef3f6;font-size:1rem}
+#one-cg .cg-example .cg-row span:first-child{color:#3a4c58}
+#one-cg .cg-example .cg-row span:last-child{font-weight:700;color:var(--cg-navy);white-space:nowrap}
+#one-cg .cg-example .cg-row.cg-total{background:var(--cg-tint);font-size:1.08rem}
+#one-cg .cg-example .cg-row.cg-total span{color:var(--cg-blue);font-weight:800}
+#one-cg .cg-example .cg-ex-note{padding:14px 24px;font-size:.86rem;color:#66757f;margin:0}
+
+/* ---------- STEPS ---------- */
+#one-cg .cg-steps{display:flex;flex-wrap:wrap;gap:20px;margin:34px 0 0;justify-content:center}
+#one-cg .cg-step{flex:1 1 210px;background:#fff;border:1px solid #d5eefa;border-radius:16px;padding:26px;box-shadow:0 6px 22px rgba(6,147,200,.06)}
+#one-cg .cg-num{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--cg-blue);color:#fff;font-weight:800;font-size:1.1rem;margin-bottom:14px}
+#one-cg .cg-step p{margin:0;color:#566472;font-size:.96rem}
+
+/* ---------- NAVY STORY BAND ---------- */
+#one-cg .cg-navy{background:var(--cg-navy);color:#eaf7fd}
+#one-cg .cg-navy h2{color:#fff}
+#one-cg .cg-navy p{color:#cfe6f2;max-width:820px;margin:0 auto;text-align:center;font-size:1.06rem}
+
+/* ---------- DISCLAIMER ---------- */
+#one-cg .cg-disc{max-width:860px;margin:34px auto 0;background:#fff;border:1px dashed #c4d7e2;border-radius:14px;padding:20px 24px;display:flex;gap:14px;align-items:flex-start}
+#one-cg .cg-disc svg{width:22px;height:22px;stroke:var(--cg-blue);fill:none;stroke-width:2;flex:0 0 auto;margin-top:2px}
+#one-cg .cg-disc p{margin:0;font-size:.9rem;color:#54646f;line-height:1.6}
+
+/* ---------- FAQ ---------- */
+#one-cg .cg-faq{max-width:840px;margin:26px auto 0}
+#one-cg .cg-faq details{border-bottom:1px solid #e4eef3;padding:6px 0}
+#one-cg .cg-faq summary{cursor:pointer;list-style:none;padding:16px 40px 16px 4px;font-weight:700;color:var(--cg-navy);font-size:1.08rem;position:relative}
+#one-cg .cg-faq summary::-webkit-details-marker{display:none}
+#one-cg .cg-faq summary:after{content:"+";position:absolute;right:8px;top:50%;transform:translateY(-50%);font-size:1.5rem;color:var(--cg-blue);font-weight:400}
+#one-cg .cg-faq details[open] summary:after{content:"\2013"}
+#one-cg .cg-faq details p{color:#33454f;padding:0 4px 18px;margin:0;font-size:1.01rem}
+
+/* ---------- CTA + ANCHOR ---------- */
+#one-cg #get-offer{scroll-margin-top:120px}
+#one-cg .cg-cta-band{background:linear-gradient(135deg,var(--cg-blue) 0%,var(--cg-cyan) 100%);text-align:center}
+#one-cg .cg-cta-band h2{color:#fff;margin:0 0 12px}
+#one-cg .cg-cta-band p{color:#eaf7fd;max-width:640px;margin:0 auto 26px;font-size:1.08rem}
+#one-cg .cg-cta-band .cg-btn-primary{background:#fff;color:var(--cg-navy)}
+
+/* ---------- REVEAL ---------- */
+#one-cg .cg-reveal{transition:opacity .6s ease,transform .6s ease}
+#one-cg.cg-anim .cg-reveal{opacity:0;transform:translateY(24px)}
+#one-cg.cg-anim .cg-reveal.is-in{opacity:1;transform:none}
+
+@media(max-width:640px){
+  #one-cg .cg-band{padding:46px 0}
+  #one-cg .cg-hero{min-height:500px}
+  #one-cg .cg-hero-content{padding:70px 22px}
+  #one-cg .cg-hero h1{font-size:1.7rem}
+  #one-cg h2{font-size:1.6rem}
+  #one-cg .cg-trust{grid-template-columns:1fr 1fr}
+}
+</style>
+
+<div id="one-cg">
+
+  <section class="cg-hero">
+    <div class="cg-slides" id="cg-slides">
+      <div class="cg-slide is-active" style="background-image:url('https://cdn.carrot.com/uploads/sites/81893/2026/07/1-2.webp')"></div>
+      <div class="cg-slide" style="background-image:url('https://cdn.carrot.com/uploads/sites/81893/2026/07/1-2.webp')"></div>
+      <div class="cg-slide" style="background-image:url('https://cdn.carrot.com/uploads/sites/81893/2026/07/1-2.webp')"></div>
+    </div>
+    <div class="cg-scrim"></div>
+    <div class="cg-hero-content">
+      <p class="cg-eyebrow">Rhode Island &amp; Massachusetts · Home Sale Taxes</p>
+      <h1>Capital Gains Tax When Selling a Home in RI &amp; MA</h1>
+      <p>Most home sellers owe little or nothing — thanks to a federal exclusion of up to $250,000 (single) or $500,000 (married). Here's what you actually owe in Rhode Island and Massachusetts, and when.</p>
+      <div class="cg-btns">
+        <a class="cg-btn cg-btn-primary" href="#get-offer">
+          <svg viewBox="0 0 24 24"><path d="M12 2v20M2 12h20" /></svg>Get My Cash Offer
+        </a>
+        <a class="cg-btn cg-btn-outline" href="tel:+14012674066">
+          <svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L8 9.6a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.5 2.6.6a2 2 0 0 1 1.7 2z" /></svg>Call (401) 267-4066
+        </a>
+      </div>
+    </div>
+    <div class="cg-dots" id="cg-dots"></div>
+  </section>
+
+  <div class="cg-band cg-white">
+    <div class="cg-inner">
+      <div class="cg-trust cg-reveal">
+        <div><strong>$250K</strong><span>Excluded (single)</span></div>
+        <div><strong>$500K</strong><span>Excluded (married)</span></div>
+        <div><strong>2 of 5</strong><span>Years lived-in test</span></div>
+        <div><strong>$0</strong><span>Owed by most sellers</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cg-band cg-tint">
+    <div class="cg-inner">
+      <div class="cg-answer cg-reveal">
+        <p class="q">Do you pay capital gains tax when you sell your home in RI or MA?</p>
+        <p>Usually not. If the home was your primary residence for at least 2 of the last 5 years, federal law lets you exclude up to $250,000 of profit if you're single, or $500,000 if you're married filing jointly. Most Rhode Island and Massachusetts sellers fall entirely within that exclusion and owe nothing. You only owe capital gains tax on profit above the exclusion — or if the property was an investment, a second home, or one you owned for a short time.</p>
+      </div>
+      <p class="cg-lead cg-reveal">"Capital gains" sounds alarming, but for the average homeowner selling the house they've lived in, it rarely bites. The tax applies to your <b>profit</b> (sale price minus what you paid plus improvements) — not the whole sale price — and the federal exclusion wipes out most or all of that profit for a typical primary-residence sale. Where it gets real is on inherited properties, rentals, second homes, and quick flips. Here's the full picture for RI and MA.</p>
+    </div>
+  </div>
+
+  <div class="cg-band cg-white">
+    <div class="cg-inner">
+      <p class="cg-eyebrow cg-reveal">Start Here</p>
+      <h2 class="cg-reveal">The Federal Rules That Do Most of the Work</h2>
+      <p class="cg-sub cg-reveal">Rhode Island and Massachusetts both start from the same federal foundation. Four things decide your bill.</p>
+      <div class="cg-cards">
+        <div class="cg-card cg-reveal">
+          <div class="cg-ic"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8" /><path d="M5 10v10h14V10" /><path d="M9 20v-6h6v6" /></svg></div>
+          <h3>The $250K / $500K exclusion</h3>
+          <p>Own and live in the home as your primary residence for at least 2 of the last 5 years, and you can exclude up to $250,000 of gain ($500,000 married filing jointly) from federal tax.</p>
+        </div>
+        <div class="cg-card cg-reveal">
+          <div class="cg-ic"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M20 20H2" /></svg></div>
+          <h3>Only profit above that is taxed</h3>
+          <p>Gain over the exclusion is taxed at long-term capital-gains rates of 0%, 15%, or 20%, depending on your income — plus a 3.8% net investment income tax at higher incomes.</p>
+        </div>
+        <div class="cg-card cg-reveal">
+          <div class="cg-ic"><svg viewBox="0 0 24 24"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" /></svg></div>
+          <h3>Your cost basis lowers the gain</h3>
+          <p>Basis is what you paid <b>plus</b> capital improvements (new roof, kitchen, addition) and selling costs. The higher your basis, the smaller your taxable gain. Keep receipts.</p>
+        </div>
+        <div class="cg-card cg-reveal">
+          <div class="cg-ic"><svg viewBox="0 0 24 24"><path d="M12 6v6l4 2" /></svg></div>
+          <h3>How long you owned it matters</h3>
+          <p>Held more than a year, gains are "long-term" and taxed at the lower rates. A year or less makes them short-term — taxed as ordinary income, which is much steeper.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cg-band cg-tint">
+    <div class="cg-inner">
+      <p class="cg-eyebrow cg-reveal">State by State</p>
+      <h2 class="cg-reveal">What Rhode Island Adds</h2>
+      <p class="cg-sub cg-reveal">RI taxes the gain that's left after the federal exclusion — plus one quirk that catches out-of-state sellers.</p>
+      <ul class="cg-check">
+        <li class="cg-reveal"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></svg><b>RI taxes taxable gain as regular income.</b> Whatever federal gain remains after the exclusion flows into your Rhode Island return at the state's ordinary income tax rates.</li>
+        <li class="cg-reveal"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></svg><b>Nonresident sellers face 6% withholding at closing.</b> If you no longer live in RI, the buyer must withhold 6% of the net proceeds (7%–9% for entities) and send it to the state — you reconcile it on a RI return later.</li>
+        <li class="cg-reveal"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></svg><b>Primary-residence sales are generally exempt from that withholding.</b> If the sale qualifies under the federal §121 exclusion, you sign a residency affidavit / gain election so little or no withholding is taken.</li>
+        <li class="cg-reveal"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></svg><b>Conveyance (transfer) tax still applies.</b> Separate from income tax, RI charges a real-estate conveyance tax at closing on essentially every sale.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cg-band cg-white">
+    <div class="cg-inner">
+      <p class="cg-eyebrow cg-reveal">State by State</p>
+      <h2 class="cg-reveal">What Massachusetts Adds</h2>
+      <p class="cg-sub cg-reveal">MA follows the federal exclusion, then taxes the leftover gain at a flat rate.</p>
+      <ul class="cg-check">
+        <li class="cg-reveal"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></svg><b>Long-term gain is taxed at a flat 5%.</b> Massachusetts honors the federal $250K/$500K exclusion, then taxes any remaining long-term gain at its 5% income-tax rate.</li>
+        <li class="cg-reveal"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></svg><b>Short-term gain is taxed at 8.5%.</b> Sell a property you've held a year or less and Massachusetts hits the gain at the higher short-term rate — a real penalty for quick flips.</li>
+        <li class="cg-reveal"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></svg><b>A 4% "millionaire surtax" can apply.</b> If a large gain pushes your total MA taxable income above roughly $1.08M (indexed), the portion above that line carries an extra 4%.</li>
+        <li class="cg-reveal"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></svg><b>No separate real-estate capital-gains tax.</b> The gain just rides on your regular Massachusetts return — most primary-residence sellers using the federal exclusion owe MA nothing on the sale.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="cg-band cg-tint">
+    <div class="cg-inner">
+      <p class="cg-eyebrow cg-reveal">A Real Example</p>
+      <h2 class="cg-reveal">What a Typical Sale Actually Looks Like</h2>
+      <p class="cg-sub cg-reveal">A married couple sells their long-time Rhode Island home:</p>
+      <div class="cg-example cg-reveal">
+        <div class="cg-ex-head">Married couple · primary residence · owned 18 years</div>
+        <div class="cg-row"><span>Sale price</span><span>$625,000</span></div>
+        <div class="cg-row"><span>Original purchase + improvements (cost basis)</span><span>$300,000</span></div>
+        <div class="cg-row"><span>Selling costs (commission, attorney, stamps)</span><span>$45,000</span></div>
+        <div class="cg-row"><span>Capital gain</span><span>$280,000</span></div>
+        <div class="cg-row"><span>Federal exclusion (married)</span><span>&minus; $500,000</span></div>
+        <div class="cg-row cg-total"><span>Taxable gain</span><span>$0</span></div>
+        <p class="cg-ex-note">Because the $280,000 gain sits under the $500,000 married exclusion, this couple owes $0 in federal and $0 in RI capital gains tax on the sale. Illustrative example only — your numbers and basis will differ.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cg-band cg-white">
+    <div class="cg-inner">
+      <p class="cg-eyebrow cg-reveal">When It Does Apply</p>
+      <h2 class="cg-reveal">Situations Where You May Actually Owe</h2>
+      <p class="cg-sub cg-reveal">The exclusion is powerful, but it doesn't cover everything:</p>
+      <ul class="cg-check">
+        <li class="cg-reveal"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></svg><b>Inherited property:</b> you get a "stepped-up basis" to the value at the date of death, so only appreciation <b>after</b> you inherited it is taxable — often a small or zero gain.</li>
+        <li class="cg-reveal"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></svg><b>Rental or investment property:</b> no primary-residence exclusion, and any depreciation you claimed is "recaptured" and taxed at up to 25%.</li>
+        <li class="cg-reveal"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></svg><b>Second homes and vacation properties:</b> the §121 exclusion doesn't apply — the full gain is taxable.</li>
+        <li class="cg-reveal"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></svg><b>Gain above the exclusion:</b> a very large profit (over $250K/$500K) means the excess is taxed at long-term rates, plus possible NIIT or the MA surtax.</li>
+        <li class="cg-reveal"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></svg><b>You didn't meet the 2-of-5-year test:</b> selling too soon after buying can forfeit the exclusion, though partial relief exists for job moves, health, and other hardships.</li>
+      </ul>
+      <div class="cg-disc cg-reveal">
+        <svg viewBox="0 0 24 24"><path d="M12 16v-4M12 8h.01" /></svg>
+        <p>This page is general education, not tax or legal advice, and figures are for the 2026 tax year. Capital gains rules — brackets, thresholds, exclusions, and state withholding — are detailed and change over time. Before you sell, run your specific numbers with a licensed CPA or tax advisor. Offer New England is a home buyer, not a tax firm; we can't advise on your tax situation, but we can make the sale itself simple.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="cg-band cg-navy">
+    <div class="cg-inner">
+      <p class="cg-eyebrow cg-reveal" style="color:var(--cg-cyan)">Where We Come In</p>
+      <h2 class="cg-reveal">Selling the House — Fast, Fair, and Clean</h2>
+      <p class="cg-reveal">Whether it's an inherited property, a tired rental, or the home you've lived in for decades, the tax question is only half the picture — you still have to actually sell. Offer New England buys houses across Rhode Island and southern Massachusetts for cash, as-is, with no commissions or fees. We give you a clear number and a firm closing date, so once you've sorted the tax side with your advisor, the sale itself is the easy part.</p>
+    </div>
+  </div>
+
+  <div class="cg-band cg-white">
+    <div class="cg-inner">
+      <p class="cg-eyebrow cg-reveal">Questions, Answered</p>
+      <h2 class="cg-reveal">Capital Gains on a Home Sale — RI &amp; MA FAQ</h2>
+      <div class="cg-faq cg-reveal">
+        <details open><summary>Do I pay capital gains tax when I sell my home in RI or MA?</summary><p>Usually not. If the home was your primary residence for at least 2 of the last 5 years, you can exclude up to $250,000 of profit (single) or $500,000 (married filing jointly) from federal tax, and both RI and MA honor that exclusion. Most sellers owe nothing. You only owe on gain above the exclusion, or on investment/second-home sales.</p></details>
+        <details><summary>How much is capital gains tax in Massachusetts on a home sale?</summary><p>Massachusetts taxes long-term capital gains (property held more than a year) at a flat 5%, applied only to gain left after the federal exclusion. Short-term gains — property held a year or less — are taxed at 8.5%. A 4% millionaire surtax can apply to taxable income above roughly $1.08 million.</p></details>
+        <details><summary>How is capital gains tax handled in Rhode Island?</summary><p>Rhode Island taxes the gain remaining after the federal exclusion as ordinary income on your RI return. If you're a nonresident selling RI property, the buyer generally must withhold 6% of the net proceeds at closing (7%–9% for entities); qualifying primary-residence sales are usually exempt via a residency affidavit.</p></details>
+        <details><summary>What is the RI 6% withholding at closing?</summary><p>When a nonresident sells Rhode Island real estate, state law requires the buyer to withhold 6% of the net proceeds (or gain, if elected) and remit it to the RI Division of Taxation — it's a prepayment, not an extra tax. You reconcile it when you file a Rhode Island return. Primary-residence sales that qualify for the federal exclusion generally avoid it with the proper affidavit.</p></details>
+        <details><summary>Do I owe capital gains tax on an inherited house?</summary><p>Often very little. Inherited property receives a "stepped-up basis" equal to its value on the date of death, so only appreciation after you inherited it is taxable. If you sell soon after inheriting, the gain — and the tax — is frequently small or zero.</p></details>
+        <details><summary>How can I reduce capital gains tax when selling my home?</summary><p>Keep records of capital improvements to raise your cost basis, make sure you meet the 2-of-5-year primary-residence test, hold longer than a year to get long-term rates, and talk to a CPA about timing, partial exclusions, or a 1031 exchange for investment property. A tax professional should confirm what fits your situation.</p></details>
+      </div>
+    </div>
+  </div>
+
+  <div class="cg-band cg-cta-band">
+    <div class="cg-inner">
+      <h2 class="cg-reveal">Ready to Sell a Home in Rhode Island or Massachusetts?</h2>
+      <p class="cg-reveal">Sort the taxes with your advisor — we'll handle the sale. Get a fair, no-obligation cash offer, as-is, with no fees or commissions.</p>
+      <a class="cg-btn cg-btn-primary cg-reveal" href="#get-offer">Get My Cash Offer</a>
+    </div>
+  </div>
+
+  <div class="cg-band cg-white" id="get-offer">
+    <div class="cg-inner">
+      <p class="cg-eyebrow cg-reveal">Get Started</p>
+      <h2 class="cg-reveal">Request Your No-Obligation Cash Offer</h2>
+      <p class="cg-sub cg-reveal">Fill out the short form below and we'll respond within 24 hours — no fees, no commissions, no pressure.</p>
+    </div>
+  </div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<!-- CARROT FORM REMOVED: add your WordPress form here -->
+<!-- /wp:html -->

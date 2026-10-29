@@ -1,0 +1,98 @@
+<!-- PASTE INTO: SEO Settings > Additional Settings > Tracking Codes -->
+<!-- Buttons now scroll to #get-offer (no JS needed). This handles schema + slideshow + reveals. -->
+
+<!-- 1) STRUCTURED DATA -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"RealEstateAgent",
+      "@id":"https://offernewengland.com/#organization",
+      "name":"Offer New England",
+      "url":"https://offernewengland.com/",
+      "telephone":"+1-401-267-4066",
+      "image":"https://cdn.carrot.com/uploads/sites/81893/2025/04/cropped-Web-2.png",
+      "priceRange":"$$",
+      "areaServed":[
+        {"@type":"State","name":"Rhode Island"},
+        {"@type":"State","name":"Massachusetts"}
+      ],
+      "sameAs":[
+        "https://www.facebook.com/share/1DgYRa2bub/",
+        "https://www.instagram.com/offernewengland/"
+      ]
+    },
+    {
+      "@type":"Article",
+      "headline":"Sell a Fire-Damaged House in Rhode Island — As-Is, for Cash",
+      "description":"How to sell a fire-, smoke-, or water-damaged house in Rhode Island as-is for cash — no repairs, no insurance wait, no fees.",
+      "image":"https://cdn.carrot.com/uploads/sites/81893/2026/07/offnewengland-2.webp",
+      "author":{"@id":"https://offernewengland.com/#organization"},
+      "publisher":{"@id":"https://offernewengland.com/#organization"},
+      "mainEntityOfPage":"https://offernewengland.com/sell-fire-damaged-house-rhode-island/"
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Home","item":"https://offernewengland.com/"},
+        {"@type":"ListItem","position":2,"name":"Sell a Fire-Damaged House in Rhode Island","item":"https://offernewengland.com/sell-fire-damaged-house-rhode-island/"}
+      ]
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"Can I sell a fire-damaged house in Rhode Island?","acceptedAnswer":{"@type":"Answer","text":"Yes. You can sell a fire-damaged house in Rhode Island as-is, in any condition, without making repairs. Because damaged homes usually can't qualify for a traditional mortgage, selling to an all-cash buyer like Offer New England is often the fastest route — we can present an offer within 24 hours and close in as little as 7 days."}},
+        {"@type":"Question","name":"Do I have to repair or clean up the fire damage before selling?","acceptedAnswer":{"@type":"Answer","text":"No. We buy the house exactly as it is — soot, smoke, water damage, debris, and all. You don't need to clean it out, pull permits, or finish any restoration. We handle the cleanout and disposal after closing."}},
+        {"@type":"Question","name":"Can I sell if I still have an open insurance claim?","acceptedAnswer":{"@type":"Answer","text":"Often, yes. The sale and the insurance claim can move on separate tracks, and how any open payout is handled is worked out at closing. Check with your adjuster about what's already been paid and what's still owed, but an open claim doesn't have to hold up a sale."}},
+        {"@type":"Question","name":"Will you buy a total loss or a gutted, boarded-up house?","acceptedAnswer":{"@type":"Answer","text":"Yes. We buy everything from a single scorched room to a full total loss down to the studs — including boarded-up, vacant, or condemned properties. The more severe the damage, the more a cash sale tends to make sense versus paying to rebuild."}},
+        {"@type":"Question","name":"How fast can you close on a fire-damaged home?","acceptedAnswer":{"@type":"Answer","text":"We can close in as little as 7 days once you accept the offer, since we pay cash and there's no lender or appraisal to wait on. If you need more time, you pick the closing date that works for you."}},
+        {"@type":"Question","name":"How do you decide what to offer on a fire-damaged house?","acceptedAnswer":{"@type":"Answer","text":"We look at the home's location, its value once restored, and the realistic cost to bring it back — including hidden smoke and water damage behind walls. We then present the highest cash offer we can support, with no obligation and no fee."}},
+        {"@type":"Question","name":"I still owe money on the mortgage — can I still sell?","acceptedAnswer":{"@type":"Answer","text":"Yes. If there's a balance left on the loan, it's paid off from the sale proceeds at closing, exactly like a normal home sale. If the home is worth less than what's owed, we can talk through the options."}}
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- 2) SLIDESHOW + REVEALS + (optional) STICKY HEADER -->
+<script>
+(function(){
+  function init(){
+    var hdr=document.getElementById('one-hdr');
+    if(hdr&&hdr.parentNode!==document.body)document.body.appendChild(hdr);
+    var bar=document.getElementById('hbar');
+    if(bar&&!bar.dataset.ready){ bar.dataset.ready='1';
+      var onScroll=function(){ bar.classList.toggle('is-solid',window.pageYOffset>40); };
+      onScroll(); window.addEventListener('scroll',onScroll,{passive:true});
+      var burger=document.getElementById('hburger'),drawer=document.getElementById('hdrawer'),scrim=document.getElementById('hscrim');
+      if(burger&&drawer&&scrim){
+        var setMenu=function(o){ burger.classList.toggle('is-open',o); drawer.classList.toggle('is-open',o);
+          scrim.classList.toggle('is-open',o); burger.setAttribute('aria-expanded',o?'true':'false'); };
+        burger.addEventListener('click',function(){ setMenu(!drawer.classList.contains('is-open')); });
+        scrim.addEventListener('click',function(){ setMenu(false); });
+        drawer.querySelectorAll('a,button').forEach(function(el){ el.addEventListener('click',function(){ setMenu(false); }); });
+      }
+    }
+    var root=document.getElementById('one-fd');
+    if(root&&!root.dataset.ready){ root.dataset.ready='1';
+      var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+      var slides=[].slice.call(root.querySelectorAll('.fd-slide')),dw=root.querySelector('#fd-dots'),i=0,timer=null;
+      if(slides.length>1&&dw){ var go,reset;
+        slides.forEach(function(s,idx){ var b=document.createElement('button'); b.setAttribute('aria-label','Slide '+(idx+1));
+          if(idx===0)b.className='is-active'; b.addEventListener('click',function(){ go(idx); reset(); }); dw.appendChild(b); });
+        var dots=[].slice.call(dw.children);
+        go=function(n){ slides[i].classList.remove('is-active'); dots[i].classList.remove('is-active');
+          i=n%slides.length; slides[i].classList.add('is-active'); dots[i].classList.add('is-active'); };
+        reset=function(){ if(timer)clearInterval(timer); timer=setInterval(function(){ go(i+1); },6000); };
+        reset();
+      }
+      if(!reduce&&'IntersectionObserver'in window){ root.classList.add('fd-anim');
+        var io=new IntersectionObserver(function(en){ en.forEach(function(x){ if(x.isIntersecting){ x.target.classList.add('is-in'); io.unobserve(x.target); } }); },{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+        root.querySelectorAll('.fd-reveal').forEach(function(el){ io.observe(el); });
+      }
+    }
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init); else init();
+})();
+</script>

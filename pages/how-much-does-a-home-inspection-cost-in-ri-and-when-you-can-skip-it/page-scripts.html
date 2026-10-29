@@ -1,0 +1,97 @@
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"RealEstateAgent",
+      "@id":"https://offernewengland.com/#business",
+      "name":"Offer New England",
+      "url":"https://offernewengland.com/",
+      "telephone":"+1-401-267-4066",
+      "areaServed":["Rhode Island","Massachusetts"],
+      "description":"Local cash home buyer purchasing houses as-is across Rhode Island and southern Massachusetts, with no fees, no commissions, and closings in as little as 7 days."
+    },
+    {
+      "@type":"Article",
+      "headline":"How Much Does a Home Inspection Cost in Rhode Island — and When You Can Skip It",
+      "about":"Home inspection costs in Rhode Island and when sellers can skip an inspection by selling as-is for cash.",
+      "author":{"@type":"Organization","name":"Offer New England"},
+      "publisher":{"@id":"https://offernewengland.com/#business"},
+      "mainEntityOfPage":"https://offernewengland.com/home-inspection-cost-rhode-island/"
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Home","item":"https://offernewengland.com/"},
+        {"@type":"ListItem","position":2,"name":"Home Inspection Cost in Rhode Island","item":"https://offernewengland.com/home-inspection-cost-rhode-island/"}
+      ]
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"How much does a home inspection cost in Rhode Island?","acceptedAnswer":{"@type":"Answer","text":"A standard single-family inspection typically runs $500–$750, with most homeowners paying around $600–$700. Condos are about $400–$600, larger homes over 2,000 sq ft can reach $750–$1,100, and multi-family homes often start near $950. Add-ons like radon, septic, well-water, lead, and a separate licensed-electrician electrical check raise the total."}},
+        {"@type":"Question","name":"Who pays for the home inspection, the buyer or the seller?","acceptedAnswer":{"@type":"Answer","text":"In most Rhode Island sales the buyer pays, since it is ordered after they make an offer. Sellers sometimes pay for a pre-listing inspection, but if you sell as-is to a cash buyer no inspection is needed at all."}},
+        {"@type":"Question","name":"How long does a home inspection take?","acceptedAnswer":{"@type":"Answer","text":"A general inspection usually takes 2 to 4 hours depending on the home's size and age. Older or multi-family Rhode Island homes take longer, which is part of why they cost more to inspect."}},
+        {"@type":"Question","name":"Do I need an inspection to sell my house in Rhode Island?","acceptedAnswer":{"@type":"Answer","text":"No. Home inspections are not legally required in Rhode Island. A mortgage buyer will typically order one, but selling as-is to a cash buyer means there is no inspection contingency to satisfy."}},
+        {"@type":"Question","name":"Can I sell my house as-is without an inspection?","acceptedAnswer":{"@type":"Answer","text":"Yes. Selling as-is to a direct cash buyer skips the inspection entirely. You disclose known issues, the buyer purchases the home in its current condition, and there are no repairs or credits to negotiate."}},
+        {"@type":"Question","name":"Does a bad inspection lower my sale price?","acceptedAnswer":{"@type":"Answer","text":"On the open market it can. Buyers use findings to request repairs, credits, or a lower price, and major defects like foundation problems can reduce value by 10–20%. A cash as-is sale prices the home's current condition in up front, so there is no post-inspection re-negotiation."}}
+      ]
+    }
+  ]
+}
+</script>
+
+<script>
+(function(){
+  var root=document.getElementById('one-hi');
+  if(!root)return;
+
+  /* progressive-enhancement: only hide reveals once JS runs */
+  root.classList.add('hi-anim');
+
+  /* ---- sticky nav shadow + mobile menu ---- */
+  var nav=document.getElementById('hi-nav');
+  var burger=document.getElementById('hi-burger');
+  window.addEventListener('scroll',function(){
+    if(window.scrollY>8){nav.classList.add('is-stuck');}else{nav.classList.remove('is-stuck');}
+  },{passive:true});
+  if(burger){burger.addEventListener('click',function(){nav.classList.toggle('is-open');});}
+  document.querySelectorAll('#hi-links a').forEach(function(a){
+    a.addEventListener('click',function(){nav.classList.remove('is-open');});
+  });
+
+  /* ---- hero slideshow ---- */
+  var slides=[].slice.call(root.querySelectorAll('.hi-slide'));
+  var dotsWrap=document.getElementById('hi-dots');
+  var cur=0,timer=null;
+  if(slides.length>1&&dotsWrap){
+    slides.forEach(function(s,i){
+      var b=document.createElement('button');
+      b.setAttribute('aria-label','Slide '+(i+1));
+      if(i===0)b.className='is-active';
+      b.addEventListener('click',function(){go(i);reset();});
+      dotsWrap.appendChild(b);
+    });
+    var dots=[].slice.call(dotsWrap.children);
+    var go=function(n){
+      slides[cur].classList.remove('is-active');
+      dots[cur].classList.remove('is-active');
+      cur=(n+slides.length)%slides.length;
+      slides[cur].classList.add('is-active');
+      dots[cur].classList.add('is-active');
+    };
+    var reset=function(){clearInterval(timer);timer=setInterval(function(){go(cur+1);},6000);};
+    reset();
+  }
+
+  /* ---- scroll reveal ---- */
+  var reveals=[].slice.call(root.querySelectorAll('.hi-reveal'));
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-in');io.unobserve(e.target);}});
+    },{threshold:.12});
+    reveals.forEach(function(el){io.observe(el);});
+  }else{reveals.forEach(function(el){el.classList.add('is-in');});}
+
+})();
+</script>

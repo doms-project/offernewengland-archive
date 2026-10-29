@@ -1,0 +1,492 @@
+{
+  "site": "https://offernewengland.com",
+  "robots_txt": {
+    "sitemaps": [
+      "https://offernewengland.com/sitemap.xml"
+    ],
+    "disallow": [
+      "/wp-admin/"
+    ]
+  },
+  "behaviour": {
+    "http_to_https": {
+      "url": "http://offernewengland.com/",
+      "status": 301,
+      "location": "https://offernewengland.com/"
+    },
+    "www_variant": {
+      "url": "https://www.offernewengland.com/",
+      "status": 301,
+      "location": "https://offernewengland.com/"
+    },
+    "no_trailing_slash": {
+      "url": "https://offernewengland.com/sell-house-with-tenants-rhode-island",
+      "status": 301,
+      "location": "https://offernewengland.com/sell-house-with-tenants-rhode-island/"
+    },
+    "missing_page_404": {
+      "url": "https://offernewengland.com/this-page-should-not-exist-404-check/",
+      "status": 404,
+      "location": ""
+    },
+    "feed": {
+      "url": "https://offernewengland.com/feed/",
+      "status": 200,
+      "location": ""
+    }
+  },
+  "homepage": {
+    "title": "Offer New England | Cash Home Buyers in RI & MA",
+    "meta_description": "Offer New England buys houses for cash in Rhode Island and Massachusetts. Any condition, no fees. Fair offer in 24 hours, close in as little as 7 days.",
+    "canonical": "https://offernewengland.com/",
+    "schema_types": [
+      "EntryPoint",
+      "Organization",
+      "SearchAction",
+      "WebSite"
+    ],
+    "verification": {
+      "google-site-verification": "PvxfVi5OzEJRsZDvF9aFTfLwncBpTqils89D8C4PwRk"
+    },
+    "tracking": {
+      "Google Tag Manager": [
+        "GTM-WWPZRDH"
+      ]
+    }
+  },
+  "verification_tags": {
+    "google-site-verification": [
+      "PvxfVi5OzEJRsZDvF9aFTfLwncBpTqils89D8C4PwRk"
+    ]
+  },
+  "tracking_ids": {
+    "Google Tag Manager": [
+      "GTM-WWPZRDH"
+    ]
+  },
+  "schema_types_across_pages": {
+    "WebSite": 77,
+    "BreadcrumbList": 75,
+    "ListItem": 75,
+    "Organization": 35,
+    "WebPage": 32,
+    "ImageObject": 30,
+    "Person": 30,
+    "Article": 26,
+    "BlogPosting": 14,
+    "Answer": 11,
+    "FAQPage": 11,
+    "Question": 11,
+    "RealEstateAgent": 11,
+    "State": 7,
+    "City": 3,
+    "PostalAddress": 2,
+    "EntryPoint": 1,
+    "SearchAction": 1
+  },
+  "sitemap_url_count": 75,
+  "pages_not_in_carrot_page_list": [
+    {
+      "url": "https://offernewengland.com/blog/author/loouaay/",
+      "title": "Author: loouaay | Offer New England",
+      "meta_description": "",
+      "h1": "Author: loouaay",
+      "robots": "",
+      "canonical": "https://offernewengland.com/blog/author/loouaay/"
+    }
+  ],
+  "internal_link_case_mismatches": [
+    {
+      "on_page": "https://offernewengland.com/blog/sell-my-house-fast-in-westerly-ri-what-are-my-options/",
+      "link": "https://offernewengland.com/sell-my-house-fast-Westerly-ri",
+      "real_url": "https://offernewengland.com/sell-my-house-fast-westerly-ri"
+    }
+  ],
+  "canonical_problems": [
+    {
+      "page": "https://offernewengland.com/sell-my-house-fast-in-providence-ri/",
+      "canonical": "https://offernewengland.com/sell-my-house-fast-providence-ri/",
+      "problem": "points to a DIFFERENT URL",
+      "canonical_target_status": "404",
+      "what_to_do": "Set the canonical to the page's own URL (unless this page is meant to be a duplicate)"
+    },
+    {
+      "page": "https://offernewengland.com/we-buy-houses-in-taunton-ma-cash-home-buyers/",
+      "canonical": "https://offernewengland.com/we-buy-houses-taunton-ma/",
+      "problem": "points to a DIFFERENT URL",
+      "canonical_target_status": "404",
+      "what_to_do": "Set the canonical to the page's own URL (unless this page is meant to be a duplicate)"
+    },
+    {
+      "page": "https://offernewengland.com/home-2-2-2/",
+      "canonical": "https://offernewengland.com/",
+      "problem": "points to the HOMEPAGE",
+      "canonical_target_status": "200",
+      "what_to_do": "Set the canonical to the page's own URL (unless this page is meant to be a duplicate)"
+    },
+    {
+      "page": "https://offernewengland.com/sell-my-house-fast-bristol-ri/",
+      "canonical": "https://offernewengland.com/sell-my-house-fast-Bristol-ri/",
+      "problem": "different capitalisation",
+      "canonical_target_status": "200",
+      "what_to_do": "Set the canonical to the page's own URL (unless this page is meant to be a duplicate)"
+    },
+    {
+      "page": "https://offernewengland.com/sell-my-house-fast-woonsocket-ri/",
+      "canonical": "https://offernewengland.com/sell-my-house-fast-Woonsocket-ri/",
+      "problem": "different capitalisation",
+      "canonical_target_status": "200",
+      "what_to_do": "Set the canonical to the page's own URL (unless this page is meant to be a duplicate)"
+    },
+    {
+      "page": "https://offernewengland.com/sell-my-house-fast-north-kingstown-ri/",
+      "canonical": "https://offernewengland.com/",
+      "problem": "points to the HOMEPAGE",
+      "canonical_target_status": "200",
+      "what_to_do": "Set the canonical to the page's own URL (unless this page is meant to be a duplicate)"
+    }
+  ],
+  "local_seo": {
+    "business_entities_in_schema": [
+      {
+        "type": "RealEstateAgent",
+        "name": "Offer New England",
+        "telephone": "+14012674066",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5586 Post Rd Ste 207",
+          "addressLocality": "East Greenwich",
+          "addressRegion": "RI",
+          "postalCode": "02818",
+          "addressCountry": "US"
+        },
+        "geo": null,
+        "url": "https://offernewengland.com/",
+        "sameAs": null,
+        "openingHours": null,
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Cranston",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "Rhode Island"
+            }
+          },
+          {
+            "@type": "State",
+            "name": "Rhode Island"
+          },
+          {
+            "@type": "State",
+            "name": "Massachusetts"
+          }
+        ],
+        "priceRange": null,
+        "pages": 2
+      },
+      {
+        "type": "RealEstateAgent",
+        "name": "Offer New England",
+        "telephone": "+1-401-267-4066",
+        "address": {},
+        "geo": null,
+        "url": "https://offernewengland.com/",
+        "sameAs": null,
+        "openingHours": null,
+        "areaServed": [
+          "Rhode Island",
+          "Massachusetts"
+        ],
+        "priceRange": null,
+        "pages": 8
+      },
+      {
+        "type": "Organization",
+        "name": "Offer New England",
+        "telephone": null,
+        "address": {},
+        "geo": null,
+        "url": null,
+        "sameAs": null,
+        "openingHours": null,
+        "areaServed": null,
+        "priceRange": null,
+        "pages": 34
+      },
+      {
+        "type": "Organization",
+        "name": "Offer New England, LLC",
+        "telephone": null,
+        "address": {},
+        "geo": null,
+        "url": null,
+        "sameAs": null,
+        "openingHours": null,
+        "areaServed": null,
+        "priceRange": null,
+        "pages": 2
+      },
+      {
+        "type": "RealEstateAgent",
+        "name": "Offer New England",
+        "telephone": "+1-401-000-0000",
+        "address": {},
+        "geo": null,
+        "url": "https://offernewengland.com/we-buy-houses-taunton-ma/",
+        "sameAs": null,
+        "openingHours": null,
+        "areaServed": [
+          {
+            "@type": "City",
+            "name": "Taunton",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "Massachusetts"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Raynham",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "Massachusetts"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Berkley",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "Massachusetts"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Dighton",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "Massachusetts"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Norton",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "Massachusetts"
+            }
+          },
+          {
+            "@type": "City",
+            "name": "Rehoboth",
+            "containedInPlace": {
+              "@type": "State",
+              "name": "Massachusetts"
+            }
+          }
+        ],
+        "priceRange": "$$",
+        "pages": 1
+      }
+    ],
+    "business_names_in_schema": {
+      "Offer New England": 45,
+      "Offer New England, LLC": 2
+    },
+    "phone_numbers_found": {
+      "(401) 267-4066": 530
+    },
+    "consistency_note": "OK: one phone number across the site"
+  },
+  "menus": [
+    {
+      "location": "footer-menu",
+      "label": "Footer Navigation",
+      "items": [
+        "Get A Cash Offer Today",
+        "Contact Us",
+        "How It Works",
+        "About us",
+        "Resources",
+        "Privacy Policy"
+      ]
+    },
+    {
+      "location": "top-menu",
+      "label": "Header Navigation",
+      "items": [
+        "<b>Get Your Cash Offer</b>",
+        "Contact Us"
+      ]
+    },
+    {
+      "location": "primary-menu",
+      "label": "Main Navigation",
+      "items": [
+        "<b>Sell Your House The Easy Way</b>",
+        "About us",
+        "Reviews",
+        "Faqs",
+        "How It Works"
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "title": "",
+      "fields": 1,
+      "pages": 76
+    },
+    {
+      "title": "Get An Offer Today, Sell In A Matter Of Days",
+      "fields": 6,
+      "pages": 68
+    },
+    {
+      "title": "Contact Us",
+      "fields": 9,
+      "pages": 15
+    },
+    {
+      "title": "Step 2 More Detailed Submission Form",
+      "fields": 21,
+      "pages": 1
+    },
+    {
+      "title": "",
+      "fields": 6,
+      "pages": 13
+    },
+    {
+      "title": "Download Your FREE Stop Foreclosure Guide Below",
+      "fields": 2,
+      "pages": 1
+    },
+    {
+      "title": "Download Your FREE “Pros, Cons, and Pitfalls” Guide Below",
+      "fields": 2,
+      "pages": 2
+    }
+  ],
+  "content_types": {
+    "lead": {
+      "name": "Landing Pages",
+      "rest_base": "lead",
+      "count": 2
+    },
+    "property": {
+      "name": "Properties",
+      "rest_base": "property",
+      "count": 0
+    },
+    "location": {
+      "name": "Locations-Legacy",
+      "rest_base": "location",
+      "count": 0
+    },
+    "testimonial": {
+      "name": "Testimonials",
+      "rest_base": "testimonial",
+      "count": 5
+    },
+    "campaigns": {
+      "name": "Campaigns",
+      "rest_base": "campaigns",
+      "count": 0
+    },
+    "locality": {
+      "name": "Auto-Locations",
+      "rest_base": "locality",
+      "count": 0
+    }
+  },
+  "structure": {
+    "pages": 77,
+    "links": 856,
+    "orphans": 14,
+    "content_orphans": 3,
+    "orphan_urls": [
+      "https://offernewengland.com/blog/behind-on-mortgage-payments-in-coventry-you-still-have-options",
+      "https://offernewengland.com/blog/can-i-sell-a-house-that-needs-repairs-in-south-kingstown-ri",
+      "https://offernewengland.com/blog/fast-cash-home-sale-in-bristol-ri-how-it-works-step-by-step",
+      "https://offernewengland.com/blog/real-customer-story-how-we-helped-a-seller-in-pawtucket-sell-fast",
+      "https://offernewengland.com/blog/relocating-and-need-to-sell-fast-in-kingstown-ri-read-this-first",
+      "https://offernewengland.com/blog/repairs-too-expensive-sell-your-house-as-is-in-west-warwick-ri",
+      "https://offernewengland.com/blog/sell-my-house-fast-in-westerly-ri-what-are-my-options",
+      "https://offernewengland.com/blog/sell-your-house-fast-coventry-without-realtor",
+      "https://offernewengland.com/blog/sell-your-house-for-cash-fast-house-sale-cash-home-buyers",
+      "https://offernewengland.com/blog/selling-a-house-with-tenants-in-rhode-island-legal-tips-fast-options",
+      "https://offernewengland.com/blog/selling-your-rhode-island-house-during-divorce-what-to-expect",
+      "https://offernewengland.com/home-2-2-2",
+      "https://offernewengland.com/terms-conditions",
+      "https://offernewengland.com/thank-you"
+    ]
+  },
+  "js_check": [
+    {
+      "page": "https://offernewengland.com/sell-house-with-tenants-rhode-island/",
+      "status": "NEVER EXISTED - the CSS expects JavaScript that the live site never had"
+    },
+    {
+      "page": "https://offernewengland.com/sell-house-divorce-rhode-island/",
+      "status": "NEVER EXISTED - the CSS expects JavaScript that the live site never had"
+    },
+    {
+      "page": "https://offernewengland.com/sell-my-house-fast-east-greenwich-ri/",
+      "status": "NEVER EXISTED - the CSS expects JavaScript that the live site never had"
+    },
+    {
+      "page": "https://offernewengland.com/sell-hoarder-house-rhode-island/",
+      "status": "NEVER EXISTED - the CSS expects JavaScript that the live site never had"
+    },
+    {
+      "page": "https://offernewengland.com/sell-my-house-fast-cranston-ri/",
+      "status": "OK - in the page's Tracking Codes (carried into the import)"
+    },
+    {
+      "page": "https://offernewengland.com/facing-foreclosure-in-rhode-island-your-timeline-and-options/",
+      "status": "OK - in the page's Tracking Codes (carried into the import)"
+    },
+    {
+      "page": "https://offernewengland.com/cash-offer-vs-listing-with-an-agent-in-providence-real-numbers/",
+      "status": "OK - in the page's Tracking Codes (carried into the import)"
+    },
+    {
+      "page": "https://offernewengland.com/how-much-does-a-home-inspection-cost-in-ri-and-when-you-can-skip-it/",
+      "status": "OK - in the page's Tracking Codes (carried into the import)"
+    },
+    {
+      "page": "https://offernewengland.com/companies-that-buy-houses-in-rhode-island-honest-comparison/",
+      "status": "OK - in the page's Tracking Codes (carried into the import)"
+    },
+    {
+      "page": "https://offernewengland.com/best-month-to-sell-a-house-in-new-england/",
+      "status": "OK - in the page's Tracking Codes (carried into the import)"
+    },
+    {
+      "page": "https://offernewengland.com/selling-an-inherited-house-in-rhode-island-probate-timeline-options/",
+      "status": "OK - in the page's Tracking Codes (carried into the import)"
+    },
+    {
+      "page": "https://offernewengland.com/selling-a-fire-damaged-house-in-rhode-island/",
+      "status": "OK - in the page's Tracking Codes (carried into the import)"
+    },
+    {
+      "page": "https://offernewengland.com/capital-gains-tax-when-selling-a-home-in-ri-ma-what-sellers-actually-owe/",
+      "status": "OK - in the page's Tracking Codes (carried into the import)"
+    },
+    {
+      "page": "https://offernewengland.com/how-to-sell-a-house-as-is-in-rhode-island-what-you-can-skip-fixing/",
+      "status": "NEVER EXISTED - the CSS expects JavaScript that the live site never had"
+    },
+    {
+      "page": "https://offernewengland.com/can-a-nursing-home-take-your-house-in-rhode-island/",
+      "status": "NEVER EXISTED - the CSS expects JavaScript that the live site never had"
+    },
+    {
+      "page": "https://offernewengland.com/sell-my-house-fast-in-providence-ri/",
+      "status": "NEVER EXISTED - the CSS expects JavaScript that the live site never had"
+    }
+  ]
+}

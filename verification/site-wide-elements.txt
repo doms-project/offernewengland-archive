@@ -1,0 +1,58 @@
+Theme parts of the live site (outside each page's own content) seen on 2+ of 76 pages.
+Header, menu, footer, sidebar boxes, share buttons. Rebuild them once in the new theme,
+menus and widgets. They are NOT in wordpress-import.xml.
+
+TEXT:
+  [76 pages] © 2026 Offer New England - Powered by
+  [76 pages] We are a real estate solutions and investment firm that specializes in helping homeowners get rid of burdensome houses fast. We are investors and problem solvers who can buy your house fast with a fair all cash offer.
+  [76 pages] Carrot
+  [75 pages] About us
+  [75 pages] Sell Your House The Easy Way
+  [75 pages] Toggle Menu
+  [75 pages] Need To Sell Your House Fast? We Buy Houses!
+  [75 pages] Faqs
+  [75 pages] GET STARTED | Get Your Fair Cash Offer Today
+  [74 pages] Resources
+  [74 pages] Get A Cash Offer Today
+  [74 pages] Get Your Cash Offer
+  [73 pages] Privacy Policy
+  [73 pages] Contact Us
+  [72 pages] Reviews
+  [64 pages] How It Works
+  [63 pages] Share
+  [34 pages] Offer New England
+  [30 pages] Google Business
+  [30 pages] loouaay
+  [30 pages] By
+  [30 pages] Get More Info On Options To Sell Your Home...
+  [30 pages] Selling a property in today's market can be confusing. Connect with us or submit your info below and we'll help guide you through your options.
+  [21 pages] (401) 267-4066
+  [3 pages] Get Your Fair Cash Offer: Start Below!
+  [3 pages] Listing vs. Selling To Us
+  [3 pages] Puts more cash in your pocket?
+  [3 pages] Has less hassle?
+  [3 pages] Which route is quicker?
+  [3 pages] See The Difference Here
+  [2 pages] May 30, 2025
+  [2 pages] May 15, 2025
+
+LINKS (menus, footer, buttons):
+  [76 pages] https://carrot.com/?utm_source=member&utm_medium=footer&utm_content=offercomseller&utm_campaign=carrot-03&utm_term=seller
+  [74 pages] https://offernewengland.com/resource-page
+  [74 pages] https://offernewengland.com/privacy
+  [65 pages] https://offernewengland.com/contact-us
+  [62 pages] https://offernewengland.com/faq
+  [62 pages] https://offernewengland.com/reviews
+  [61 pages] https://offernewengland.com/about-us
+  [58 pages] https://offernewengland.com/get-a-cash-offer-today
+  [55 pages] https://offernewengland.com/how-we-buy-houses
+  [54 pages] tel:+14012674066
+  [48 pages] https://offernewengland.com/
+  [43 pages] https://maps.app.goo.gl/Yf2VLZLaGYgDVTDD6
+  [30 pages] https://offernewengland.com/blog/author/loouaay
+
+IMAGES (logo, badges, icons, backgrounds):
+  [64 pages] uploads/sites/81893/2025/04/Web-3.png
+  [52 pages] uploads/sites/81893/2026/03/SASA.png
+  [11 pages] uploads/sites/81893/2025/04/house-pic-3.jpeg
+  [7 pages] uploads/sites/81893/2026/03/Frame-4.png

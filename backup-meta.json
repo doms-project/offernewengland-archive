@@ -1,0 +1,25 @@
+{
+  "site": "https://offernewengland.com",
+  "captured": "2026-10-29 19:48",
+  "internal_hosts": [
+    "offercomseller.carrot.com"
+  ],
+  "verification_tags": {
+    "google-site-verification": [
+      "PvxfVi5OzEJRsZDvF9aFTfLwncBpTqils89D8C4PwRk"
+    ]
+  },
+  "tracking_ids": {
+    "Google Tag Manager": [
+      "GTM-WWPZRDH"
+    ]
+  },
+  "set_values": {
+    "[market_city]": "Rhode Island",
+    "[address]": "5586 Post Rd Ste 207",
+    "[city]": "East Greenwich",
+    "[state]": "RI",
+    "[zipcode]": "02818"
+  },
+  "script_version": 4
+}

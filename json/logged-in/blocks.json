@@ -1,0 +1,1822 @@
+[
+  {
+    "id": 3797,
+    "date": "2026-03-17T13:37:43",
+    "date_gmt": "2026-03-17T17:37:43",
+    "guid": {
+      "rendered": "https://offercomseller.carrot.com/blog/pattenuseable/",
+      "raw": "https://offercomseller.carrot.com/blog/pattenuseable/"
+    },
+    "modified": "2026-03-17T13:37:43",
+    "modified_gmt": "2026-03-17T17:37:43",
+    "password": "",
+    "slug": "pattenuseable",
+    "status": "publish",
+    "type": "wp_block",
+    "link": "https://offercomseller.carrot.com/blog/pattenuseable/",
+    "title": {
+      "raw": "pattenuseable"
+    },
+    "content": {
+      "raw": "<!-- wp:columns {\"align\":\"full\",\"backgroundColor\":\"black\"} -->\n<div class=\"wp-block-columns alignfull has-black-background-color has-background\"><!-- wp:column {\"width\":\"66.66%\"} -->\n<div class=\"wp-block-column\" style=\"flex-basis:66.66%\"><!-- wp:heading {\"style\":{\"typography\":{\"fontSize\":\"45px\",\"fontWeight\":\"400\",\"fontStyle\":\"normal\"}}} -->\n<h2 class=\"wp-block-heading\" style=\"font-size:45px;font-style:normal;font-weight:400\">Need to<br><strong>SELL FAST</strong>?</h2>\n<!-- /wp:heading -->\n\n<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:paragraph {\"className\":\"\",\"style\":{\"typography\":{\"fontSize\":\"16px\",\"fontWeight\":\"200\",\"fontStyle\":\"normal\",\"letterSpacing\":\"5px\"}}} -->\n<p style=\"font-size:16px;font-style:normal;font-weight:200;letter-spacing:5px\" class=\"\">FILL OUT THIS QUICK FORM AND GET YOUR OFFER</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"className\":\"\",\"style\":{\"typography\":{\"fontSize\":\"16px\",\"fontWeight\":\"200\",\"fontStyle\":\"normal\"}}} -->\n<p style=\"font-size:16px;font-style:normal;font-weight:200\" class=\"\"></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"verticalAlignment\":\"center\",\"width\":\"33.33%\"} -->\n<div class=\"wp-block-column is-vertically-aligned-center\" style=\"flex-basis:33.33%\"><!-- wp:carrot/form {\"buttonBackgroundColor\":\"#03d4f4\",\"clientId\":\"f07a4640-ca86-4164-a3ed-a5a0216ec0f9\",\"formId\":\"1\",\"showDescription\":false,\"showTitle\":false,\"className\":\"inner-form\"} -->\n<div class=\"wp-block-carrot-form inner-form\"></div>\n<!-- /wp:carrot/form --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>Need toSELL FAST? FILL OUT THIS QUICK FORM AND GET YOUR OFFER</p>\n",
+      "protected": false
+    },
+    "template": "",
+    "meta": {
+      "post_type": "",
+      "carrotcontentid": "",
+      "isnichetopicpost": false,
+      "insertionDate": "",
+      "location": "",
+      "location_raw": "",
+      "location_type": "",
+      "carrot_ai_draft": false,
+      "phone_override": "",
+      "zip_override": "",
+      "license_number_override": "",
+      "hero_headline_override": "",
+      "bio_heading_override": "",
+      "bio_body_override": "",
+      "_genesis_title": "",
+      "_genesis_description": "",
+      "locality_synced_to_home": true,
+      "hero_form": "",
+      "hero_form_custom": "",
+      "g_forms_title": true,
+      "g_forms_description": true,
+      "footnotes": ""
+    },
+    "wp_pattern_category": [],
+    "block-pattern-category": [],
+    "block-pattern-post-type": [],
+    "block-pattern-user-level": [],
+    "block-pattern-site-type": [],
+    "acf": [],
+    "wp_pattern_sync_status": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3797",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/types/wp_block"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3797/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/media?parent=3797"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "wp_pattern_category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/wp_pattern_category?post=3797"
+        },
+        {
+          "taxonomy": "block-pattern-category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-category?post=3797"
+        },
+        {
+          "taxonomy": "block-pattern-post-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-post-type?post=3797"
+        },
+        {
+          "taxonomy": "block-pattern-user-level",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-user-level?post=3797"
+        },
+        {
+          "taxonomy": "block-pattern-site-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-site-type?post=3797"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3797"
+        }
+      ],
+      "wp:action-create-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3797"
+        }
+      ],
+      "wp:action-assign-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3797"
+        }
+      ],
+      "wp:action-create-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3797"
+        }
+      ],
+      "wp:action-assign-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3797"
+        }
+      ],
+      "wp:action-create-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3797"
+        }
+      ],
+      "wp:action-assign-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3797"
+        }
+      ],
+      "wp:action-create-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3797"
+        }
+      ],
+      "wp:action-assign-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3797"
+        }
+      ],
+      "wp:action-assign-block-pattern-site-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3797"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 3790,
+    "date": "2026-03-17T13:15:56",
+    "date_gmt": "2026-03-17T17:15:56",
+    "guid": {
+      "rendered": "https://offercomseller.carrot.com/blog/three-process/",
+      "raw": "https://offercomseller.carrot.com/blog/three-process/"
+    },
+    "modified": "2026-03-17T13:15:56",
+    "modified_gmt": "2026-03-17T17:15:56",
+    "password": "",
+    "slug": "three-process",
+    "status": "publish",
+    "type": "wp_block",
+    "link": "https://offercomseller.carrot.com/blog/three-process/",
+    "title": {
+      "raw": "three-process"
+    },
+    "content": {
+      "raw": "<!-- wp:group {\"metadata\":{\"categories\":[\"Blank Layouts\"],\"patternName\":\"carrot/3-column-images-with-text-dark-background\",\"name\":\"Services, 3 columns\"},\"align\":\"full\",\"className\":\"boxes-sec\",\"style\":{\"spacing\":{\"padding\":{\"top\":\"var:preset|spacing|80\",\"bottom\":\"var:preset|spacing|80\"},\"blockGap\":\"var:preset|spacing|20\",\"margin\":{\"top\":\"0\",\"bottom\":\"0\"}}},\"backgroundColor\":\"gray-100\",\"layout\":{\"type\":\"constrained\",\"contentSize\":\"1440px\"},\"removeMarginBottom\":true,\"removeMarginTop\":true} -->\n<div class=\"wp-block-group alignfull boxes-sec has-gray-100-background-color has-background mt-0 mb-0\" style=\"margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)\"><!-- wp:heading {\"textAlign\":\"center\",\"style\":{\"typography\":{\"fontWeight\":\"300\",\"fontStyle\":\"normal\",\"fontSize\":\"18px\",\"letterSpacing\":\"5px\"},\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|black\"}}}},\"textColor\":\"black\"} -->\n<h2 class=\"wp-block-heading has-text-align-center has-black-color has-text-color has-link-color\" style=\"font-size:18px;font-style:normal;font-weight:300;letter-spacing:5px\">HOW IT WORKS</h2>\n<!-- /wp:heading -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"align\":\"wide\",\"className\":\"is-style-text-display\",\"style\":{\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|c-brand-primary-darker\"}}},\"typography\":{\"fontSize\":\"27px\"}},\"textColor\":\"c-brand-primary-darker\"} -->\n<h2 class=\"wp-block-heading alignwide has-text-align-center is-style-text-display has-c-brand-primary-darker-color has-text-color has-link-color\" style=\"font-size:27px\">Our Simple 3-Step Process</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"style\":{\"typography\":{\"fontSize\":\"18px\"}}} -->\n<p class=\"has-text-align-center\" style=\"font-size:18px\">To start, simply fill out our short information form on this site or give us a call at (401) 267-4066.&nbsp;<strong>We will present you with the highest cash offer possible within 24 hours</strong>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:columns {\"verticalAlignment\":null,\"style\":{\"spacing\":{\"margin\":{\"top\":\"var:preset|spacing|20\",\"bottom\":\"var:preset|spacing|20\"}}}} -->\n<div class=\"wp-block-columns\" style=\"margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)\"><!-- wp:column {\"className\":\"box-1 shadow\",\"backgroundColor\":\"white\"} -->\n<div class=\"wp-block-column box-1 shadow has-white-background-color has-background\"><!-- wp:image {\"id\":3769,\"width\":\"80px\",\"height\":\"80px\",\"scale\":\"cover\",\"sizeSlug\":\"full\",\"linkDestination\":\"none\",\"align\":\"center\"} -->\n<figure class=\"wp-block-image aligncenter size-full is-resized\"><img src=\"https://cdn.carrot.com/uploads/sites/81893/2026/03/Asset-6@2x.png\" alt=\"\" class=\"wp-image-3769\" style=\"object-fit:cover;width:80px;height:80px\" /></figure>\n<!-- /wp:image -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"level\":5,\"fontSize\":\"normal\"} -->\n<h5 class=\"wp-block-heading has-text-align-center has-normal-font-size\"><strong>STEP </strong>1</h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"><strong>Contact Us<br></strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\">Schedule an appointment to discuss your property.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"box-1  shadow aae\",\"backgroundColor\":\"white\"} -->\n<div class=\"wp-block-column box-1  shadow aae has-white-background-color has-background\"><!-- wp:image {\"id\":3764,\"width\":\"80px\",\"height\":\"80px\",\"scale\":\"cover\",\"sizeSlug\":\"full\",\"linkDestination\":\"none\",\"align\":\"center\"} -->\n<figure class=\"wp-block-image aligncenter size-full is-resized\"><img src=\"https://cdn.carrot.com/uploads/sites/81893/2026/03/Asset-7@2x.png\" alt=\"\" class=\"wp-image-3764\" style=\"object-fit:cover;width:80px;height:80px\" /></figure>\n<!-- /wp:image -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"level\":5,\"fontSize\":\"normal\"} -->\n<h5 class=\"wp-block-heading has-text-align-center has-normal-font-size\"><strong>STEP 2</strong></h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"><strong>Get a Fair Offer<br></strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\">When you call, we answer. Need help moving? We even have movers at a discount!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"box-1 shadow\",\"backgroundColor\":\"white\"} -->\n<div class=\"wp-block-column box-1 shadow has-white-background-color has-background\"><!-- wp:image {\"id\":3771,\"width\":\"80px\",\"height\":\"80px\",\"scale\":\"cover\",\"sizeSlug\":\"full\",\"linkDestination\":\"none\",\"align\":\"center\"} -->\n<figure class=\"wp-block-image aligncenter size-full is-resized\"><img src=\"https://cdn.carrot.com/uploads/sites/81893/2026/03/Asset-20@2x.png\" alt=\"\" class=\"wp-image-3771\" style=\"object-fit:cover;width:80px;height:80px\" /></figure>\n<!-- /wp:image -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"level\":5,\"fontSize\":\"normal\"} -->\n<h5 class=\"wp-block-heading has-text-align-center has-normal-font-size\"><strong>STEP 3</strong></h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"><strong>Get Paid Fast<br></strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\">Close the deal and get paid within 14 days.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns --></div>\n<!-- /wp:group -->",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>HOW IT WORKS Our Simple 3-Step Process To start, simply fill out our short information form on this site or give us a call at (401) 267-4066.&nbsp;We will present you with the highest cash offer possible within 24 hours. STEP 1 Contact Us Schedule an appointment to discuss your property. STEP 2 Get a Fair &hellip; <a href=\"https://offercomseller.carrot.com/blog/three-process/\">Continued</a></p>\n",
+      "protected": false
+    },
+    "template": "",
+    "meta": {
+      "post_type": "",
+      "carrotcontentid": "",
+      "isnichetopicpost": false,
+      "insertionDate": "",
+      "location": "",
+      "location_raw": "",
+      "location_type": "",
+      "carrot_ai_draft": false,
+      "phone_override": "",
+      "zip_override": "",
+      "license_number_override": "",
+      "hero_headline_override": "",
+      "bio_heading_override": "",
+      "bio_body_override": "",
+      "_genesis_title": "",
+      "_genesis_description": "",
+      "locality_synced_to_home": true,
+      "hero_form": "",
+      "hero_form_custom": "",
+      "g_forms_title": true,
+      "g_forms_description": true,
+      "footnotes": ""
+    },
+    "wp_pattern_category": [],
+    "block-pattern-category": [],
+    "block-pattern-post-type": [],
+    "block-pattern-user-level": [],
+    "block-pattern-site-type": [],
+    "acf": [],
+    "wp_pattern_sync_status": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3790",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/types/wp_block"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3790/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/media?parent=3790"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "wp_pattern_category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/wp_pattern_category?post=3790"
+        },
+        {
+          "taxonomy": "block-pattern-category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-category?post=3790"
+        },
+        {
+          "taxonomy": "block-pattern-post-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-post-type?post=3790"
+        },
+        {
+          "taxonomy": "block-pattern-user-level",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-user-level?post=3790"
+        },
+        {
+          "taxonomy": "block-pattern-site-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-site-type?post=3790"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3790"
+        }
+      ],
+      "wp:action-create-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3790"
+        }
+      ],
+      "wp:action-assign-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3790"
+        }
+      ],
+      "wp:action-create-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3790"
+        }
+      ],
+      "wp:action-assign-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3790"
+        }
+      ],
+      "wp:action-create-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3790"
+        }
+      ],
+      "wp:action-assign-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3790"
+        }
+      ],
+      "wp:action-create-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3790"
+        }
+      ],
+      "wp:action-assign-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3790"
+        }
+      ],
+      "wp:action-assign-block-pattern-site-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3790"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 3729,
+    "date": "2026-03-17T09:25:35",
+    "date_gmt": "2026-03-17T13:25:35",
+    "guid": {
+      "rendered": "https://offercomseller.carrot.com/blog/reviews/",
+      "raw": "https://offercomseller.carrot.com/blog/reviews/"
+    },
+    "modified": "2026-03-17T09:25:35",
+    "modified_gmt": "2026-03-17T13:25:35",
+    "password": "",
+    "slug": "reviews",
+    "status": "publish",
+    "type": "wp_block",
+    "link": "https://offercomseller.carrot.com/blog/reviews/",
+    "title": {
+      "raw": "reviews"
+    },
+    "content": {
+      "raw": "<!-- wp:cover {\"overlayColor\":\"white\",\"isUserOverlayColor\":true,\"isDark\":false,\"align\":\"full\",\"style\":{\"spacing\":{\"padding\":{\"top\":\"0\",\"bottom\":\"0\"},\"margin\":{\"top\":\"var:preset|spacing|40\",\"bottom\":\"var:preset|spacing|40\"}}},\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-cover alignfull is-light\" style=\"margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40);padding-top:0;padding-bottom:0\"><span aria-hidden=\"true\" class=\"wp-block-cover__background has-white-background-color has-background-dim-100 has-background-dim\"></span><div class=\"wp-block-cover__inner-container\"><!-- wp:heading {\"textAlign\":\"center\",\"align\":\"full\",\"style\":{\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|black\"}}},\"typography\":{\"letterSpacing\":\"5px\",\"fontSize\":\"18px\",\"fontWeight\":\"400\",\"fontStyle\":\"normal\"}},\"textColor\":\"black\"} -->\n<h2 class=\"wp-block-heading alignfull has-text-align-center has-black-color has-text-color has-link-color\" style=\"font-size:18px;font-style:normal;font-weight:400;letter-spacing:5px\">TESTIMONIALS</h2>\n<!-- /wp:heading -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"className\":\"reviews-box\",\"style\":{\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|c-brand-primary-darker\"}}},\"typography\":{\"fontSize\":\"27px\"}},\"textColor\":\"c-brand-primary-darker\",\"removeMarginTop\":true} -->\n<h2 class=\"wp-block-heading has-text-align-center reviews-box has-c-brand-primary-darker-color has-text-color has-link-color mt-0\" style=\"font-size:27px\">What Our Clients Say</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"placeholder\":\"Write title…\",\"fontSize\":\"large\"} -->\n<p class=\"has-text-align-center has-large-font-size\"></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:columns {\"align\":\"full\"} -->\n<div class=\"wp-block-columns alignfull\"><!-- wp:column {\"className\":\"box-12\"} -->\n<div class=\"wp-block-column box-12\"><!-- wp:heading {\"style\":{\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|black\"}}}},\"textColor\":\"black\",\"fontSize\":\"normal\",\"removeMarginBottom\":true} -->\n<h2 class=\"wp-block-heading has-black-color has-text-color has-link-color has-normal-font-size mb-0\"><strong><br>Michael Shapiro</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:image {\"id\":3356,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"https://cdn.carrot.com/uploads/sites/81893/2026/03/Stars-OPT-Custom-1.webp\" alt=\"\" class=\"wp-image-3356\" /></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p class=\"\">Noah Rollins and his team have made this <strong>home sale</strong> and move easy beyond belief. Professional, efficient, kind, caring, through. From the beginning to the end it has been effortless. Offer NE took care of donating or discarding all the remaining furniture, supplies and appliances. I could not be more relieved and happy with the process.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":3357,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"https://cdn.carrot.com/uploads/sites/81893/2026/03/googlereviews.webp\" alt=\"\" class=\"wp-image-3357\" /></figure>\n<!-- /wp:image --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"box-12\"} -->\n<div class=\"wp-block-column box-12\"><!-- wp:heading {\"style\":{\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|black\"}}}},\"textColor\":\"black\",\"fontSize\":\"normal\",\"removeMarginBottom\":true} -->\n<h2 class=\"wp-block-heading has-black-color has-text-color has-link-color has-normal-font-size mb-0\"><strong>Dave Nadeau</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:image {\"id\":3356,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"https://cdn.carrot.com/uploads/sites/81893/2026/03/Stars-OPT-Custom-1.webp\" alt=\"\" class=\"wp-image-3356\" /></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p class=\"\">Noah and Lindsey were very professional and came back with a fair offer on a turn key, no cost selling solution. Closing was quick and easy too. Would highly recommend having them quote residential <strong>home sales</strong> that don’t go through a realtor</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":3357,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"https://cdn.carrot.com/uploads/sites/81893/2026/03/googlereviews.webp\" alt=\"\" class=\"wp-image-3357\" /></figure>\n<!-- /wp:image --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"box-12\"} -->\n<div class=\"wp-block-column box-12\"><!-- wp:heading {\"style\":{\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|black\"}}}},\"textColor\":\"black\",\"fontSize\":\"normal\",\"removeMarginBottom\":true} -->\n<h2 class=\"wp-block-heading has-black-color has-text-color has-link-color has-normal-font-size mb-0\"><strong>Gabe Christiansen</strong></h2>\n<!-- /wp:heading -->\n\n<!-- wp:image {\"id\":3356,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"https://cdn.carrot.com/uploads/sites/81893/2026/03/Stars-OPT-Custom-1.webp\" alt=\"\" class=\"wp-image-3356\" /></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p class=\"\">Noah and Lindsey are great people - very kind and down to earth. I'd highly recommend working with them if you need to sell your home fast and for <strong>cash</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:image {\"id\":3357,\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-full\"><img src=\"https://cdn.carrot.com/uploads/sites/81893/2026/03/googlereviews.webp\" alt=\"\" class=\"wp-image-3357\" /></figure>\n<!-- /wp:image --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns --></div></div>\n<!-- /wp:cover -->",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "",
+      "protected": false
+    },
+    "template": "",
+    "meta": {
+      "post_type": "",
+      "carrotcontentid": "",
+      "isnichetopicpost": false,
+      "insertionDate": "",
+      "location": "",
+      "location_raw": "",
+      "location_type": "",
+      "carrot_ai_draft": false,
+      "phone_override": "",
+      "zip_override": "",
+      "license_number_override": "",
+      "hero_headline_override": "",
+      "bio_heading_override": "",
+      "bio_body_override": "",
+      "_genesis_title": "",
+      "_genesis_description": "",
+      "locality_synced_to_home": true,
+      "hero_form": "",
+      "hero_form_custom": "",
+      "g_forms_title": true,
+      "g_forms_description": true,
+      "footnotes": ""
+    },
+    "wp_pattern_category": [],
+    "block-pattern-category": [],
+    "block-pattern-post-type": [],
+    "block-pattern-user-level": [],
+    "block-pattern-site-type": [],
+    "acf": [],
+    "wp_pattern_sync_status": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3729",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/types/wp_block"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3729/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/media?parent=3729"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "wp_pattern_category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/wp_pattern_category?post=3729"
+        },
+        {
+          "taxonomy": "block-pattern-category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-category?post=3729"
+        },
+        {
+          "taxonomy": "block-pattern-post-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-post-type?post=3729"
+        },
+        {
+          "taxonomy": "block-pattern-user-level",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-user-level?post=3729"
+        },
+        {
+          "taxonomy": "block-pattern-site-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-site-type?post=3729"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3729"
+        }
+      ],
+      "wp:action-create-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3729"
+        }
+      ],
+      "wp:action-assign-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3729"
+        }
+      ],
+      "wp:action-create-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3729"
+        }
+      ],
+      "wp:action-assign-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3729"
+        }
+      ],
+      "wp:action-create-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3729"
+        }
+      ],
+      "wp:action-assign-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3729"
+        }
+      ],
+      "wp:action-create-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3729"
+        }
+      ],
+      "wp:action-assign-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3729"
+        }
+      ],
+      "wp:action-assign-block-pattern-site-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3729"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 3714,
+    "date": "2026-03-17T07:59:06",
+    "date_gmt": "2026-03-17T11:59:06",
+    "guid": {
+      "rendered": "https://offercomseller.carrot.com/blog/sale-fast/",
+      "raw": "https://offercomseller.carrot.com/blog/sale-fast/"
+    },
+    "modified": "2026-03-17T07:59:06",
+    "modified_gmt": "2026-03-17T11:59:06",
+    "password": "",
+    "slug": "sale-fast",
+    "status": "publish",
+    "type": "wp_block",
+    "link": "https://offercomseller.carrot.com/blog/sale-fast/",
+    "title": {
+      "raw": "sale fast"
+    },
+    "content": {
+      "raw": "<!-- wp:columns {\"align\":\"full\",\"backgroundColor\":\"black\"} -->\n<div class=\"wp-block-columns alignfull has-black-background-color has-background\"><!-- wp:column {\"width\":\"66.66%\"} -->\n<div class=\"wp-block-column\" style=\"flex-basis:66.66%\"><!-- wp:heading {\"style\":{\"typography\":{\"fontSize\":\"45px\",\"fontWeight\":\"400\",\"fontStyle\":\"normal\"}}} -->\n<h2 class=\"wp-block-heading\" style=\"font-size:45px;font-style:normal;font-weight:400\">Need to<br><strong>SELL FAST</strong>?</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"className\":\"\",\"style\":{\"typography\":{\"fontSize\":\"16px\",\"fontWeight\":\"200\",\"fontStyle\":\"normal\",\"letterSpacing\":\"5px\"}}} -->\n<p style=\"font-size:16px;font-style:normal;font-weight:200;letter-spacing:5px\" class=\"\">FILL OUT THIS QUICK FORM AND GET YOUR OFFER</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"className\":\"\",\"style\":{\"typography\":{\"fontSize\":\"16px\",\"fontWeight\":\"200\",\"fontStyle\":\"normal\"}}} -->\n<p style=\"font-size:16px;font-style:normal;font-weight:200\" class=\"\"></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"verticalAlignment\":\"center\",\"width\":\"33.33%\"} -->\n<div class=\"wp-block-column is-vertically-aligned-center\" style=\"flex-basis:33.33%\"><!-- wp:buttons {\"layout\":{\"type\":\"flex\",\"justifyContent\":\"center\"}} -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"backgroundColor\":\"c-brand-primary-darker\",\"className\":\"is-style-fill\",\"style\":{\"typography\":{\"fontSize\":\"16px\"},\"spacing\":{\"padding\":{\"top\":\"20px\",\"bottom\":\"20px\"}}}} -->\n<div class=\"wp-block-button is-style-fill\"><a class=\"wp-block-button__link has-c-brand-primary-darker-background-color has-background has-custom-font-size wp-element-button\" style=\"padding-top:20px;padding-bottom:20px;font-size:16px\">Get My Fair Cash Offer</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>Need toSELL FAST? FILL OUT THIS QUICK FORM AND GET YOUR OFFER</p>\n",
+      "protected": false
+    },
+    "template": "",
+    "meta": {
+      "post_type": "",
+      "carrotcontentid": "",
+      "isnichetopicpost": false,
+      "insertionDate": "",
+      "location": "",
+      "location_raw": "",
+      "location_type": "",
+      "carrot_ai_draft": false,
+      "phone_override": "",
+      "zip_override": "",
+      "license_number_override": "",
+      "hero_headline_override": "",
+      "bio_heading_override": "",
+      "bio_body_override": "",
+      "_genesis_title": "",
+      "_genesis_description": "",
+      "locality_synced_to_home": true,
+      "hero_form": "",
+      "hero_form_custom": "",
+      "g_forms_title": true,
+      "g_forms_description": true,
+      "footnotes": ""
+    },
+    "wp_pattern_category": [],
+    "block-pattern-category": [],
+    "block-pattern-post-type": [],
+    "block-pattern-user-level": [],
+    "block-pattern-site-type": [],
+    "acf": [],
+    "wp_pattern_sync_status": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3714",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/types/wp_block"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3714/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/media?parent=3714"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "wp_pattern_category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/wp_pattern_category?post=3714"
+        },
+        {
+          "taxonomy": "block-pattern-category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-category?post=3714"
+        },
+        {
+          "taxonomy": "block-pattern-post-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-post-type?post=3714"
+        },
+        {
+          "taxonomy": "block-pattern-user-level",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-user-level?post=3714"
+        },
+        {
+          "taxonomy": "block-pattern-site-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-site-type?post=3714"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3714"
+        }
+      ],
+      "wp:action-create-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3714"
+        }
+      ],
+      "wp:action-assign-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3714"
+        }
+      ],
+      "wp:action-create-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3714"
+        }
+      ],
+      "wp:action-assign-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3714"
+        }
+      ],
+      "wp:action-create-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3714"
+        }
+      ],
+      "wp:action-assign-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3714"
+        }
+      ],
+      "wp:action-create-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3714"
+        }
+      ],
+      "wp:action-assign-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3714"
+        }
+      ],
+      "wp:action-assign-block-pattern-site-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3714"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 3675,
+    "date": "2026-03-17T06:48:57",
+    "date_gmt": "2026-03-17T10:48:57",
+    "guid": {
+      "rendered": "https://offercomseller.carrot.com/blog/overlaypattern/",
+      "raw": "https://offercomseller.carrot.com/blog/overlaypattern/"
+    },
+    "modified": "2026-03-17T06:48:57",
+    "modified_gmt": "2026-03-17T10:48:57",
+    "password": "",
+    "slug": "overlaypattern",
+    "status": "publish",
+    "type": "wp_block",
+    "link": "https://offercomseller.carrot.com/blog/overlaypattern/",
+    "title": {
+      "raw": "overlaypattern"
+    },
+    "content": {
+      "raw": "<!-- wp:cover {\"url\":\"https://cdn.carrot.com/uploads/sites/81893/2025/04/house-pic-5-1024x531.jpeg\",\"id\":2741,\"alt\":\"Is Selling A House To A \\u0022We Buy Houses\\u0022 Company In [market_city] A Good Idea?\",\"hasParallax\":true,\"dimRatio\":70,\"overlayColor\":\"c-secondary-darker\",\"isUserOverlayColor\":true,\"sizeSlug\":\"large\",\"align\":\"full\",\"style\":{\"spacing\":{\"padding\":{\"top\":\"var:preset|spacing|70\",\"bottom\":\"var:preset|spacing|70\",\"left\":\"var:preset|spacing|20\",\"right\":\"var:preset|spacing|20\"}}},\"layout\":{\"type\":\"constrained\"}} -->\n<div class=\"wp-block-cover alignfull has-parallax\" style=\"padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--20)\"><div role=\"img\" aria-label=\"Is Selling A House To A &quot;We Buy Houses&quot; Company In [market_city] A Good Idea?\" class=\"wp-block-cover__image-background wp-image-2741 size-large has-parallax\" style=\"background-position:50% 50%;background-image:url(https://cdn.carrot.com/uploads/sites/81893/2025/04/house-pic-5-1024x531.jpeg)\"></div><span aria-hidden=\"true\" class=\"wp-block-cover__background has-c-secondary-darker-background-color has-background-dim-70 has-background-dim\"></span><div class=\"wp-block-cover__inner-container\"><!-- wp:paragraph {\"align\":\"left\",\"className\":\"\",\"style\":{\"typography\":{\"fontSize\":\"18px\",\"fontWeight\":\"400\",\"fontStyle\":\"normal\"}}} -->\n<p class=\"has-text-align-left\" style=\"font-size:18px;font-style:normal;font-weight:400\">Ready to Sell Your Home in Rhode Island or Massachusetts?</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"left\",\"placeholder\":\"Write title…\",\"style\":{\"typography\":{\"fontWeight\":\"400\",\"letterSpacing\":\"3px\",\"fontSize\":\"24px\",\"fontStyle\":\"normal\"}}} -->\n<p class=\"has-text-align-left\" style=\"font-size:24px;font-style:normal;font-weight:400;letter-spacing:3px\">Let us take the stress out of selling your property.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"left\",\"placeholder\":\"Write title…\",\"style\":{\"typography\":{\"fontWeight\":\"500\",\"fontStyle\":\"normal\",\"letterSpacing\":\"0px\",\"fontSize\":\"16px\"}}} -->\n<p class=\"has-text-align-left\" style=\"font-size:16px;font-style:normal;font-weight:500;letter-spacing:0px\"></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:buttons {\"layout\":{\"type\":\"flex\"}} -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"backgroundColor\":\"white\",\"textColor\":\"white\",\"className\":\"shadow is-style-outline\",\"style\":{\"spacing\":{\"padding\":{\"left\":\"59px\",\"right\":\"59px\",\"top\":\"60px\",\"bottom\":\"60px\"}},\"border\":{\"radius\":\"4px\"},\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|white\"}}}},\"fontSize\":\"normal\"} -->\n<div class=\"wp-block-button shadow is-style-outline\"><a class=\"wp-block-button__link has-white-color has-white-background-color has-text-color has-background has-link-color has-normal-font-size has-custom-font-size wp-element-button\" style=\"border-radius:4px;padding-top:60px;padding-right:59px;padding-bottom:60px;padding-left:59px\">Get Started Today ➔</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"placeholder\":\"Write title…\",\"fontSize\":\"large\"} -->\n<p class=\"has-text-align-center has-large-font-size\"></p>\n<!-- /wp:paragraph --></div></div>\n<!-- /wp:cover -->",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "",
+      "protected": false
+    },
+    "template": "",
+    "meta": {
+      "post_type": "",
+      "carrotcontentid": "",
+      "isnichetopicpost": false,
+      "insertionDate": "",
+      "location": "",
+      "location_raw": "",
+      "location_type": "",
+      "carrot_ai_draft": false,
+      "phone_override": "",
+      "zip_override": "",
+      "license_number_override": "",
+      "hero_headline_override": "",
+      "bio_heading_override": "",
+      "bio_body_override": "",
+      "_genesis_title": "",
+      "_genesis_description": "",
+      "locality_synced_to_home": true,
+      "hero_form": "",
+      "hero_form_custom": "",
+      "g_forms_title": true,
+      "g_forms_description": true,
+      "footnotes": ""
+    },
+    "wp_pattern_category": [],
+    "block-pattern-category": [],
+    "block-pattern-post-type": [],
+    "block-pattern-user-level": [],
+    "block-pattern-site-type": [],
+    "acf": [],
+    "wp_pattern_sync_status": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3675",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/types/wp_block"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3675/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/media?parent=3675"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "wp_pattern_category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/wp_pattern_category?post=3675"
+        },
+        {
+          "taxonomy": "block-pattern-category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-category?post=3675"
+        },
+        {
+          "taxonomy": "block-pattern-post-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-post-type?post=3675"
+        },
+        {
+          "taxonomy": "block-pattern-user-level",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-user-level?post=3675"
+        },
+        {
+          "taxonomy": "block-pattern-site-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-site-type?post=3675"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3675"
+        }
+      ],
+      "wp:action-create-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3675"
+        }
+      ],
+      "wp:action-assign-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3675"
+        }
+      ],
+      "wp:action-create-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3675"
+        }
+      ],
+      "wp:action-assign-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3675"
+        }
+      ],
+      "wp:action-create-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3675"
+        }
+      ],
+      "wp:action-assign-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3675"
+        }
+      ],
+      "wp:action-create-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3675"
+        }
+      ],
+      "wp:action-assign-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3675"
+        }
+      ],
+      "wp:action-assign-block-pattern-site-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3675"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 3673,
+    "date": "2026-03-17T06:47:54",
+    "date_gmt": "2026-03-17T10:47:54",
+    "guid": {
+      "rendered": "https://offercomseller.carrot.com/blog/saling-home/",
+      "raw": "https://offercomseller.carrot.com/blog/saling-home/"
+    },
+    "modified": "2026-03-17T06:47:54",
+    "modified_gmt": "2026-03-17T10:47:54",
+    "password": "",
+    "slug": "saling-home",
+    "status": "publish",
+    "type": "wp_block",
+    "link": "https://offercomseller.carrot.com/blog/saling-home/",
+    "title": {
+      "raw": "saling home"
+    },
+    "content": {
+      "raw": "<!-- wp:columns {\"verticalAlignment\":\"center\",\"style\":{\"spacing\":{\"margin\":{\"top\":\"var:preset|spacing|80\",\"bottom\":\"var:preset|spacing|80\"}}}} -->\n<div class=\"wp-block-columns are-vertically-aligned-center\" style=\"margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)\"><!-- wp:column {\"verticalAlignment\":\"center\"} -->\n<div class=\"wp-block-column is-vertically-aligned-center\"><!-- wp:heading {\"style\":{\"typography\":{\"fontSize\":\"27px\"},\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|c-brand-primary-darker\"}}}},\"textColor\":\"c-brand-primary-darker\"} -->\n<h2 class=\"wp-block-heading has-c-brand-primary-darker-color has-text-color has-link-color\" id=\"block-91cb109d-6d82-401d-b57c-673400d235fe\" style=\"font-size:27px\">Is Selling A House To A \"We Buy Houses\" Company In Rhode Island A Good Idea?</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"style\":{\"typography\":{\"fontSize\":\"18px\"}}} -->\n<p style=\"font-size:18px\" class=\"\">Selling through an agent is ideal if your home is in perfect shape and you're able to wait patiently for the ideal buyer. The Rhode Island real estate market is active, and attractive homes sell quickly.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:columns {\"align\":\"wide\"} -->\n<div class=\"wp-block-columns alignwide\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:list {\"className\":\"is-style-list-checkmarks\"} -->\n<ul class=\"wp-block-list is-style-list-checkmarks\"><!-- wp:list-item -->\n<li>Selling traditionally means opening your home repeatedly for visitors during open houses. This is often stressful! Plus, you’ll deal with inspections and the risk that potential buyers may fail to secure the financing required.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>This can extend the process, adding months and stress.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Choosing a home-buying company like ours eliminates these common headaches.</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:buttons -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"textColor\":\"c-brand-primary-darker\",\"className\":\"is-style-outline\",\"style\":{\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|c-brand-primary-darker\"}}},\"typography\":{\"fontSize\":\"18px\"}}} -->\n<div class=\"wp-block-button is-style-outline\"><a class=\"wp-block-button__link has-c-brand-primary-darker-color has-text-color has-link-color has-custom-font-size wp-element-button\" style=\"font-size:18px\">Yes! I want to get my fair cash offer!</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"verticalAlignment\":\"center\"} -->\n<div class=\"wp-block-column is-vertically-aligned-center\"><!-- wp:image {\"id\":3441,\"sizeSlug\":\"full\",\"linkDestination\":\"none\",\"style\":{\"border\":{\"radius\":\"4px\"}},\"imageCategory\":\"business-photos\"} -->\n<figure class=\"wp-block-image size-full has-custom-border\"><img src=\"https://cdn.carrot.com/uploads/sites/81893/2026/03/Untitled-1.png\" alt=\"\" class=\"wp-image-3441\" style=\"border-radius:4px\" /></figure>\n<!-- /wp:image --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>Is Selling A House To A &#8220;We Buy Houses&#8221; Company In Rhode Island A Good Idea? Selling through an agent is ideal if your home is in perfect shape and you&#8217;re able to wait patiently for the ideal buyer. The Rhode Island real estate market is active, and attractive homes sell quickly.</p>\n",
+      "protected": false
+    },
+    "template": "",
+    "meta": {
+      "post_type": "",
+      "carrotcontentid": "",
+      "isnichetopicpost": false,
+      "insertionDate": "",
+      "location": "",
+      "location_raw": "",
+      "location_type": "",
+      "carrot_ai_draft": false,
+      "phone_override": "",
+      "zip_override": "",
+      "license_number_override": "",
+      "hero_headline_override": "",
+      "bio_heading_override": "",
+      "bio_body_override": "",
+      "_genesis_title": "",
+      "_genesis_description": "",
+      "locality_synced_to_home": true,
+      "hero_form": "",
+      "hero_form_custom": "",
+      "g_forms_title": true,
+      "g_forms_description": true,
+      "footnotes": ""
+    },
+    "wp_pattern_category": [],
+    "block-pattern-category": [],
+    "block-pattern-post-type": [],
+    "block-pattern-user-level": [],
+    "block-pattern-site-type": [],
+    "acf": [],
+    "wp_pattern_sync_status": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3673",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/types/wp_block"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3673/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/media?parent=3673"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "wp_pattern_category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/wp_pattern_category?post=3673"
+        },
+        {
+          "taxonomy": "block-pattern-category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-category?post=3673"
+        },
+        {
+          "taxonomy": "block-pattern-post-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-post-type?post=3673"
+        },
+        {
+          "taxonomy": "block-pattern-user-level",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-user-level?post=3673"
+        },
+        {
+          "taxonomy": "block-pattern-site-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-site-type?post=3673"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3673"
+        }
+      ],
+      "wp:action-create-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3673"
+        }
+      ],
+      "wp:action-assign-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3673"
+        }
+      ],
+      "wp:action-create-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3673"
+        }
+      ],
+      "wp:action-assign-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3673"
+        }
+      ],
+      "wp:action-create-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3673"
+        }
+      ],
+      "wp:action-assign-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3673"
+        }
+      ],
+      "wp:action-create-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3673"
+        }
+      ],
+      "wp:action-assign-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3673"
+        }
+      ],
+      "wp:action-assign-block-pattern-site-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3673"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 3661,
+    "date": "2026-03-17T06:17:41",
+    "date_gmt": "2026-03-17T10:17:41",
+    "guid": {
+      "rendered": "https://offercomseller.carrot.com/blog/services-boxv-1/",
+      "raw": "https://offercomseller.carrot.com/blog/services-boxv-1/"
+    },
+    "modified": "2026-03-17T06:17:41",
+    "modified_gmt": "2026-03-17T10:17:41",
+    "password": "",
+    "slug": "services-boxv-1",
+    "status": "publish",
+    "type": "wp_block",
+    "link": "https://offercomseller.carrot.com/blog/services-boxv-1/",
+    "title": {
+      "raw": "services-boxv-1"
+    },
+    "content": {
+      "raw": "<!-- wp:group {\"metadata\":{\"categories\":[\"Blank Layouts\"],\"patternName\":\"carrot/3-column-images-with-text-dark-background\",\"name\":\"Services, 3 columns\"},\"align\":\"full\",\"className\":\"boxes-sec\",\"style\":{\"spacing\":{\"padding\":{\"top\":\"var:preset|spacing|80\",\"bottom\":\"var:preset|spacing|80\"},\"blockGap\":\"var:preset|spacing|20\",\"margin\":{\"top\":\"0\",\"bottom\":\"0\"}}},\"backgroundColor\":\"gray-100\",\"layout\":{\"type\":\"constrained\",\"contentSize\":\"1440px\"},\"removeMarginBottom\":true,\"removeMarginTop\":true} -->\n<div class=\"wp-block-group alignfull boxes-sec has-gray-100-background-color has-background mt-0 mb-0\" style=\"margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)\"><!-- wp:heading {\"textAlign\":\"center\",\"style\":{\"typography\":{\"fontWeight\":\"300\",\"fontStyle\":\"normal\",\"fontSize\":\"18px\",\"letterSpacing\":\"5px\"},\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|black\"}}}},\"textColor\":\"black\"} -->\n<h2 class=\"wp-block-heading has-text-align-center has-black-color has-text-color has-link-color\" style=\"font-size:18px;font-style:normal;font-weight:300;letter-spacing:5px\">HOW IT WORKS</h2>\n<!-- /wp:heading -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"align\":\"wide\",\"className\":\"is-style-text-display\",\"style\":{\"elements\":{\"link\":{\"color\":{\"text\":\"var:preset|color|c-brand-primary-darker\"}}},\"typography\":{\"fontSize\":\"27px\"}},\"textColor\":\"c-brand-primary-darker\"} -->\n<h2 class=\"wp-block-heading alignwide has-text-align-center is-style-text-display has-c-brand-primary-darker-color has-text-color has-link-color\" style=\"font-size:27px\">Our Simple 3-Step Process</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"style\":{\"typography\":{\"fontSize\":\"18px\"}}} -->\n<p class=\"has-text-align-center\" style=\"font-size:18px\">To start, simply fill out our short information form on this site or give us a call at (401) 267-4066.&nbsp;<strong>We will present you with the highest cash offer possible within 24 hours</strong>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:columns {\"style\":{\"spacing\":{\"margin\":{\"top\":\"var:preset|spacing|20\",\"bottom\":\"var:preset|spacing|20\"}}}} -->\n<div class=\"wp-block-columns\" style=\"margin-top:var(--wp--preset--spacing--20);margin-bottom:var(--wp--preset--spacing--20)\"><!-- wp:column {\"className\":\"box-1 shadow\",\"backgroundColor\":\"white\"} -->\n<div class=\"wp-block-column box-1 shadow has-white-background-color has-background\"><!-- wp:outermost/icon-block {\"iconName\":\"carrot-icons-house-tree\",\"itemsJustification\":\"center\",\"iconColor\":\"c-brand-primary\",\"iconColorValue\":\"#41b5c2\",\"width\":\"60px\",\"height\":\"60px\",\"align\":\"center\",\"className\":\"icons1\"} -->\n<div class=\"wp-block-outermost-icon-block aligncenter items-justified-center icons1\"><div class=\"icon-container has-icon-color has-c-brand-primary-color\" style=\"color:#41b5c2;width:60px;height:60px\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 512\"><path d=\"M404.1 37.1c6.4-7.1 17.4-7.1 23.8 0L538.5 160 480 160c-6.2 0-11.8 3.6-14.5 9.1s-1.8 12.2 2.1 17L575.8 318.6c.1 .2 .2 .3 .2 .5c0 .5-.4 .9-.9 .9L496 320c-6.3 0-12.1 3.7-14.6 9.5s-1.4 12.6 2.8 17.2L606 480l-191.6 0c-2.4 11.8-7.4 22.7-14.4 32l209.6 0c16.8 0 30.4-13.6 30.4-30.4c0-7.6-2.8-14.9-8-20.5L532.3 352l42.8 0c18.1 0 32.9-14.7 32.9-32.9c0-7.6-2.6-14.9-7.4-20.8L513.7 192l34.7 0c15.2 0 27.6-12.3 27.6-27.6c0-6.8-2.5-13.4-7.1-18.4L451.7 15.7c-19.1-21.2-52.3-21.2-71.4 0l-95.4 106 23.6 21.6L404.1 37.1zM32 284.2c0-9 3.8-17.5 10.4-23.6l128-117.3c12.2-11.2 31-11.2 43.2 0l128 117.3c6.6 6.1 10.4 14.6 10.4 23.6L352 448c0 17.7-14.3 32-32 32L64 480c-17.7 0-32-14.3-32-32l0-163.8zM0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-163.8c0-17.9-7.5-35.1-20.8-47.2l-128-117.3c-24.5-22.4-62-22.4-86.5 0L20.8 237C7.5 249.1 0 266.2 0 284.2L0 448zM224 288l0 64-64 0 0-64 64 0zm-64-32c-17.7 0-32 14.3-32 32l0 64c0 17.7 14.3 32 32 32l64 0c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l-64 0z\"></path></svg></div></div>\n<!-- /wp:outermost/icon-block -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"level\":5,\"fontSize\":\"normal\"} -->\n<h5 class=\"wp-block-heading has-text-align-center has-normal-font-size\"><strong>STEP 1</strong></h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\">Tell us about your house. We’ll get started today analyzing your property.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"box-1  shadow aae\",\"backgroundColor\":\"white\"} -->\n<div class=\"wp-block-column box-1  shadow aae has-white-background-color has-background\"><!-- wp:outermost/icon-block {\"iconName\":\"carrot-icons-file-lines\",\"itemsJustification\":\"center\",\"iconColor\":\"c-brand-primary\",\"iconColorValue\":\"#41b5c2\",\"width\":\"60px\",\"height\":\"60px\",\"align\":\"center\",\"className\":\"icons1\"} -->\n<div class=\"wp-block-outermost-icon-block aligncenter items-justified-center icons1\"><div class=\"icon-container has-icon-color has-c-brand-primary-color\" style=\"color:#41b5c2;width:60px;height:60px\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 384 512\"><path d=\"M320 480L64 480c-17.7 0-32-14.3-32-32L32 64c0-17.7 14.3-32 32-32l128 0 0 112c0 26.5 21.5 48 48 48l112 0 0 256c0 17.7-14.3 32-32 32zM240 160c-8.8 0-16-7.2-16-16l0-111.5c2.8 .7 5.4 2.1 7.4 4.2L347.3 152.6c2.1 2.1 3.5 4.6 4.2 7.4L240 160zM64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-284.1c0-12.7-5.1-24.9-14.1-33.9L254.1 14.1c-9-9-21.2-14.1-33.9-14.1L64 0zm48 256c-8.8 0-16 7.2-16 16s7.2 16 16 16l160 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-160 0zm0 64c-8.8 0-16 7.2-16 16s7.2 16 16 16l160 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-160 0zm0 64c-8.8 0-16 7.2-16 16s7.2 16 16 16l160 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-160 0z\"></path></svg></div></div>\n<!-- /wp:outermost/icon-block -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"level\":5,\"fontSize\":\"normal\"} -->\n<h5 class=\"wp-block-heading has-text-align-center has-normal-font-size\"><strong>STEP 2</strong></h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\">We’ll make you a fair offer based on the market value and condition with no obligation.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column {\"className\":\"box-1 shadow\",\"backgroundColor\":\"white\"} -->\n<div class=\"wp-block-column box-1 shadow has-white-background-color has-background\"><!-- wp:outermost/icon-block {\"iconName\":\"carrot-icons-calendar-days\",\"itemsJustification\":\"center\",\"iconColor\":\"c-brand-primary\",\"iconColorValue\":\"#41b5c2\",\"width\":\"60px\",\"height\":\"60px\",\"align\":\"center\",\"className\":\"icons1\"} -->\n<div class=\"wp-block-outermost-icon-block aligncenter items-justified-center icons1\"><div class=\"icon-container has-icon-color has-c-brand-primary-color\" style=\"color:#41b5c2;width:60px;height:60px\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\"><path d=\"M112 0c8.8 0 16 7.2 16 16l0 48 192 0 0-48c0-8.8 7.2-16 16-16s16 7.2 16 16l0 48 32 0c35.3 0 64 28.7 64 64l0 32 0 32 0 256c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 192l0-32 0-32C0 92.7 28.7 64 64 64l32 0 0-48c0-8.8 7.2-16 16-16zM416 192l-104 0 0 72 104 0 0-72zm0 104l-104 0 0 80 104 0 0-80zm0 112l-104 0 0 72 72 0c17.7 0 32-14.3 32-32l0-40zM280 376l0-80-112 0 0 80 112 0zM168 408l0 72 112 0 0-72-112 0zm-32-32l0-80L32 296l0 80 104 0zM32 408l0 40c0 17.7 14.3 32 32 32l72 0 0-72L32 408zm0-144l104 0 0-72L32 192l0 72zm136 0l112 0 0-72-112 0 0 72zM384 96L64 96c-17.7 0-32 14.3-32 32l0 32 384 0 0-32c0-17.7-14.3-32-32-32z\"></path></svg></div></div>\n<!-- /wp:outermost/icon-block -->\n\n<!-- wp:heading {\"textAlign\":\"center\",\"level\":5,\"fontSize\":\"normal\"} -->\n<h5 class=\"wp-block-heading has-text-align-center has-normal-font-size\"><strong>STEP 3</strong></h5>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\">Choose the day you’d like to close and pick up your check. It’s that easy!</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\"} -->\n<p class=\"has-text-align-center\"></p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns --></div>\n<!-- /wp:group -->",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>HOW IT WORKS Our Simple 3-Step Process To start, simply fill out our short information form on this site or give us a call at (401) 267-4066.&nbsp;We will present you with the highest cash offer possible within 24 hours. STEP 1 Tell us about your house. We’ll get started today analyzing your property. STEP 2 &hellip; <a href=\"https://offercomseller.carrot.com/blog/services-boxv-1/\">Continued</a></p>\n",
+      "protected": false
+    },
+    "template": "",
+    "meta": {
+      "post_type": "",
+      "carrotcontentid": "",
+      "isnichetopicpost": false,
+      "insertionDate": "",
+      "location": "",
+      "location_raw": "",
+      "location_type": "",
+      "carrot_ai_draft": false,
+      "phone_override": "",
+      "zip_override": "",
+      "license_number_override": "",
+      "hero_headline_override": "",
+      "bio_heading_override": "",
+      "bio_body_override": "",
+      "_genesis_title": "",
+      "_genesis_description": "",
+      "locality_synced_to_home": true,
+      "hero_form": "",
+      "hero_form_custom": "",
+      "g_forms_title": true,
+      "g_forms_description": true,
+      "footnotes": ""
+    },
+    "wp_pattern_category": [],
+    "block-pattern-category": [],
+    "block-pattern-post-type": [],
+    "block-pattern-user-level": [],
+    "block-pattern-site-type": [],
+    "acf": [],
+    "wp_pattern_sync_status": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3661",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/types/wp_block"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3661/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/media?parent=3661"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "wp_pattern_category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/wp_pattern_category?post=3661"
+        },
+        {
+          "taxonomy": "block-pattern-category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-category?post=3661"
+        },
+        {
+          "taxonomy": "block-pattern-post-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-post-type?post=3661"
+        },
+        {
+          "taxonomy": "block-pattern-user-level",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-user-level?post=3661"
+        },
+        {
+          "taxonomy": "block-pattern-site-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-site-type?post=3661"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3661"
+        }
+      ],
+      "wp:action-create-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3661"
+        }
+      ],
+      "wp:action-assign-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3661"
+        }
+      ],
+      "wp:action-create-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3661"
+        }
+      ],
+      "wp:action-assign-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3661"
+        }
+      ],
+      "wp:action-create-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3661"
+        }
+      ],
+      "wp:action-assign-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3661"
+        }
+      ],
+      "wp:action-create-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3661"
+        }
+      ],
+      "wp:action-assign-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3661"
+        }
+      ],
+      "wp:action-assign-block-pattern-site-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3661"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 3651,
+    "date": "2026-03-16T17:21:40",
+    "date_gmt": "2026-03-16T21:21:40",
+    "guid": {
+      "rendered": "https://offercomseller.carrot.com/blog/hero-section-custom/",
+      "raw": "https://offercomseller.carrot.com/blog/hero-section-custom/"
+    },
+    "modified": "2026-03-16T17:21:40",
+    "modified_gmt": "2026-03-16T21:21:40",
+    "password": "",
+    "slug": "hero-section-custom",
+    "status": "publish",
+    "type": "wp_block",
+    "link": "https://offercomseller.carrot.com/blog/hero-section-custom/",
+    "title": {
+      "raw": "hero section custom"
+    },
+    "content": {
+      "raw": "<!-- wp:carrot/hero {\"imagePosition\":{\"x\":0.5,\"y\":0.61},\"imageUrl\":\"https://cdn.carrot.com/uploads/sites/81893/2026/03/background.png\",\"overlayOpacity\":60,\"overlayBlending\":\"-1\",\"className\":\"is-style- is-style-stacked\"} -->\n<!-- wp:heading {\"level\":1,\"style\":{\"typography\":{\"fontSize\":\"34px\"}}} -->\n<h1 class=\"wp-block-heading\" style=\"font-size:34px\">Sell your House Fast In Rhode Island and Massachusetts</h1>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"fontSize\":\"large\"} -->\n<p class=\"has-large-font-size\">No fees, No Commission, No Stress.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Get An Offer Today, Sell In A Matter Of Days</h2>\n<!-- /wp:heading -->\n<!-- /wp:carrot/hero -->",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "",
+      "protected": false
+    },
+    "template": "",
+    "meta": {
+      "post_type": "",
+      "carrotcontentid": "",
+      "isnichetopicpost": false,
+      "insertionDate": "",
+      "location": "",
+      "location_raw": "",
+      "location_type": "",
+      "carrot_ai_draft": false,
+      "phone_override": "",
+      "zip_override": "",
+      "license_number_override": "",
+      "hero_headline_override": "",
+      "bio_heading_override": "",
+      "bio_body_override": "",
+      "_genesis_title": "",
+      "_genesis_description": "",
+      "locality_synced_to_home": true,
+      "hero_form": "",
+      "hero_form_custom": "",
+      "g_forms_title": true,
+      "g_forms_description": true,
+      "footnotes": ""
+    },
+    "wp_pattern_category": [],
+    "block-pattern-category": [],
+    "block-pattern-post-type": [],
+    "block-pattern-user-level": [],
+    "block-pattern-site-type": [],
+    "acf": [],
+    "wp_pattern_sync_status": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3651",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/types/wp_block"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3651/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/media?parent=3651"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "wp_pattern_category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/wp_pattern_category?post=3651"
+        },
+        {
+          "taxonomy": "block-pattern-category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-category?post=3651"
+        },
+        {
+          "taxonomy": "block-pattern-post-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-post-type?post=3651"
+        },
+        {
+          "taxonomy": "block-pattern-user-level",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-user-level?post=3651"
+        },
+        {
+          "taxonomy": "block-pattern-site-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-site-type?post=3651"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3651"
+        }
+      ],
+      "wp:action-create-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3651"
+        }
+      ],
+      "wp:action-assign-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3651"
+        }
+      ],
+      "wp:action-create-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3651"
+        }
+      ],
+      "wp:action-assign-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3651"
+        }
+      ],
+      "wp:action-create-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3651"
+        }
+      ],
+      "wp:action-assign-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3651"
+        }
+      ],
+      "wp:action-create-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3651"
+        }
+      ],
+      "wp:action-assign-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3651"
+        }
+      ],
+      "wp:action-assign-block-pattern-site-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/3651"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1719,
+    "date": "2025-04-28T08:47:34",
+    "date_gmt": "2025-04-28T15:47:34",
+    "guid": {
+      "rendered": "https://investor-seller-08.carrot.com/blog/seller-steps/",
+      "raw": "https://investor-seller-08.carrot.com/blog/seller-steps/"
+    },
+    "modified": "2022-05-25T08:16:08",
+    "modified_gmt": "2022-05-25T15:16:08",
+    "password": "",
+    "slug": "seller-steps",
+    "status": "publish",
+    "type": "wp_block",
+    "link": "https://offercomseller.carrot.com/blog/seller-steps/",
+    "title": {
+      "raw": "Seller Steps"
+    },
+    "content": {
+      "raw": "<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"align\":\"center\",\"width\":74,\"height\":74,\"sizeSlug\":\"large\"} -->\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-large is-resized\"><img src=\"https://cdn.carrot.com/uploads/icon-24hours-gray@2x.png\" alt=\"quick house offer [market_city] [company] icon\" width=\"74\" height=\"74\"/></figure></div>\n<!-- /wp:image -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"c-link\",\"fontSize\":\"small\"} -->\n<p class=\"has-text-align-center has-c-link-color has-text-color has-small-font-size\"><strong>STEP&nbsp;1</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"large\"} -->\n<p class=\"has-text-align-center has-large-font-size\"><strong>Get a fair offer within 24 hours</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\"} -->\n<p class=\"has-text-align-center has-small-font-size\">Avoid the hassles of listing your house with our [market_city] <strong>Cash Offer Program</strong>. In many cases, we can present you with a fair, all-cash offer in as little as 24 hours. No obligations and no fees.</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"align\":\"center\",\"width\":74,\"height\":74,\"sizeSlug\":\"large\"} -->\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-large is-resized\"><img src=\"https://cdn.carrot.com/uploads/icon-options-gray@2x.png\" alt=\"close on the date you choose [market_city] with [company]\" width=\"74\" height=\"74\"/></figure></div>\n<!-- /wp:image -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"c-link\",\"fontSize\":\"small\"} -->\n<p class=\"has-text-align-center has-c-link-color has-text-color has-small-font-size\"><strong>STEP&nbsp;2</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"large\"} -->\n<p class=\"has-text-align-center has-large-font-size\"><strong>Pick the date you want to close</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\"} -->\n<p class=\"has-text-align-center has-small-font-size\">Selling your house can be stressful. Gain peace of mind by knowing all of your options for selling your house as-is. We can even do the repairs for you!</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:image {\"align\":\"center\",\"width\":74,\"height\":74,\"sizeSlug\":\"large\"} -->\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-large is-resized\"><img src=\"https://cdn.carrot.com/uploads/icon-sell-your-terms-gray@2x.png\" alt=\"sell your house by owner for cash in [market_city] - icon for [company]\" width=\"74\" height=\"74\"/></figure></div>\n<!-- /wp:image -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"textColor\":\"c-link\",\"fontSize\":\"small\"} -->\n<p class=\"has-text-align-center has-c-link-color has-text-color has-small-font-size\"><strong>STEP&nbsp;3</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"large\"} -->\n<p class=\"has-text-align-center has-large-font-size\"><strong>Sell on your terms. Close quickly</strong>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"fontSize\":\"small\"} -->\n<p class=\"has-text-align-center has-small-font-size\">Have the flexibility to sell on the date you choose. With our <strong>Cash Offer Program</strong>, we can close in as little as 7 days for situations that qualify.</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>STEP&nbsp;1 Get a fair offer within 24 hours Avoid the hassles of listing your house with our Cash Offer Program. In many cases, we can present you with a fair, all-cash offer in as little as 24 hours. No obligations and no fees. STEP&nbsp;2 Pick the date you want to close Selling your house can &hellip; <a href=\"https://offercomseller.carrot.com/blog/seller-steps/\">Continued</a></p>\n",
+      "protected": false
+    },
+    "template": "",
+    "meta": {
+      "post_type": "",
+      "carrotcontentid": "",
+      "isnichetopicpost": false,
+      "insertionDate": "",
+      "location": "",
+      "location_raw": "",
+      "location_type": "",
+      "carrot_ai_draft": false,
+      "phone_override": "",
+      "zip_override": "",
+      "license_number_override": "",
+      "hero_headline_override": "",
+      "bio_heading_override": "",
+      "bio_body_override": "",
+      "_genesis_title": "",
+      "_genesis_description": "",
+      "locality_synced_to_home": true,
+      "hero_form": "",
+      "hero_form_custom": "",
+      "g_forms_title": true,
+      "g_forms_description": true,
+      "footnotes": ""
+    },
+    "wp_pattern_category": [],
+    "block-pattern-category": [],
+    "block-pattern-post-type": [],
+    "block-pattern-user-level": [],
+    "block-pattern-site-type": [],
+    "acf": [],
+    "wp_pattern_sync_status": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1719",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/types/wp_block"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1719/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/media?parent=1719"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "wp_pattern_category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/wp_pattern_category?post=1719"
+        },
+        {
+          "taxonomy": "block-pattern-category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-category?post=1719"
+        },
+        {
+          "taxonomy": "block-pattern-post-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-post-type?post=1719"
+        },
+        {
+          "taxonomy": "block-pattern-user-level",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-user-level?post=1719"
+        },
+        {
+          "taxonomy": "block-pattern-site-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-site-type?post=1719"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1719"
+        }
+      ],
+      "wp:action-create-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1719"
+        }
+      ],
+      "wp:action-assign-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1719"
+        }
+      ],
+      "wp:action-create-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1719"
+        }
+      ],
+      "wp:action-assign-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1719"
+        }
+      ],
+      "wp:action-create-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1719"
+        }
+      ],
+      "wp:action-assign-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1719"
+        }
+      ],
+      "wp:action-create-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1719"
+        }
+      ],
+      "wp:action-assign-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1719"
+        }
+      ],
+      "wp:action-assign-block-pattern-site-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1719"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1717,
+    "date": "2025-04-28T08:47:34",
+    "date_gmt": "2025-04-28T15:47:34",
+    "guid": {
+      "rendered": "https://investor-seller-08.carrot.com/blog/compare/",
+      "raw": "https://investor-seller-08.carrot.com/blog/compare/"
+    },
+    "modified": "2022-05-13T07:47:33",
+    "modified_gmt": "2022-05-13T14:47:33",
+    "password": "",
+    "slug": "compare",
+    "status": "publish",
+    "type": "wp_block",
+    "link": "https://offercomseller.carrot.com/blog/compare/",
+    "title": {
+      "raw": "compare"
+    },
+    "content": {
+      "raw": "<!-- wp:group {\"align\":\"full\",\"backgroundColor\":\"gray-100\"} -->\n<div class=\"wp-block-group alignfull has-gray-100-background-color has-background\"><!-- wp:heading {\"textAlign\":\"center\"} -->\n<h2 class=\"has-text-align-center\">What are the benefits of selling directly to [company]?</h2>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph {\"align\":\"left\"} -->\n<p class=\"has-text-align-left\">[company] provides another option for selling your [market_city] home. <strong>No</strong> listing fees, <strong>no</strong> agent commissions, and a <strong>quick and hassle-free</strong> closing process. You won't have to worry about the hassle of repairs or renovations. Getting rid of the headache and hassle of dealing with an unwanted property is our service to you. <em>See the side-by-side comparison below:</em></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:columns -->\n<div class=\"wp-block-columns\"><!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group -->\n<div class=\"wp-block-group\"><!-- wp:carrot/card -->\n<div class=\"wp-block-carrot-card\"><!-- wp:group -->\n<div class=\"wp-block-group\"><!-- wp:paragraph {\"align\":\"center\",\"style\":{\"typography\":{\"lineHeight\":\"1\"}},\"fontSize\":\"large\"} -->\n<p class=\"has-text-align-center has-large-font-size\" style=\"line-height:1\"><strong>Our Cash Offer Program</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:group {\"backgroundColor\":\"c-brand-primary-darker\"} -->\n<div class=\"wp-block-group has-c-brand-primary-darker-background-color has-background\"><!-- wp:image {\"align\":\"center\",\"width\":100,\"height\":100,\"sizeSlug\":\"large\"} -->\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-large is-resized\"><img src=\"https://cdn.carrot.com/uploads/icon-sell-your-house-gray@2x.png\" alt=\"cash house buyer program in [market_city], [market_state] - icon \" width=\"100\" height=\"100\"/></figure></div>\n<!-- /wp:image -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"style\":{\"typography\":{\"lineHeight\":\"1\"}},\"textColor\":\"white\",\"fontSize\":\"large\"} -->\n<p class=\"has-text-align-center has-white-color has-text-color has-large-font-size\" style=\"line-height:1\"><strong>Sell your house to [company]</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"style\":{\"typography\":{\"lineHeight\":\"1.5\"}},\"textColor\":\"white\"} -->\n<p class=\"has-text-align-center has-white-color has-text-color\" style=\"line-height:1.5\">We'll make you a <strong>fair cash offer</strong> so you can sell without the hassles and stress of listing.</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:group -->\n\n<!-- wp:spacer {\"height\":20} -->\n<div style=\"height:20px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:list {\"className\":\"is-style-list-checkmarks\"} -->\n<ul id=\"block-f2373e03-bb61-40fb-b8dd-a65ca47788df\" class=\"is-style-list-checkmarks\"><li><strong>Competitive cash offer within 24 hours</strong><br>Tell us about your house and we'll carefully evaluate it with our local market expertise to provide you with a <strong>fair, no-obligation</strong> offer.</li><li><strong>No Showings - No Hassles</strong><br>We buy your house \"as-is\" so there are no open houses, no weekend showings, and no need to fix it up.</li><li><strong>You choose your closing day</strong><br>Once we make an offer, we are able to close in days, not months. You pick the date that is best for you.</li><li><strong>We pay ALL closing costs</strong><br>Closing costs can add up, which is why we cover them for you. Absolutely <strong>zero</strong> extra costs or hidden fees.</li><li><strong>Zero fees. Zero commissions.</strong><br>Since we're buying your house, we charge <strong>no fees and no commissions</strong>. The sales price is the amount that goes into your pocket.</li><li><strong>We'll cover any repairs</strong><br>Does your house need repairs? We'll handle them for you. You can even leave behind unwanted items and we'll haul them off at no extra charge.</li></ul>\n<!-- /wp:list --></div>\n<!-- /wp:group --></div>\n<!-- /wp:carrot/card --></div>\n<!-- /wp:group --></div>\n<!-- /wp:column -->\n\n<!-- wp:column -->\n<div class=\"wp-block-column\"><!-- wp:group -->\n<div class=\"wp-block-group\"><!-- wp:carrot/card -->\n<div class=\"wp-block-carrot-card\"><!-- wp:group -->\n<div class=\"wp-block-group\"><!-- wp:paragraph {\"align\":\"center\",\"style\":{\"typography\":{\"lineHeight\":\"1\"}},\"fontSize\":\"large\"} -->\n<p class=\"has-text-align-center has-large-font-size\" style=\"line-height:1\"><strong>The Traditional Way</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:group {\"backgroundColor\":\"c-link-darker\"} -->\n<div class=\"wp-block-group has-c-link-darker-background-color has-background\"><!-- wp:image {\"align\":\"center\",\"width\":100,\"height\":100,\"sizeSlug\":\"large\"} -->\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-large is-resized\"><img src=\"https://cdn.carrot.com/uploads/icon-list-your-house-gray@2x.png\" alt=\"selling a [market_city] [market_state] house without a realtor - icon\" width=\"100\" height=\"100\"/></figure></div>\n<!-- /wp:image -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"style\":{\"typography\":{\"lineHeight\":\"1\"}},\"textColor\":\"white\",\"fontSize\":\"large\"} -->\n<p class=\"has-text-align-center has-white-color has-text-color has-large-font-size\" style=\"line-height:1\"><strong>Listing your house with an agent</strong></p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph {\"align\":\"center\",\"style\":{\"typography\":{\"lineHeight\":\"1.5\"}},\"textColor\":\"white\"} -->\n<p class=\"has-text-align-center has-white-color has-text-color\" style=\"line-height:1.5\">The amount of time, money, and stress involved with listing your house adds up.</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:group -->\n\n<!-- wp:spacer {\"height\":20} -->\n<div style=\"height:20px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\n<!-- /wp:spacer -->\n\n<!-- wp:list {\"ordered\":true,\"className\":\"is-style-list-checkmarks\"} -->\n<ol id=\"block-0693e485-d0e4-46ba-9bff-5ea02e5cfeed\" class=\"is-style-list-checkmarks\"><li><strong>The months it takes to sell add up</strong><br>Your home is costing you money the entire time it sits on the market. Some people just can't wait 90 days to sell their house.</li><li><strong>Plenty of showings and disruption to your life</strong><br>Not only do you have to get your house ready to show, but the number of showings can provide a serious disruption to your life.</li><li><strong>It takes forever to close</strong><br>It takes anywhere from 30 to 60 days to close after accepting a buyer's offer. That's assuming that their financing doesn't fall through...</li><li><strong>1-2% in closing costs paid by you, the seller</strong><br>On average, a seller is responsible for up to 2% of the sales price in the form of closing costs.</li><li><strong>Fees and commissions stack up</strong><br>In addition to closing costs, commissions and fees stack up and reduce how much goes in your pocket at close. On average, 6% in commissions/fees are paid by a seller.</li><li><strong>You could be on the hook for repairs</strong><br>Depending on what pops up during the inspection period, you could be on the hook for repairs that you didn't know you needed.</li></ol>\n<!-- /wp:list --></div>\n<!-- /wp:group --></div>\n<!-- /wp:carrot/card --></div>\n<!-- /wp:group --></div>\n<!-- /wp:column --></div>\n<!-- /wp:columns -->\n\n<!-- wp:buttons -->\n<div class=\"wp-block-buttons\"><!-- wp:button {\"backgroundColor\":\"c-button\",\"textColor\":\"white\",\"className\":\"is-style-btn-lg-wide\"} -->\n<div class=\"wp-block-button is-style-btn-lg-wide\"><a class=\"wp-block-button__link has-white-color has-c-button-background-color has-text-color has-background\" href=\"/get-a-cash-offer-today/\" target=\"_blank\" rel=\"/get-a-cash-offer-today noopener\">Yes! I want to get my fair cash offer!</a></div>\n<!-- /wp:button --></div>\n<!-- /wp:buttons --></div>\n<!-- /wp:group -->",
+      "protected": false,
+      "block_version": 1
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>What are the benefits of selling directly to Offer New England ? Offer New England provides another option for selling your home. No listing fees, no agent commissions, and a quick and hassle-free closing process. You won&#8217;t have to worry about the hassle of repairs or renovations. Getting rid of the headache and hassle of &hellip; <a href=\"https://offercomseller.carrot.com/blog/compare/\">Continued</a></p>\n",
+      "protected": false
+    },
+    "template": "",
+    "meta": {
+      "post_type": "",
+      "carrotcontentid": "",
+      "isnichetopicpost": false,
+      "insertionDate": "",
+      "location": "",
+      "location_raw": "",
+      "location_type": "",
+      "carrot_ai_draft": false,
+      "phone_override": "",
+      "zip_override": "",
+      "license_number_override": "",
+      "hero_headline_override": "",
+      "bio_heading_override": "",
+      "bio_body_override": "",
+      "_genesis_title": "",
+      "_genesis_description": "",
+      "locality_synced_to_home": true,
+      "hero_form": "",
+      "hero_form_custom": "",
+      "g_forms_title": true,
+      "g_forms_description": true,
+      "footnotes": ""
+    },
+    "wp_pattern_category": [],
+    "block-pattern-category": [],
+    "block-pattern-post-type": [],
+    "block-pattern-user-level": [],
+    "block-pattern-site-type": [],
+    "acf": [],
+    "wp_pattern_sync_status": "",
+    "_links": {
+      "self": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1717",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/types/wp_block"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1717/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/media?parent=1717"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "wp_pattern_category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/wp_pattern_category?post=1717"
+        },
+        {
+          "taxonomy": "block-pattern-category",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-category?post=1717"
+        },
+        {
+          "taxonomy": "block-pattern-post-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-post-type?post=1717"
+        },
+        {
+          "taxonomy": "block-pattern-user-level",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-user-level?post=1717"
+        },
+        {
+          "taxonomy": "block-pattern-site-type",
+          "embeddable": true,
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/block-pattern-site-type?post=1717"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1717"
+        }
+      ],
+      "wp:action-create-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1717"
+        }
+      ],
+      "wp:action-assign-wp_pattern_category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1717"
+        }
+      ],
+      "wp:action-create-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1717"
+        }
+      ],
+      "wp:action-assign-block-pattern-category": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1717"
+        }
+      ],
+      "wp:action-create-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1717"
+        }
+      ],
+      "wp:action-assign-block-pattern-post-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1717"
+        }
+      ],
+      "wp:action-create-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1717"
+        }
+      ],
+      "wp:action-assign-block-pattern-user-level": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1717"
+        }
+      ],
+      "wp:action-assign-block-pattern-site-type": [
+        {
+          "href": "https://offercomseller.carrot.com/wp-json/wp/v2/blocks/1717"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

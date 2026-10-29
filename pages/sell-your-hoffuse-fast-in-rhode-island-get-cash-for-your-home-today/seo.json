@@ -1,0 +1,599 @@
+{
+  "url": "https://offernewengland.com/",
+  "title": "Offer New England | Cash Home Buyers in RI & MA",
+  "meta_description": "Offer New England buys houses for cash in Rhode Island and Massachusetts. Any condition, no fees. Fair offer in 24 hours, close in as little as 7 days.",
+  "meta_keywords": "",
+  "robots": "",
+  "googlebot": "",
+  "canonical": "https://offernewengland.com/",
+  "lang": "en-US",
+  "viewport": "width=device-width, initial-scale=1",
+  "author": "",
+  "open_graph": {
+    "og:image": "https://cdn.carrot.com/uploads/sites/81893/2025/04/cropped-Web-2.png",
+    "og:image:width": "512",
+    "og:image:height": "512",
+    "og:image:alt": "Offer New England",
+    "og:locale": "en_US",
+    "og:type": "website",
+    "og:title": "Offer New England | Cash Home Buyers in RI & MA",
+    "og:description": "Offer New England buys houses for cash in Rhode Island and Massachusetts. Any condition, no fees. Fair offer in 24 hours, close in as little as 7 days.",
+    "og:url": "https://offernewengland.com/",
+    "og:site_name": "Offer New England"
+  },
+  "twitter": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Offer New England | Cash Home Buyers in RI & MA",
+    "twitter:description": "Offer New England buys houses for cash in Rhode Island and Massachusetts. Any condition, no fees. Fair offer in 24 hours, close in as little as 7 days.",
+    "twitter:image": "https://cdn.carrot.com/uploads/sites/81893/2025/04/cropped-Web-2.png",
+    "twitter:image:alt": "Offer New England"
+  },
+  "hreflang": [],
+  "feeds": [],
+  "icons": [
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTgwLCJoZWlnaHQiOjE4MH0sInRvRm9ybWF0IjoicG5nIn19",
+      "sizes": "180x180"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYsImhlaWdodCI6MTZ9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "16x16"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIsImhlaWdodCI6MzJ9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "32x32"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NDgsImhlaWdodCI6NDh9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "48x48"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6OTYsImhlaWdodCI6OTZ9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "96x96"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTkyLCJoZWlnaHQiOjE5Mn0sInRvRm9ybWF0IjoicG5nIn19",
+      "sizes": "192x192"
+    }
+  ],
+  "verification": {
+    "google-site-verification": "PvxfVi5OzEJRsZDvF9aFTfLwncBpTqils89D8C4PwRk"
+  },
+  "tracking": {
+    "Google Tag Manager": [
+      "GTM-WWPZRDH"
+    ]
+  },
+  "schema_types": [
+    "EntryPoint",
+    "Organization",
+    "SearchAction",
+    "WebSite"
+  ],
+  "json_ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"url\":\"https://offernewengland.com/\",\"name\":\"Offer New England\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https://offernewengland.com/search/{search_term_string}/\"},\"query-input\":\"required name=search_term_string\"}}",
+    "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"url\":\"https://offernewengland.com/\",\"name\":\"Offer New England\",\"logo\":\"https://image-cdn.carrot.com/uploads/sites/81893/2025/04/cropped-Web-2.png\"}"
+  ],
+  "headings": [
+    [
+      "h1",
+      "Sell your House Fast In Rhode Island and Massachusetts"
+    ],
+    [
+      "h2",
+      "Get An Offer Today, Sell In A Matter Of Days"
+    ],
+    [
+      "h2",
+      "We buy homes in any condition in cash"
+    ],
+    [
+      "h2",
+      "“Sell Your House Fast in Rhode Island or Massachusetts”"
+    ],
+    [
+      "h2",
+      "Who We Are"
+    ],
+    [
+      "h2",
+      "A Trusted Partner in Selling Your Home"
+    ],
+    [
+      "h2",
+      "HOW IT WORKS"
+    ],
+    [
+      "h2",
+      "Our Simple 3-Step Process"
+    ],
+    [
+      "h5",
+      "STEP 1"
+    ],
+    [
+      "h5",
+      "STEP 2"
+    ],
+    [
+      "h5",
+      "STEP 3"
+    ],
+    [
+      "h2",
+      "TESTIMONIALS"
+    ],
+    [
+      "h2",
+      "What Our Clients Say"
+    ],
+    [
+      "h2",
+      "Claudia Aspray"
+    ],
+    [
+      "h2",
+      "Dennis Estevao"
+    ],
+    [
+      "h2",
+      "Janet Lamarre"
+    ],
+    [
+      "h2",
+      "Is Selling A House To A “We Buy Houses” Company In Rhode Island A Good Idea?"
+    ],
+    [
+      "h2",
+      "OUR MISSION:"
+    ],
+    [
+      "h2",
+      "Need to SELL FAST?"
+    ],
+    [
+      "h2",
+      "What Makes Us Different?"
+    ],
+    [
+      "h2",
+      "Sell Your Rhode Island and Massachusetts Home Without The Hassle"
+    ]
+  ],
+  "h1": [
+    "Sell your House Fast In Rhode Island and Massachusetts"
+  ],
+  "images": [
+    {
+      "src": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9XZWItMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiZml0IjoiY292ZXIifSwidG9Gb3JtYXQiOiJ3ZWJwIiwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+      "alt": "Offer New England ",
+      "title": "",
+      "width": "1500",
+      "height": "673",
+      "loading": ""
+    },
+    {
+      "src": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNi8wMy9TQVNBLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTE1Mn0sInRvRm9ybWF0Ijoid2VicCIsIndlYnAiOnsicXVhbGl0eSI6NzB9fX0=",
+      "alt": "",
+      "title": "",
+      "width": "960",
+      "height": "360",
+      "loading": ""
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/66241/2022/08/google-5-stars-reviews.png",
+      "alt": "Link To Google Reviews",
+      "title": "",
+      "width": "",
+      "height": "",
+      "loading": "eager"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/66241/2022/08/facebook-review.png",
+      "alt": "Link To Facebook",
+      "title": "",
+      "width": "",
+      "height": "",
+      "loading": "eager"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/instagram_button_icon_151849.png",
+      "alt": "Link To Instagram",
+      "title": "",
+      "width": "512",
+      "height": "127",
+      "loading": "eager"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2025/04/Web-3-1024x459.png",
+      "alt": "Offer New England logo",
+      "title": "",
+      "width": "1024",
+      "height": "459",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Asset-2@2x.png",
+      "alt": "Cash home buyer process step 1 - contact us",
+      "title": "",
+      "width": "370",
+      "height": "370",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Asset-4@2x-1.png",
+      "alt": "Cash home buyer process step 2 - get a fair offer",
+      "title": "",
+      "width": "368",
+      "height": "371",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Asset-1@2x.png",
+      "alt": "Cash home buyer process step 3 - get paid fast",
+      "title": "",
+      "width": "370",
+      "height": "370",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Stars-OPT-Custom-1.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "24",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/googlereviews.webp",
+      "alt": "",
+      "title": "",
+      "width": "100",
+      "height": "41",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Stars-OPT-Custom-1.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "24",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/googlereviews.webp",
+      "alt": "",
+      "title": "",
+      "width": "100",
+      "height": "41",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Stars-OPT-Custom-1.webp",
+      "alt": "",
+      "title": "",
+      "width": "138",
+      "height": "24",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/googlereviews.webp",
+      "alt": "",
+      "title": "",
+      "width": "100",
+      "height": "41",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Untitled-1.png",
+      "alt": "Three single-family houses",
+      "title": "",
+      "width": "458",
+      "height": "819",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Asset-10@2x.png",
+      "alt": "Foreclosure icon",
+      "title": "",
+      "width": "232",
+      "height": "228",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Asset-3@2x.png",
+      "alt": "Tenant problems icon",
+      "title": "",
+      "width": "229",
+      "height": "244",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Asset-5@2x.png",
+      "alt": "Distressed house icon",
+      "title": "",
+      "width": "226",
+      "height": "238",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Asset-13@2x.png",
+      "alt": "Vacant house icon",
+      "title": "",
+      "width": "227",
+      "height": "230",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Asset-12@2x.png",
+      "alt": "Inherited house icon",
+      "title": "",
+      "width": "244",
+      "height": "241",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Asset-11@2x.png",
+      "alt": "Relocation icon",
+      "title": "",
+      "width": "224",
+      "height": "238",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Asset-14@2x.png",
+      "alt": "No commission icon",
+      "title": "",
+      "width": "220",
+      "height": "226",
+      "loading": "lazy"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/sites/81893/2026/03/Asset-10@2x-1.png",
+      "alt": "House repairs icon",
+      "title": "",
+      "width": "232",
+      "height": "228",
+      "loading": "lazy"
+    }
+  ],
+  "images_missing_alt": 7,
+  "internal_links": [
+    {
+      "href": "https://offernewengland.com/",
+      "text": "Offer New England Need To Sell Your House Fast? We Buy Houses!",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "tel:+14012674066",
+      "text": "",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "tel:+14012674066",
+      "text": "(401) 267-4066",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Sell Your House The Easy Way",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/about-us/",
+      "text": "About us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/reviews/",
+      "text": "Reviews",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/faq/",
+      "text": "Faqs",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/how-we-buy-houses/",
+      "text": "How It Works",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "tel:+14012674066",
+      "text": "(401) 267-4066",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Get Your Cash Offer",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/contact-us/",
+      "text": "Contact Us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/terms-conditions/",
+      "text": "Terms & Conditions",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/privacy",
+      "text": "Privacy Policy",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/how-we-buy-houses/",
+      "text": "Learn how our home buying process works!",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/contact-us/",
+      "text": "Contact Us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/get-a-cash-offer-today/",
+      "text": "Get Started Today ➔",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Yes! I want to get my fair cash offer!",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Get My Fair Cash Offer",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/stop-foreclosure/",
+      "text": "Foreclosure",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/get-a-cash-offer-today/",
+      "text": "Get My Fair Cash Offer",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/we-buy-houses-in-rhode-island/",
+      "text": "sell your house fast in Rhode Island.",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/how-we-buy-houses/",
+      "text": "Find out how our home buying process works!",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Get A Cash Offer Today",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/contact-us/",
+      "text": "Contact Us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/how-we-buy-houses/",
+      "text": "How It Works",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/about-us/",
+      "text": "About us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/resource-page/",
+      "text": "Resources",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/privacy/",
+      "text": "Privacy Policy",
+      "rel": "",
+      "target": ""
+    }
+  ],
+  "external_links": [
+    {
+      "href": "https://maps.app.goo.gl/Yf2VLZLaGYgDVTDD6",
+      "text": "Google Business",
+      "rel": "noopener",
+      "target": "_blank"
+    },
+    {
+      "href": "https://maps.app.goo.gl/Yf2VLZLaGYgDVTDD6",
+      "text": "",
+      "rel": "noreferrer noopener",
+      "target": "_blank"
+    },
+    {
+      "href": "https://www.facebook.com/share/1DgYRa2bub/?mibextid=wwXIfr",
+      "text": "",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://www.instagram.com/offernewengland/",
+      "text": "",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Foffernewengland.com%2F",
+      "text": "Share",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://twitter.com/intent/tweet?text=Offer+New+England+%7C+Cash+Home+Buyers+in+RI+%26+MA&url=https%3A%2F%2Foffernewengland.com%2F",
+      "text": "Share",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://maps.app.goo.gl/Yf2VLZLaGYgDVTDD6",
+      "text": "Google Business",
+      "rel": "noopener",
+      "target": "_blank"
+    },
+    {
+      "href": "https://carrot.com/?utm_source=member&utm_medium=footer&utm_content=offercomseller&utm_campaign=carrot-03&utm_term=seller",
+      "text": "Carrot",
+      "rel": "nofollow noreferrer",
+      "target": "_blank"
+    }
+  ],
+  "word_count_page": 1383,
+  "http": {
+    "status": 200,
+    "final_url": "https://offernewengland.com/",
+    "redirects": [],
+    "x_robots_tag": "",
+    "last_modified": "",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 561794,
+    "response_ms": 458,
+    "link_header": "<https://offernewengland.com/wp-json/>; rel=\"https://api.w.org/\", <https://offernewengland.com/wp-json/wp/v2/pages/3204>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://offernewengland.com/>; rel=shortlink"
+  }
+}

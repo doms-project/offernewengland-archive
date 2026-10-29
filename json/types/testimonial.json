@@ -1,0 +1,362 @@
+[
+  {
+    "id": 2773,
+    "date": "2025-04-30T12:17:08",
+    "date_gmt": "2025-04-30T19:17:08",
+    "guid": {
+      "rendered": "https://offercomseller.carrot.com/?post_type=testimonial&#038;p=2773"
+    },
+    "modified": "2025-04-30T12:17:09",
+    "modified_gmt": "2025-04-30T19:17:09",
+    "slug": "auto-draft-5",
+    "status": "publish",
+    "type": "testimonial",
+    "link": "https://offernewengland.com/?post_type=testimonial&p=2773",
+    "content": {
+      "rendered": "\n<div class=\"wp-block-group testimonial-content-inner has-c-brand-primary-background-color has-background\" style=\"border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-right-radius:30px\"><div class=\"wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow\">\n<p class=\"has-text-align-center testimonial-highlight is-style-h1 wp-block-paragraph\"><strong>&#8220;They were very comforting and helpful&#8221;</strong></p>\n\n\n\n<p class=\"has-text-align-center testimonial-paragraph wp-block-paragraph\">&#8220;After losing my parents I had to sell their home. It was a very hard decision to make, but this company stood out to me and made the process super smooth! They were very comforting and helpful and I thank them for doing this as quickly as possible for my siblings and I!&#8221;</p>\n</div></div>\n",
+      "protected": false
+    },
+    "template": "",
+    "acf": {
+      "testimonial_author": "",
+      "testimonial_author_company": "",
+      "testimonial_author_image": "",
+      "testimonial_url": "",
+      "testimonial_url_link_text": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial/2773",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/types/testimonial"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial/2773/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 2778,
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial/2773/revisions/2778"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/media?parent=2773"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 2772,
+    "date": "2025-04-30T12:17:07",
+    "date_gmt": "2025-04-30T19:17:07",
+    "guid": {
+      "rendered": "https://offercomseller.carrot.com/?post_type=testimonial&#038;p=2772"
+    },
+    "modified": "2025-04-30T12:17:07",
+    "modified_gmt": "2025-04-30T19:17:07",
+    "slug": "auto-draft-4",
+    "status": "publish",
+    "type": "testimonial",
+    "link": "https://offernewengland.com/?post_type=testimonial&p=2772",
+    "content": {
+      "rendered": "\n<div class=\"wp-block-group testimonial-content-inner has-c-brand-primary-lighter-background-color has-background\" style=\"border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-right-radius:30px\"><div class=\"wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow\">\n<p class=\"has-text-align-center testimonial-highlight is-style-h1 wp-block-paragraph\"><strong>&#8220;I never felt pressured by them&#8230;&#8221;</strong></p>\n\n\n\n<p class=\"has-text-align-center testimonial-paragraph wp-block-paragraph\">&#8220;I had the pleasure of working with this company to sell my home. Their advice from the start was always honest and straightforward. I was debating on what was the best option for me for quite some time and they were very patient. I never felt pressured by them and that is the #1 reason why I went with them!&#8221;</p>\n</div></div>\n",
+      "protected": false
+    },
+    "template": "",
+    "acf": {
+      "testimonial_author": "",
+      "testimonial_author_company": "",
+      "testimonial_author_image": "",
+      "testimonial_url": "",
+      "testimonial_url_link_text": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial/2772",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/types/testimonial"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial/2772/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 2777,
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial/2772/revisions/2777"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/media?parent=2772"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 2771,
+    "date": "2025-04-30T12:16:04",
+    "date_gmt": "2025-04-30T19:16:04",
+    "guid": {
+      "rendered": "https://offercomseller.carrot.com/?post_type=testimonial&#038;p=2771"
+    },
+    "modified": "2025-04-30T12:16:04",
+    "modified_gmt": "2025-04-30T19:16:04",
+    "slug": "auto-draft-3",
+    "status": "publish",
+    "type": "testimonial",
+    "link": "https://offernewengland.com/?post_type=testimonial&p=2771",
+    "content": {
+      "rendered": "\n<div class=\"wp-block-group testimonial-content-inner has-c-brand-primary-background-color has-background\" style=\"border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-right-radius:30px\"><div class=\"wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow\">\n<p class=\"has-text-align-center testimonial-highlight is-style-h1 wp-block-paragraph\"><strong>&#8220;They were extremely knowledgeable and professional&#8230;&#8221;</strong></p>\n\n\n\n<p class=\"has-text-align-center testimonial-paragraph wp-block-paragraph\">&#8220;I was extremely nervous with the idea of selling my house for cash. Working with Noah and Lindsey put my mind at ease. They were extremely knowledgeable and professional, and made it so easy to go through what could have been a painful process. I would highly recommend Offer New England if you are selling your home and want a price you deserve!&#8221;</p>\n</div></div>\n",
+      "protected": false
+    },
+    "template": "",
+    "acf": {
+      "testimonial_author": "",
+      "testimonial_author_company": "",
+      "testimonial_author_image": "",
+      "testimonial_url": "",
+      "testimonial_url_link_text": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial/2771",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/types/testimonial"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial/2771/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 2776,
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial/2771/revisions/2776"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/media?parent=2771"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 2770,
+    "date": "2025-04-30T12:15:41",
+    "date_gmt": "2025-04-30T19:15:41",
+    "guid": {
+      "rendered": "https://offercomseller.carrot.com/?post_type=testimonial&#038;p=2770"
+    },
+    "modified": "2025-04-30T12:15:42",
+    "modified_gmt": "2025-04-30T19:15:42",
+    "slug": "auto-draft-2",
+    "status": "publish",
+    "type": "testimonial",
+    "link": "https://offernewengland.com/?post_type=testimonial&p=2770",
+    "content": {
+      "rendered": "\n<div class=\"wp-block-group testimonial-content-inner has-c-brand-primary-lighter-background-color has-background\" style=\"border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-right-radius:30px\"><div class=\"wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow\">\n<p class=\"has-text-align-center testimonial-highlight is-style-h1 wp-block-paragraph\">&#8220;I would recommend them to anyone!&#8221;</p>\n\n\n\n<p class=\"has-text-align-center testimonial-paragraph wp-block-paragraph\">&#8220;Offer New England takes the challenge and effort it typically takes to sell your home to an incredibly easy process. I would recommend them to anyone!&#8221;</p>\n</div></div>\n",
+      "protected": false
+    },
+    "template": "",
+    "acf": {
+      "testimonial_author": "",
+      "testimonial_author_company": "",
+      "testimonial_author_image": "",
+      "testimonial_url": "",
+      "testimonial_url_link_text": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial/2770",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/types/testimonial"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial/2770/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 2775,
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial/2770/revisions/2775"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/media?parent=2770"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 2769,
+    "date": "2025-04-30T12:14:46",
+    "date_gmt": "2025-04-30T19:14:46",
+    "guid": {
+      "rendered": "https://offercomseller.carrot.com/?post_type=testimonial&#038;p=2769"
+    },
+    "modified": "2025-04-30T12:14:47",
+    "modified_gmt": "2025-04-30T19:14:47",
+    "slug": "auto-draft",
+    "status": "publish",
+    "type": "testimonial",
+    "link": "https://offernewengland.com/?post_type=testimonial&p=2769",
+    "content": {
+      "rendered": "\n<div class=\"wp-block-group testimonial-content-inner has-c-brand-primary-background-color has-background\" style=\"border-top-left-radius:30px;border-top-right-radius:30px;border-bottom-right-radius:30px\"><div class=\"wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow\">\n<p class=\"has-text-align-center testimonial-highlight is-style-h1 wp-block-paragraph\">&#8220;I would recommend her to any of my friends and family for assistance.&#8221;</p>\n\n\n\n<p class=\"has-text-align-center testimonial-paragraph wp-block-paragraph\">&#8220;Lindsey was very knowledgeable and helpful. She made sure that I understood everything before we were done talking. Her warm and friendly demeanor is a welcoming change from others that I have spoken with. I would recommend her to any of my friends and family for assistance.&#8221;</p>\n</div></div>\n",
+      "protected": false
+    },
+    "template": "",
+    "acf": {
+      "testimonial_author": "",
+      "testimonial_author_company": "",
+      "testimonial_author_image": "",
+      "testimonial_url": "",
+      "testimonial_url_link_text": ""
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial/2769",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/types/testimonial"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial/2769/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 2774,
+          "href": "https://offernewengland.com/wp-json/wp/v2/testimonial/2769/revisions/2774"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://offernewengland.com/wp-json/wp/v2/media?parent=2769"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

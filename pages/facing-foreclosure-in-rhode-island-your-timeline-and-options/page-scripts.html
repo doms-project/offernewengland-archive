@@ -1,0 +1,97 @@
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"RealEstateAgent",
+      "@id":"https://offernewengland.com/#business",
+      "name":"Offer New England",
+      "url":"https://offernewengland.com/",
+      "telephone":"+1-401-267-4066",
+      "areaServed":["Rhode Island","Massachusetts"],
+      "description":"Local cash home buyer purchasing houses as-is across Rhode Island and southern Massachusetts, often closing in as little as 7 days to help homeowners avoid foreclosure."
+    },
+    {
+      "@type":"Article",
+      "headline":"Facing Foreclosure in Rhode Island: Your Timeline and Options",
+      "about":"The Rhode Island foreclosure process, timeline, homeowner rights, and options to stop foreclosure, including selling before the auction.",
+      "author":{"@type":"Organization","name":"Offer New England"},
+      "publisher":{"@id":"https://offernewengland.com/#business"},
+      "mainEntityOfPage":"https://offernewengland.com/facing-foreclosure-rhode-island/"
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Home","item":"https://offernewengland.com/"},
+        {"@type":"ListItem","position":2,"name":"Facing Foreclosure in Rhode Island","item":"https://offernewengland.com/facing-foreclosure-rhode-island/"}
+      ]
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"How long does foreclosure take in Rhode Island?","acceptedAnswer":{"@type":"Answer","text":"It varies by lender and loan, but from the first missed payment to the auction commonly takes several months to a year. Lenders usually wait until you are about 120 days behind to start, then RI's mediation notice and conference, the three-week published notice of sale, and the 30-day mailed notice each add time before a sale can happen."}},
+        {"@type":"Question","name":"Is Rhode Island a judicial or non-judicial foreclosure state?","acceptedAnswer":{"@type":"Answer","text":"Primarily non-judicial. Most Rhode Island mortgages include a power-of-sale clause that lets the lender foreclose without going to court. Judicial foreclosure is allowed but less common, generally when there is no power-of-sale clause."}},
+        {"@type":"Question","name":"Can I stop a foreclosure in Rhode Island?","acceptedAnswer":{"@type":"Answer","text":"Often yes, especially if you act early. You can reinstate the loan by catching up what is owed, reach an agreement through the free mediation conference such as a loan modification, repayment plan, or forbearance, or sell the home before the sale date. A foreclosure attorney can also check whether the lender followed every required step."}},
+        {"@type":"Question","name":"Can I sell my house while it is in foreclosure?","acceptedAnswer":{"@type":"Answer","text":"Yes. You can sell any time before the foreclosure auction. Selling before the sale date is one of the fastest ways to stop the foreclosure, avoid it on your credit record, and keep any equity. A cash sale can close in about 7 days."}},
+        {"@type":"Question","name":"What is the Rhode Island foreclosure mediation conference?","acceptedAnswer":{"@type":"Answer","text":"For owner-occupied one-to-four-unit homes, Rhode Island law requires the lender to offer a free conference with an independent, HUD-approved mediation coordinator before foreclosing, scheduled within 60 days of the notice. It is a chance to negotiate an alternative like a modification, repayment plan, short sale, or deed-in-lieu."}},
+        {"@type":"Question","name":"Will I still owe money after a foreclosure in Rhode Island?","acceptedAnswer":{"@type":"Answer","text":"Possibly. If the sale does not cover the full debt, Rhode Island allows a deficiency judgment in some cases. Selling before the auction, or another workout, can help you avoid that outcome. Talk to an attorney about your specific loan."}}
+      ]
+    }
+  ]
+}
+</script>
+
+<script>
+(function(){
+  var root=document.getElementById('one-fc');
+  if(!root)return;
+
+  /* progressive-enhancement: only hide reveals once JS runs */
+  root.classList.add('fc-anim');
+
+  /* ---- sticky nav shadow + mobile menu ---- */
+  var nav=document.getElementById('fc-nav');
+  var burger=document.getElementById('fc-burger');
+  window.addEventListener('scroll',function(){
+    if(window.scrollY>8){nav.classList.add('is-stuck');}else{nav.classList.remove('is-stuck');}
+  },{passive:true});
+  if(burger){burger.addEventListener('click',function(){nav.classList.toggle('is-open');});}
+  document.querySelectorAll('#fc-links a').forEach(function(a){
+    a.addEventListener('click',function(){nav.classList.remove('is-open');});
+  });
+
+  /* ---- hero slideshow ---- */
+  var slides=[].slice.call(root.querySelectorAll('.fc-slide'));
+  var dotsWrap=document.getElementById('fc-dots');
+  var cur=0,timer=null;
+  if(slides.length>1&&dotsWrap){
+    slides.forEach(function(s,i){
+      var b=document.createElement('button');
+      b.setAttribute('aria-label','Slide '+(i+1));
+      if(i===0)b.className='is-active';
+      b.addEventListener('click',function(){go(i);reset();});
+      dotsWrap.appendChild(b);
+    });
+    var dots=[].slice.call(dotsWrap.children);
+    var go=function(n){
+      slides[cur].classList.remove('is-active');
+      dots[cur].classList.remove('is-active');
+      cur=(n+slides.length)%slides.length;
+      slides[cur].classList.add('is-active');
+      dots[cur].classList.add('is-active');
+    };
+    var reset=function(){clearInterval(timer);timer=setInterval(function(){go(cur+1);},6000);};
+    reset();
+  }
+
+  /* ---- scroll reveal ---- */
+  var reveals=[].slice.call(root.querySelectorAll('.fc-reveal'));
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-in');io.unobserve(e.target);}});
+    },{threshold:.12});
+    reveals.forEach(function(el){io.observe(el);});
+  }else{reveals.forEach(function(el){el.classList.add('is-in');});}
+
+})();
+</script>

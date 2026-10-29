@@ -1,0 +1,92 @@
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"Article",
+      "headline":"Capital Gains Tax When Selling a Home in RI & MA: What Sellers Actually Owe",
+      "description":"A plain-English 2026 guide to capital gains tax on a home sale in Rhode Island and Massachusetts: the $250K/$500K federal exclusion, RI's 6% nonresident withholding, MA's flat rate, and when you actually owe.",
+      "author":{"@type":"Organization","name":"Offer New England, LLC"},
+      "publisher":{"@type":"Organization","name":"Offer New England, LLC"},
+      "inLanguage":"en-US",
+      "mainEntityOfPage":"https://offernewengland.com/capital-gains-tax-selling-home-ri-ma/"
+    },
+    {
+      "@type":"RealEstateAgent",
+      "name":"Offer New England",
+      "telephone":"+1-401-267-4066",
+      "areaServed":["Rhode Island","Providence RI","Massachusetts","Fall River MA","New Bedford MA","Attleboro MA","Taunton MA"],
+      "url":"https://offernewengland.com/"
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Home","item":"https://offernewengland.com/"},
+        {"@type":"ListItem","position":2,"name":"Rhode Island","item":"https://offernewengland.com/rhode-island/"},
+        {"@type":"ListItem","position":3,"name":"Capital Gains Tax When Selling a Home in RI & MA","item":"https://offernewengland.com/capital-gains-tax-selling-home-ri-ma/"}
+      ]
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"Do I pay capital gains tax when I sell my home in RI or MA?","acceptedAnswer":{"@type":"Answer","text":"Usually not. If the home was your primary residence for at least 2 of the last 5 years, you can exclude up to $250,000 of profit if single, or $500,000 if married filing jointly, from federal tax, and both Rhode Island and Massachusetts honor that exclusion. Most sellers owe nothing. You only owe on gain above the exclusion, or on investment and second-home sales."}},
+        {"@type":"Question","name":"How much is capital gains tax in Massachusetts on a home sale?","acceptedAnswer":{"@type":"Answer","text":"Massachusetts taxes long-term capital gains, on property held more than a year, at a flat 5%, applied only to the gain left after the federal exclusion. Short-term gains, on property held a year or less, are taxed at 8.5%. A 4% millionaire surtax can apply to taxable income above roughly $1.08 million."}},
+        {"@type":"Question","name":"How is capital gains tax handled in Rhode Island?","acceptedAnswer":{"@type":"Answer","text":"Rhode Island taxes the gain remaining after the federal exclusion as ordinary income on your RI return. If you are a nonresident selling RI property, the buyer generally must withhold 6% of the net proceeds at closing, 7% to 9% for entities; qualifying primary-residence sales are usually exempt via a residency affidavit."}},
+        {"@type":"Question","name":"What is the RI 6% withholding at closing?","acceptedAnswer":{"@type":"Answer","text":"When a nonresident sells Rhode Island real estate, state law requires the buyer to withhold 6% of the net proceeds, or gain if elected, and remit it to the RI Division of Taxation. It is a prepayment, not an extra tax, reconciled when you file a Rhode Island return. Primary-residence sales that qualify for the federal exclusion generally avoid it with the proper affidavit."}},
+        {"@type":"Question","name":"Do I owe capital gains tax on an inherited house?","acceptedAnswer":{"@type":"Answer","text":"Often very little. Inherited property receives a stepped-up basis equal to its value on the date of death, so only appreciation after you inherited it is taxable. If you sell soon after inheriting, the gain and the tax are frequently small or zero."}},
+        {"@type":"Question","name":"How can I reduce capital gains tax when selling my home?","acceptedAnswer":{"@type":"Answer","text":"Keep records of capital improvements to raise your cost basis, make sure you meet the 2-of-5-year primary-residence test, hold longer than a year for long-term rates, and talk to a CPA about timing, partial exclusions, or a 1031 exchange for investment property. A tax professional should confirm what fits your situation."}}
+      ]
+    }
+  ]
+}
+</script>
+
+<script>
+(function(){
+  function init(){
+  /* ---- HERO SLIDESHOW ---- */
+  var slidesWrap=document.getElementById('cg-slides');
+  if(slidesWrap){
+    var slides=[].slice.call(slidesWrap.querySelectorAll('.cg-slide'));
+    var dotsWrap=document.getElementById('cg-dots');
+    var i=0,timer;
+    if(slides.length>1){
+      slides.forEach(function(s,idx){
+        var b=document.createElement('button');b.type='button';b.setAttribute('aria-label','Slide '+(idx+1));
+        if(idx===0)b.className='is-active';
+        b.addEventListener('click',function(){go(idx);reset();});
+        dotsWrap.appendChild(b);
+      });
+      var dots=[].slice.call(dotsWrap.children);
+      var go=function(n){
+        slides[i].classList.remove('is-active');dots[i].classList.remove('is-active');
+        i=(n+slides.length)%slides.length;
+        slides[i].classList.add('is-active');dots[i].classList.add('is-active');
+      };
+      var reset=function(){clearInterval(timer);timer=setInterval(function(){go(i+1);},6000);};
+      reset();
+    }
+  }
+
+  /* ---- REVEAL ON SCROLL (visible by default; only animates when JS runs) ---- */
+  var cgScope=document.getElementById('one-cg');if(cgScope)cgScope.classList.add('cg-anim');
+  var revs=[].slice.call(document.querySelectorAll('#one-cg .cg-reveal'));
+  if('IntersectionObserver'in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-in');io.unobserve(e.target);}});
+    },{threshold:.12});
+    revs.forEach(function(el){io.observe(el);});
+  }else{revs.forEach(function(el){el.classList.add('is-in');});}
+
+  /* ---- SMOOTH-SCROLL CTA BUTTONS TO THE BOTTOM FORM ---- */
+  [].forEach.call(document.querySelectorAll('#one-cg a[href="#get-offer"]'),function(a){
+    a.addEventListener('click',function(e){
+      var target=document.getElementById('get-offer');
+      if(target){e.preventDefault();target.scrollIntoView({behavior:'smooth',block:'start'});}
+    });
+  });
+
+  }
+  if(document.readyState!=='loading'){init();}else{document.addEventListener('DOMContentLoaded',init);}
+})();
+</script>

@@ -1,0 +1,195 @@
+[
+  {
+    "location": "footer-menu",
+    "label": "Footer Navigation",
+    "slug": "footer-navigation",
+    "items": [
+      {
+        "title": "Get A Cash Offer Today",
+        "url": "https://offernewengland.com/get-a-cash-offer-today/",
+        "target": "",
+        "classes": [
+          ""
+        ],
+        "type": "post_type",
+        "object": "page",
+        "object_id": 362,
+        "rest_id": 586,
+        "children": []
+      },
+      {
+        "title": "Contact Us",
+        "url": "https://offernewengland.com/contact-us/",
+        "target": "",
+        "classes": [
+          ""
+        ],
+        "type": "post_type",
+        "object": "page",
+        "object_id": 51,
+        "rest_id": 579,
+        "children": []
+      },
+      {
+        "title": "How It Works",
+        "url": "https://offernewengland.com/how-we-buy-houses/",
+        "target": "",
+        "classes": [
+          ""
+        ],
+        "type": "post_type",
+        "object": "page",
+        "object_id": 349,
+        "rest_id": 587,
+        "children": []
+      },
+      {
+        "title": "About us",
+        "url": "https://offernewengland.com/about-us/",
+        "target": "",
+        "classes": [
+          ""
+        ],
+        "type": "post_type",
+        "object": "page",
+        "object_id": 49,
+        "rest_id": 590,
+        "children": []
+      },
+      {
+        "title": "Resources",
+        "url": "https://offernewengland.com/resource-page/",
+        "target": "",
+        "classes": [
+          ""
+        ],
+        "type": "post_type",
+        "object": "page",
+        "object_id": 201,
+        "rest_id": 592,
+        "children": []
+      },
+      {
+        "title": "Privacy Policy",
+        "url": "https://offernewengland.com/privacy/",
+        "target": "",
+        "classes": [
+          ""
+        ],
+        "type": "post_type",
+        "object": "page",
+        "object_id": 734,
+        "rest_id": 736,
+        "children": []
+      }
+    ],
+    "source": "wordpress"
+  },
+  {
+    "location": "top-menu",
+    "label": "Header Navigation",
+    "slug": "header-navigation",
+    "items": [
+      {
+        "title": "<b>Get Your Cash Offer</b>",
+        "url": "https://offernewengland.com/get-a-cash-offer-today/",
+        "target": "",
+        "classes": [
+          ""
+        ],
+        "type": "post_type",
+        "object": "page",
+        "object_id": 362,
+        "rest_id": 1057,
+        "children": []
+      },
+      {
+        "title": "Contact Us",
+        "url": "https://offernewengland.com/contact-us/",
+        "target": "",
+        "classes": [
+          ""
+        ],
+        "type": "post_type",
+        "object": "page",
+        "object_id": 51,
+        "rest_id": 1516,
+        "children": []
+      }
+    ],
+    "source": "wordpress"
+  },
+  {
+    "location": "primary-menu",
+    "label": "Main Navigation",
+    "slug": "main-navigation",
+    "items": [
+      {
+        "title": "<b>Sell Your House The Easy Way</b>",
+        "url": "https://offernewengland.com/get-a-cash-offer-today/",
+        "target": "",
+        "classes": [
+          ""
+        ],
+        "type": "post_type",
+        "object": "page",
+        "object_id": 362,
+        "rest_id": 1498,
+        "children": []
+      },
+      {
+        "title": "About us",
+        "url": "https://offernewengland.com/about-us/",
+        "target": "",
+        "classes": [
+          ""
+        ],
+        "type": "post_type",
+        "object": "page",
+        "object_id": 49,
+        "rest_id": 2000,
+        "children": []
+      },
+      {
+        "title": "Reviews",
+        "url": "https://offernewengland.com/reviews/",
+        "target": "",
+        "classes": [
+          ""
+        ],
+        "type": "post_type",
+        "object": "page",
+        "object_id": 24,
+        "rest_id": 581,
+        "children": []
+      },
+      {
+        "title": "Faqs",
+        "url": "https://offernewengland.com/faq/",
+        "target": "",
+        "classes": [
+          ""
+        ],
+        "type": "post_type",
+        "object": "page",
+        "object_id": 3859,
+        "rest_id": 3886,
+        "children": []
+      },
+      {
+        "title": "How It Works",
+        "url": "https://offernewengland.com/how-we-buy-houses/",
+        "target": "",
+        "classes": [
+          ""
+        ],
+        "type": "post_type",
+        "object": "page",
+        "object_id": 349,
+        "rest_id": 585,
+        "children": []
+      }
+    ],
+    "source": "wordpress"
+  }
+]

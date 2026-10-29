@@ -1,0 +1,6 @@
+https://offernewengland.com/sell-my-house-fast-cranston-ri-old/
+STATUS: REDIRECT
+
+The live site redirects this URL to
+  https://offernewengland.com/sell-my-house-fast-cranston-ri/
+so there is no separate page to compare. It is imported as a DRAFT, and the redirect is listed in redirects-for-new-site.csv.

@@ -1,0 +1,314 @@
+{
+  "url": "https://offernewengland.com/stop-foreclosure/",
+  "title": "Stop foreclosure in | Offer New England",
+  "meta_description": "Stop foreclosure on your house and save your credit! Offer New England  provides free guidance and expertise to avoid foreclosure in .",
+  "meta_keywords": "",
+  "robots": "",
+  "googlebot": "",
+  "canonical": "https://offernewengland.com/stop-foreclosure/",
+  "lang": "en-US",
+  "viewport": "width=device-width, initial-scale=1",
+  "author": "",
+  "open_graph": {
+    "og:image": "https://cdn.carrot.com/uploads/icon-talk-to-people-1.png",
+    "og:locale": "en_US",
+    "og:type": "website",
+    "og:title": "Stop foreclosure in | Offer New England",
+    "og:description": "Stop foreclosure on your house and save your credit! Offer New England  provides free guidance and expertise to avoid foreclosure in .",
+    "og:url": "https://offernewengland.com/stop-foreclosure/",
+    "og:site_name": "Offer New England"
+  },
+  "twitter": {
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Stop foreclosure in | Offer New England",
+    "twitter:description": "Stop foreclosure on your house and save your credit! Offer New England  provides free guidance and expertise to avoid foreclosure in .",
+    "twitter:image": "https://cdn.carrot.com/uploads/icon-talk-to-people-1.png"
+  },
+  "hreflang": [],
+  "feeds": [],
+  "icons": [
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTgwLCJoZWlnaHQiOjE4MH0sInRvRm9ybWF0IjoicG5nIn19",
+      "sizes": "180x180"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTYsImhlaWdodCI6MTZ9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "16x16"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzIsImhlaWdodCI6MzJ9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "32x32"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NDgsImhlaWdodCI6NDh9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "48x48"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6OTYsImhlaWdodCI6OTZ9LCJ0b0Zvcm1hdCI6InBuZyJ9fQ==",
+      "sizes": "96x96"
+    },
+    {
+      "rel": "icon",
+      "href": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9jcm9wcGVkLVdlYi0yLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTkyLCJoZWlnaHQiOjE5Mn0sInRvRm9ybWF0IjoicG5nIn19",
+      "sizes": "192x192"
+    }
+  ],
+  "verification": {
+    "google-site-verification": "PvxfVi5OzEJRsZDvF9aFTfLwncBpTqils89D8C4PwRk"
+  },
+  "tracking": {
+    "Google Tag Manager": [
+      "GTM-WWPZRDH"
+    ]
+  },
+  "schema_types": [
+    "BreadcrumbList",
+    "ListItem",
+    "WebSite"
+  ],
+  "json_ld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"item\":{\"@id\":\"https://offernewengland.com/\",\"name\":\"Offer New England | Cash Home Buyers in RI & MA\"}},{\"@type\":\"ListItem\",\"position\":2,\"item\":{\"@id\":\"https://offernewengland.com/stop-foreclosure/\",\"name\":\"Stop foreclosure in\"}}]}",
+    "{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"url\": \"https://offernewengland.com/\", \"name\": \"Offer New England \"}"
+  ],
+  "headings": [
+    [
+      "h1",
+      "Stop Foreclosure in Rhode Island"
+    ],
+    [
+      "h3",
+      "Download Your FREE Stop Foreclosure Guide Below"
+    ],
+    [
+      "h2",
+      "How To Stop Foreclosure In Rhode Island"
+    ],
+    [
+      "h2",
+      "Need To Stop Foreclosure Now?"
+    ]
+  ],
+  "h1": [
+    "Stop Foreclosure in Rhode Island"
+  ],
+  "images": [
+    {
+      "src": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvc2l0ZXMvODE4OTMvMjAyNS8wNC9XZWItMy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMCwiZml0IjoiY292ZXIifSwidG9Gb3JtYXQiOiJ3ZWJwIiwid2VicCI6eyJxdWFsaXR5Ijo4MH19fQ==",
+      "alt": "Offer New England ",
+      "title": "",
+      "width": "1500",
+      "height": "673",
+      "loading": ""
+    },
+    {
+      "src": "https://image-cdn.carrot.com/eyJidWNrZXQiOiJwcm9kdWN0aW9uLmNhcnJvdC11cGxvYWRzLm9uY2Fycm90LmNvbSIsImtleSI6InVwbG9hZHMvd2UtYnV5LWhvdXNlcy5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMTUyfSwidG9Gb3JtYXQiOiJ3ZWJwIiwid2VicCI6eyJxdWFsaXR5Ijo3MH19fQ==",
+      "alt": "row of brick homes in a typical working class neighborhood at sunset",
+      "title": "",
+      "width": "1920",
+      "height": "800",
+      "loading": ""
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/icon-talk-to-people-1.png",
+      "alt": "talk to us-icon",
+      "title": "",
+      "width": "",
+      "height": "",
+      "loading": "eager"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/icon-house-step1@2x.png",
+      "alt": "questions-icon\n",
+      "title": "",
+      "width": "74",
+      "height": "74",
+      "loading": "eager"
+    },
+    {
+      "src": "https://image-cdn.carrot.com/uploads/icon-handshake-deal-step2@2x.png",
+      "alt": "handshake-icon",
+      "title": "",
+      "width": "74",
+      "height": "74",
+      "loading": "eager"
+    }
+  ],
+  "images_missing_alt": 0,
+  "internal_links": [
+    {
+      "href": "https://offernewengland.com/",
+      "text": "Offer New England Need To Sell Your House Fast? We Buy Houses!",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "tel:+14012674066",
+      "text": "",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "tel:+14012674066",
+      "text": "(401) 267-4066",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Sell Your House The Easy Way",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/about-us/",
+      "text": "About us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/reviews/",
+      "text": "Reviews",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/faq/",
+      "text": "Faqs",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/how-we-buy-houses/",
+      "text": "How It Works",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "tel:+14012674066",
+      "text": "(401) 267-4066",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Get Your Cash Offer",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/contact-us/",
+      "text": "Contact Us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/go/free-guide-5-ways-you-can-stop-or-avoid-foreclosure-in-todays-market/",
+      "text": "Read our guide",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/how-we-buy-houses/",
+      "text": "selling process.",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/get-a-cash-offer-today/",
+      "text": "just let us know about your situation here",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "/go/free-guide-5-ways-you-can-stop-or-avoid-foreclosure-in-todays-market/",
+      "text": "Click here to get your free foreclosure guide",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/get-a-cash-offer-today/",
+      "text": "Get A Cash Offer Today",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/contact-us/",
+      "text": "Contact Us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/how-we-buy-houses/",
+      "text": "How It Works",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/about-us/",
+      "text": "About us",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/resource-page/",
+      "text": "Resources",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://offernewengland.com/privacy/",
+      "text": "Privacy Policy",
+      "rel": "",
+      "target": ""
+    }
+  ],
+  "external_links": [
+    {
+      "href": "https://maps.app.goo.gl/Yf2VLZLaGYgDVTDD6",
+      "text": "Google Business",
+      "rel": "noopener",
+      "target": "_blank"
+    },
+    {
+      "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Foffernewengland.com%2Fstop-foreclosure%2F",
+      "text": "Share",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://twitter.com/intent/tweet?text=Stop+foreclosure+in+%7C+Offer+New+England&url=https%3A%2F%2Foffernewengland.com%2Fstop-foreclosure%2F",
+      "text": "Share",
+      "rel": "",
+      "target": ""
+    },
+    {
+      "href": "https://maps.app.goo.gl/Yf2VLZLaGYgDVTDD6",
+      "text": "Google Business",
+      "rel": "noopener",
+      "target": "_blank"
+    },
+    {
+      "href": "https://carrot.com/?utm_source=member&utm_medium=footer&utm_content=offercomseller&utm_campaign=carrot-03&utm_term=seller",
+      "text": "Carrot",
+      "rel": "nofollow noreferrer",
+      "target": "_blank"
+    }
+  ],
+  "word_count_page": 790,
+  "http": {
+    "status": 200,
+    "final_url": "https://offernewengland.com/stop-foreclosure/",
+    "redirects": [],
+    "x_robots_tag": "",
+    "last_modified": "",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 481545,
+    "response_ms": 463,
+    "link_header": "<https://offernewengland.com/wp-json/>; rel=\"https://api.w.org/\", <https://offernewengland.com/wp-json/wp/v2/pages/228>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://offernewengland.com/?p=228>; rel=shortlink"
+  }
+}

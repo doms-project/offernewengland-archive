@@ -1,0 +1,22 @@
+{
+  "title": "Offer New England ",
+  "description": "Need To Sell Your House Fast? We Buy Houses!",
+  "timezone": "America/New_York",
+  "date_format": "F j, Y",
+  "time_format": "g:i a",
+  "start_of_week": 1,
+  "language": "",
+  "use_smilies": true,
+  "default_category": 1,
+  "default_post_format": "0",
+  "posts_per_page": 15,
+  "show_on_front": "page",
+  "page_on_front": 3204,
+  "page_for_posts": 0,
+  "default_ping_status": null,
+  "default_comment_status": null,
+  "site_logo": null,
+  "site_icon": 2738,
+  "_homepage_url": "https://offernewengland.com/",
+  "_posts_page_url": ""
+}

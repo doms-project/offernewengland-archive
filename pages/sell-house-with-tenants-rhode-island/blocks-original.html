@@ -1,0 +1,343 @@
+<!-- wp:html -->
+<style>
+body{overflow-x:hidden}
+#one-tn{--tn-blue:#0693C8;--tn-cyan:#03D4F4;--tn-navy:#0c2230;--tn-ink:#14202b;--tn-mute:#5c6b76;--tn-pale:#EAF6FB;--tn-line:#d6e6ee;--tn-white:#fff;font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--tn-ink);line-height:1.6}
+#one-tn *{box-sizing:border-box}
+#one-tn h2,#one-tn h3,#one-tn h4{margin:0 0 .5em;line-height:1.2;color:var(--tn-navy);font-weight:800}
+#one-tn h2{font-size:clamp(1.7rem,3.6vw,2.4rem)}
+#one-tn h3{font-size:clamp(1.25rem,2.4vw,1.55rem)}
+#one-tn h4{font-size:1.05rem}
+#one-tn p{margin:0 0 1em}
+#one-tn a{color:var(--tn-blue)}
+#one-tn .tn-wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+#one-tn .tn-band{padding:64px 0}
+#one-tn .tn-bleed{width:100vw;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+#one-tn .tn-tint{background:var(--tn-pale)}
+#one-tn .tn-eyebrow{display:inline-block;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--tn-blue);margin-bottom:10px}
+#one-tn .tn-lede{font-size:1.1rem;color:var(--tn-mute);max-width:720px}
+#one-tn .tn-btn{display:inline-block;padding:16px 28px;border-radius:8px;font-weight:800;text-decoration:none;letter-spacing:.02em;transition:transform .2s,box-shadow .2s}
+#one-tn .tn-btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(6,147,200,.28)}
+#one-tn .tn-btn-p{background:var(--tn-blue);color:#fff}
+#one-tn .tn-btn-s{background:#fff;color:var(--tn-navy);border:2px solid #fff}
+#one-tn .tn-btn-o{background:transparent;color:var(--tn-blue);border:2px solid var(--tn-blue)}
+#one-tn .tn-ctas{display:flex;gap:14px;flex-wrap:wrap}
+#one-tn svg{stroke:var(--tn-blue);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+#one-tn .tn-hero{position:relative;min-height:600px;display:flex;align-items:center;color:#fff;overflow:hidden;background:var(--tn-navy)}
+#one-tn .tn-slides{position:absolute;inset:0}
+#one-tn .tn-slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1.6s ease}
+#one-tn .tn-slide.tn-on{opacity:1;animation:tnKen 9s ease-in-out forwards}
+#one-tn .tn-slides .tn-slide:first-child{opacity:1}
+#one-tn .tn-slides.tn-live .tn-slide:first-child{opacity:0}
+#one-tn .tn-slides.tn-live .tn-slide.tn-on{opacity:1}
+@keyframes tnKen{from{transform:scale(1)}to{transform:scale(1.08)}}
+#one-tn .tn-scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,34,48,.62) 0%,rgba(12,34,48,.70) 100%)}
+#one-tn .tn-hero-in{position:relative;z-index:2;padding:96px 20px;max-width:1120px;margin:0 auto;width:100%}
+#one-tn .tn-hero h2{color:#fff;font-size:clamp(2rem,5vw,3.4rem);max-width:760px;margin-bottom:14px;text-shadow:0 2px 12px rgba(0,0,0,.35)}
+#one-tn .tn-hero p{font-size:1.15rem;max-width:640px;margin-bottom:26px;color:#e6f4fa}
+#one-tn .tn-hero .tn-eyebrow{color:var(--tn-cyan)}
+#one-tn .tn-dots{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:3}
+#one-tn .tn-dot{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,.45);border:0;padding:0;cursor:pointer}
+#one-tn .tn-dot.tn-on{background:var(--tn-cyan)}
+
+#one-tn .tn-trust{background:var(--tn-navy);color:#fff;padding:22px 0}
+#one-tn .tn-trust ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+#one-tn .tn-trust li{display:flex;align-items:center;gap:10px;font-weight:700;font-size:.95rem}
+#one-tn .tn-trust svg{stroke:var(--tn-cyan);width:24px;height:24px;flex:0 0 24px}
+
+#one-tn .tn-aeo{border-left:6px solid var(--tn-blue);background:#fff;padding:26px 30px;border-radius:0 12px 12px 0;box-shadow:0 8px 28px rgba(12,34,48,.08);max-width:860px}
+#one-tn .tn-aeo p{font-size:1.12rem;margin:0}
+#one-tn .tn-aeo strong{color:var(--tn-navy)}
+
+#one-tn .tn-two{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+#one-tn .tn-two img{width:100%;height:auto;border-radius:14px;box-shadow:0 14px 36px rgba(12,34,48,.16);display:block}
+#one-tn .tn-check{list-style:none;padding:0;margin:18px 0 0}
+#one-tn .tn-check li{display:flex;gap:12px;align-items:flex-start;margin-bottom:12px}
+#one-tn .tn-check svg{width:22px;height:22px;flex:0 0 22px;margin-top:3px}
+
+#one-tn .tn-grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+#one-tn .tn-card{background:#fff;border:1px solid var(--tn-line);border-radius:14px;padding:26px}
+#one-tn .tn-card svg{width:36px;height:36px;margin-bottom:12px}
+#one-tn .tn-card h4{margin-bottom:8px}
+#one-tn .tn-card p{margin:0;color:var(--tn-mute);font-size:.98rem}
+
+#one-tn .tn-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;margin-top:8px}
+#one-tn .tn-step{position:relative;padding:26px 24px 24px;background:#fff;border-radius:14px;border:1px solid var(--tn-line)}
+#one-tn .tn-num{display:inline-flex;width:44px;height:44px;border-radius:50%;background:var(--tn-blue);color:#fff;font-weight:800;align-items:center;justify-content:center;margin-bottom:12px;font-size:1.1rem}
+#one-tn .tn-proc{margin-top:36px;border-radius:14px;overflow:hidden;box-shadow:0 14px 36px rgba(12,34,48,.16)}
+#one-tn .tn-proc img{width:100%;height:auto;display:block}
+
+#one-tn .tn-vs{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+#one-tn .tn-col{border-radius:14px;padding:28px;border:1px solid var(--tn-line);background:#fff}
+#one-tn .tn-col.tn-us{border:2px solid var(--tn-blue);box-shadow:0 12px 30px rgba(6,147,200,.14)}
+#one-tn .tn-col h3{margin-bottom:14px}
+#one-tn .tn-col ul{list-style:none;margin:0;padding:0}
+#one-tn .tn-col li{display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-top:1px solid var(--tn-line)}
+#one-tn .tn-col li:first-child{border-top:0}
+#one-tn .tn-col svg{width:20px;height:20px;flex:0 0 20px;margin-top:3px}
+#one-tn .tn-col.tn-them svg{stroke:#9aa7b0}
+
+#one-tn .tn-story{background:var(--tn-navy);color:#dfeef5}
+#one-tn .tn-story h2,#one-tn .tn-story h3{color:#fff}
+#one-tn .tn-story .tn-eyebrow{color:var(--tn-cyan)}
+#one-tn .tn-story p{max-width:780px}
+#one-tn .tn-story a{color:var(--tn-cyan)}
+#one-tn .tn-res{margin-top:22px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+#one-tn .tn-res div{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:20px}
+#one-tn .tn-res h4{color:#fff;margin-bottom:6px}
+#one-tn .tn-res p{margin:0;font-size:.95rem}
+
+#one-tn .tn-faq details{border:1px solid var(--tn-line);border-radius:12px;background:#fff;margin-bottom:12px;padding:0 22px}
+#one-tn .tn-faq summary{cursor:pointer;font-weight:800;color:var(--tn-navy);padding:18px 0;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center}
+#one-tn .tn-faq summary::-webkit-details-marker{display:none}
+#one-tn .tn-faq summary::after{content:"+";font-size:1.5rem;color:var(--tn-blue);flex:0 0 auto;line-height:1}
+#one-tn .tn-faq details[open] summary::after{content:"\2212"}
+#one-tn .tn-faq details p{padding:0 0 18px;margin:0;color:#2e3d48}
+
+#one-tn .tn-links{border-top:1px solid var(--tn-line)}
+#one-tn .tn-links ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:10px 28px}
+#one-tn .tn-links li{padding:8px 0}
+#one-tn .tn-links a{font-weight:700;text-decoration:none}
+#one-tn .tn-links a:hover{text-decoration:underline}
+
+#one-tn .tn-cta{background:linear-gradient(135deg,var(--tn-blue) 0%,var(--tn-cyan) 100%);color:#fff;text-align:center;padding:72px 0}
+#one-tn .tn-cta h2{color:#fff}
+#one-tn .tn-cta p{max-width:620px;margin:0 auto 26px;font-size:1.1rem}
+#one-tn .tn-cta .tn-ctas{justify-content:center}
+#one-tn .tn-cta .tn-btn-p{background:var(--tn-navy)}
+
+#one-tn #get-offer{scroll-margin-top:90px;padding:56px 0 8px;text-align:center}
+#one-tn #get-offer p{max-width:620px;margin:0 auto 10px}
+#one-tn .tn-disc{font-size:.85rem;color:var(--tn-mute);border-top:1px solid var(--tn-line);padding:22px 0 8px;max-width:900px}
+
+#one-tn.tn-js .tn-rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+#one-tn.tn-js .tn-rv.tn-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){#one-tn .tn-slide.tn-on{animation:none}#one-tn.tn-js .tn-rv{opacity:1;transform:none;transition:none}}
+@media (max-width:860px){#one-tn .tn-two,#one-tn .tn-vs{grid-template-columns:1fr}#one-tn .tn-band{padding:48px 0}#one-tn .tn-hero{min-height:520px}#one-tn .tn-hero-in{padding:72px 20px}}
+</style>
+
+<div id="one-tn">
+
+<section class="tn-hero tn-bleed" aria-label="Sell a house with tenants in Rhode Island">
+  <div class="tn-slides">
+    <div class="tn-slide tn-on" role="img" aria-label="Three-family triple-decker rental house in Rhode Island with stacked porches" style="background-image:url('https://cdn.carrot.com/uploads/sites/81893/2026/08/Hero-1-3.webp')"></div>
+    <div class="tn-slide" role="img" aria-label="Street of two- and three-family rental homes in Providence, Rhode Island" style="background-image:url('https://cdn.carrot.com/uploads/sites/81893/2026/08/Hero-2-3.webp')"></div>
+  </div>
+  <div class="tn-scrim"></div>
+  <div class="tn-hero-in">
+    <span class="tn-eyebrow">Rhode Island cash buyers for occupied rentals</span>
+    <h2>Sell Your Rental Property With the Tenants Still in It</h2>
+    <p>We buy tenant-occupied houses, two-families, and triple-deckers across Rhode Island as-is for cash. No evictions, no vacancy, no repairs, no commissions. The leases transfer to us at closing and you walk away.</p>
+    <div class="tn-ctas">
+      <a class="tn-btn tn-btn-p" href="#get-offer">GET MY CASH OFFER</a>
+      <a class="tn-btn tn-btn-s" href="tel:+14012674066">Call (401) 267-4066</a>
+    </div>
+  </div>
+  <div class="tn-dots" aria-hidden="true"><button class="tn-dot tn-on" type="button" data-tn-slide="0"></button><button class="tn-dot" type="button" data-tn-slide="1"></button></div>
+</section>
+
+<section class="tn-trust tn-bleed">
+  <div class="tn-wrap">
+    <ul>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" /></svg>Tenants Stay</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l7-7M9 6l9 9-3 3-9-9zM14 3l7 7" /></svg>No Repairs</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M17 6.5c-1-1.5-3-2-5-2s-4 1-4 3 2 3 4.5 3.5S17 12 17 14.5s-2.5 3-5 3-4.5-.8-5.5-2.5" /></svg>No Commissions</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg>No-Obligation Offer</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10h18M8 3v4M16 3v4" /></svg>Flexible Closing</li>
+    </ul>
+  </div>
+</section>
+
+<section class="tn-band">
+  <div class="tn-wrap">
+    <div class="tn-aeo tn-rv">
+      <p><strong>Can you sell a house with tenants in it in Rhode Island?</strong> Yes. A sale does not end a tenant's lease; the buyer takes the property subject to the existing rental agreements, and Rhode Island law transfers the security-deposit obligations to the new owner at closing. Offer New England buys tenant-occupied single-families, two-families, and triple-deckers across Rhode Island as-is for cash, with no evictions required, no repairs, and no commissions.</p>
+    </div>
+  </div>
+</section>
+
+<section class="tn-band tn-tint tn-bleed">
+  <div class="tn-wrap">
+    <div class="tn-two">
+      <div class="tn-rv">
+        <span class="tn-eyebrow">Why listing an occupied rental is hard</span>
+        <h2>Showings, leases, and a buyer pool that mostly wants it empty</h2>
+        <p>Most retail buyers in Rhode Island want a house they can move into, and their lenders want it vacant or owner-occupied. That leaves a listing agent scheduling showings around tenants who have a legal right to two days' notice and no obligation to keep the unit tidy, while prospective buyers ask when the tenants are leaving. Many landlords end up offering cash-for-keys or waiting out a lease just to get to market, and the mortgage, taxes, and insurance keep running the whole time.</p>
+        <p>We are the other kind of buyer. Occupied is fine. Month-to-month is fine. Below-market rent is fine. A tenant who has stopped paying is fine. We look at the building, the leases, and the location, and we make one written offer that prices all of it in.</p>
+        <ul class="tn-check">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span><strong>No evictions.</strong> You do not need to clear the units before we buy. The leases transfer to us.</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span><strong>One respectful walkthrough.</strong> We coordinate proper notice with your tenants and visit once, at a time that works for them.</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span><strong>No turnover costs.</strong> Deferred maintenance, old porches, and units that need work are priced into the offer, not fixed by you.</span></li>
+        </ul>
+      </div>
+      <div class="tn-rv">
+        <img src="https://cdn.carrot.com/uploads/sites/81893/2026/08/Inline-situation-band-2.webp" alt="Apartment keys with unit tags on a lease for a tenant-occupied Rhode Island rental" width="1200" height="800" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tn-band">
+  <div class="tn-wrap">
+    <span class="tn-eyebrow">Landlords we hear from</span>
+    <h2>Common reasons Rhode Island landlords sell to us</h2>
+    <p class="tn-lede">Multi-family housing is the backbone of Providence, Pawtucket, Woonsocket, Central Falls, and Cranston. These are the situations that bring their owners to us.</p>
+    <div class="tn-grid3">
+      <div class="tn-card tn-rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7" /></svg>
+        <h4>Tired of being a landlord</h4>
+        <p>Twenty years of late-night calls, turnover, and city inspections is enough. You want the equity out without spending another season managing the building.</p>
+      </div>
+      <div class="tn-card tn-rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8M5 10v10h14V10" /><path d="M9 20v-6h6v6" /></svg>
+        <h4>An inherited multi-family</h4>
+        <p>A parent's triple-decker with long-term tenants, some paying well below market. The heirs live elsewhere and nobody wants to become a landlord. We buy before, during, or after probate; see our <a href="https://offernewengland.com/selling-an-inherited-house-in-rhode-island-probate-timeline-options/">inherited-house guide</a>.</p>
+      </div>
+      <div class="tn-card tn-rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9 16H3z" /><path d="M12 10v4M12 17h.01" /></svg>
+        <h4>A tenant who stopped paying</h4>
+        <p>Rhode Island eviction takes time and money, and the unit is losing rent every month. We buy with the non-paying tenant in place and handle the situation after closing, lawfully and on our dime.</p>
+      </div>
+      <div class="tn-card tn-rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9h18M8 4v5M16 4v5" /></svg>
+        <h4>A lease that runs past your timeline</h4>
+        <p>You need to sell this year and the lease runs to next summer. Retail buyers will wait; we will not. The lease transfers to us and the tenant's rights are unchanged.</p>
+      </div>
+      <div class="tn-card tn-rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l7-7M9 6l9 9-3 3-9-9zM14 3l7 7" /></svg>
+        <h4>Deferred maintenance or code issues</h4>
+        <p>Porches, roofs, knob-and-tube wiring, lead-safe certificates, and minimum-housing notices. Rather than fund the work to get a lender to approve a buyer, sell as-is and let us take the list.</p>
+      </div>
+      <div class="tn-card tn-rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20" /></svg>
+        <h4>Out-of-state owner</h4>
+        <p>Managing a Rhode Island rental from another state through a property manager who keeps billing you. We walk the building, send you a video, make the offer, and close with you signing remotely.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tn-band tn-story tn-bleed">
+  <div class="tn-wrap">
+    <span class="tn-eyebrow">Rhode Island law, in plain language</span>
+    <h2>What happens to the tenants when you sell</h2>
+    <p>Rhode Island's Residential Landlord and Tenant Act, R.I. Gen. Laws § 34-18, governs every step. The short version: selling the building does not end anyone's tenancy, and the new owner inherits your obligations. Below is what that means in practice. It is general education, not legal advice; a Rhode Island real-estate attorney should review your specific leases before closing.</p>
+    <div class="tn-res">
+      <div class="tn-rv"><h4>Leases survive the sale</h4><p>A fixed-term lease binds the new owner until it ends. Month-to-month tenancies continue on the same terms. A buyer who wants a unit vacant has to follow the same rules you would, which is why most retail buyers avoid occupied properties and why we do not.</p></div>
+      <div class="tn-rv"><h4>Security deposits move with the building</h4><p>Under § 34-18-19, deposits are capped at one month's rent, and whoever holds the landlord's interest when a tenancy ends is bound to return them. At closing, deposits are credited to the buyer and the responsibility transfers. Have the amounts documented per unit.</p></div>
+      <div class="tn-rv"><h4>Notice before entry</h4><p>Section 34-18-26 requires at least two days' notice to a tenant before entering a unit for a non-emergency reason, including showings and inspections. We schedule our single walkthrough through you with proper notice, and we do not ask tenants to prepare the unit.</p></div>
+      <div class="tn-rv"><h4>Ending a month-to-month tenancy</h4><p>Section 34-18-37 requires at least 30 days' written notice to terminate a month-to-month tenancy. You do not need to serve it to sell to us. If a buyer ever tells you the tenants must be out first, that buyer is asking you to absorb a cost we would take on ourselves.</p></div>
+      <div class="tn-rv"><h4>Telling tenants who the new owner is</h4><p>Section 34-18-20 requires that tenants be told in writing the name and address of the owner or the person authorized to act for them. After closing, we send that notice so rent and repair requests come to us, not you.</p></div>
+      <div class="tn-rv"><h4>Tenant estoppel letters</h4><p>Not required by Rhode Island law, but a one-page letter from each tenant confirming their rent, deposit, and lease term protects you from claims after the sale. We can provide the form and are happy to close without it if a tenant will not sign.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="tn-band">
+  <div class="tn-wrap">
+    <span class="tn-eyebrow">How it works</span>
+    <h2>Three steps, and your tenants are never disrupted</h2>
+    <div class="tn-steps">
+      <div class="tn-step tn-rv"><span class="tn-num">1</span><h4>Tell us about the building</h4><p>Fill out the form below or call <a href="tel:+14012674066">(401) 267-4066</a>. Address, number of units, current rents, and lease terms is enough to start. Copies of the leases help but are not required for a first conversation.</p></div>
+      <div class="tn-step tn-rv"><span class="tn-num">2</span><h4>One walkthrough, one written offer</h4><p>You give the tenants notice, we visit once, and we look at the structure, systems, and units. Within 24 hours you have a written cash offer that accounts for the rents, the leases, and the condition.</p></div>
+      <div class="tn-step tn-rv"><span class="tn-num">3</span><h4>Close and hand over the keys</h4><p>Accept, pick a date, and we close at a Rhode Island title company. Deposits and prorated rent are handled on the settlement statement, and we notify the tenants of the change in ownership.</p></div>
+    </div>
+    <div class="tn-proc tn-rv">
+      <img src="https://cdn.carrot.com/uploads/sites/81893/2026/08/PROCESS.webp" alt="Offer New England team walking a homeowner through the cash offer process for a Rhode Island house" width="1536" height="1024" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="tn-band tn-tint tn-bleed">
+  <div class="tn-wrap">
+    <span class="tn-eyebrow">Compare</span>
+    <h2>Listing an occupied rental vs. selling to Offer New England</h2>
+    <div class="tn-vs">
+      <div class="tn-col tn-them tn-rv">
+        <h3>Listing with an agent</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Showings scheduled around every tenant, with two days' notice each time</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Most buyers want it vacant, so cash-for-keys or waiting out leases</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Repairs and code items the lender requires before approving a buyer</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Appraisal and financing contingencies on a building with below-market rents</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Roughly 5–6% in commissions plus closing costs</span></li>
+        </ul>
+      </div>
+      <div class="tn-col tn-us tn-rv">
+        <h3>Selling to Offer New England</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>One walkthrough with proper notice, then no more visits</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>Tenants stay; leases and deposits transfer to us at closing</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>Sell as-is, nothing to repair or bring up to code first</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>Cash, so no appraisal or lender to reject the rent roll</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>No commissions; close in as little as 14 days</span></li>
+        </ul>
+        <p style="margin:18px 0 0"><a class="tn-btn tn-btn-p" href="#get-offer">GET MY CASH OFFER</a></p>
+      </div>
+    </div>
+    <p style="margin-top:18px;color:#5c6b76;font-size:.95rem">A fully vacant, renovated multi-family can list for more than we will pay. If you have the time and capital to get there, our <a href="https://offernewengland.com/companies-that-buy-houses-in-rhode-island-honest-comparison/">comparison of companies that buy houses in Rhode Island</a> is an honest look at when to hold out.</p>
+  </div>
+</section>
+
+<section class="tn-band tn-faq">
+  <div class="tn-wrap">
+    <span class="tn-eyebrow">Questions from Rhode Island landlords</span>
+    <h2>Selling a house with tenants in Rhode Island: FAQ</h2>
+    <details><summary>Do I have to evict my tenants before selling the house?</summary><p>No. In Rhode Island a sale does not terminate a lease or a month-to-month tenancy; the buyer takes the property subject to the existing rental agreements. We buy occupied properties as a matter of course, so you never have to serve notice, negotiate cash-for-keys, or file in District Court. The tenants keep their homes and their rights, and you keep your timeline.</p></details>
+    <details><summary>What happens to the security deposits when I sell?</summary><p>They transfer with the building. Under R.I. Gen. Laws § 34-18-19, whoever holds the landlord's interest when a tenancy ends is responsible for returning the deposit, so at closing the deposits are credited to us on the settlement statement and the obligation moves to us. Bring a per-unit list of deposit amounts and dates; that is all we need.</p></details>
+    <details><summary>Can you buy the building if a tenant has stopped paying rent?</summary><p>Yes. A non-paying tenant lowers the offer somewhat because we take on the cost and time of resolving it, but it does not stop the sale. We handle any eviction ourselves after closing, following Rhode Island's District Court process, and you are out of it the day we close. Many landlords sell to us precisely because they do not want to go through that process.</p></details>
+    <details><summary>Do I need to give my tenants notice that I'm selling?</summary><p>Not to sell, but you do need to give at least two days' notice before we enter a unit for the walkthrough, per § 34-18-26. After closing, § 34-18-20 requires tenants to be told the new owner's name and address in writing, which we send. Letting tenants know early that nothing about their lease is changing usually makes the walkthrough easier for everyone.</p></details>
+    <details><summary>Will you buy a triple-decker where the rents are below market?</summary><p>Yes. Below-market rents on long-term tenants are common in Providence, Pawtucket, and Woonsocket, and we underwrite to the actual rent roll rather than a projection. It affects the offer amount, not whether we make one. We do not ask you to raise rents, non-renew anyone, or vacate a unit before closing.</p></details>
+    <details><summary>How do you value an occupied multi-family?</summary><p>We look at the building's condition and location, the current rents against the market, the remaining lease terms, and the work each unit will need at turnover. Then we subtract our repair, holding, and closing costs and a margin. The offer is written and explained line by line, and there is no obligation and no fee.</p></details>
+    <details><summary>Do I need the tenants to sign anything for the sale?</summary><p>No. A tenant estoppel letter confirming rent, deposit, and lease term is helpful and protects you from later disputes, and we will provide the form, but it is not required by Rhode Island law and we will close without it if a tenant declines. The leases themselves and your deposit records are what matter at closing.</p></details>
+    <details><summary>How fast can you close on a tenant-occupied property?</summary><p>As fast as 14 days once you accept, because we pay cash and do not need a lender's approval of the rent roll or an appraisal. Occupied buildings sometimes take a little longer only because of scheduling the walkthrough with proper notice. If you need more time, we set the closing date around you.</p></details>
+  </div>
+</section>
+
+<section class="tn-band tn-links tn-tint tn-bleed">
+  <div class="tn-wrap">
+    <h3>More ways we help Rhode Island property owners</h3>
+    <ul>
+      <li><a href="https://offernewengland.com/we-buy-houses-in-rhode-island/">We Buy Houses in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/selling-an-inherited-house-in-rhode-island-probate-timeline-options/">Selling an Inherited House in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/how-to-sell-a-house-as-is-in-rhode-island-what-you-can-skip-fixing/">How to Sell a House As-Is in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/capital-gains-tax-when-selling-a-home-in-ri-ma-what-sellers-actually-owe/">Capital Gains Tax When Selling in RI &amp; MA</a></li>
+      <li><a href="https://offernewengland.com/companies-that-buy-houses-in-rhode-island-honest-comparison/">Companies That Buy Houses in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/facing-foreclosure-in-rhode-island-your-timeline-and-options/">Facing Foreclosure in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/sell-my-house-fast-in-providence-ri/">Sell My House Fast in Providence, RI</a></li>
+      <li><a href="https://offernewengland.com/sell-your-house-fast-pawtucket-ri/">Sell Your House Fast in Pawtucket, RI</a></li>
+      <li><a href="https://offernewengland.com/sell-my-house-fast-cranston-ri/">Sell My House Fast in Cranston, RI</a></li>
+      <li><a href="https://offernewengland.com/how-we-buy-houses/">How We Buy Houses</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="tn-cta tn-bleed">
+  <div class="tn-wrap">
+    <h2>Ready to stop being a landlord?</h2>
+    <p>Get a written, no-obligation cash offer for your tenant-occupied Rhode Island property. No evictions, no repairs, no commissions, no vacancy.</p>
+    <div class="tn-ctas">
+      <a class="tn-btn tn-btn-p" href="#get-offer">GET MY CASH OFFER</a>
+      <a class="tn-btn tn-btn-s" href="tel:+14012674066">Call (401) 267-4066</a>
+    </div>
+  </div>
+</section>
+
+<section id="get-offer">
+  <div class="tn-wrap">
+    <span class="tn-eyebrow">Get your offer</span>
+    <h2>Tell us about your rental property</h2>
+    <p>Fill out the form below and a member of our team will call within 24 hours with a fair cash offer. Prefer to talk now? Call <a href="tel:+14012674066">(401) 267-4066</a>. Include the number of units and current rents if you have them handy.</p>
+  </div>
+</section>
+
+<div class="tn-wrap">
+  <p class="tn-disc">This page is general education for Rhode Island property owners and is not legal or tax advice. Lease terms, notice requirements, and deposit handling depend on your specific rental agreements and the Rhode Island Residential Landlord and Tenant Act, R.I. Gen. Laws § 34-18; consult a Rhode Island real-estate attorney before selling an occupied property. Offer New England is a local cash home buyer, not a law firm.</p>
+</div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:carrot/form {"clientId":"ec6ff302-fa74-4b88-b784-ee7af2eb08a2","formId":"1"} -->
+<div class="wp-block-carrot-form"></div>
+<!-- /wp:carrot/form -->

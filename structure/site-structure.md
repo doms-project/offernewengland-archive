@@ -1,0 +1,107 @@
+# Site structure: offernewengland.com
+
+Page tree by URL (title, inbound links from content / total, click depth):
+
+- /  Sell Your House Fast in Rhode Island| Get Cash for Your Home Today  (homepage)
+  - /about-us/  About us  [14/75, depth 1]
+  - /best-month-to-sell-a-house-in-new-england/  Best Month to Sell a House in New England  [2/2, depth 2]
+  - /blog/  (folder)
+    - /5-signs-its-time-to-sell-your-house-as-is-in-warwick-ri/  5 Signs It’s Time to Sell Your House As-Is in Warwick, RI  [1/1, depth 4]
+    - /author/  (folder)
+      - /loouaay/    [0/30, depth 3]
+    - /avoid-probate-headaches-sell-inherited-property-in-ri-fast/  Avoid Probate Headaches: Sell Inherited Property in RI Fast  [2/2, depth 4]
+    - /behind-on-mortgage-payments-in-coventry-you-still-have-options/  Behind on Mortgage Payments in Coventry? You Still Have Options  [0/0, depth -]
+    - /behind-on-property-taxes-in-rhode-island-heres-how-to-sell-fast/  Behind on Property Taxes in Rhode Island? Here’s How to Sell Fast  [3/3, depth 2]
+    - /can-i-really-trust-cash-home-buyers-in-rhode-island/  Can I Really Trust Cash Home Buyers in Rhode Island?  [2/2, depth 2]
+    - /can-i-sell-a-house-that-needs-repairs-in-south-kingstown-ri/  Can I Sell a House That Needs Repairs in South Kingstown, RI?  [0/0, depth -]
+    - /facing-foreclosure-in-cranston-sell-before-its-too-late/  Facing Foreclosure in Cranston? Sell Before It’s Too Late  [1/1, depth 4]
+    - /fast-cash-home-sale-in-bristol-ri-how-it-works-step-by-step/  Fast Cash Home Sale in Bristol RI – How It Works Step-by-Step  [0/0, depth -]
+    - /how-to-sell-a-house-in-rhode-island-without-a-realtor/  How to Sell a House in Rhode Island Without a Realtor  [3/3, depth 3]
+    - /how-to-sell-a-house-with-foundation-problems-in-warwick-ri/  How to Sell a House with Foundation Problems in Warwick, RI  [3/3, depth 2]
+    - /how-to-sell-a-rental-property-in-cranston-ri/  How to Sell a Rental Property in Cranston, RI  [2/2, depth 3]
+    - /how-to-sell-inherited-property-warwick-quick-sale-of-inherited-house-warwick/  How to Sell Inherited Property Warwick for a Quick Sale of Inherited House Warwick  [1/1, depth 5]
+    - /lost-your-job-sell-your-house-fast-in-rhode-island-offer-new-england/  Lost Your Job? Sell Your House Fast in Rhode Island | Offer New England  [3/3, depth 2]
+    - /real-customer-story-how-we-helped-a-seller-in-pawtucket-sell-fast/  Real Customer Story: How We Helped a Seller in Pawtucket Sell Fast  [0/0, depth -]
+    - /realtor-vs-cash-buyer-which-is-better-in-rhode-island/  Realtor vs Cash Buyer – Which Is Better in Rhode Island?  [1/1, depth 4]
+    - /relocating-and-need-to-sell-fast-in-kingstown-ri-read-this-first/  Relocating and Need to Sell Fast in Kingstown, RI? Read This First  [0/0, depth -]
+    - /repairs-too-expensive-sell-your-house-as-is-in-west-warwick-ri/  Repairs Too Expensive? Sell Your House As-Is in West Warwick, RI  [0/0, depth -]
+    - /sell-fire-damaged-house-in-providence-ri-cash-offers-for-as-is-homes/  Sell Fire-Damaged House in Providence RI | Cash Offers for As-Is Homes  [1/1, depth 4]
+    - /sell-house-with-code-violations-in-warwick-ri-cash-home-buyers/  Sell House with Code Violations in Warwick RI | Cash Home Buyers  [3/3, depth 2]
+    - /sell-inherited-house-in-providence-ri-probate-home-buyers/  Sell Inherited House in Providence RI | Probate Home Buyers  [1/1, depth 4]
+    - /sell-my-house-fast-in-westerly-ri-what-are-my-options/  Sell My House Fast in Westerly RI – What Are My Options?  [0/0, depth -]
+    - /sell-your-house-fast-coventry-without-realtor/  How to Sell Your House Fast in Coventry Without a Realtor  [0/0, depth -]
+    - /sell-your-house-for-cash-fast-house-sale-cash-home-buyers/  Sell Your House for Cash Fast | Fast House Sale with Trusted Cash Home Buyers  [0/0, depth -]
+    - /selling-a-house-with-tenants-in-rhode-island-legal-tips-fast-options/  Selling a House With Tenants in Rhode Island – Legal Tips & Fast Options  [0/0, depth -]
+    - /selling-your-rhode-island-house-during-divorce-what-to-expect/  Selling Your Rhode Island House During Divorce – What to Expect  [0/0, depth -]
+    - /should-i-sell-my-house-in-2025-rhode-island-market-insights/  Should I Sell My House in 2025? Rhode Island Market Insights  [1/1, depth 4]
+    - /top-7-myths-about-selling-to-investors-in-rhode-island/  Top 7 Myths About Selling to Investors in Rhode Island  [3/3, depth 2]
+    - /we-buy-distressed-properties-in-providence-fast-cash-offers/  We Buy Distressed Properties in Providence – Fast Cash Offers  [1/1, depth 4]
+    - /we-buy-houses-in-cranston-what-you-need-to-know-before-selling/  We Buy Houses in Cranston: What You Need to Know Before Selling  [1/1, depth 3]
+    - /what-fees-should-i-expect-when-selling-a-house-in-rhode-island/  What Fees Should I Expect When Selling a House in Rhode Island?  [2/2, depth 2]
+  - /can-a-nursing-home-take-your-house-in-rhode-island/  Can a Nursing Home Take Your House in Rhode Island?  [2/2, depth 2]
+  - /capital-gains-tax-when-selling-a-home-in-ri-ma-what-sellers-actually-owe/  Capital Gains Tax When Selling a Home in RI & MA: What Sellers Actually Owe  [3/3, depth 3]
+  - /cash-offer-vs-listing-with-an-agent-in-providence-real-numbers/  Cash Offer vs. Listing with an Agent in Providence: Real Numbers  [2/2, depth 2]
+  - /companies-that-buy-houses-in-rhode-island-honest-comparison/  Companies That Buy Houses in Rhode Island: Honest Comparison  [4/4, depth 3]
+  - /contact-us/  Contact Us  [10/75, depth 1]
+  - /facing-foreclosure-in-rhode-island-your-timeline-and-options/  Facing Foreclosure in Rhode Island: Your Timeline and Options  [3/3, depth 3]
+  - /faq/  Frequently Asked Questions  [13/75, depth 1]
+  - /get-a-cash-offer-today/  Get A Cash Offer Today  [17/75, depth 1]
+  - /go/  (folder)
+    - /learn-the-pros-and-cons-of-selling-your-house-to-a-professional-house-buyer/  Learn The Pros and Cons Of Selling Your House To A Professional House Buyer  [2/2, depth 2]
+  - /home-2-2-2/  Sell your house fast in Rhode Island| Get Cash for Your Home Today  [0/0, depth -]
+  - /how-much-does-a-home-inspection-cost-in-ri-and-when-you-can-skip-it/  How Much Does a Home Inspection Cost in RI — and When You Can Skip It  [2/2, depth 2]
+  - /how-to-sell-a-house-as-is-in-rhode-island-what-you-can-skip-fixing/  How to Sell a House As-Is in Rhode Island: What You Can Skip Fixing  [4/4, depth 3]
+  - /how-we-buy-houses/  How It Works  [20/75, depth 1]
+  - /privacy/  Privacy Policy  [0/74, depth 1]
+  - /resource-page/  Resources  [0/74, depth 1]
+  - /reviews/  Reviews  [13/75, depth 1]
+  - /sell-hoarder-house-rhode-island/  Sell a Hoarder House in Rhode Island  [2/2, depth 2]
+  - /sell-house-divorce-rhode-island/  Selling the House During a Divorce Doesn't Have to Be Another Fight  [2/2, depth 2]
+  - /sell-house-with-tenants-rhode-island/  Sell Your Rental Property With the Tenants Still in It  [2/2, depth 2]
+  - /sell-my-house-fast-bristol-ri/  Sell your house fast in Bristol, RI| Get Cash for Your Home Today  [3/3, depth 2]
+  - /sell-my-house-fast-coventry-ri/  Sell your house fast in Coventry| Get Cash for Your Home Today  [7/7, depth 2]
+  - /sell-my-house-fast-cranston-ri/  Sell My House Fast in Cranston, RI  [10/10, depth 2]
+  - /sell-my-house-fast-east-greenwich-ri/  Sell My House Fast in East Greenwich, RI  [2/2, depth 2]
+  - /sell-my-house-fast-in-attleboro-ma/  Sell My House Fast in Attleboro, MA  [1/1, depth -]
+  - /sell-my-house-fast-in-fall-river-ma/  Sell My House Fast in Fall River, MA  [1/1, depth -]
+  - /sell-my-house-fast-in-new-bedford-ma/  Sell My House Fast in New Bedford, MA  [1/1, depth -]
+  - /sell-my-house-fast-in-providence-ri/  Sell My House Fast in Providence, RI  [5/5, depth 2]
+  - /sell-my-house-fast-newport-ri/  Sell your house fast in Newport, RI | Get Cash for Your Home Today  [2/2, depth 2]
+  - /sell-my-house-fast-north-kingstown-ri/  Sell your house fast in north Kingstown, RI| Get Cash for Your Home Today  [3/3, depth 2]
+  - /sell-my-house-fast-south-kingstown-ri/  Sell your house fast in south Kingstown, RI | Get Cash for Your Home Today  [2/2, depth 2]
+  - /sell-my-house-fast-warwick-ri/  Sell your house fast in Warwick, RI| Get Cash for Your Home Today in Warwick  [7/7, depth 2]
+  - /sell-my-house-fast-west-warwick-ri/  Sell your house fast in West Warwick, RI| Get Cash for Your Home Today in Warwick  [4/4, depth 2]
+  - /sell-my-house-fast-westerly-ri/  Sell your house fast in westerly, RI| Get Cash for Your Home Today in Warwick  [1/1, depth 2]
+  - /sell-my-house-fast-woonsocket-ri/  Sell your house fast in Woonsocket, RI| Get Cash for Your Home Today  [1/1, depth 2]
+  - /sell-your-house-fast-pawtucket-ri/  Sell your house fast in Pawtucket, RI| Get Cash for Your Home Today  [6/6, depth 2]
+  - /selling-a-fire-damaged-house-in-rhode-island/  Selling a Fire-Damaged House in Rhode Island  [1/1, depth 3]
+  - /selling-an-inherited-house-in-rhode-island-probate-timeline-options/  Selling an Inherited House in Rhode Island: Probate Timeline & Options  [3/3, depth 3]
+  - /stop-foreclosure/  Stop Foreclosure in Rhode Island  [13/13, depth 1]
+  - /terms-conditions/  Offer New England LLC Messaging Terms & Conditions  [0/0, depth -]
+  - /thank-you/  Thank You  [0/0, depth -]
+  - /we-buy-houses-in-massachusetts/  We Buy Houses in Massachusetts  [2/2, depth -]
+  - /we-buy-houses-in-rhode-island/  We Buy Houses in Rhode Island  [7/7, depth 1]
+  - /we-buy-houses-in-taunton-ma-cash-home-buyers/  We Buy Houses in Taunton, MA | Cash Home Buyers  [1/1, depth -]
+
+## Orphan pages (no internal link points to them)
+
+- https://offernewengland.com/blog/behind-on-mortgage-payments-in-coventry-you-still-have-options  Behind on Mortgage Payments in Coventry? You Still Have Options
+- https://offernewengland.com/blog/can-i-sell-a-house-that-needs-repairs-in-south-kingstown-ri  Can I Sell a House That Needs Repairs in South Kingstown, RI?
+- https://offernewengland.com/blog/fast-cash-home-sale-in-bristol-ri-how-it-works-step-by-step  Fast Cash Home Sale in Bristol RI – How It Works Step-by-Step
+- https://offernewengland.com/blog/real-customer-story-how-we-helped-a-seller-in-pawtucket-sell-fast  Real Customer Story: How We Helped a Seller in Pawtucket Sell Fast
+- https://offernewengland.com/blog/relocating-and-need-to-sell-fast-in-kingstown-ri-read-this-first  Relocating and Need to Sell Fast in Kingstown, RI? Read This First
+- https://offernewengland.com/blog/repairs-too-expensive-sell-your-house-as-is-in-west-warwick-ri  Repairs Too Expensive? Sell Your House As-Is in West Warwick, RI
+- https://offernewengland.com/blog/sell-my-house-fast-in-westerly-ri-what-are-my-options  Sell My House Fast in Westerly RI – What Are My Options?
+- https://offernewengland.com/blog/sell-your-house-fast-coventry-without-realtor  How to Sell Your House Fast in Coventry Without a Realtor
+- https://offernewengland.com/blog/sell-your-house-for-cash-fast-house-sale-cash-home-buyers  Sell Your House for Cash Fast | Fast House Sale with Trusted Cash Home Buyers
+- https://offernewengland.com/blog/selling-a-house-with-tenants-in-rhode-island-legal-tips-fast-options  Selling a House With Tenants in Rhode Island – Legal Tips & Fast Options
+- https://offernewengland.com/blog/selling-your-rhode-island-house-during-divorce-what-to-expect  Selling Your Rhode Island House During Divorce – What to Expect
+- https://offernewengland.com/home-2-2-2  Sell your house fast in Rhode Island| Get Cash for Your Home Today
+- https://offernewengland.com/terms-conditions  Offer New England LLC Messaging Terms & Conditions
+- https://offernewengland.com/thank-you  Thank You
+
+## Pages linked only from menus/footer, never from page content
+
+- https://offernewengland.com/blog/author/loouaay  
+- https://offernewengland.com/privacy  Privacy Policy
+- https://offernewengland.com/resource-page  Resources

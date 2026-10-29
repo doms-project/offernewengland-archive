@@ -1,0 +1,97 @@
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"RealEstateAgent",
+      "@id":"https://offernewengland.com/#business",
+      "name":"Offer New England",
+      "url":"https://offernewengland.com/",
+      "telephone":"+1-401-267-4066",
+      "areaServed":["Providence","Rhode Island","Massachusetts"],
+      "description":"Local cash home buyer purchasing houses as-is across Providence, Rhode Island, and southern Massachusetts, with no fees, no commissions, and closings in as little as 7 days."
+    },
+    {
+      "@type":"Article",
+      "headline":"Cash Offer vs. Listing With an Agent in Providence: The Real Numbers",
+      "about":"A cost comparison of selling a Providence home for cash versus listing with a real estate agent, including commission, closing costs, repairs, and timeline.",
+      "author":{"@type":"Organization","name":"Offer New England"},
+      "publisher":{"@id":"https://offernewengland.com/#business"},
+      "mainEntityOfPage":"https://offernewengland.com/cash-offer-vs-agent-providence/"
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Home","item":"https://offernewengland.com/"},
+        {"@type":"ListItem","position":2,"name":"Cash Offer vs. Agent in Providence","item":"https://offernewengland.com/cash-offer-vs-agent-providence/"}
+      ]
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"Is a cash offer or listing with an agent better in Providence?","acceptedAnswer":{"@type":"Answer","text":"It depends on your home and timeline. Listing usually nets the most on a market-ready home, but total selling costs run 6-10% of the price after commission, closing costs, repairs, and time. A cash offer is below full retail but has $0 fees and closes in about 7 days, so it often nets more for homes that need work or a fast sale."}},
+        {"@type":"Question","name":"How much does it cost to sell a house with an agent in Rhode Island?","acceptedAnswer":{"@type":"Answer","text":"Total selling costs typically run 6-10% of the sale price. That is roughly 5.6% average commission plus about 2.7% in closing costs, including Rhode Island's conveyance tax (raised to $3.75 per $500 in October 2025) and the required attorney fee, before any repairs or buyer concessions."}},
+        {"@type":"Question","name":"How is a cash offer usually priced compared to market value?","acceptedAnswer":{"@type":"Answer","text":"A cash offer is below full retail because the buyer takes on the repairs, holding costs, and risk. In exchange you pay no commission, no closing costs, and make no repairs, and you close fast. For a home needing work, the cash net can match or beat a listed sale once those costs are subtracted."}},
+        {"@type":"Question","name":"How fast can I sell my Providence house for cash?","acceptedAnswer":{"@type":"Answer","text":"A direct cash buyer can typically close in as little as 7 days, since there is no financing, appraisal, or inspection contingency. A traditional listing usually takes 45-75 days from listing to closing, plus prep time before it goes live."}},
+        {"@type":"Question","name":"Do I pay any fees or commissions with a cash sale?","acceptedAnswer":{"@type":"Answer","text":"No. A direct cash sale has no agent commission, no listing fees, and typically no seller closing costs, since the buyer covers them. The offer you accept is essentially what you walk away with."}},
+        {"@type":"Question","name":"Will I net more selling as-is for cash or listing with an agent?","acceptedAnswer":{"@type":"Answer","text":"For a clean, updated home you can usually net more by listing. For a home that needs repairs, or when you need to sell fast, a cash sale often nets as much or more once commission, closing costs, repairs, concessions, and carrying costs are removed, and it is far simpler."}}
+      ]
+    }
+  ]
+}
+</script>
+
+<script>
+(function(){
+  var root=document.getElementById('one-ca');
+  if(!root)return;
+
+  /* progressive-enhancement: only hide reveals once JS runs */
+  root.classList.add('ca-anim');
+
+  /* ---- sticky nav shadow + mobile menu ---- */
+  var nav=document.getElementById('ca-nav');
+  var burger=document.getElementById('ca-burger');
+  window.addEventListener('scroll',function(){
+    if(window.scrollY>8){nav.classList.add('is-stuck');}else{nav.classList.remove('is-stuck');}
+  },{passive:true});
+  if(burger){burger.addEventListener('click',function(){nav.classList.toggle('is-open');});}
+  document.querySelectorAll('#ca-links a').forEach(function(a){
+    a.addEventListener('click',function(){nav.classList.remove('is-open');});
+  });
+
+  /* ---- hero slideshow ---- */
+  var slides=[].slice.call(root.querySelectorAll('.ca-slide'));
+  var dotsWrap=document.getElementById('ca-dots');
+  var cur=0,timer=null;
+  if(slides.length>1&&dotsWrap){
+    slides.forEach(function(s,i){
+      var b=document.createElement('button');
+      b.setAttribute('aria-label','Slide '+(i+1));
+      if(i===0)b.className='is-active';
+      b.addEventListener('click',function(){go(i);reset();});
+      dotsWrap.appendChild(b);
+    });
+    var dots=[].slice.call(dotsWrap.children);
+    var go=function(n){
+      slides[cur].classList.remove('is-active');
+      dots[cur].classList.remove('is-active');
+      cur=(n+slides.length)%slides.length;
+      slides[cur].classList.add('is-active');
+      dots[cur].classList.add('is-active');
+    };
+    var reset=function(){clearInterval(timer);timer=setInterval(function(){go(cur+1);},6000);};
+    reset();
+  }
+
+  /* ---- scroll reveal ---- */
+  var reveals=[].slice.call(root.querySelectorAll('.ca-reveal'));
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-in');io.unobserve(e.target);}});
+    },{threshold:.12});
+    reveals.forEach(function(el){io.observe(el);});
+  }else{reveals.forEach(function(el){el.classList.add('is-in');});}
+
+})();
+</script>

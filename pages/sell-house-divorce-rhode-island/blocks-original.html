@@ -1,0 +1,327 @@
+<!-- wp:html -->
+<style>
+body{overflow-x:hidden}
+#one-dv{--dv-blue:#0693C8;--dv-cyan:#03D4F4;--dv-navy:#0c2230;--dv-ink:#14202b;--dv-mute:#5c6b76;--dv-pale:#EAF6FB;--dv-line:#d6e6ee;--dv-white:#fff;font-family:"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--dv-ink);line-height:1.6}
+#one-dv *{box-sizing:border-box}
+#one-dv h2,#one-dv h3,#one-dv h4{margin:0 0 .5em;line-height:1.2;color:var(--dv-navy);font-weight:800}
+#one-dv h2{font-size:clamp(1.7rem,3.6vw,2.4rem)}
+#one-dv h3{font-size:clamp(1.25rem,2.4vw,1.55rem)}
+#one-dv h4{font-size:1.05rem}
+#one-dv p{margin:0 0 1em}
+#one-dv a{color:var(--dv-blue)}
+#one-dv .dv-wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+#one-dv .dv-band{padding:64px 0}
+#one-dv .dv-bleed{width:100vw;margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw)}
+#one-dv .dv-tint{background:var(--dv-pale)}
+#one-dv .dv-eyebrow{display:inline-block;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--dv-blue);margin-bottom:10px}
+#one-dv .dv-lede{font-size:1.1rem;color:var(--dv-mute);max-width:720px}
+#one-dv .dv-btn{display:inline-block;padding:16px 28px;border-radius:8px;font-weight:800;text-decoration:none;letter-spacing:.02em;transition:transform .2s,box-shadow .2s}
+#one-dv .dv-btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(6,147,200,.28)}
+#one-dv .dv-btn-p{background:var(--dv-blue);color:#fff}
+#one-dv .dv-btn-s{background:#fff;color:var(--dv-navy);border:2px solid #fff}
+#one-dv .dv-btn-o{background:transparent;color:var(--dv-blue);border:2px solid var(--dv-blue)}
+#one-dv .dv-ctas{display:flex;gap:14px;flex-wrap:wrap}
+#one-dv svg{stroke:var(--dv-blue);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+#one-dv .dv-hero{position:relative;min-height:600px;display:flex;align-items:center;color:#fff;overflow:hidden;background:var(--dv-navy)}
+#one-dv .dv-slides{position:absolute;inset:0}
+#one-dv .dv-slide{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;transition:opacity 1.6s ease}
+#one-dv .dv-slide.dv-on{opacity:1;animation:dvKen 9s ease-in-out forwards}
+#one-dv .dv-slides .dv-slide:first-child{opacity:1}
+#one-dv .dv-slides.dv-live .dv-slide:first-child{opacity:0}
+#one-dv .dv-slides.dv-live .dv-slide.dv-on{opacity:1}
+@keyframes dvKen{from{transform:scale(1)}to{transform:scale(1.08)}}
+#one-dv .dv-scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,34,48,.62) 0%,rgba(12,34,48,.70) 100%)}
+#one-dv .dv-hero-in{position:relative;z-index:2;padding:96px 20px;max-width:1120px;margin:0 auto;width:100%}
+#one-dv .dv-hero h2{color:#fff;font-size:clamp(2rem,5vw,3.4rem);max-width:760px;margin-bottom:14px;text-shadow:0 2px 12px rgba(0,0,0,.35)}
+#one-dv .dv-hero p{font-size:1.15rem;max-width:640px;margin-bottom:26px;color:#e6f4fa}
+#one-dv .dv-hero .dv-eyebrow{color:var(--dv-cyan)}
+#one-dv .dv-dots{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:3}
+#one-dv .dv-dot{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,.45);border:0;padding:0;cursor:pointer}
+#one-dv .dv-dot.dv-on{background:var(--dv-cyan)}
+
+#one-dv .dv-trust{background:var(--dv-navy);color:#fff;padding:22px 0}
+#one-dv .dv-trust ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+#one-dv .dv-trust li{display:flex;align-items:center;gap:10px;font-weight:700;font-size:.95rem}
+#one-dv .dv-trust svg{stroke:var(--dv-cyan);width:24px;height:24px;flex:0 0 24px}
+
+#one-dv .dv-aeo{border-left:6px solid var(--dv-blue);background:#fff;padding:26px 30px;border-radius:0 12px 12px 0;box-shadow:0 8px 28px rgba(12,34,48,.08);max-width:860px}
+#one-dv .dv-aeo p{font-size:1.12rem;margin:0}
+#one-dv .dv-aeo strong{color:var(--dv-navy)}
+
+#one-dv .dv-two{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+#one-dv .dv-two img{width:100%;height:auto;border-radius:14px;box-shadow:0 14px 36px rgba(12,34,48,.16);display:block}
+#one-dv .dv-check{list-style:none;padding:0;margin:18px 0 0}
+#one-dv .dv-check li{display:flex;gap:12px;align-items:flex-start;margin-bottom:12px}
+#one-dv .dv-check svg{width:22px;height:22px;flex:0 0 22px;margin-top:3px}
+
+#one-dv .dv-grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+#one-dv .dv-card{background:#fff;border:1px solid var(--dv-line);border-radius:14px;padding:26px}
+#one-dv .dv-card svg{width:36px;height:36px;margin-bottom:12px}
+#one-dv .dv-card h4{margin-bottom:8px}
+#one-dv .dv-card p{margin:0;color:var(--dv-mute);font-size:.98rem}
+
+#one-dv .dv-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;margin-top:8px}
+#one-dv .dv-step{position:relative;padding:26px 24px 24px;background:#fff;border-radius:14px;border:1px solid var(--dv-line)}
+#one-dv .dv-num{display:inline-flex;width:44px;height:44px;border-radius:50%;background:var(--dv-blue);color:#fff;font-weight:800;align-items:center;justify-content:center;margin-bottom:12px;font-size:1.1rem}
+#one-dv .dv-proc{margin-top:36px;border-radius:14px;overflow:hidden;box-shadow:0 14px 36px rgba(12,34,48,.16)}
+#one-dv .dv-proc img{width:100%;height:auto;display:block}
+
+#one-dv .dv-vs{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+#one-dv .dv-col{border-radius:14px;padding:28px;border:1px solid var(--dv-line);background:#fff}
+#one-dv .dv-col.dv-us{border:2px solid var(--dv-blue);box-shadow:0 12px 30px rgba(6,147,200,.14)}
+#one-dv .dv-col h3{margin-bottom:14px}
+#one-dv .dv-col ul{list-style:none;margin:0;padding:0}
+#one-dv .dv-col li{display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-top:1px solid var(--dv-line)}
+#one-dv .dv-col li:first-child{border-top:0}
+#one-dv .dv-col svg{width:20px;height:20px;flex:0 0 20px;margin-top:3px}
+#one-dv .dv-col.dv-them svg{stroke:#9aa7b0}
+
+#one-dv .dv-story{background:var(--dv-navy);color:#dfeef5}
+#one-dv .dv-story h2,#one-dv .dv-story h3{color:#fff}
+#one-dv .dv-story .dv-eyebrow{color:var(--dv-cyan)}
+#one-dv .dv-story p{max-width:780px}
+#one-dv .dv-story a{color:var(--dv-cyan)}
+#one-dv .dv-res{margin-top:22px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+#one-dv .dv-res div{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:20px}
+#one-dv .dv-res h4{color:#fff;margin-bottom:6px}
+#one-dv .dv-res p{margin:0;font-size:.95rem}
+
+#one-dv .dv-faq details{border:1px solid var(--dv-line);border-radius:12px;background:#fff;margin-bottom:12px;padding:0 22px}
+#one-dv .dv-faq summary{cursor:pointer;font-weight:800;color:var(--dv-navy);padding:18px 0;list-style:none;display:flex;justify-content:space-between;gap:16px;align-items:center}
+#one-dv .dv-faq summary::-webkit-details-marker{display:none}
+#one-dv .dv-faq summary::after{content:"+";font-size:1.5rem;color:var(--dv-blue);flex:0 0 auto;line-height:1}
+#one-dv .dv-faq details[open] summary::after{content:"\2212"}
+#one-dv .dv-faq details p{padding:0 0 18px;margin:0;color:#2e3d48}
+
+#one-dv .dv-links{border-top:1px solid var(--dv-line)}
+#one-dv .dv-links ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:10px 28px}
+#one-dv .dv-links li{padding:8px 0}
+#one-dv .dv-links a{font-weight:700;text-decoration:none}
+#one-dv .dv-links a:hover{text-decoration:underline}
+
+#one-dv .dv-cta{background:linear-gradient(135deg,var(--dv-blue) 0%,var(--dv-cyan) 100%);color:#fff;text-align:center;padding:72px 0}
+#one-dv .dv-cta h2{color:#fff}
+#one-dv .dv-cta p{max-width:620px;margin:0 auto 26px;font-size:1.1rem}
+#one-dv .dv-cta .dv-ctas{justify-content:center}
+#one-dv .dv-cta .dv-btn-p{background:var(--dv-navy)}
+
+#one-dv #get-offer{scroll-margin-top:90px;padding:56px 0 8px;text-align:center}
+#one-dv #get-offer p{max-width:620px;margin:0 auto 10px}
+#one-dv .dv-disc{font-size:.85rem;color:var(--dv-mute);border-top:1px solid var(--dv-line);padding:22px 0 8px;max-width:900px}
+
+#one-dv.dv-js .dv-rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+#one-dv.dv-js .dv-rv.dv-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){#one-dv .dv-slide.dv-on{animation:none}#one-dv.dv-js .dv-rv{opacity:1;transform:none;transition:none}}
+@media (max-width:860px){#one-dv .dv-two,#one-dv .dv-vs{grid-template-columns:1fr}#one-dv .dv-band{padding:48px 0}#one-dv .dv-hero{min-height:520px}#one-dv .dv-hero-in{padding:72px 20px}}
+</style>
+
+<div id="one-dv">
+
+<section class="dv-hero dv-bleed" aria-label="Selling a house during divorce in Rhode Island">
+  <div class="dv-slides">
+    <div class="dv-slide dv-on" role="img" aria-label="Colonial-style family home in Rhode Island being sold during a divorce" style="background-image:url('https://cdn.carrot.com/uploads/sites/81893/2026/08/hERO-1.webp')"></div>
+    <div class="dv-slide" role="img" aria-label="House keys on a kitchen counter after a Rhode Island home sale closes" style="background-image:url('https://cdn.carrot.com/uploads/sites/81893/2026/08/Hero-2-2.webp')"></div>
+  </div>
+  <div class="dv-scrim"></div>
+  <div class="dv-hero-in">
+    <span class="dv-eyebrow">Rhode Island cash home buyers</span>
+    <h2>Selling the House During a Divorce Doesn't Have to Be Another Fight</h2>
+    <p>We buy marital homes across Rhode Island as-is for cash. One walkthrough, one written offer both of you can review, no repairs, no commissions, and a closing date that works for everyone involved.</p>
+    <div class="dv-ctas">
+      <a class="dv-btn dv-btn-p" href="#get-offer">GET MY CASH OFFER</a>
+      <a class="dv-btn dv-btn-s" href="tel:+14012674066">Call (401) 267-4066</a>
+    </div>
+  </div>
+  <div class="dv-dots" aria-hidden="true"><button class="dv-dot dv-on" type="button" data-dv-slide="0"></button><button class="dv-dot" type="button" data-dv-slide="1"></button></div>
+</section>
+
+<section class="dv-trust dv-bleed">
+  <div class="dv-wrap">
+    <ul>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" /></svg>Sell As-Is</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l7-7M9 6l9 9-3 3-9-9zM14 3l7 7" /></svg>No Repairs</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M17 6.5c-1-1.5-3-2-5-2s-4 1-4 3 2 3 4.5 3.5S17 12 17 14.5s-2.5 3-5 3-4.5-.8-5.5-2.5" /></svg>No Commissions</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg>No-Obligation Offer</li>
+      <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10h18M8 3v4M16 3v4" /></svg>Flexible Closing</li>
+    </ul>
+  </div>
+</section>
+
+<section class="dv-band">
+  <div class="dv-wrap">
+    <div class="dv-aeo dv-rv">
+      <p><strong>Can you sell a house during a divorce in Rhode Island?</strong> Yes. If both spouses agree, or the Family Court approves, the marital home can be sold at any point in the process, with proceeds held in escrow or divided under the settlement. Offer New England buys marital homes across Rhode Island as-is for cash: one walkthrough, a written offer both parties can review, no repairs, no commissions, and a closing date both sides agree on.</p>
+    </div>
+  </div>
+</section>
+
+<section class="dv-band dv-tint dv-bleed">
+  <div class="dv-wrap">
+    <div class="dv-two">
+      <div class="dv-rv">
+        <span class="dv-eyebrow">Why the house is the hardest asset</span>
+        <h2>One home, two households, and a listing that needs both of you</h2>
+        <p>The house is usually the largest thing a divorcing couple owns and the hardest to split. A traditional listing needs both spouses to agree on an agent, a price, the repairs, who pays for staging, who leaves for showings, and every counteroffer for months. Each of those is a fresh negotiation with someone you are already negotiating with in Family Court. Meanwhile the mortgage, taxes, and insurance keep coming due in both names.</p>
+        <p>A cash sale collapses that into a single decision. We make one written offer, both of you review it with your attorneys, and if it works, we close on a date you both choose. Proceeds go to the closing attorney or escrow per your agreement or court order, not to either spouse directly, unless that is what the order says.</p>
+        <ul class="dv-check">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span><strong>One walkthrough.</strong> Either spouse can be present, or neither. No open houses, no strangers through the home.</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span><strong>One number.</strong> A written offer that both attorneys can read, with no commission coming off the top.</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span><strong>One date.</strong> Close in as little as 14 days, or line the closing up with the final judgment if that's what the order requires.</span></li>
+        </ul>
+      </div>
+      <div class="dv-rv">
+        <img src="https://cdn.carrot.com/uploads/sites/81893/2026/08/Inline-situation-band-1.webp" alt="Half-packed living room in a Rhode Island house during a divorce move-out" width="1200" height="800" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dv-band">
+  <div class="dv-wrap">
+    <span class="dv-eyebrow">Your three realistic options</span>
+    <h2>What Rhode Island couples usually do with the marital home</h2>
+    <p class="dv-lede">Your attorney will help you choose. Here is how each one plays out in practice.</p>
+    <div class="dv-grid3">
+      <div class="dv-card dv-rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M17 6.5c-1-1.5-3-2-5-2s-4 1-4 3 2 3 4.5 3.5S17 12 17 14.5s-2.5 3-5 3-4.5-.8-5.5-2.5" /></svg>
+        <h4>Sell and divide the proceeds</h4>
+        <p>The cleanest break. The house is sold, the mortgage is paid off, and the net proceeds are divided under your settlement agreement or the court's equitable-distribution order. This is where a fast, certain cash sale helps most: no repairs to argue over, no months of showings, and a closing that will not fall through on financing.</p>
+      </div>
+      <div class="dv-card dv-rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7" /></svg>
+        <h4>One spouse buys the other out</h4>
+        <p>One spouse keeps the house, refinances into their own name, and pays the other their share of the equity. It works when the staying spouse can qualify for the mortgage alone. When they cannot, or the appraisal comes in low, couples often fall back to selling.</p>
+      </div>
+      <div class="dv-card dv-rv">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10h18M8 3v4M16 3v4" /></svg>
+        <h4>Keep it jointly for a while, then sell</h4>
+        <p>Sometimes ordered when minor children are in the home. One spouse stays until a set date or event, then the house is sold and divided. The risk is deferred maintenance and a strained co-ownership. When that date arrives, an as-is sale avoids reopening the repair question.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="dv-band dv-story dv-bleed">
+  <div class="dv-wrap">
+    <span class="dv-eyebrow">Rhode Island law, in plain language</span>
+    <h2>What the Family Court does with the house</h2>
+    <p>Rhode Island is an equitable-distribution state. Under R.I. Gen. Laws § 15-5-16.1, the Family Court divides marital property fairly, not automatically 50/50, after weighing twelve statutory factors including the length of the marriage, each spouse's contributions, and conduct. Talk to a Rhode Island family-law attorney before you sign anything; the points below are general education, not legal advice.</p>
+    <div class="dv-res">
+      <div class="dv-rv"><h4>Marital vs. premarital home</h4><p>A house one spouse owned before the marriage and kept in their own name is generally not divided, but the court can assign the increase in its value that came from either spouse's efforts during the marriage. Adding your spouse to the deed, or paying the mortgage from joint funds, can change that analysis.</p></div>
+      <div class="dv-rv"><h4>Do not sell without agreement</h4><p>Transferring or encumbering marital assets in contemplation of divorce without fair consideration is one of the twelve factors the court weighs. If the deed is in both names, both signatures are needed anyway. Get written agreement or a court order before accepting any offer, including ours.</p></div>
+      <div class="dv-rv"><h4>The 90-day waiting period</h4><p>After the nominal hearing, Rhode Island imposes a 90-day waiting period before the final judgment enters (20 days for the three-year separate-and-apart ground). A sale can close before final judgment when both parties consent or the court approves, with proceeds held until distribution.</p></div>
+      <div class="dv-rv"><h4>Division is final</h4><p>Once the property division is entered in the final decree it generally cannot be modified, unlike child support or alimony. That is why attorneys want the home's value settled by a real, written offer or appraisal, not an estimate, before the decree is signed.</p></div>
+    </div>
+    <p style="margin-top:22px">On taxes: a couple who sells while still married and files jointly may exclude up to $500,000 of gain on a primary residence; after the divorce each former spouse may exclude up to $250,000, and federal rules let a spouse who moved out count the other's continued use under a divorce instrument. Our <a href="https://offernewengland.com/capital-gains-tax-when-selling-a-home-in-ri-ma-what-sellers-actually-owe/">capital gains guide for RI and MA sellers</a> covers the details. Confirm your situation with a CPA.</p>
+  </div>
+</section>
+
+<section class="dv-band">
+  <div class="dv-wrap">
+    <span class="dv-eyebrow">How it works</span>
+    <h2>Three steps, and both of you stay in control</h2>
+    <div class="dv-steps">
+      <div class="dv-step dv-rv"><span class="dv-num">1</span><h4>Either spouse reaches out</h4><p>Fill out the form below or call <a href="tel:+14012674066">(401) 267-4066</a>. We only need the address and a sense of the condition. Tell us it's a divorce sale and we'll work with both attorneys from the start.</p></div>
+      <div class="dv-step dv-rv"><span class="dv-num">2</span><h4>One walkthrough, one written offer</h4><p>We visit once, at a time that works for whoever is in the house. Within 24 hours you both receive the same written cash offer, in writing, with nothing to negotiate about repairs.</p></div>
+      <div class="dv-step dv-rv"><span class="dv-num">3</span><h4>Close on the agreed date</h4><p>Once both spouses sign, or the court approves, we close at a Rhode Island title company. Proceeds are disbursed exactly as your agreement or order directs.</p></div>
+    </div>
+    <div class="dv-proc dv-rv">
+      <img src="https://cdn.carrot.com/uploads/sites/81893/2026/08/PROCESS.webp" alt="Offer New England team walking a homeowner through the cash offer process for a Rhode Island house" width="1536" height="1024" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="dv-band dv-tint dv-bleed">
+  <div class="dv-wrap">
+    <span class="dv-eyebrow">Compare</span>
+    <h2>Listing during a divorce vs. selling to Offer New England</h2>
+    <div class="dv-vs">
+      <div class="dv-col dv-them dv-rv">
+        <h3>Listing with an agent</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Both spouses must agree on the agent, the price, and every price change</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Repairs and staging paid for now, split later, argued about in between</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Weeks of showings while one of you still lives there</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Inspection, appraisal, and financing contingencies that can collapse the deal</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12" /></svg><span>Roughly 5–6% in commissions off the top before the split</span></li>
+        </ul>
+      </div>
+      <div class="dv-col dv-us dv-rv">
+        <h3>Selling to Offer New England</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>One written offer both attorneys can review side by side</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>Sell as-is, nothing to repair, clean, or stage</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>One private walkthrough, no showings</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>Cash, so no appraisal or lender to fall through</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5" /></svg><span>No commissions; close in as little as 14 days or on the court's timeline</span></li>
+        </ul>
+        <p style="margin:18px 0 0"><a class="dv-btn dv-btn-p" href="#get-offer">GET MY CASH OFFER</a></p>
+      </div>
+    </div>
+    <p style="margin-top:18px;color:#5c6b76;font-size:.95rem">A listing can net more when the house is in good shape and both of you can wait. Our <a href="https://offernewengland.com/companies-that-buy-houses-in-rhode-island-honest-comparison/">honest comparison of companies that buy houses in Rhode Island</a> explains when that's the better call.</p>
+  </div>
+</section>
+
+<section class="dv-band dv-faq">
+  <div class="dv-wrap">
+    <span class="dv-eyebrow">Questions from divorcing sellers</span>
+    <h2>Selling a house during divorce in Rhode Island: FAQ</h2>
+    <details><summary>Can one spouse sell the house without the other's consent in Rhode Island?</summary><p>If both names are on the deed, no; both signatures are required to transfer title. If only one name is on the deed, the house may still be marital property subject to division, and selling it in contemplation of divorce without fair consideration is a factor the Family Court weighs against that spouse. Get written agreement or a court order first. We will not close a divorce sale without one.</p></details>
+    <details><summary>Do we have to wait until the divorce is final to sell?</summary><p>No. A Rhode Island divorce cannot become final until 90 days after the nominal hearing, but the house can be sold before then if both spouses consent or the court approves. Proceeds are typically held in escrow or by the closing attorney until the settlement or final decree says how to divide them. Selling early stops the mortgage, taxes, and insurance from draining equity during the wait.</p></details>
+    <details><summary>Who gets the proceeds from the sale?</summary><p>Whatever your property settlement agreement or the Family Court's order says. Rhode Island divides marital property equitably, which is often but not always equal. At closing, the mortgage and liens are paid first, then the net proceeds go to escrow or are split per the order. We do not pay either spouse directly unless the agreement or order directs it.</p></details>
+    <details><summary>What if I owned the house before we got married?</summary><p>A house held in one spouse's name before the marriage is generally not divided in a Rhode Island divorce, but the court can assign the increase in its value that resulted from either spouse's efforts during the marriage, and adding your spouse to the deed or paying the mortgage from joint funds can change how the court treats it. Your attorney needs to confirm the classification before you sell.</p></details>
+    <details><summary>Can we still sell if we are behind on the mortgage?</summary><p>Yes, and it is often the reason to move quickly. A cash sale that closes in weeks can pay off the arrears and stop a foreclosure before it damages both spouses' credit. If a lender has already started the process, read our <a href="https://offernewengland.com/facing-foreclosure-in-rhode-island-your-timeline-and-options/">Rhode Island foreclosure guide</a>, then call us; we work with the lender's timeline.</p></details>
+    <details><summary>Will you deal with both of us, or just one?</summary><p>Both. We send the same written offer to both spouses, or to both attorneys if that is how you prefer to communicate, and we are comfortable with only one spouse attending the walkthrough. Our job is to make the house one less thing to fight about, so we keep everything in writing and copied to both sides.</p></details>
+    <details><summary>Does the house need to be cleaned out or repaired first?</summary><p>No. We buy as-is. If one spouse has moved out and left belongings, or the house has deferred maintenance neither of you wants to fund, that is fine. Take what you each want, and we handle the rest after closing. Nothing about the condition needs to be negotiated between you.</p></details>
+    <details><summary>How is capital gains tax handled on a divorce sale?</summary><p>Under federal rules, a couple who sells a primary residence while still married and files jointly can exclude up to $500,000 of gain. After the divorce, each former spouse can exclude up to $250,000, and a spouse who moved out can generally count the other's continued use under a divorce instrument toward the ownership-and-use test. Timing the sale matters, so run it past a CPA before you decide.</p></details>
+  </div>
+</section>
+
+<section class="dv-band dv-links dv-tint dv-bleed">
+  <div class="dv-wrap">
+    <h3>More ways we help Rhode Island homeowners</h3>
+    <ul>
+      <li><a href="https://offernewengland.com/we-buy-houses-in-rhode-island/">We Buy Houses in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/capital-gains-tax-when-selling-a-home-in-ri-ma-what-sellers-actually-owe/">Capital Gains Tax When Selling in RI &amp; MA</a></li>
+      <li><a href="https://offernewengland.com/how-to-sell-a-house-as-is-in-rhode-island-what-you-can-skip-fixing/">How to Sell a House As-Is in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/facing-foreclosure-in-rhode-island-your-timeline-and-options/">Facing Foreclosure in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/companies-that-buy-houses-in-rhode-island-honest-comparison/">Companies That Buy Houses in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/blog/how-to-sell-a-house-in-rhode-island-without-a-realtor/">Sell a House Without a Realtor in Rhode Island</a></li>
+      <li><a href="https://offernewengland.com/sell-my-house-fast-in-providence-ri/">Sell My House Fast in Providence, RI</a></li>
+      <li><a href="https://offernewengland.com/sell-my-house-fast-cranston-ri/">Sell My House Fast in Cranston, RI</a></li>
+      <li><a href="https://offernewengland.com/sell-my-house-fast-coventry-ri/">Sell My House Fast in Coventry, RI</a></li>
+      <li><a href="https://offernewengland.com/how-we-buy-houses/">How We Buy Houses</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="dv-cta dv-bleed">
+  <div class="dv-wrap">
+    <h2>Make the house one less thing to fight about</h2>
+    <p>Get a written, no-obligation cash offer both of you can review. No repairs, no showings, no commissions, and a closing date that fits the court's timeline.</p>
+    <div class="dv-ctas">
+      <a class="dv-btn dv-btn-p" href="#get-offer">GET MY CASH OFFER</a>
+      <a class="dv-btn dv-btn-s" href="tel:+14012674066">Call (401) 267-4066</a>
+    </div>
+  </div>
+</section>
+
+<section id="get-offer">
+  <div class="dv-wrap">
+    <span class="dv-eyebrow">Get your offer</span>
+    <h2>Tell us about the property</h2>
+    <p>Fill out the form below and a member of our team will call within 24 hours with a fair cash offer. Prefer to talk now? Call <a href="tel:+14012674066">(401) 267-4066</a>. Everything stays confidential and in writing.</p>
+  </div>
+</section>
+
+<div class="dv-wrap">
+  <p class="dv-disc">This page is general education for Rhode Island homeowners and is not legal, tax, or financial advice. Property division, the marital-home classification, and sale timing depend on your specific case and the orders of the Rhode Island Family Court; consult a Rhode Island family-law attorney and a CPA before selling. Statutory references: R.I. Gen. Laws §§ 15-5-16.1 and 15-5-23. Offer New England is a local cash home buyer, not a law firm.</p>
+</div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:carrot/form {"clientId":"fb6ef995-dbc7-4020-ab65-242f478ced29","formId":"1"} -->
+<div class="wp-block-carrot-form"></div>
+<!-- /wp:carrot/form -->

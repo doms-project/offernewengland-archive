@@ -1,0 +1,151 @@
+<!-- PASTE INTO: SEO Settings > Additional Settings > Tracking Codes -->
+<!-- Buttons scroll to #get-offer (no JS needed). Handles schema + slideshow + reveals. -->
+
+<!-- 1) STRUCTURED DATA (Article + FAQ + Breadcrumb + RealEstateAgent) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "RealEstateAgent",
+      "@id": "https://offernewengland.com/#organization",
+      "name": "Offer New England",
+      "url": "https://offernewengland.com/",
+      "telephone": "+1-401-267-4066",
+      "image": "https://cdn.carrot.com/uploads/sites/81893/2025/04/cropped-Web-2.png",
+      "priceRange": "$$",
+      "areaServed": [
+        {
+          "@type": "State",
+          "name": "Rhode Island"
+        },
+        {
+          "@type": "State",
+          "name": "Massachusetts"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/share/1DgYRa2bub/",
+        "https://www.instagram.com/offernewengland/"
+      ]
+    },
+    {
+      "@type": "Article",
+      "headline": "The Best Month to Sell a House in New England",
+      "description": "When is the best month to sell a house in New England? A season-by-season guide to timing your sale for the best price and fastest close.",
+      "image": "https://cdn.carrot.com/uploads/sites/81893/2026/07/offnewengland-2-1.webp",
+      "author": {
+        "@id": "https://offernewengland.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://offernewengland.com/#organization"
+      },
+      "mainEntityOfPage": "https://offernewengland.com/best-month-to-sell-a-house-in-new-england/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://offernewengland.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Best Month to Sell a House in New England",
+          "item": "https://offernewengland.com/best-month-to-sell-a-house-in-new-england/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best month to sell a house in New England?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Late spring to early summer, roughly May through June, is usually best. Buyer demand peaks after winter and before summer vacations, so homes tend to sell faster and for stronger prices, helped by better curb appeal and longer daylight for showings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the worst time to sell a house in New England?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Deep winter, December through February, is typically slowest, with fewer buyers, shorter days, and snow hiding curb appeal. The trade-off is less competition and more motivated buyers, and a cash sale still works in any month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do houses sell for more in the spring?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Generally yes. Spring and early summer bring the largest pool of buyers and the strongest offers, though local demand, interest rates, and a home's condition can matter just as much as the season."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is fall a good time to sell in New England?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Early fall, especially September, is a solid secondary window with serious buyers and less competition. Activity slows through October and November as foliage drops and the holidays approach."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the best month to sell matter if I need to sell fast?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not really. A cash sale closes in as little as 7 days in any season, so you do not have to time the market when speed matters most."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What day of the week is best to list a house?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Listing on a Thursday or Friday is commonly recommended so the home is fresh in search results heading into weekend showings, when buyer traffic is highest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I wait for spring to sell my New England home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only if the house is market-ready and you can comfortably carry it until then. If you need to move or the home needs work, waiting can cost more in holding costs than the seasonal price bump is worth, and a cash sale skips the wait entirely."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- 2) SLIDESHOW + SCROLL REVEALS -->
+<script>
+(function(){
+  function init(){
+    var root=document.getElementById('one-bm');
+    if(!root||root.dataset.ready)return; root.dataset.ready='1';
+    var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+    var slides=[].slice.call(root.querySelectorAll('.bm-slide')),dw=root.querySelector('#bm-dots'),i=0,timer=null;
+    if(slides.length>1&&dw){ var go,reset;
+      slides.forEach(function(s,idx){ var b=document.createElement('button'); b.setAttribute('aria-label','Slide '+(idx+1));
+        if(idx===0)b.className='is-active'; b.addEventListener('click',function(){ go(idx); reset(); }); dw.appendChild(b); });
+      var dots=[].slice.call(dw.children);
+      go=function(n){ slides[i].classList.remove('is-active'); dots[i].classList.remove('is-active');
+        i=n%slides.length; slides[i].classList.add('is-active'); dots[i].classList.add('is-active'); };
+      reset=function(){ if(timer)clearInterval(timer); timer=setInterval(function(){ go(i+1); },6000); };
+      reset();
+    }
+    if(!reduce&&'IntersectionObserver'in window){ root.classList.add('bm-anim');
+      var io=new IntersectionObserver(function(en){ en.forEach(function(x){ if(x.isIntersecting){ x.target.classList.add('is-in'); io.unobserve(x.target); } }); },{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+      root.querySelectorAll('.bm-reveal').forEach(function(el){ io.observe(el); });
+    }
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init); else init();
+})();
+</script>

@@ -1,0 +1,143 @@
+<!-- PASTE INTO: SEO Settings > Additional Settings > Tracking Codes -->
+<!-- Buttons scroll to #get-offer (no JS needed). Handles schema + slideshow + reveals. -->
+
+<!-- 1) STRUCTURED DATA (Article + FAQ + Breadcrumb + RealEstateAgent) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "RealEstateAgent",
+      "@id": "https://offernewengland.com/#organization",
+      "name": "Offer New England",
+      "url": "https://offernewengland.com/",
+      "telephone": "+1-401-267-4066",
+      "image": "https://cdn.carrot.com/uploads/sites/81893/2025/04/cropped-Web-2.png",
+      "priceRange": "$$",
+      "areaServed": [
+        {
+          "@type": "State",
+          "name": "Rhode Island"
+        },
+        {
+          "@type": "State",
+          "name": "Massachusetts"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/share/1DgYRa2bub/",
+        "https://www.instagram.com/offernewengland/"
+      ]
+    },
+    {
+      "@type": "Article",
+      "headline": "Companies That Buy Houses in Rhode Island: An Honest Comparison",
+      "description": "An honest comparison of companies that buy houses in Rhode Island \u2014 national marketplaces, local cash buyers, iBuyers, and agents \u2014 and how to choose.",
+      "image": "https://cdn.carrot.com/uploads/sites/81893/2026/07/offnewengland-2-2.webp",
+      "author": {
+        "@id": "https://offernewengland.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://offernewengland.com/#organization"
+      },
+      "mainEntityOfPage": "https://offernewengland.com/companies-that-buy-houses-in-rhode-island/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://offernewengland.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Companies That Buy Houses in Rhode Island",
+          "item": "https://offernewengland.com/companies-that-buy-houses-in-rhode-island/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the best companies that buy houses in Rhode Island?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on your priorities. National marketplaces like Houzeo, Clever, and HomeLight gather multiple investor offers; local cash buyers such as Offer New England buy directly, fast, and as-is with no fees; iBuyers make quick offers on newer standard homes; and a traditional agent often nets the most on a market-ready home if you can wait. For a fast, no-fee, as-is sale, a local direct cash buyer is usually simplest."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do we buy houses companies actually pay a fair price?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reputable cash buyers pay less than full retail because they take on the repairs, holding costs, and risk, in exchange for speed, certainty, and an as-is, fee-free sale. Whether that trade is worth it depends on your situation, and getting one no-obligation offer gives you a real number to compare."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are national house-buying websites the same as local cash buyers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not usually. Many national sites are marketplaces or lead-generation services that collect your information and pass it to third-party investors, so you may hear from several buyers. A local cash buyer purchases directly with its own funds and is a single point of contact."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I avoid a cash-buyer scam?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Work with buyers who have a real local presence and verifiable reviews, never pay an upfront fee, ask for proof of funds, and make sure they buy directly rather than reselling your details. A legitimate buyer will give a clear, no-pressure offer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is selling to a cash buyer faster than listing with an agent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almost always. A cash buyer can close in as little as 7 days with no financing or appraisal, while a traditional listing typically runs 30 to 60 or more days plus repairs and showings. The agent route may net more on a market-ready home, but it takes longer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which option is best for an as-is or distressed home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A local cash buyer. iBuyers and most agents shy away from older, damaged, inherited, or distressed properties common in New England, while a direct cash buyer purchases them as-is and handles the cleanup after closing."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- 2) SLIDESHOW + SCROLL REVEALS -->
+<script>
+(function(){
+  function init(){
+    var root=document.getElementById('one-ch');
+    if(!root||root.dataset.ready)return; root.dataset.ready='1';
+    var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+    var slides=[].slice.call(root.querySelectorAll('.ch-slide')),dw=root.querySelector('#ch-dots'),i=0,timer=null;
+    if(slides.length>1&&dw){ var go,reset;
+      slides.forEach(function(s,idx){ var b=document.createElement('button'); b.setAttribute('aria-label','Slide '+(idx+1));
+        if(idx===0)b.className='is-active'; b.addEventListener('click',function(){ go(idx); reset(); }); dw.appendChild(b); });
+      var dots=[].slice.call(dw.children);
+      go=function(n){ slides[i].classList.remove('is-active'); dots[i].classList.remove('is-active');
+        i=n%slides.length; slides[i].classList.add('is-active'); dots[i].classList.add('is-active'); };
+      reset=function(){ if(timer)clearInterval(timer); timer=setInterval(function(){ go(i+1); },6000); };
+      reset();
+    }
+    if(!reduce&&'IntersectionObserver'in window){ root.classList.add('ch-anim');
+      var io=new IntersectionObserver(function(en){ en.forEach(function(x){ if(x.isIntersecting){ x.target.classList.add('is-in'); io.unobserve(x.target); } }); },{threshold:.12,rootMargin:'0px 0px -8% 0px'});
+      root.querySelectorAll('.ch-reveal').forEach(function(el){ io.observe(el); });
+    }
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init); else init();
+})();
+</script>

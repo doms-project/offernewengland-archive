@@ -1,0 +1,153 @@
+{
+  "business_entities_in_schema": [
+    {
+      "type": "RealEstateAgent",
+      "name": "Offer New England",
+      "telephone": "+14012674066",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5586 Post Rd Ste 207",
+        "addressLocality": "East Greenwich",
+        "addressRegion": "RI",
+        "postalCode": "02818",
+        "addressCountry": "US"
+      },
+      "geo": null,
+      "url": "https://offernewengland.com/",
+      "sameAs": null,
+      "openingHours": null,
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Cranston",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Rhode Island"
+          }
+        },
+        {
+          "@type": "State",
+          "name": "Rhode Island"
+        },
+        {
+          "@type": "State",
+          "name": "Massachusetts"
+        }
+      ],
+      "priceRange": null,
+      "pages": 2
+    },
+    {
+      "type": "RealEstateAgent",
+      "name": "Offer New England",
+      "telephone": "+1-401-267-4066",
+      "address": {},
+      "geo": null,
+      "url": "https://offernewengland.com/",
+      "sameAs": null,
+      "openingHours": null,
+      "areaServed": [
+        "Rhode Island",
+        "Massachusetts"
+      ],
+      "priceRange": null,
+      "pages": 8
+    },
+    {
+      "type": "Organization",
+      "name": "Offer New England",
+      "telephone": null,
+      "address": {},
+      "geo": null,
+      "url": null,
+      "sameAs": null,
+      "openingHours": null,
+      "areaServed": null,
+      "priceRange": null,
+      "pages": 34
+    },
+    {
+      "type": "Organization",
+      "name": "Offer New England, LLC",
+      "telephone": null,
+      "address": {},
+      "geo": null,
+      "url": null,
+      "sameAs": null,
+      "openingHours": null,
+      "areaServed": null,
+      "priceRange": null,
+      "pages": 2
+    },
+    {
+      "type": "RealEstateAgent",
+      "name": "Offer New England",
+      "telephone": "+1-401-000-0000",
+      "address": {},
+      "geo": null,
+      "url": "https://offernewengland.com/we-buy-houses-taunton-ma/",
+      "sameAs": null,
+      "openingHours": null,
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Taunton",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Massachusetts"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Raynham",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Massachusetts"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Berkley",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Massachusetts"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Dighton",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Massachusetts"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Norton",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Massachusetts"
+          }
+        },
+        {
+          "@type": "City",
+          "name": "Rehoboth",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Massachusetts"
+          }
+        }
+      ],
+      "priceRange": "$$",
+      "pages": 1
+    }
+  ],
+  "business_names_in_schema": {
+    "Offer New England": 45,
+    "Offer New England, LLC": 2
+  },
+  "phone_numbers_found": {
+    "(401) 267-4066": 530
+  },
+  "consistency_note": "OK: one phone number across the site"
+}

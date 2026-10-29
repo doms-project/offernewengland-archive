@@ -1,0 +1,31 @@
+﻿url,strategy,score_performance,score_accessibility,score_best_practices,score_seo,lcp_ms,cls,tbt_ms,fcp_ms,speed_index_ms,tti_ms,ttfb_ms,page_bytes,dom_elements,field_page_overall,field_origin_overall,top_opportunities
+https://offernewengland.com/,mobile,94,92,100,92,3036.0,0.001,10.0,1354,2690.0,3271.0,266,750402,,,,Improve image delivery (Est savings of 257 KiB)
+https://offernewengland.com/,desktop,98,90,100,92,725.0,0.003,109,439,762.0,1906.0,267,1109949,,,,Improve image delivery (Est savings of 102 KiB)
+https://offernewengland.com/faq/,mobile,81,92,100,100,4454.0,0,0,1274,5018.0,4462.0,266,380715,,,,Improve image delivery (Est savings of 46 KiB) | Largest Contentful Paint (4.5 s)
+https://offernewengland.com/faq/,desktop,94,91,100,100,726.0,0.071,183.0,395.0,819.0,1845.0,265,744704,,,,
+https://offernewengland.com/contact-us/,mobile,80,93,100,100,4616.0,0,15,1278.0,5016.0,4624.0,265,419821,,,,Improve image delivery (Est savings of 90 KiB) | Largest Contentful Paint (4.6 s)
+https://offernewengland.com/contact-us/,desktop,96,91,100,100,724.0,0.019,155.0,430,842.0,1930.0,268,923629,,,,
+https://offernewengland.com/get-a-cash-offer-today/,mobile,81,93,100,100,4468.0,0,20,1296.0,4578.0,4476.0,266,571652,,,,Improve image delivery (Est savings of 116 KiB) | Use efficient cache lifetimes (Est savings of 10 KiB) | Largest Contentful Paint (4.5 s)
+https://offernewengland.com/get-a-cash-offer-today/,desktop,100,91,100,100,699.0,0.008,28.0,352.0,647.0,1665.0,265,892940,,,,Improve image delivery (Est savings of 55 KiB)
+https://offernewengland.com/how-we-buy-houses/,mobile,81,92,100,100,4459.0,0,0,1304.0,4544.0,4468.0,267,388477,,,,Improve image delivery (Est savings of 29 KiB) | Largest Contentful Paint (4.5 s)
+https://offernewengland.com/how-we-buy-houses/,desktop,95,90,100,100,646.0,0,172.0,392,776.0,1842.0,268,710641,,,,
+https://offernewengland.com/about-us/,mobile,91,93,100,100,3497.0,0.017,17,1343,2241.0,3498.0,264,436407,,,,Improve image delivery (Est savings of 53 KiB)
+https://offernewengland.com/about-us/,desktop,99,91,100,100,798.0,0.001,79.0,415.0,787.0,1748.0,268,755406,,,,Improve image delivery (Est savings of 84 KiB)
+https://offernewengland.com/reviews/,mobile,82,93,96,100,4317.0,0,0,1274.0,4797.0,4340.0,267,362800,,,,Improve image delivery (Est savings of 26 KiB) | Largest Contentful Paint (4.3 s)
+https://offernewengland.com/reviews/,desktop,100,91,100,100,680.0,0.011,52.0,369,641.0,1684.0,267,684683,,,,
+https://offernewengland.com/resource-page/,mobile,88,93,100,100,3772.0,0,21,1260,3595.0,3772.0,266,450466,,,,Improve image delivery (Est savings of 98 KiB)
+https://offernewengland.com/resource-page/,desktop,98,92,100,100,737.0,0.012,111,383.0,738.0,1890.0,265,995441,,,,Improve image delivery (Est savings of 338 KiB)
+https://offernewengland.com/privacy/,mobile,84,92,100,92,4156.0,0,13,1262.0,4180.0,4164.0,264,339656,,,,Links do not have descriptive text (1 link found) | Improve image delivery (Est savings of 26 KiB) | Use efficient cache lifetimes (Est savings of 10 KiB) | Largest Contentful Paint (4.2 s)
+https://offernewengland.com/privacy/,desktop,100,91,100,92,634.0,0.011,53.0,349.0,564.0,1681.0,265,662064,,,,Links do not have descriptive text (1 link found)
+https://offernewengland.com/stop-foreclosure/,mobile,93,92,100,100,3109.0,0,50.0,1473,2125.0,3648.0,267,365915,,,,Improve image delivery (Est savings of 38 KiB)
+https://offernewengland.com/stop-foreclosure/,desktop,100,90,100,100,683.0,0.012,54.0,358.0,579.0,1690.0,266,748184,,,,Improve image delivery (Est savings of 28 KiB)
+https://offernewengland.com/sell-my-house-fast-cranston-ri/,mobile,74,93,100,100,6494.0,0,0,1298.0,4905.0,6525.0,268,869927,,,,Improve image delivery (Est savings of 64 KiB) | Use efficient cache lifetimes (Est savings of 10 KiB) | Largest Contentful Paint (6.5 s)
+https://offernewengland.com/sell-my-house-fast-cranston-ri/,desktop,97,91,100,100,1223.0,0.015,68.0,366.0,905.0,1797.0,267,1244314,,,,Improve image delivery (Est savings of 157 KiB)
+https://offernewengland.com/we-buy-houses-in-rhode-island/,mobile,71,93,100,100,24830.0,0,53,1409,5316.0,24831.0,266,4688924,,,,"Improve image delivery (Est savings of 3,916 KiB) | Use efficient cache lifetimes (Est savings of 10 KiB) | Largest Contentful Paint (24.8 s) | Time to Interactive (24.8 s)"
+https://offernewengland.com/we-buy-houses-in-rhode-island/,desktop,76,91,100,100,4270.0,0.006,91,374.0,1489.0,4270.0,267,5026547,,,,"Improve image delivery (Est savings of 3,939 KiB) | Largest Contentful Paint (4.3 s)"
+https://offernewengland.com/sell-my-house-fast-coventry-ri/,mobile,90,92,100,100,3480.0,0.006,14.0,1503,2339.0,3522.0,388,544564,,,,Improve image delivery (Est savings of 137 KiB)
+https://offernewengland.com/sell-my-house-fast-coventry-ri/,desktop,97,90,100,100,1131.0,0.01,58.0,433.0,1092.0,1870.0,387,1064132,,,,Improve image delivery (Est savings of 159 KiB)
+https://offernewengland.com/sell-my-house-fast-warwick-ri/,mobile,91,92,100,100,3457.0,0.006,6.0,1486,2039.0,3494.0,390,545068,,,,Improve image delivery (Est savings of 137 KiB)
+https://offernewengland.com/sell-my-house-fast-warwick-ri/,desktop,96,90,100,100,933.0,0,150.0,503.0,937.0,1991.0,390,1064595,,,,Improve image delivery (Est savings of 152 KiB)
+https://offernewengland.com/sell-your-house-fast-pawtucket-ri/,mobile,87,92,100,100,4061.0,0.006,21,1505.0,2134.0,4061.0,389,545030,,,,Improve image delivery (Est savings of 137 KiB) | Largest Contentful Paint (4.1 s)
+https://offernewengland.com/sell-your-house-fast-pawtucket-ri/,desktop,96,90,100,100,970.0,0,132.0,474,931.0,1968.0,390,1044185,,,,Improve image delivery (Est savings of 139 KiB)

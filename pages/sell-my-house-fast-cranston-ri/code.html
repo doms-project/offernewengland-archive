@@ -1,0 +1,310 @@
+
+<div id="one-cr">
+<style>
+#one-cr{--cr-blue:#0693C8;--cr-cyan:#03D4F4;--cr-navy:#0c2230;--cr-ink:#1d2b36;--cr-muted:#54646f;--cr-bg:#f5f8fa;--cr-line:#dfe7ec;font-family:inherit;color:var(--cr-ink);line-height:1.65;font-size:17px}
+#one-cr *{box-sizing:border-box}
+#one-cr img{max-width:100%;height:auto;display:block}
+#one-cr .cr-band{margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);padding-left:24px;padding-right:24px}
+#one-cr .cr-wrap{max-width:1100px;margin:0 auto}
+#one-cr .cr-narrow{max-width:820px;margin:0 auto}
+#one-cr h2.cr-h,#one-cr h3.cr-h{line-height:1.2;color:var(--cr-navy);margin:0 0 14px;font-weight:800}
+#one-cr h2.cr-h{font-size:clamp(26px,4vw,38px)}
+#one-cr h3.cr-h{font-size:clamp(20px,2.6vw,24px)}
+#one-cr p.cr-p{margin:0 0 16px;color:var(--cr-ink)}
+#one-cr .cr-eyebrow{display:inline-block;letter-spacing:.12em;text-transform:uppercase;font-size:13px;font-weight:700;color:var(--cr-cyan);margin-bottom:12px}
+#one-cr .cr-btn{display:inline-block;background:var(--cr-cyan);color:var(--cr-navy);font-weight:800;text-decoration:none;padding:16px 30px;border-radius:8px;font-size:17px;min-height:48px;line-height:1.2;text-align:center;box-shadow:0 4px 14px rgba(3,212,244,.28);transition:transform .15s ease,box-shadow .15s ease}
+#one-cr .cr-btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(3,212,244,.36)}
+#one-cr .cr-btn-ghost{display:inline-block;color:#fff;font-weight:700;text-decoration:none;padding:16px 22px;border:2px solid rgba(255,255,255,.55);border-radius:8px;min-height:48px;line-height:1.2}
+#one-cr .cr-btn-ghost:hover{border-color:#fff}
+#one-cr .cr-hero{position:relative;overflow:hidden;background:var(--cr-navy);padding:0}
+#one-cr .cr-hero-bg{position:absolute;inset:0;background-image:url('https://cdn.carrot.com/uploads/sites/81893/2026/08/Offer-new-england-hero-1.webp');background-size:cover;background-position:center 65%;animation:cr-kenburns 26s ease-in-out infinite alternate}
+@keyframes cr-kenburns{from{transform:scale(1)}to{transform:scale(1.12)}}
+#one-cr .cr-hero-scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,34,48,.72) 0%,rgba(12,34,48,.62) 55%,rgba(12,34,48,.78) 100%)}
+#one-cr .cr-hero-inner{position:relative;max-width:1100px;margin:0 auto;padding:88px 0 96px;color:#fff}
+#one-cr .cr-hero-inner h2{color:#fff;font-size:clamp(30px,5vw,48px);line-height:1.15;font-weight:800;margin:0 0 18px;max-width:760px}
+#one-cr .cr-hero-sub{font-size:clamp(17px,2.2vw,20px);max-width:640px;color:rgba(255,255,255,.92);margin:0 0 22px}
+#one-cr .cr-checks{list-style:none;padding:0;margin:0 0 30px;display:flex;flex-wrap:wrap;gap:10px 26px}
+#one-cr .cr-checks li{display:flex;align-items:center;gap:9px;font-weight:600;font-size:16px;color:#fff}
+#one-cr .cr-checks svg{flex:none}
+#one-cr .cr-hero-ctas{display:flex;flex-wrap:wrap;gap:14px;align-items:center}
+#one-cr .cr-answer{background:var(--cr-bg);border-left:5px solid var(--cr-blue);border-radius:0 10px 10px 0;padding:26px 28px;margin:0}
+#one-cr .cr-answer h3{margin:0 0 10px;font-size:19px;color:var(--cr-navy)}
+#one-cr .cr-answer p{margin:0;font-size:17px}
+#one-cr .cr-trust{background:var(--cr-navy);padding:22px 24px}
+#one-cr .cr-trust ul{list-style:none;margin:0 auto;padding:0;max-width:1100px;display:flex;flex-wrap:wrap;justify-content:center;gap:14px 38px}
+#one-cr .cr-trust li{color:#fff;font-weight:700;letter-spacing:.08em;font-size:13px;text-transform:uppercase;display:flex;align-items:center;gap:8px}
+#one-cr .cr-sec{padding:72px 0}
+#one-cr .cr-sec-alt{background:var(--cr-bg)}
+#one-cr .cr-split{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+#one-cr .cr-split figure{margin:0;border-radius:12px;overflow:hidden;box-shadow:0 14px 38px rgba(12,34,48,.16)}
+#one-cr .cr-taglist{list-style:none;padding:0;margin:18px 0 0;display:flex;flex-wrap:wrap;gap:10px}
+#one-cr .cr-taglist li{background:#fff;border:1px solid var(--cr-line);border-radius:999px;padding:8px 16px;font-size:15px;font-weight:600;color:var(--cr-navy)}
+#one-cr .cr-sec-alt .cr-taglist li{background:#fff}
+#one-cr .cr-zip{font-size:15px;color:var(--cr-muted);margin-top:18px}
+#one-cr .cr-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:38px}
+#one-cr .cr-step{background:#fff;border:1px solid var(--cr-line);border-radius:12px;padding:30px 26px;box-shadow:0 6px 20px rgba(12,34,48,.06)}
+#one-cr .cr-step-num{font-size:14px;font-weight:800;letter-spacing:.14em;color:var(--cr-blue);margin-bottom:10px}
+#one-cr .cr-step h3{margin:0 0 10px}
+#one-cr .cr-step p{margin:0;font-size:16px;color:var(--cr-muted)}
+#one-cr .cr-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:38px}
+#one-cr .cr-card{background:#fff;border:1px solid var(--cr-line);border-radius:12px;padding:26px 24px;box-shadow:0 6px 20px rgba(12,34,48,.05)}
+#one-cr .cr-card svg{margin-bottom:14px}
+#one-cr .cr-card h3{margin:0 0 8px;font-size:18px;color:var(--cr-navy)}
+#one-cr .cr-card p{margin:0;font-size:15.5px;color:var(--cr-muted)}
+#one-cr .cr-card a.cr-more{display:inline-block;margin-top:12px;font-weight:700;color:var(--cr-blue);text-decoration:none;font-size:15px}
+#one-cr .cr-card a.cr-more:hover{text-decoration:underline}
+#one-cr .cr-near{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+#one-cr .cr-near a{background:#fff;border:1px solid var(--cr-line);border-radius:10px;padding:14px 20px;font-weight:700;color:var(--cr-navy);text-decoration:none;font-size:16px;min-height:48px;display:inline-flex;align-items:center;transition:border-color .15s ease}
+#one-cr .cr-near a:hover{border-color:var(--cr-blue);color:var(--cr-blue)}
+#one-cr .cr-faq{max-width:820px;margin:38px auto 0}
+#one-cr .cr-faq details{background:#fff;border:1px solid var(--cr-line);border-radius:10px;margin-bottom:12px;overflow:hidden}
+#one-cr .cr-faq summary{cursor:pointer;list-style:none;padding:20px 52px 20px 24px;font-weight:700;font-size:17px;color:var(--cr-navy);position:relative;min-height:48px}
+#one-cr .cr-faq summary::-webkit-details-marker{display:none}
+#one-cr .cr-faq summary::after{content:"+";position:absolute;right:22px;top:50%;transform:translateY(-50%);font-size:24px;font-weight:400;color:var(--cr-blue)}
+#one-cr .cr-faq details[open] summary::after{content:"\2013"}
+#one-cr .cr-faq .cr-faq-a{padding:0 24px 20px;font-size:16px;color:var(--cr-ink)}
+#one-cr .cr-final{position:relative;background:var(--cr-navy);color:#fff;text-align:center;padding:80px 24px 40px;scroll-margin-top:80px}
+#one-cr .cr-final h2{color:#fff;font-size:clamp(26px,4vw,38px);margin:0 0 14px;font-weight:800}
+#one-cr .cr-final p{color:rgba(255,255,255,.9);max-width:620px;margin:0 auto 26px;font-size:18px}
+#one-cr .cr-final .cr-call{display:block;margin-top:18px;color:#fff;font-weight:700;font-size:18px;text-decoration:none}
+#one-cr .cr-final .cr-call span{color:var(--cr-cyan)}
+#one-cr .cr-disc{font-size:13.5px;color:var(--cr-muted);max-width:820px;margin:26px auto 0}
+#one-cr .cr-sticky{display:none}
+.cr-js #one-cr .cr-reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
+.cr-js #one-cr .cr-reveal.cr-in{opacity:1;transform:none}
+@media (max-width:860px){
+#one-cr .cr-split{grid-template-columns:1fr;gap:28px}
+#one-cr .cr-steps{grid-template-columns:1fr}
+#one-cr .cr-cards{grid-template-columns:1fr}
+#one-cr .cr-hero-inner{padding:64px 0 72px}
+#one-cr .cr-sec{padding:52px 0}
+#one-cr{padding-bottom:76px}
+#one-cr .cr-sticky{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:9999;gap:1px;background:var(--cr-line)}
+#one-cr .cr-sticky a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;min-height:56px;font-weight:800;font-size:15px;text-decoration:none}
+#one-cr .cr-sticky .cr-sticky-call{background:var(--cr-navy);color:#fff}
+#one-cr .cr-sticky .cr-sticky-offer{background:var(--cr-cyan);color:var(--cr-navy)}
+.cr-js #one-cr .cr-sticky.cr-hide{display:none}
+}
+</style>
+
+<section class="cr-hero cr-band">
+  <div class="cr-hero-bg" role="img" aria-label="Colonial-style home on a tree-lined residential street in Cranston, Rhode Island"></div>
+  <div class="cr-hero-scrim"></div>
+  <div class="cr-hero-inner">
+    <span class="cr-eyebrow">Local Rhode Island Home Buyers</span>
+    <h2>Sell Your House Fast in Cranston, RI — Get a Fair Cash Offer</h2>
+    <p class="cr-hero-sub">Skip the repairs, the showings, and the agent commissions. Tell us about your Cranston property and get a straightforward, no-obligation cash offer within 24 hours.</p>
+    <ul class="cr-checks">
+      <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Sell As-Is</li>
+      <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>No Repairs</li>
+      <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>No Commissions</li>
+      <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Flexible Closing Date</li>
+    </ul>
+    <div class="cr-hero-ctas">
+      <a class="cr-btn" href="#get-offer">Get My Fair Cash Offer</a>
+      <a class="cr-btn-ghost" href="tel:+14012674066">Call (401) 267-4066</a>
+    </div>
+  </div>
+</section>
+
+<section class="cr-sec">
+  <div class="cr-narrow cr-reveal">
+    <div class="cr-answer">
+      <h3>How do I sell my house fast in Cranston, RI?</h3>
+      <p>The fastest way to sell a house in Cranston is a direct sale to a local cash buyer. You share basic property details, receive a no-obligation cash offer within 24 hours, and choose your own closing date — often in as little as seven days. There are no repairs, no showings, no agent commissions, and no financing contingencies that can delay or derail the sale.</p>
+    </div>
+  </div>
+</section>
+
+<div class="cr-trust cr-band">
+  <ul>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Local Home Buyers</li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Sell As-Is</li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>No Commissions</li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>No Repairs</li>
+    <li><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6 9 17l-5-5" /></svg>Flexible Closing</li>
+  </ul>
+</div>
+
+<section class="cr-sec">
+  <div class="cr-wrap">
+    <div class="cr-split">
+      <div class="cr-reveal">
+        <span class="cr-eyebrow" style="color:#0693C8">Cranston, Rhode Island</span>
+        <h2 class="cr-h">We Buy Houses Throughout Cranston</h2>
+        <p class="cr-p">Cranston is Rhode Island&#8217;s second-largest city, and its housing is anything but one-size-fits-all. Along the Providence line and around Pawtuxet Village, Edgewood, and Auburn you&#8217;ll find older capes, colonials, bungalows, and two- and three-family homes — many owned by the same families for decades. Head west toward Garden City, Oaklawn, and Western Cranston and the streets shift to post-war ranches, split-levels, and newer construction.</p>
+        <p class="cr-p">We buy in every one of these neighborhoods, in any condition. Our office is about ten miles down Route 2 in East Greenwich, so when you call, you&#8217;re talking to a buyer who actually knows the difference between an Edgewood two-family and a Garden City ranch — not a national call center.</p>
+        <ul class="cr-taglist">
+          <li>Pawtuxet Village</li><li>Edgewood</li><li>Auburn</li><li>Garden City</li><li>Knightsville</li><li>Oaklawn</li><li>Western Cranston</li>
+        </ul>
+        <p class="cr-zip">ZIP codes we serve in Cranston: 02823, 02831, 02905, 02907, 02909, 02910, 02920, 02921</p>
+      </div>
+      <figure class="cr-reveal">
+        <img decoding="async" src="https://cdn.carrot.com/uploads/sites/81893/2026/08/Local-landmark.webp" alt="Historic New England waterfront village buildings along a river in Cranston, Rhode Island" width="1536" height="1024" loading="lazy">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="cr-sec cr-sec-alt cr-band">
+  <div class="cr-wrap">
+    <div class="cr-split">
+      <figure class="cr-reveal">
+        <img decoding="async" src="https://cdn.carrot.com/uploads/sites/81893/2026/08/HOUSING-STOCK.webp" alt="Older two-family home with dated siding in Cranston, Rhode Island" width="1536" height="1024" loading="lazy">
+      </figure>
+      <div class="cr-reveal">
+        <h2 class="cr-h">Sell Your Cranston House As-Is — Repairs Aren&#8217;t Required</h2>
+        <p class="cr-p">A lot of Cranston homes were built before 1950. That often means aging roofs, older electrical, dated kitchens, and decades of deferred maintenance. Putting a house like that on the open market usually means spending thousands before a single showing.</p>
+        <p class="cr-p">You don&#8217;t have to. We buy Cranston properties in their current condition — you can even leave unwanted belongings behind.</p>
+        <ul class="cr-taglist">
+          <li>Major repairs</li><li>Outdated interiors</li><li>Water damage</li><li>Fire damage</li><li>Code issues</li><li>Full of belongings</li><li>Vacant properties</li><li>Tenant-occupied</li>
+        </ul>
+        <p class="cr-p" style="margin-top:22px"><a class="cr-btn" href="#get-offer">See What We Can Offer</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cr-sec">
+  <div class="cr-wrap" style="text-align:center">
+    <h2 class="cr-h cr-reveal">Sell Your Cranston House in 3 Simple Steps</h2>
+    <div class="cr-steps">
+      <article class="cr-step cr-reveal">
+        <div class="cr-step-num">STEP 01</div>
+        <h3 class="cr-h">Tell Us About Your Property</h3>
+        <p>Fill out the short form below or call (401) 267-4066. It takes about two minutes.</p>
+      </article>
+      <article class="cr-step cr-reveal">
+        <div class="cr-step-num">STEP 02</div>
+        <h3 class="cr-h">Get Your Cash Offer</h3>
+        <p>We evaluate your Cranston property and present a fair, no-obligation cash offer within 24 hours.</p>
+      </article>
+      <article class="cr-step cr-reveal">
+        <div class="cr-step-num">STEP 03</div>
+        <h3 class="cr-h">Choose Your Closing Date</h3>
+        <p>Close in as little as seven days, or pick a later date that fits your plans. You set the timeline.</p>
+      </article>
+    </div>
+    <div class="cr-split" style="margin-top:48px;text-align:left">
+      <figure class="cr-reveal">
+        <img decoding="async" src="https://cdn.carrot.com/uploads/sites/81893/2026/08/PROCESS.webp" alt="Homeowner shaking hands with a home buyer over a purchase agreement at a kitchen table" width="1536" height="1024" loading="lazy">
+      </figure>
+      <div class="cr-reveal">
+        <h3 class="cr-h">A Local Buyer You Can Actually Talk To</h3>
+        <p class="cr-p">When you call, a real person from our team answers — not an out-of-state lead service that sells your information. We meet you at the property, walk it with you, and explain exactly how we arrived at our offer. No pressure, no obligation, and the offer is yours to think over.</p>
+        <p class="cr-p"><a class="cr-btn" href="#get-offer">Get My Fair Cash Offer</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cr-sec cr-sec-alt cr-band">
+  <div class="cr-wrap">
+    <h2 class="cr-h cr-reveal" style="text-align:center">Whatever Your Situation, You Have Options</h2>
+    <div class="cr-cards">
+      <article class="cr-card cr-reveal">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 11 12 3l9 8" /><path d="M5 10v10h14V10" /></svg>
+        <h3>Inherited a House</h3>
+        <p>Inheriting a Cranston property often comes with probate steps, taxes, and a house full of belongings. A direct sale can simplify all three.</p>
+      </article>
+      <article class="cr-card cr-reveal">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 7v5l3 3" /></svg>
+        <h3>Facing Foreclosure</h3>
+        <p>If you&#8217;re behind on the mortgage, a fast sale may let you resolve the loan before foreclosure damages your credit further. Timing matters — reach out early.</p>
+      </article>
+      <article class="cr-card cr-reveal">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 4h6v6" /><path d="M20 4 9 15" /><path d="M9 4H4v16h16v-5" /></svg>
+        <h3>Tired Landlord</h3>
+        <p>Own a Cranston rental with difficult tenants or endless repairs? We buy rentals with tenants in place.</p>
+        <a class="cr-more" href="https://offernewengland.com/blog/how-to-sell-a-rental-property-in-cranston-ri/">How selling a Cranston rental works &rarr;</a>
+      </article>
+      <article class="cr-card cr-reveal">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v18" /><path d="M5 8l7-5 7 5" /><path d="M5 21h14" /></svg>
+        <h3>House Needs Major Work</h3>
+        <p>Roof, foundation, electrical, plumbing — big-ticket repairs can cost more than they return. Selling as-is skips the renovation entirely.</p>
+      </article>
+      <article class="cr-card cr-reveal">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 3v4M16 3v4M4 11h16" /></svg>
+        <h3>Relocating on a Deadline</h3>
+        <p>New job, family move, or downsizing? A cash sale lets you line the closing up with your move-out date instead of waiting on a buyer&#8217;s mortgage.</p>
+      </article>
+      <article class="cr-card cr-reveal">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 21V8l9-5 9 5v13" /><path d="M9 21v-6h6v6" /></svg>
+        <h3>Vacant Property</h3>
+        <p>Empty houses attract problems and keep costing taxes, insurance, and upkeep. Selling directly turns a liability back into cash.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="cr-sec">
+  <div class="cr-wrap">
+    <h2 class="cr-h cr-reveal">We Buy Houses Near Cranston, Too</h2>
+    <p class="cr-p cr-reveal" style="max-width:720px">Cranston sits at the center of Rhode Island, and we buy homes in the surrounding communities as well. If your property is in a neighboring city or town, we&#8217;d like to hear about it.</p>
+    <div class="cr-near cr-reveal">
+      <a href="https://offernewengland.com/sell-my-house-fast-warwick-ri/">Warwick</a>
+      <a href="https://offernewengland.com/sell-my-house-fast-west-warwick-ri/">West Warwick</a>
+      <a href="https://offernewengland.com/sell-your-house-fast-pawtucket-ri/">Pawtucket</a>
+      <a href="https://offernewengland.com/sell-my-house-fast-coventry-ri/">Coventry</a>
+    </div>
+    <p class="cr-p cr-reveal" style="margin-top:22px;font-size:15.5px;color:#54646f">Thinking it through first? Read our guide: <a href="https://offernewengland.com/blog/we-buy-houses-in-cranston-what-you-need-to-know-before-selling/" style="color:#0693C8;font-weight:700">What to know before selling your Cranston house for cash</a>.</p>
+  </div>
+</section>
+
+<section class="cr-sec cr-sec-alt cr-band">
+  <div class="cr-wrap">
+    <h2 class="cr-h cr-reveal" style="text-align:center">Cranston Home Selling Questions, Answered</h2>
+    <div class="cr-faq">
+      <details class="cr-reveal">
+        <summary>How fast can I sell my house in Cranston, RI?</summary>
+        <div class="cr-faq-a">A direct cash sale in Cranston can close in as little as seven days once you accept an offer, because there&#8217;s no mortgage approval, appraisal, or inspection negotiation to wait on. Most sellers receive their offer within 24 hours of sharing property details. If you need more time, you choose the closing date — a fast sale doesn&#8217;t have to mean a rushed move-out.</div>
+      </details>
+      <details class="cr-reveal">
+        <summary>Do I need to make repairs before selling my Cranston house?</summary>
+        <div class="cr-faq-a">No. Cash buyers purchase Cranston homes as-is, which matters here because so much of the city&#8217;s housing was built before 1950. Aging roofs, old wiring, dated kitchens, water damage, even code issues — none of it needs to be fixed before selling. You also don&#8217;t need to clean out the property; unwanted belongings can stay behind.</div>
+      </details>
+      <details class="cr-reveal">
+        <summary>How do cash home buyers determine their offer?</summary>
+        <div class="cr-faq-a">Offers are based on the property&#8217;s location and neighborhood, its current condition, the cost of needed repairs, and recent sale prices of comparable Cranston homes. A local buyer walks the property, explains how the number was reached, and puts it in writing. A reputable offer comes with no obligation — you&#8217;re free to compare it against listing with an agent.</div>
+      </details>
+      <details class="cr-reveal">
+        <summary>Are there fees or commissions when selling to a cash buyer?</summary>
+        <div class="cr-faq-a">No. Selling directly to a cash buyer means no agent commissions, no listing fees, and no closing costs charged to you — the offer amount is what you receive at closing. By comparison, a traditional sale typically costs a seller around six percent in commissions and fees, plus whatever repairs the buyer&#8217;s inspection turns up.</div>
+      </details>
+      <details class="cr-reveal">
+        <summary>Can I sell a Cranston multi-family or rental with tenants?</summary>
+        <div class="cr-faq-a">Yes. Two- and three-family homes are common in eastern Cranston, and they can be sold with tenants in place — even tenants who are behind on rent. The buyer takes over the leases and the landlord responsibilities at closing, so you don&#8217;t need to wait out lease terms or go through an eviction before selling.</div>
+      </details>
+      <details class="cr-reveal">
+        <summary>What if I inherited a house in Cranston?</summary>
+        <div class="cr-faq-a">Inherited Cranston properties can usually be sold once the estate has legal authority to transfer title, which in Rhode Island often involves the local probate court. A direct sale simplifies things for heirs: no repairs, no clean-out, and a closing date that can wait for probate to finish. For questions about your specific estate, a Rhode Island probate attorney is the right resource.</div>
+      </details>
+      <details class="cr-reveal">
+        <summary>Which Cranston neighborhoods do you buy houses in?</summary>
+        <div class="cr-faq-a">All of them. That includes Pawtuxet Village, Edgewood, Auburn, Garden City, Knightsville, Oaklawn, and Western Cranston, across ZIP codes 02823, 02831, 02905, 02907, 02909, 02910, 02920, and 02921. Condition and property type don&#8217;t matter — single-families, multi-families, and vacant properties are all considered.</div>
+      </details>
+    </div>
+    <p class="cr-disc">This page is general information about selling a home, not legal, tax, or financial advice. For guidance on probate, foreclosure, or taxes in your specific situation, consult a licensed Rhode Island professional.</p>
+  </div>
+</section>
+
+<section class="cr-final cr-band" id="get-offer">
+  <h2>Ready to See What Your Cranston House Could Sell For?</h2>
+  <p>Tell us about your property below and get a free, no-obligation cash offer within 24 hours.</p>
+  <a class="cr-call" href="tel:+14012674066">Prefer to talk? Call <span>(401) 267-4066</span></a>
+</section>
+
+<div class="cr-sticky">
+  <a class="cr-sticky-call" href="tel:+14012674066">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .8 2.9a2 2 0 0 1-.5 2.1L8.1 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.4 1.9.7 2.9.8a2 2 0 0 1 1.6 2z" /></svg>
+    Call Now
+  </a>
+  <a class="cr-sticky-offer" href="#get-offer">Get My Cash Offer</a>
+</div>
+</div>
+
+
+<!-- CARROT FORM REMOVED: add your WordPress form here -->
+
+
+<p class="wp-block-paragraph"></p>
